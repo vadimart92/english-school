@@ -1,8 +1,10 @@
 (function () {
   "use strict";
 
+  var ES = window.ES;
   var DATA = window.MODULE1;
-  var STORE_KEY = "english-school.module1.v1";
+  var STORE_KEY = "english-school.v2";
+  var OLD_KEY = "english-school.module1.v1";
   var app = document.getElementById("app");
 
   var TYPE_LABELS = {
@@ -27,6 +29,12 @@
     try {
       var raw = localStorage.getItem(STORE_KEY);
       if (raw) return JSON.parse(raw);
+      var old = localStorage.getItem(OLD_KEY);
+      if (old && ES.topicMap) {
+        var migrated = ES.core.migrateV1(JSON.parse(old), ES.topicMap);
+        localStorage.setItem(STORE_KEY, JSON.stringify(migrated));
+        return migrated;
+      }
     } catch (e) { /* private mode etc. */ }
     return emptyState();
   }
@@ -133,23 +141,7 @@
     return a;
   }
 
-  var CONTRACTIONS = [
-    [/\bwon't\b/g, "will not"], [/\bcan't\b/g, "can not"], [/\bcannot\b/g, "can not"], [/\bshan't\b/g, "shall not"],
-    [/n't\b/g, " not"], [/'ve\b/g, " have"], [/'ll\b/g, " will"], [/'re\b/g, " are"], [/\bi'm\b/g, "i am"],
-    [/\b(it|that|there|he|she|what|who)'s\b/g, "$1 is"]
-  ];
-
-  function norm(s) {
-    s = String(s).toLowerCase()
-      .replace(/[‘’ʼ`]/g, "'")
-      .replace(/[“”"]/g, "")
-      .replace(/\(.*?\)/g, " ")
-      .replace(/[.,!?;:–—-]+/g, " ");
-    CONTRACTIONS.forEach(function (c) { s = s.replace(c[0], c[1]); });
-    return s.replace(/\s+/g, " ").trim();
-  }
-
-  function same(a, b) { return norm(a) === norm(b); }
+  var norm = ES.core.norm, same = ES.core.same;
 
   /* Text-to-speech: a "listen" button next to any English sentence. */
   var voice = null;
