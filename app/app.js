@@ -416,7 +416,7 @@
       hasTheory ? tabLink(base, "theory", "📘 Правило", active) : null
     ].concat(exercises.map(function (ex, i) {
       var sc = state.scores[ES.core.scoreKey(lesson.id, mode, i)];
-      return tabLink(base, String(i), TYPE_ICONS[ex.type] + " " + (ex.src ? ex.src + " · " : "") + TYPE_LABELS[ex.type] + (sc ? " · " + sc.best + "%" : ""), active);
+      return tabLink(base, String(i), TYPE_ICONS[ex.type] + " " + (ex.src ? ES.core.srcLabel(ex.src) + " · " : "") + TYPE_LABELS[ex.type] + (sc ? " · " + sc.best + "%" : ""), active);
     })));
 
     var body = h("div", { class: "panel", "data-ref": lesson.id + "/" + mode });
@@ -505,7 +505,8 @@
         h("span", { class: "chip", text: TYPE_ICONS[ex.type] + " " + TYPE_LABELS[ex.type] }),
         h("h2", { text: ex.title })
       ]),
-      ex.intro ? h("p", { class: "muted", text: ex.intro }) : null
+      ex.intro ? h("p", { class: "muted", text: ex.intro }) : null,
+      ES.core.srcUrl(ex.src) ? h("p", { class: "muted src" }, ["Додаткова вправа за темою: ", h("a", { href: ES.core.srcUrl(ex.src), target: "_blank", rel: "noopener", text: ES.core.srcUrl(ex.src).replace(/^https?:\/\/(www\.)?/, "").split("/")[0] })]) : null
     ]);
     var stage = h("div", {});
     wrap.appendChild(stage);

@@ -438,3 +438,4 @@ input.wrong { border-color: var(--bad); background: var(--bad-soft); text-decora
 .dbg-list li { display: grid; grid-template-columns: minmax(80px, 220px) 1fr auto; gap: 10px; align-items: start; }
 .dbg-text { white-space: pre-wrap; }
 .dbg-x { border: 0; background: none; color: var(--muted); cursor: pointer; font: inherit; }
+.exercise .src { font-size: .85rem; margin: 4px 0 0; }

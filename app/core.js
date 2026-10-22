@@ -79,7 +79,7 @@
     if (!ex.title) err("missing title");
     if (ex.type === "sort") {
       if (!ex.categories || !ex.categories.length) err("missing categories");
-      (ex.items || []).forEach(function (it, i) {
+      else (ex.items || []).forEach(function (it, i) {
         if (!(it.cat >= 0 && it.cat < ex.categories.length)) err("item " + i + " cat out of range");
       });
     }
@@ -94,7 +94,10 @@
         case "gap":
           var n = String(it.q || "").split("___").length - 1;
           if (!it.answers || n !== it.answers.length) err(w + "gap count mismatch (" + n + " vs " + (it.answers ? it.answers.length : 0) + ")");
-          else if (it.answers.some(function (a) { return !a || !a.length || a.some(function (x) { return !String(x).trim(); }); })) err(w + "empty answer");
+          else if (!it.answers.every(Array.isArray)) err(w + "answers must be arrays of alternatives");
+          else if (it.answers.some(function (a) { return !a.length || a.some(function (x) { return !String(x).trim(); }); })) err(w + "empty answer");
+          // "e___" shows the letter outside the input while the key holds the whole word.
+          if (!it.glued && /[A-Za-z]___|___[A-Za-z]/.test(it.q || "")) err(w + "letters glued to ___ (move them to hint, or set glued: true)");
           break;
         case "order":
           if (!it.words || !it.words.length || !it.answer) err(w + "needs words and answer");
@@ -158,12 +161,25 @@
     return out.join("\n");
   }
 
+  /* ------------------------------------------------------------ labels */
+
+  /* "extra: https://…" sources are shown as a short word in tabs; the URL becomes a link. */
+  function srcLabel(src) { return !src ? "" : /^extra:/.test(src) ? "extra" : src; }
+  function srcUrl(src) { var m = /^extra:\s*(\S+)/.exec(src || ""); return m ? m[1] : null; }
+
+  /* In debug mode, links and navigation buttons keep working; everything else is commented on. */
+  function debugPassThrough(node) {
+    if (node.tag === "A" && node.href) return true;
+    return node.tag === "BUTTON" && /(^|\s)next(\s|$)/.test(node.cls || "");
+  }
+
   var core = {
     MODES: MODES, TYPES: TYPES,
     norm: norm, same: same,
     scoreKey: scoreKey, itemKey: itemKey, lessonModes: lessonModes,
     migrateV1: migrateV1, validateLesson: validateLesson,
-    exportComments: exportComments
+    exportComments: exportComments,
+    srcLabel: srcLabel, srcUrl: srcUrl, debugPassThrough: debugPassThrough
   };
 
   if (typeof module !== "undefined" && module.exports) module.exports = core;

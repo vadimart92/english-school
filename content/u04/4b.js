@@ -223,56 +223,56 @@ ES.registerLesson({
         src: "WB 1",
         items: [
           {
-            q: "I play tennis, but not on a r___ basis.",
+            q: "I play tennis, but not on a ___ basis.",
             answers: [
               ["regular"]
             ],
             hint: "r…"
           },
           {
-            q: "It's hard to get your first job when you have no p___ work experience.",
+            q: "It's hard to get your first job when you have no ___ work experience.",
             answers: [
               ["prior"]
             ],
             hint: "p…"
           },
           {
-            q: "Living in Japan had a profound i___ on my career.",
+            q: "Living in Japan had a profound ___ on my career.",
             answers: [
               ["impact"]
             ],
             hint: "i…"
           },
           {
-            q: "We share the h___ chores equally in our flat.",
+            q: "We share the ___ chores equally in our flat.",
             answers: [
               ["household"]
             ],
             hint: "h…"
           },
           {
-            q: "My dad has always had a s___ sense of fairness.",
+            q: "My dad has always had a ___ sense of fairness.",
             answers: [
               ["strong"]
             ],
             hint: "s…"
           },
           {
-            q: "Our older employees are an untapped r___ of knowledge.",
+            q: "Our older employees are an untapped ___ of knowledge.",
             answers: [
               ["resource"]
             ],
             hint: "r…"
           },
           {
-            q: "Rents in the city centre are e___.",
+            q: "Rents in the city centre are ___.",
             answers: [
               ["exorbitant"]
             ],
             hint: "e…"
           },
           {
-            q: "The two schools offer m___ support to each other's teachers.",
+            q: "The two schools offer ___ support to each other's teachers.",
             answers: [
               ["mutual"]
             ],
@@ -446,42 +446,42 @@ ES.registerLesson({
         src: "Check 9",
         items: [
           {
-            q: "When it comes to my friends, I have a s___ sense of loyalty.",
+            q: "When it comes to my friends, I have a ___ sense of loyalty.",
             answers: [
               ["strong"]
             ],
             hint: "s…g"
           },
           {
-            q: "I help my grandparents with h___ chores at weekends.",
+            q: "I help my grandparents with ___ chores at weekends.",
             answers: [
               ["household"]
             ],
             hint: "h…d"
           },
           {
-            q: "After the flood, the neighbours developed a strong sense of m___ respect.",
+            q: "After the flood, the neighbours developed a strong sense of ___ respect.",
             answers: [
               ["mutual"]
             ],
             hint: "m…l"
           },
           {
-            q: "I left the city because of the e___ rent.",
+            q: "I left the city because of the ___ rent.",
             answers: [
               ["exorbitant"]
             ],
             hint: "e…t"
           },
           {
-            q: "We meet up on a r___ basis.",
+            q: "We meet up on a ___ basis.",
             answers: [
               ["regular"]
             ],
             hint: "r…r"
           },
           {
-            q: "He didn't get the internship because he had no p___ work experience.",
+            q: "He didn't get the internship because he had no ___ work experience.",
             answers: [
               ["prior"]
             ],

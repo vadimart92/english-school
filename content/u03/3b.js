@@ -239,70 +239,70 @@ ES.registerLesson({
         intro: "A blog post about taking breaks when solving problems. The first and last letters are given.",
         items: [
           {
-            q: "I sometimes spend hours r___g my brain, trying to find a solution.",
+            q: "I sometimes spend hours ___ my brain, trying to find a solution.",
             answers: [
               ["racking"]
             ],
             hint: "r…g"
           },
           {
-            q: "Later, when I come back and m___l it over again, the answer often appears.",
+            q: "Later, when I come back and ___ it over again, the answer often appears.",
             answers: [
               ["mull"]
             ],
             hint: "m…l"
           },
           {
-            q: "Suddenly I have a b___e – a brilliant idea out of nowhere.",
+            q: "Suddenly I have a ___ – a brilliant idea out of nowhere.",
             answers: [
               ["brainwave"]
             ],
             hint: "b…e"
           },
           {
-            q: "Many famous scientists, when completely b___d by a problem, slept on it.",
+            q: "Many famous scientists, when completely ___ by a problem, slept on it.",
             answers: [
               ["baffled"]
             ],
             hint: "b…d"
           },
           {
-            q: "If we d___e on a problem for too long, our thinking gets stuck.",
+            q: "If we ___ on a problem for too long, our thinking gets stuck.",
             answers: [
               ["deliberate"]
             ],
             hint: "d…e"
           },
           {
-            q: "We may z___o in on one small detail and miss the bigger picture.",
+            q: "We may ___ in on one small detail and miss the bigger picture.",
             answers: [
               ["zero"]
             ],
             hint: "z…o"
           },
           {
-            q: "After a break, we're no longer p___d by the difficulty.",
+            q: "After a break, we're no longer ___ by the difficulty.",
             answers: [
               ["puzzled", "perplexed"]
             ],
             hint: "p…d"
           },
           {
-            q: "Some researchers think the brain continues to p___r the problem while we rest.",
+            q: "Some researchers think the brain continues to ___ the problem while we rest.",
             answers: [
               ["ponder"]
             ],
             hint: "p…r"
           },
           {
-            q: "We should never u___e the power of a short walk.",
+            q: "We should never ___ the power of a short walk.",
             answers: [
               ["underestimate"]
             ],
             hint: "u…e"
           },
           {
-            q: "Even if taking a break doesn't seem i___e at all, it works.",
+            q: "Even if taking a break doesn't seem ___ at all, it works.",
             answers: [
               ["intuitive"]
             ],

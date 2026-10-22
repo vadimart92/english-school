@@ -524,58 +524,67 @@ ES.registerLesson({
         src: "Check 5–6 ex 12",
         items: [
           {
-            q: "I didn't enjoy the meal. The food was b___ and the atmosphere was dull.",
+            q: "I didn't enjoy the meal. The food was ___ and the atmosphere was dull.",
             answers: [
               ["bland"]
-            ]
+            ],
+            hint: "b…"
           },
           {
-            q: "The humour was rather c___ – the audience hardly laughed.",
+            q: "The humour was rather ___ – the audience hardly laughed.",
             answers: [
               ["corny", "clumsy"]
-            ]
+            ],
+            hint: "c…"
           },
           {
-            q: "That film was so s___ – it felt like a weird dream.",
+            q: "That film was so ___ – it felt like a weird dream.",
             answers: [
               ["surreal"]
-            ]
+            ],
+            hint: "s…"
           },
           {
-            q: "We read a novel about Lisbon while we were in Lisbon, so it was quite f___.",
+            q: "We read a novel about Lisbon while we were in Lisbon, so it was quite ___.",
             answers: [
               ["fitting"]
-            ]
+            ],
+            hint: "f…"
           },
           {
-            q: "Her talk was absolutely c___ – we listened in total silence.",
+            q: "Her talk was absolutely ___ – we listened in total silence.",
             answers: [
               ["captivating"]
-            ]
+            ],
+            hint: "c…"
           },
           {
-            q: "The scene with the giant worms was r___ – I nearly felt sick.",
+            q: "The scene with the giant worms was ___ – I nearly felt sick.",
             answers: [
               ["repulsive"]
-            ]
+            ],
+            hint: "r…"
           },
           {
-            q: "This tune is so c___ – I can't stop humming it.",
+            q: "This tune is so ___ – I can't stop humming it.",
             answers: [
               ["catchy"]
-            ]
+            ],
+            hint: "c…"
           },
           {
-            q: "He seems serious, but he has a q___ way of looking at things.",
+            q: "He seems serious, but he has a ___ way of looking at things.",
             answers: [
               ["quirky"]
-            ]
+            ],
+            hint: "q…"
           },
           {
-            q: "He thinks he's being w___, but I find his comments annoying.",
+            q: "He thinks he's being ___, but I find his comments annoying.",
             answers: [
               ["witty"]
-            ]
+            ],
+            hint: "w…"
           }
         ]
       },

@@ -679,7 +679,8 @@ ES.registerLesson({
             q: "My boss checks every email I send – I hate the way she micro-___s me.",
             answers: [
               ["manage"]
-            ]
+            ],
+            glued: true
           },
           {
             q: "The part-time job pays €15,000 (€30,000 pro ___).",

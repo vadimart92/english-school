@@ -42,3 +42,18 @@ test("validate.js passes on the real content", function () {
   var out = require("child_process").execFileSync("node", ["tools/validate.js"], { cwd: H.ROOT, encoding: "utf8" });
   assert.match(out, /^OK \d+ lessons/m);
 });
+
+test("gap with a letter glued to ___ is reported", function () {
+  var errs = core.validateLesson(lesson([{ type: "gap", title: "x", items: [{ q: "an e___ of views", answers: [["exchange"]] }] }]));
+  assert.match(errs.join("\n"), /letters glued to ___/);
+});
+
+test("glued letters are allowed when the item says so", function () {
+  var errs = core.validateLesson(lesson([{ type: "gap", title: "x", items: [{ q: "micro-___s", answers: [["manage"]], glued: true }] }]));
+  assert.deepStrictEqual(errs, []);
+});
+
+test("gap answers given as strings instead of arrays are reported, not thrown", function () {
+  var errs = core.validateLesson(lesson([{ type: "gap", title: "x", items: [{ q: "a ___", answers: ["abc"] }] }]));
+  assert.match(errs.join("\n"), /answers must be arrays/);
+});

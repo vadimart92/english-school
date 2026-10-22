@@ -235,47 +235,54 @@ ES.registerLesson({
         src: "WB 1",
         items: [
           {
-            q: "All you have to do is e___ a few pleasantries with people.",
+            q: "All you have to do is ___ a few pleasantries with people.",
             answers: [
               ["exchange"]
-            ]
+            ],
+            hint: "e…"
           },
           {
-            q: "You might get to pick an expert's b___ about your business idea.",
+            q: "You might get to pick an expert's ___ about your business idea.",
             answers: [
               ["brains", "brain"]
-            ]
+            ],
+            hint: "b…"
           },
           {
-            q: "I'm useless at making s___ talk.",
+            q: "I'm useless at making ___ talk.",
             answers: [
               ["small"]
-            ]
+            ],
+            hint: "s…"
           },
           {
-            q: "I try to m___ with other guests, but it's hard.",
+            q: "I try to ___ with other guests, but it's hard.",
             answers: [
               ["mingle"]
-            ]
+            ],
+            hint: "m…"
           },
           {
-            q: "I always end up h___ on the edge of a conversation.",
+            q: "I always end up ___ on the edge of a conversation.",
             answers: [
               ["hovering"]
-            ]
+            ],
+            hint: "h…"
           },
           {
-            q: "When people look at me and wait, my mind just goes b___.",
+            q: "When people look at me and wait, my mind just goes ___.",
             answers: [
               ["blank"]
-            ]
+            ],
+            hint: "b…"
           },
           {
-            q: "Asking people what they do is the best i___-b___.",
+            q: "Asking people what they do is the best ___-___.",
             answers: [
               ["ice"],
               ["breaker"]
-            ]
+            ],
+            hint: "i…, b…"
           }
         ]
       },

@@ -369,7 +369,7 @@ ES.registerLesson({
         src: "LB 10C",
         items: [
           { q: "___ he's often rude and impatient, I like him.", options: ["Although", "Despite", "Even though"], answer: 1 },
-          { q: "___ we might not agree with it, it's still the law.", options: ["Much as", "While", "Nevertheless"], answer: 2 },
+          { q: "___ we may disagree with it, it's still the law.", options: ["Much as", "While", "Nevertheless"], answer: 2 },
           { q: "It's not a perfect solution. ___, it's the best we have.", options: ["Although", "Nevertheless", "All the same"], answer: 0 },
           { q: "___ their small budget, the team did brilliantly.", options: ["Even when", "Despite", "In spite of"], answer: 0 }
         ]

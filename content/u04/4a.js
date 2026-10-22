@@ -374,7 +374,7 @@ ES.registerLesson({
         items: [
           { s: "Whenever I feel tired, I'll have made a strong coffee. It always helps.", ok: false, fix: "Whenever I feel tired, I'll make a strong coffee. It always helps." },
           { s: "When I was little, I would have a pet rabbit.", ok: false, fix: "When I was little, I used to have a pet rabbit." },
-          { s: "Your new jacket is ruined! But you'll wear it to go hiking, won't you?", ok: false, fix: "Your new jacket is ruined! But you WILL wear it to go hiking, won't you?" },
+          { s: "Your new jacket is ruined! But you will wear it to go hiking, won't you?", ok: true },
           { s: "My cat hates water. She won't be going near the bath.", ok: false, fix: "My cat hates water. She won't go near the bath." },
           { s: "Let's text Mum – she'll get worried by now.", ok: false, fix: "Let's text Mum – she'll be getting worried by now." },
           { s: "When I was at university, I remember I'll often stay up all night.", ok: false, fix: "When I was at university, I remember I'd often stay up all night." },
@@ -559,8 +559,8 @@ ES.registerLesson({
           { q: "Every evening my grandmother ___ by the window and knit.", options: ["would sit", "was sitting", "will have sat"], answer: 0, explain: "Повторювана дія в минулому: would + infinitive." },
           { q: "I knocked for ages, but he ___ open the door.", options: ["won't", "wouldn't", "didn't use to"], answer: 1, explain: "Відмова в минулому: wouldn't." },
           { q: "She promised she ___ call as soon as she landed.", options: ["will", "would", "'d have"], answer: 1, explain: "Future in the past: would." },
-          { q: "My flatmate ___ leave dirty dishes in the sink – it drives me mad!", options: ["WILL", "would", "is used to"], answer: 0, explain: "Наголошене WILL — скарга на дратівливу звичку." },
-          { q: "That ___ be the courier – I'm expecting a parcel.", options: ["will", "would", "used to"], answer: 0, explain: "Впевнена здогадка про теперішнє: will." },
+          { q: "My flatmate ___ leave dirty dishes in the sink – it drives me mad!", options: ["will", "would", "is used to"], answer: 0, explain: "Наголошене will — скарга на дратівливу звичку." },
+          { q: "That ___ be the courier – I'm expecting a parcel.", options: ["will", "is used to", "used to"], answer: 0, explain: "Впевнена здогадка про теперішнє: will." },
           { q: "Little did they know that the company ___ go bankrupt within a year.", options: ["will", "would", "used to"], answer: 1, explain: "Майбутнє з погляду минулого: would." },
           { q: "This printer ___ work – I've tried everything!", options: ["won't", "wouldn't have", "doesn't use to"], answer: 0, explain: "Відмова речі зараз: won't." }
         ]

@@ -368,40 +368,46 @@ ES.registerLesson({
         src: "WB 6A ex 3",
         items: [
           {
-            q: "Many fantasy stories are told against a b___ of endless war.",
+            q: "Many fantasy stories are told against a ___ of endless war.",
             answers: [
               ["backdrop"]
-            ]
+            ],
+            hint: "b…"
           },
           {
-            q: "Alternative history novels explore the alternative r___ of famous events.",
+            q: "Alternative history novels explore the alternative ___ of famous events.",
             answers: [
               ["realities"]
-            ]
+            ],
+            hint: "r…"
           },
           {
-            q: "Old cartoons from the 1990s e___ happy memories of my childhood.",
+            q: "Old cartoons from the 1990s ___ happy memories of my childhood.",
             answers: [
               ["evoke"]
-            ]
+            ],
+            hint: "e…"
           },
           {
-            q: "I sometimes wonder whether fiction m___ real life or the other way round.",
+            q: "I sometimes wonder whether fiction ___ real life or the other way round.",
             answers: [
               ["mirrors"]
-            ]
+            ],
+            hint: "m…"
           },
           {
-            q: "I prefer films that r___ real life, not some imaginary world.",
+            q: "I prefer films that ___ real life, not some imaginary world.",
             answers: [
               ["reflect"]
-            ]
+            ],
+            hint: "r…"
           },
           {
-            q: "Stories that t___ into our fears make the best thrillers.",
+            q: "Stories that ___ into our fears make the best thrillers.",
             answers: [
               ["tap", "tie"]
-            ]
+            ],
+            hint: "t…"
           }
         ]
       },

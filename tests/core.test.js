@@ -44,3 +44,21 @@ test("same() ignores contractions, case and punctuation", function () {
 test("lessonModes counts exercises per mode, missing modes as 0", function () {
   assert.deepStrictEqual(core.lessonModes({ learn: { exercises: [{}, {}] }, refresh: { exercises: [{}] } }), { learn: 2, homework: 0, refresh: 1 });
 });
+
+test("srcLabel shortens extra sources to a word", function () {
+  assert.strictEqual(core.srcLabel("extra: https://learnenglish.britishcouncil.org/x"), "extra");
+  assert.strictEqual(core.srcLabel("SB 6a"), "SB 6a");
+  assert.strictEqual(core.srcLabel(undefined), "");
+});
+
+test("srcUrl returns the link of an extra source", function () {
+  assert.strictEqual(core.srcUrl("extra: https://a.org/x"), "https://a.org/x");
+  assert.strictEqual(core.srcUrl("SB 6a"), null);
+});
+
+test("debugPassThrough lets links and navigation buttons through, not answer controls", function () {
+  assert.strictEqual(core.debugPassThrough({ tag: "A", href: "#/l/1A", cls: "" }), true);
+  assert.strictEqual(core.debugPassThrough({ tag: "BUTTON", cls: "btn primary next" }), true);
+  assert.strictEqual(core.debugPassThrough({ tag: "BUTTON", cls: "opt" }), false);
+  assert.strictEqual(core.debugPassThrough({ tag: "DIV", cls: "item" }), false);
+});

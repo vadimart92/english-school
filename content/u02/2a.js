@@ -301,40 +301,46 @@ ES.registerLesson({
         src: "WB 1",
         items: [
           {
-            q: "Unemployment looks s___ to rise as factories close.",
+            q: "Unemployment looks ___ to rise as factories close.",
             answers: [
               ["set"]
-            ]
+            ],
+            hint: "s…"
           },
           {
-            q: "Cinemas have lost customers, but they hope to r___ this trend with cheaper tickets.",
+            q: "Cinemas have lost customers, but they hope to ___ this trend with cheaper tickets.",
             answers: [
               ["reverse"]
-            ]
+            ],
+            hint: "r…"
           },
           {
-            q: "The opening of the new metro line m___ the start of a new era for the city.",
+            q: "The opening of the new metro line ___ the start of a new era for the city.",
             answers: [
               ["marks", "marked"]
-            ]
+            ],
+            hint: "m…"
           },
           {
-            q: "Climate experts fear we have reached a t___ point.",
+            q: "Climate experts fear we have reached a ___ point.",
             answers: [
               ["tipping", "turning"]
-            ]
+            ],
+            hint: "t…"
           },
           {
-            q: "Early trials of the new drug look p___, say researchers.",
+            q: "Early trials of the new drug look ___, say researchers.",
             answers: [
               ["promising"]
-            ]
+            ],
+            hint: "p…"
           },
           {
-            q: "The charity has p___ a milestone now that it has helped 10,000 families.",
+            q: "The charity has ___ a milestone now that it has helped 10,000 families.",
             answers: [
               ["passed"]
-            ]
+            ],
+            hint: "p…"
           }
         ]
       },

@@ -158,14 +158,28 @@
     hovered.classList.add("dbg-hover");
   }, true);
 
-  // Capture phase: the app never sees the click while debug mode is on.
+  /* Links and "next" buttons keep working so you can move around while commenting. */
+  function passes(target) {
+    var n = target.closest ? target.closest("a[href], button") : null;
+    return !!n && ES.core.debugPassThrough({ tag: n.tagName, href: n.getAttribute("href"), cls: n.className });
+  }
+
+  // Capture phase: answer controls never see the click while debug mode is on.
   document.addEventListener("click", function (e) {
-    if (!data.on || isOwn(e.target)) return;
+    if (!data.on || isOwn(e.target) || passes(e.target)) return;
     e.preventDefault();
     e.stopPropagation();
     if (e.target === document.body || e.target === document.documentElement) return;
     openPop(e.target);
   }, true);
+
+  // Enter in an answer field and drag-and-drop would also answer; block them too.
+  document.addEventListener("keydown", function (e) {
+    if (data.on && e.key === "Enter" && !isOwn(e.target) && e.target.closest && e.target.closest("#app")) { e.preventDefault(); e.stopPropagation(); }
+  }, true);
+  ["dragstart", "drop"].forEach(function (type) {
+    document.addEventListener(type, function (e) { if (data.on && !isOwn(e.target)) { e.preventDefault(); e.stopPropagation(); } }, true);
+  });
 
   function closePop() { if (pop) pop.remove(); pop = null; }
 
