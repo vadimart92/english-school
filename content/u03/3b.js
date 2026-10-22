@@ -73,6 +73,17 @@ ES.registerLesson({
           ["go round in circles", "ходити по колу, не просуватися"],
           ["zero in on / shed light on", "зосередитися на / пролити світло на"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Онлайн-вправа на слова причини допоможе не плутати because і because of, since, as, due to та owing to.",
+        links: [
+          {
+            title: "Perfect English Grammar: linking words of reason",
+            url: "https://www.perfect-english-grammar.com/linking-words-reason-exercise-2.html",
+            note: "because / because of / due to / owing to / since / as — вибрати правильний зв'язок"
+          }
+        ]
       }
     ],
     exercises: [
@@ -587,6 +598,55 @@ ES.registerLesson({
           { text: "phenomenal", cat: 1 },
           { text: "revolutionary", cat: 1 },
           { text: "uplifting", cat: 1 }
+        ]
+      },
+      {
+        type: "choice",
+        title: "Choose the correct linker",
+        src: "extra: https://www.perfect-english-grammar.com/linking-words-reason-exercise-2.html",
+        items: [
+          { q: "The match was postponed ___ the waterlogged pitch.", options: ["because", "because of", "since"], answer: 1, explain: "Перед іменником — because of; because і since вимагають підрядного речення." },
+          { q: "___ you've already paid, we might as well go in.", options: ["Due to", "Seeing as", "Owing to"], answer: 1, explain: "Due to / owing to + іменник; перед реченням — seeing as." },
+          { q: "His absence was ___ a family emergency.", options: ["due to", "because", "since"], answer: 0, explain: "Після be + іменник — due to (= caused by)." },
+          { q: "The essay is weak ___ it lacks a clear argument.", options: ["in that", "so that", "in case"], answer: 0, explain: "in that уточнює, у чому саме полягає слабкість." },
+          { q: "She kept quiet ___ offending her boss.", options: ["for fear of", "in case of", "at the risk of"], answer: 0, explain: "Вона уникала наслідку → for fear of. At the risk of — свідомо йти на ризик." },
+          { q: "___ sounding pessimistic, I doubt we'll hit the target.", options: ["For fear of", "At the risk of", "Owing to"], answer: 1, explain: "Мовець свідомо ризикує здатися песимістом." },
+          { q: "___ a lack of funding, the project was shelved.", options: ["Since", "Owing to", "As"], answer: 1, explain: "Since / as + речення; перед іменником — owing to." },
+          { q: "The method is useful ___ it can be applied to any dataset.", options: ["insofar that", "insofar as", "in so"], answer: 1, explain: "Правильно лише insofar as." },
+          { q: "___ exhausted, he went straight to bed.", options: ["Being", "Because", "Since of"], answer: 0, explain: "-ing clause з тим самим підметом: Being exhausted…" }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Rewrite the sentences using the word in capitals",
+        src: "extra: https://www.perfect-english-grammar.com/linking-words-reason-exercise-2.html",
+        items: [
+          {
+            q: "We cancelled the picnic because it was raining heavily. (OWING)",
+            models: [
+              "We cancelled the picnic owing to the heavy rain.",
+              "We cancelled the picnic owing to the fact that it was raining heavily."
+            ]
+          },
+          { q: "You know the area, so you should be the one to drive. (SEEING)", models: ["Seeing as you know the area, you should be the one to drive."] },
+          { q: "I didn't ask any questions because I was afraid I would look stupid. (FEAR)", models: ["I didn't ask any questions for fear of looking stupid."] },
+          {
+            q: "The plan has one advantage: it costs nothing. (THAT)",
+            models: [
+              "The plan is advantageous in that it costs nothing.",
+              "The plan has an advantage in that it costs nothing."
+            ]
+          },
+          { q: "I didn't know anyone at the party, so I left early. (KNOWING)", models: ["Not knowing anyone at the party, I left early."] },
+          { q: "Considering the circumstances, the team did remarkably well. (GIVEN)", models: ["Given the circumstances, the team did remarkably well."] },
+          { q: "I may sound ungrateful, but I'd rather not go. (RISK)", models: ["At the risk of sounding ungrateful, I'd rather not go."] },
+          {
+            q: "The road was closed because a lorry had overturned. (AS)",
+            models: [
+              "As a lorry had overturned, the road was closed.",
+              "The road was closed as a lorry had overturned."
+            ]
+          }
         ]
       }
     ]

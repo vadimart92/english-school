@@ -71,6 +71,17 @@ ES.registerLesson({
           ["smell", "musty, pungent, faint; aroma (приємний), odour (неприємний)"],
           ["taste", "savoury, succulent, metallic, mellow, rich, pungent"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Сторінка British Council про модальні дієслова ймовірності доповнює тему вражень: як показати, наскільки ти впевнений у тому, що бачиш чи чуєш.",
+        links: [
+          {
+            title: "British Council: modals – probability",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability",
+            note: "must / can't / should / may well / be bound to — пояснення і два тести"
+          }
+        ]
       }
     ],
     exercises: [
@@ -579,6 +590,47 @@ ES.registerLesson({
           { a: "Accidents will happen …", b: "… in the best regulated families." },
           { a: "The more things change …", b: "… the more they stay the same." },
           { a: "When in Rome …", b: "… do as the Romans do." }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Are these sentences correct? Correct the wrong ones",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability",
+        items: [
+          { s: "The noise was verging in unbearable.", ok: false, fix: "The noise was verging on unbearable." },
+          { s: "I could just make up a figure standing by the gate.", ok: false, fix: "I could just make out a figure standing by the gate." },
+          { s: "It looks as if it's going to rain.", ok: true },
+          { s: "She sounds like she's had a rough day.", ok: true },
+          { s: "He must be at home – his car isn't in the drive.", ok: false, fix: "He can't be at home – his car isn't in the drive." },
+          { s: "They'll be bound to notice the mistake.", ok: false, fix: "They're bound to notice the mistake." },
+          { s: "The parcel should arrive tomorrow, all being well.", ok: true },
+          { s: "It was a greenish-grey colour, or this kind of thing.", ok: false, fix: "It was a greenish-grey colour, or that kind of thing." },
+          { s: "It may well rain later, so take a coat.", ok: true },
+          { s: "I was somehow surprised by her reaction.", ok: false, fix: "I was somewhat surprised by her reaction." },
+          { s: "Her voice sounded vaguely familiar.", ok: true },
+          { s: "It feels as though someone has been in here.", ok: true }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Rewrite the sentences using the word in capitals",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability",
+        items: [
+          { q: "I'm almost certain this is the right building. (MUST)", models: ["This must be the right building."] },
+          {
+            q: "There's a good chance the shop will be closed. (WELL)",
+            models: [
+              "The shop may well be closed.",
+              "The shop might well be closed.",
+              "The shop could well be closed."
+            ]
+          },
+          { q: "It's impossible that he's forty – he looks so young. (CAN'T)", models: ["He can't be forty – he looks so young."] },
+          { q: "I'm sure she'll get the job. (BOUND)", models: ["She's bound to get the job."] },
+          { q: "From the way he spoke, I got the impression he was annoyed. (SOUNDED)", models: ["He sounded as if he was annoyed.", "He sounded as though he was annoyed."] },
+          { q: "There was a shape in the mist, but we could hardly see it. (MAKE)", models: ["We could just make out a shape in the mist."] },
+          { q: "We came to a building that looked a bit like a church. (RESEMBLING)", models: ["We came to a building resembling a church.", "We came to something resembling a church."] },
+          { q: "I expect the train to arrive on time. (SHOULD)", models: ["The train should arrive on time."] }
         ]
       }
     ]

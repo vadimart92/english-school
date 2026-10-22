@@ -80,6 +80,19 @@ ES.registerLesson({
           ["daunting challenges", "страшні, складні виклики"],
           ["accumulated experience", "накопичений досвід"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Онлайн-вправи на реальні умовні речення та формальну інверсію з should допоможуть закріпити тему уроку.",
+        links: [
+          { title: "Perfect English Grammar: zero and first conditional", url: "https://www.perfect-english-grammar.com/first-conditional-exercise-1.html", note: "базова вправа на first conditional — швидка розминка" },
+          { title: "EnglishPage: present and future conditionals", url: "https://www.englishpage.com/conditional/futureconditional.html", note: "реальні й нереальні умови в теперішньому та майбутньому — порівняння форм" },
+          {
+            title: "British Council: inversion and conditionals",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-conditionals",
+            note: "Should you…, Were you to…, Had I… — пояснення і два тести рівня C1"
+          }
+        ]
       }
     ],
     exercises: [
@@ -525,6 +538,45 @@ ES.registerLesson({
               ["instrumental"]
             ]
           }
+        ]
+      },
+      {
+        type: "choice",
+        title: "Choose the correct option",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-conditionals",
+        items: [
+          { q: "___ you need any further information, please do not hesitate to contact us.", options: ["Should", "Would", "Had"], answer: 0, explain: "Інверсія в першому типі умови: Should + підмет + інфінітив." },
+          { q: "You can borrow the car ___ you bring it back by six.", options: ["unless", "provided that", "in case"], answer: 1, explain: "provided that = only if." },
+          { q: "___ we leave now, we'll miss the train.", options: ["If", "Unless", "Provided"], answer: 1, explain: "Unless = if not." },
+          { q: "If you ___ like to follow me, I'll show you to your room.", options: ["will", "'d", "are"], answer: 1, explain: "Ввічлива пропозиція: if you'd like to…" },
+          { q: "If he ___ apologise, I'm not going to speak to him again.", options: ["won't", "wouldn't have", "hadn't"], answer: 0, explain: "will в if-частині = відмова: if he refuses to." },
+          { q: "If you've read the instructions, you ___ know what to do.", options: ["will", "would have", "had"], answer: 0, explain: "Минула дія → теперішній результат: if + present perfect, will." },
+          { q: "If water ___ to 100°C, it boils.", options: ["is heated", "will be heated", "would be heated"], answer: 0, explain: "Zero conditional: present + present." },
+          { q: "___ the weather improve, the race will go ahead as planned.", options: ["Should", "Were", "If"], answer: 0, explain: "Should + інфінітив без to; з If було б improves." },
+          { q: "I'll take an umbrella ___ it rains.", options: ["in case", "unless", "as long as"], answer: 0, explain: "in case — запобіжний захід на випадок, якщо." },
+          { q: "If you missed last week's class, ___ a copy of the handout from me.", options: ["get", "you'd get", "you'd have got"], answer: 0, explain: "Реальне минуле + наказовий спосіб." }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in the correct order to make real conditionals",
+        src: "extra: https://www.perfect-english-grammar.com/first-conditional-exercise-1.html",
+        items: [
+          { words: ["should", "you", "change", "your", "mind", "let", "me", "know"], answer: "Should you change your mind, let me know.", alts: ["Let me know should you change your mind."] },
+          {
+            words: ["if", "you'll", "take", "a", "seat", "the", "manager", "will", "be", "with", "you", "shortly"],
+            answer: "If you'll take a seat, the manager will be with you shortly.",
+            alts: ["The manager will be with you shortly if you'll take a seat."]
+          },
+          { words: ["unless", "you", "hear", "from", "me", "assume", "the", "meeting", "is", "on"], answer: "Unless you hear from me, assume the meeting is on.", alts: ["Assume the meeting is on unless you hear from me."] },
+          {
+            words: ["provided", "that", "everyone", "agrees", "we", "will", "start", "on", "Monday"],
+            answer: "Provided that everyone agrees, we will start on Monday.",
+            alts: ["We will start on Monday provided that everyone agrees."]
+          },
+          { words: ["if", "prices", "go", "up", "people", "tend", "to", "spend", "less"], answer: "If prices go up, people tend to spend less.", alts: ["People tend to spend less if prices go up."] },
+          { words: ["should", "anyone", "ask", "tell", "them", "I'm", "in", "a", "meeting"], answer: "Should anyone ask, tell them I'm in a meeting.", alts: ["Tell them I'm in a meeting should anyone ask."] },
+          { words: ["as", "long", "as", "you're", "careful", "nothing", "will", "go", "wrong"], answer: "As long as you're careful, nothing will go wrong.", alts: ["Nothing will go wrong as long as you're careful."] }
         ]
       }
     ]

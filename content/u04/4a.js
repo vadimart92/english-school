@@ -66,6 +66,13 @@ ES.registerLesson({
           ["exhilaration", "захват, ейфорія"],
           ["thrills", "гострі відчуття"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Сторінка про future in the past допоможе відрізнити would як «майбутнє з погляду минулого» від would для звичок і відмов з цього уроку.",
+        links: [
+          { title: "EnglishPage: future in the past", url: "https://www.englishpage.com/verbpage/futureinpast.html", note: "would / was going to для майбутнього в минулому — пояснення і вправи" }
+        ]
       }
     ],
     exercises: [
@@ -539,6 +546,38 @@ ES.registerLesson({
               ["self-pity"]
             ]
           }
+        ]
+      },
+      {
+        type: "choice",
+        title: "Choose the correct form",
+        src: "extra: https://www.englishpage.com/verbpage/futureinpast.html",
+        items: [
+          { q: "Don't bother ringing Sam now – he ___ his kids to school.", options: ["'ll be taking", "takes", "'ll take"], answer: 0, explain: "Здогадка про дію, що відбувається зараз: will be + -ing." },
+          { q: "You ___ about the merger by now, I imagine.", options: ["'ll hear", "'ll have heard", "'d hear"], answer: 1, explain: "Здогадка про минуле: will have + V3." },
+          { q: "When we lived by the sea, we ___ a small boat.", options: ["would own", "used to own", "will own"], answer: 1, explain: "own — стан, тому used to, а не would." },
+          { q: "Every evening my grandmother ___ by the window and knit.", options: ["would sit", "was sitting", "will have sat"], answer: 0, explain: "Повторювана дія в минулому: would + infinitive." },
+          { q: "I knocked for ages, but he ___ open the door.", options: ["won't", "wouldn't", "didn't use to"], answer: 1, explain: "Відмова в минулому: wouldn't." },
+          { q: "She promised she ___ call as soon as she landed.", options: ["will", "would", "'d have"], answer: 1, explain: "Future in the past: would." },
+          { q: "My flatmate ___ leave dirty dishes in the sink – it drives me mad!", options: ["WILL", "would", "is used to"], answer: 0, explain: "Наголошене WILL — скарга на дратівливу звичку." },
+          { q: "That ___ be the courier – I'm expecting a parcel.", options: ["will", "would", "used to"], answer: 0, explain: "Впевнена здогадка про теперішнє: will." },
+          { q: "Little did they know that the company ___ go bankrupt within a year.", options: ["will", "would", "used to"], answer: 1, explain: "Майбутнє з погляду минулого: would." },
+          { q: "This printer ___ work – I've tried everything!", options: ["won't", "wouldn't have", "doesn't use to"], answer: 0, explain: "Відмова речі зараз: won't." }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Rewrite the sentences using will, won't, would or wouldn't",
+        src: "extra: https://www.englishpage.com/verbpage/futureinpast.html",
+        items: [
+          { q: "I'm sure Olena knows the way – she's been there before.", start: "Olena", models: ["Olena will know the way – she's been there before."] },
+          { q: "I expect you're tired after such a long flight.", start: "You", models: ["You'll be tired after such a long flight."] },
+          { q: "I'm sure they've arrived at the hotel by now.", start: "They", models: ["They'll have arrived at the hotel by now."] },
+          { q: "The engine refused to start this morning.", start: "The engine", models: ["The engine wouldn't start this morning."] },
+          { q: "When I was a child, my dad often read to us before bed.", start: "When I was a child, my dad", models: ["When I was a child, my dad would read to us before bed."] },
+          { q: "It's so annoying – my brother keeps borrowing my things without asking.", start: "My brother", models: ["My brother WILL borrow my things without asking."] },
+          { q: "Don't phone Ana now – she's probably still asleep.", start: "Don't phone Ana now – she", models: ["Don't phone Ana now – she'll still be sleeping."] },
+          { q: "She refuses to discuss the matter.", start: "She", models: ["She won't discuss the matter."] }
         ]
       }
     ]

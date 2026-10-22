@@ -60,6 +60,22 @@ ES.registerLesson({
           ["interpretation (of the facts)", "тлумачення (фактів)"],
           ["angle", "кут подачі історії"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Онлайн-вправи на сполучення прислівників-підсилювачів із прикметниками — щоб відчувати, де utterly, а де highly чи very.",
+        links: [
+          {
+            title: "Perfect English Grammar: intensifier and adjective collocations",
+            url: "https://www.perfect-english-grammar.com/intensifier-and-adjective-collocations-exercise.html",
+            note: "стійкі пари: highly unlikely, bitterly cold, deeply moving тощо"
+          },
+          {
+            title: "Perfect English Grammar: intensifiers to show degree",
+            url: "https://www.perfect-english-grammar.com/intensifiers-to-show-degree-exercise.html",
+            note: "very / absolutely / fairly з gradable та ungradable прикметниками"
+          }
+        ]
       }
     ],
     exercises: [
@@ -602,6 +618,39 @@ ES.registerLesson({
           { q: "Which is informal?", options: ["I felt unable to let the misunderstanding continue.", "I just couldn't let it go, you know?"], answer: 1 },
           { q: "Which is informal?", options: ["Classic example of clickbait.", "This is a classic example of how clickbait operates."], answer: 0 },
           { q: "Which is informal?", options: ["The speaker would have stated his name.", "He woulda said who he was."], answer: 1 }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Is the adverb + adjective combination correct? Correct the wrong ones",
+        src: "extra: https://www.perfect-english-grammar.com/intensifiers-to-show-degree-exercise.html",
+        items: [
+          { s: "The results were very excellent.", ok: false, fix: "The results were absolutely excellent." },
+          { s: "I'm absolutely tired after the trip.", ok: false, fix: "I'm extremely tired after the trip." },
+          { s: "It's highly unlikely that the minister will resign.", ok: true },
+          { s: "That's a very fake signature.", ok: false, fix: "That's a fake signature." },
+          { s: "The hotel room was really freezing at night.", ok: true },
+          { s: "The film was quite brilliant – I'd watch it again tomorrow.", ok: true },
+          { s: "The whole story is utterly ridiculous.", ok: true },
+          { s: "She was bitterly disappointed with the verdict.", ok: true },
+          { s: "The instructions were fairly impossible to follow.", ok: false, fix: "The instructions were virtually impossible to follow." },
+          { s: "This restaurant comes highly recommended.", ok: true },
+          { s: "The queue outside the stadium was extremely enormous.", ok: false, fix: "The queue outside the stadium was absolutely enormous." },
+          { s: "I was very terrified when the lights went out.", ok: false, fix: "I was absolutely terrified when the lights went out." }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in the correct order",
+        src: "extra: https://www.perfect-english-grammar.com/intensifier-and-adjective-collocations-exercise.html",
+        items: [
+          { words: ["the", "claims", "in", "the", "article", "are", "utterly", "unfounded"], answer: "The claims in the article are utterly unfounded." },
+          { words: ["I", "found", "the", "report", "highly", "misleading"], answer: "I found the report highly misleading." },
+          { words: ["it's", "virtually", "impossible", "to", "verify", "the", "source"], answer: "It's virtually impossible to verify the source." },
+          { words: ["her", "account", "of", "events", "was", "perfectly", "credible"], answer: "Her account of events was perfectly credible." },
+          { words: ["the", "minister", "was", "strongly", "opposed", "to", "the", "inquiry"], answer: "The minister was strongly opposed to the inquiry." },
+          { words: ["we", "were", "bitterly", "disappointed", "by", "the", "coverage"], answer: "We were bitterly disappointed by the coverage." },
+          { words: ["the", "headline", "was", "completely", "misleading"], answer: "The headline was completely misleading." }
         ]
       }
     ]

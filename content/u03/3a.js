@@ -79,6 +79,18 @@ ES.registerLesson({
           ["give someone an idea", "наштовхнути на думку"],
           ["have a brainwave", "раптом придумати щось геніальне"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Короткі онлайн-вправи з автоперевіркою, щоб довести до автоматизму заперечні й непрямі питання.",
+        links: [
+          { title: "Perfect English Grammar: negative questions", url: "https://www.perfect-english-grammar.com/negative-questions-exercise-1.html", note: "заперечні питання (Isn't it…? Don't you…?) — утворити з підказок" },
+          {
+            title: "Perfect English Grammar: indirect questions",
+            url: "https://www.perfect-english-grammar.com/indirect-questions-exercise-1.html",
+            note: "непрямі питання: прямий порядок слів після Could you tell me… / Do you know…"
+          }
+        ]
       }
     ],
     exercises: [
@@ -842,6 +854,45 @@ ES.registerLesson({
           { q: "You've ___ me an idea! Why don't we ask Leo to take the photos?", options: ["given", "bounced"], answer: 0 },
           { q: "It suddenly ___ on me that I'd met her before.", options: ["dawned", "occurred"], answer: 0 },
           { q: "It ___ to me that we haven't asked the customers what they think.", options: ["occurs", "springs"], answer: 0 }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Are these questions correct? Correct the ones that are wrong",
+        src: "extra: https://www.perfect-english-grammar.com/indirect-questions-exercise-1.html",
+        items: [
+          { s: "Could you tell me where is the nearest pharmacy?", ok: false, fix: "Could you tell me where the nearest pharmacy is?" },
+          { s: "I was wondering whether you'd had a chance to look at my proposal.", ok: true },
+          { s: "Don't you think the price is a little steep?", ok: true },
+          { s: "Do you happen to know what time does the museum close?", ok: false, fix: "Do you happen to know what time the museum closes?" },
+          { s: "Nobody remembered to lock the door, didn't they?", ok: false, fix: "Nobody remembered to lock the door, did they?" },
+          { s: "It's not clear if or not the deal will go ahead.", ok: false, fix: "It's not clear whether or not the deal will go ahead." },
+          { s: "Haven't you finished that report yet? It was due on Monday!", ok: true },
+          { s: "Would you mind telling me why did you turn the offer down?", ok: false, fix: "Would you mind telling me why you turned the offer down?" },
+          { s: "You spent how much on a pair of trainers?", ok: true },
+          { s: "Let's grab a coffee first, don't we?", ok: false, fix: "Let's grab a coffee first, shall we?" },
+          { s: "Do you know if Mark is coming tonight?", ok: true },
+          { s: "Hand me that file, will you?", ok: true }
+        ]
+      },
+      {
+        type: "sort",
+        title: "What kind of question is it?",
+        src: "extra: https://www.perfect-english-grammar.com/negative-questions-exercise-1.html",
+        categories: ["negative question", "echo question", "indirect question", "question tag"],
+        items: [
+          { text: "Isn't that the man from the news?", cat: 0 },
+          { text: "Wouldn't it be easier to just call her?", cat: 0 },
+          { text: "Didn't I tell you it would rain?", cat: 0 },
+          { text: "She's moving to where?", cat: 1 },
+          { text: "You left the keys where?", cat: 1 },
+          { text: "They charged you how much?", cat: 1 },
+          { text: "Any idea what time the shop opens?", cat: 2 },
+          { text: "I'd like to know who authorised this payment.", cat: 2 },
+          { text: "Could you explain why the meeting was cancelled?", cat: 2 },
+          { text: "You've signed the contract, haven't you?", cat: 3 },
+          { text: "He can't drive, can he?", cat: 3 },
+          { text: "Nobody saw anything, did they?", cat: 3 }
         ]
       }
     ]
