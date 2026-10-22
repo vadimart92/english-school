@@ -47,7 +47,18 @@ ES.registerLesson({
           ]
         ]
       },
-      { h: "Pronunciation: likely", p: "У швидкому мовленні звук /k/ у likely / unlikely часто майже зникає: They're likely to… звучить як /ˈlaɪli/." }
+      { h: "Pronunciation: likely", p: "У швидкому мовленні звук /k/ у likely / unlikely часто майже зникає: They're likely to… звучить як /ˈlaɪli/." },
+      {
+        h: "Більше практики",
+        p: "Пояснення й тест про те, як модальні дієслова та bound to показують різний ступінь упевненості.",
+        links: [
+          {
+            title: "British Council LearnEnglish: Modals — probability",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability",
+            note: "must, can't, be bound to, may/might well — пояснення і тест"
+          }
+        ]
+      }
     ],
     exercises: [
       {
@@ -676,6 +687,38 @@ ES.registerLesson({
               ["rata"]
             ]
           }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Are the sentences correct? Correct the ones with a mistake",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability",
+        items: [
+          { s: "He's impossible to have finished it on his own.", ok: false, fix: "It's impossible that he finished it on his own." },
+          { s: "Fuel prices are bound to go up again this winter.", ok: true },
+          { s: "It's bound that the deal will collapse.", ok: false, fix: "The deal is bound to collapse." },
+          { s: "They're likely being stuck in traffic right now.", ok: false, fix: "They're likely to be stuck in traffic right now." },
+          { s: "She's highly unlikely to have read the email.", ok: true },
+          { s: "He's probable to get the job.", ok: false, fix: "He's likely to get the job." },
+          { s: "You mustn't have noticed me — you walked straight past.", ok: false, fix: "You can't have noticed me — you walked straight past." },
+          { s: "The talks could well drag on until next week.", ok: true },
+          { s: "I'm fairly certain that the shop has closed down.", ok: true },
+          { s: "They may well to cancel the trip.", ok: false, fix: "They may well cancel the trip." },
+          { s: "The new rules are sure to meet with some resistance.", ok: true }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Rewrite the sentences beginning with the words given. Keep the meaning",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability",
+        items: [
+          { q: "It's highly likely that the factory will close.", start: "The factory…", models: ["The factory is highly likely to close."] },
+          { q: "It's almost certain that she has already left.", start: "She…", models: ["She's almost certain to have already left."] },
+          { q: "They were unlikely to have heard the news.", start: "It…", models: ["It was unlikely that they had heard the news."] },
+          { q: "I'm sure he's working from home today.", start: "He…", models: ["He's sure to be working from home today."] },
+          { q: "It's possible that the files were deleted by mistake.", start: "The files…", models: ["The files may/might/could have been deleted by mistake."] },
+          { q: "It's likely that the team has been training all week.", start: "The team…", models: ["The team is likely to have been training all week."] },
+          { q: "I'm absolutely certain that the bus will be late again.", start: "The bus…", models: ["The bus is bound to be late again.", "The bus is certain to be late again."] }
         ]
       }
     ]

@@ -55,7 +55,19 @@ ES.registerLesson({
           ["look promising", "виглядати багатообіцяюче"]
         ]
       },
-      { h: "Pronunciation: to have", p: "У швидкому мовленні to have перед been звучить слабко й злито: /tə(h)əv/ — «тев»: People seem to have been listening." }
+      { h: "Pronunciation: to have", p: "У швидкому мовленні to have перед been звучить слабко й злито: /tə(h)əv/ — «тев»: People seem to have been listening." },
+      {
+        h: "Більше практики",
+        p: "Пояснення й тести про тимчасові ситуації, тренди, роздратування з always та дієслова стану, які не люблять continuous.",
+        links: [
+          {
+            title: "British Council LearnEnglish: Advanced present simple and continuous",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-present-simple-continuous",
+            note: "розширені випадки present simple і continuous, state verbs — пояснення і тест"
+          },
+          { title: "EnglishPage: continuous and non-continuous verbs", url: "https://www.englishpage.com/verbpage/types.html", note: "які дієслова не вживаються в continuous і які мають два значення" }
+        ]
+      }
     ],
     exercises: [
       {
@@ -616,6 +628,41 @@ ES.registerLesson({
               ["am living", "'m living"]
             ]
           }
+        ]
+      },
+      {
+        type: "sort",
+        title: "Can the verb in brackets be continuous here?",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-present-simple-continuous",
+        categories: ["Continuous is natural", "Simple only (state meaning)"],
+        items: [
+          { text: "I ___ (think) about changing jobs.", cat: 0 },
+          { text: "I ___ (think) you've made a good choice.", cat: 1 },
+          { text: "We ___ (have) a party on Saturday.", cat: 0 },
+          { text: "They ___ (have) three children.", cat: 1 },
+          { text: "This soup ___ (taste) a bit salty.", cat: 1 },
+          { text: "The chef ___ (taste) the sauce right now.", cat: 0 },
+          { text: "She ___ (see) a specialist about her back.", cat: 0 },
+          { text: "I ___ (see) what you mean.", cat: 1 },
+          { text: "This bag ___ (belong) to my sister.", cat: 1 },
+          { text: "You ___ (be) very stubborn today!", cat: 0 },
+          { text: "He ___ (be) a stubborn person by nature.", cat: 1 },
+          { text: "I ___ (weigh) the flour for the cake.", cat: 0 }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in the correct order to make sentences",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-present-simple-continuous",
+        items: [
+          { words: ["Prices", "been", "up", "months", "for", "creeping", "have"], answer: "Prices have been creeping up for months.", alts: ["For months prices have been creeping up."] },
+          { words: ["He's", "leaving", "keys", "work", "at", "his", "forever"], answer: "He's forever leaving his keys at work." },
+          { words: ["More", "more", "are", "to", "from", "home", "work", "choosing", "people", "and"], answer: "More and more people are choosing to work from home." },
+          { words: ["I'll", "passing", "post", "anyway", "office", "the", "be"], answer: "I'll be passing the post office anyway." },
+          { words: ["She", "being", "polite", "her", "boss", "to", "unusually", "was"], answer: "She was being unusually polite to her boss." },
+          { words: ["By", "we'll", "been", "here", "ten", "years", "for", "living", "have", "June"], answer: "By June, we'll have been living here for ten years.", alts: ["We'll have been living here for ten years by June."] },
+          { words: ["The", "is", "warmer", "decade", "every", "getting", "climate"], answer: "The climate is getting warmer every decade.", alts: ["Every decade the climate is getting warmer."] },
+          { words: ["What", "you", "doing", "your", "hair", "to", "been", "have"], answer: "What have you been doing to your hair?" }
         ]
       }
     ]

@@ -65,6 +65,16 @@ ES.registerLesson({
           ["do", "some rock-climbing, plenty of preparation, someone good, team building"],
           ["take", "the initiative, the lead, a look, sth into consideration"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Безкоштовні онлайн-вправи на вибір між простими й тривалими перфектними формами — зручно, коли хочеться ще потренуватися.",
+        links: [
+          { title: "Perfect English Grammar: present perfect simple or continuous", url: "https://www.perfect-english-grammar.com/present-perfect-present-perfect-continuous-1.html", note: "вправа: have done чи have been doing" },
+          { title: "Perfect English Grammar: past perfect simple or continuous", url: "https://www.perfect-english-grammar.com/past-perfect-past-perfect-continuous-exercise-1.html", note: "вправа: had done чи had been doing" },
+          { title: "Perfect English Grammar: future perfect", url: "https://www.perfect-english-grammar.com/future-perfect-exercise-4.html", note: "вправа на will have done" },
+          { title: "EnglishPage: future perfect continuous", url: "https://www.englishpage.com/verbpage/futureperfectcontinuous.html", note: "пояснення will have been doing з прикладами та вправами" }
+        ]
       }
     ],
     exercises: [
@@ -832,6 +842,46 @@ ES.registerLesson({
           { s: "I'll text you when I'll have arrived at the station.", ok: false, fix: "I'll text you when I've arrived at the station." },
           { s: "We ate the cake that we'd baked the previous evening.", ok: true },
           { s: "It's my favourite play. I've been seeing it four times.", ok: false, fix: "It's my favourite play. I've seen it four times." }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in the correct order to make sentences",
+        src: "extra: https://www.perfect-english-grammar.com/present-perfect-present-perfect-continuous-1.html",
+        items: [
+          { words: ["How", "have", "been", "for", "results", "the", "waiting", "you", "long"], answer: "How long have you been waiting for the results?" },
+          { words: ["By", "time", "arrived", "film", "already", "started", "had", "the", "we", "the"], answer: "By the time we arrived, the film had already started." },
+          {
+            words: ["She'll", "been", "here", "a", "next", "spring", "decade", "for", "working", "have"],
+            answer: "She'll have been working here for a decade next spring.",
+            alts: ["Next spring she'll have been working here for a decade."]
+          },
+          { words: ["I've", "painting", "kitchen", "morning", "all", "the", "been"], answer: "I've been painting the kitchen all morning.", alts: ["All morning I've been painting the kitchen."] },
+          { words: ["They", "been", "for", "before", "intervened", "anyone", "hours", "arguing", "had"], answer: "They had been arguing for hours before anyone intervened." },
+          { words: ["By", "most", "will", "gone", "electric", "have", "cars", "2030"], answer: "By 2030, most cars will have gone electric.", alts: ["Most cars will have gone electric by 2030."] },
+          { words: ["This", "the", "time", "have", "spoken", "public", "in", "ever", "I", "first", "is"], answer: "This is the first time I have ever spoken in public." },
+          { words: ["Have", "finished", "report", "yet", "the", "you"], answer: "Have you finished the report yet?" }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Rewrite the sentences using a perfect form. Begin with the words given",
+        src: "extra: https://www.perfect-english-grammar.com/present-perfect-present-perfect-continuous-1.html",
+        items: [
+          { q: "I started learning Spanish three years ago and I'm still learning it.", start: "I've…", models: ["I've been learning Spanish for three years."] },
+          { q: "The match started. Then we got to the stadium.", start: "By the time…", models: ["By the time we got to the stadium, the match had (already) started."] },
+          { q: "His eyes are red. He was crying a few minutes ago.", start: "His eyes are red because…", models: ["His eyes are red because he's been crying."] },
+          { q: "I'll finish the book at some point before Friday.", start: "By Friday…", models: ["By Friday, I'll have finished the book."] },
+          {
+            q: "We moved here ten years ago this June, and we still live here.",
+            start: "In June, we'll…",
+            models: [
+              "In June, we'll have been living here for ten years.",
+              "In June, we'll have lived here for ten years."
+            ]
+          },
+          { q: "He started waiting at six. She finally called at seven.", start: "He had…", models: ["He had been waiting for an hour when she (finally) called."] },
+          { q: "I've never tasted anything so spicy before.", start: "It's the first time…", models: ["It's the first time I've ever tasted anything so spicy."] }
         ]
       }
     ]

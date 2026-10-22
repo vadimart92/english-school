@@ -62,6 +62,13 @@ ES.registerLesson({
           ["snacks", "nutritious (+) · bite-size (0) · sugary, processed (−)"],
           ["ambition(s)", "modest, driving (+) · blind, consuming (−)"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Довідковий список дієслів, після яких іде to-infinitive; інфінітивні фрази на кшталт to be honest тренуй у вправах Refresh.",
+        links: [
+          { title: "EnglishPage: verbs followed by infinitives", url: "https://www.englishpage.com/gerunds/infinitive_list.htm", note: "перелік дієслів + to-infinitive з прикладами" }
+        ]
       }
     ],
     exercises: [
@@ -695,6 +702,51 @@ ES.registerLesson({
           { q: "The government announced across-the-board tax cuts.", options: ["affecting everyone/everything", "larger than expected"], answer: 0 },
           { q: "The shop is popular with well-to-do customers.", options: ["rich, high-class", "expecting value for money"], answer: 0 },
           { q: "The city has unheard-of levels of traffic.", options: ["unpopular, unknown", "record-breaking"], answer: 1 }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in the correct order to make sentences",
+        src: "extra: https://www.englishpage.com/gerunds/infinitive_list.htm",
+        items: [
+          { words: ["To", "a", "story", "we", "the", "train", "last", "missed", "short", "long", "cut"], answer: "To cut a long story short, we missed the last train." },
+          { words: ["The", "was", "to", "the", "least", "say", "disappointing", "food"], answer: "The food was disappointing, to say the least." },
+          { words: ["Needless", "say", "believed", "excuse", "his", "nobody", "to"], answer: "Needless to say, nobody believed his excuse." },
+          { words: ["To", "matters", "it", "to", "rain", "started", "worse", "make"], answer: "To make matters worse, it started to rain." },
+          { words: ["She's", "talented", "to", "fair", "be", "player", "a"], answer: "She's a talented player, to be fair.", alts: ["To be fair, she's a talented player."] },
+          {
+            words: ["To", "more", "the", "starts", "ten", "nine", "past", "at", "meeting", "precise", "be"],
+            answer: "To be more precise, the meeting starts at ten past nine.",
+            alts: ["The meeting starts at ten past nine, to be more precise."]
+          },
+          {
+            words: ["His", "novel", "to", "it", "a", "disappointment", "mildly", "put", "was", "last"],
+            answer: "His last novel was, to put it mildly, a disappointment.",
+            alts: [
+              "His last novel was a disappointment, to put it mildly.",
+              "To put it mildly, his last novel was a disappointment."
+            ]
+          },
+          { words: ["To", "insult", "injury", "charged", "for", "delay", "the", "us", "they", "to", "add"], answer: "To add insult to injury, they charged us for the delay." }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Add the infinitive phrase in brackets in its most natural position",
+        src: "extra: https://www.englishpage.com/gerunds/infinitive_list.htm",
+        items: [
+          { q: "The hotel staff were rude. (to put it mildly)", models: ["The hotel staff were rude, to put it mildly."] },
+          { q: "We got lost and our car broke down. Then it started snowing. (to cap it all)", models: ["We got lost and our car broke down. To cap it all, it started snowing."] },
+          { q: "This plan won't work. (not to put too fine a point on it)", models: ["Not to put too fine a point on it, this plan won't work."] },
+          { q: "He made a few mistakes, but it was his first day. (to be fair)", models: ["He made a few mistakes, but to be fair, it was his first day."] },
+          {
+            q: "The museum has something for everyone: dinosaurs, Roman coins and medieval armour. (to name but a few)",
+            models: [
+              "The museum has something for everyone: dinosaurs, Roman coins and medieval armour, to name but a few."
+            ]
+          },
+          { q: "The concert was cancelled at the last minute. We were furious. (needless to say)", models: ["The concert was cancelled at the last minute. Needless to say, we were furious."] },
+          { q: "They lost the case and had to pay the other side's legal costs. (to add insult to injury)", models: ["They lost the case and, to add insult to injury, had to pay the other side's legal costs."] }
         ]
       }
     ]

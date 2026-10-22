@@ -49,7 +49,15 @@ ES.registerLesson({
           ]
         ]
       },
-      { h: "Pronunciation: it", p: "У фразах It seems that… / It turned out that… слово it ненаголошене і часто майже «ковтається»; that також звучить слабко /ðət/." }
+      { h: "Pronunciation: it", p: "У фразах It seems that… / It turned out that… слово it ненаголошене і часто майже «ковтається»; that також звучить слабко /ðət/." },
+      {
+        h: "Більше практики",
+        p: "Пояснення з прикладами, де модальні дієслова й seem/appear/likely показують, наскільки мовець упевнений.",
+        links: [
+          { title: "British Council LearnEnglish: Modals — probability", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability", note: "must, can't, bound to, might well — пояснення і тест" },
+          { title: "SFU: subject-to-subject raising", url: "https://www.sfu.ca/~dearmond/322/322.raising.S-to-S.htm", note: "лінгвістичний розбір, чому працює it seems that → he seems to (англ.)" }
+        ]
+      }
     ],
     exercises: [
       {
@@ -667,6 +675,43 @@ ES.registerLesson({
           { words: ["If", "you", "happen", "to", "see", "Oleh", "please", "ask", "him", "to", "call", "me"], answer: "If you happen to see Oleh, please ask him to call me." },
           { words: ["There", "seems", "to", "have", "been", "a", "mistake", "with", "the", "bill"], answer: "There seems to have been a mistake with the bill." },
           { words: ["Somebody", "appears", "to", "have", "been", "using", "my", "mug"], answer: "Somebody appears to have been using my mug." }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Are the sentences correct? Correct the ones with a mistake",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability",
+        items: [
+          { s: "She seems having forgotten about our meeting.", ok: false, fix: "She seems to have forgotten about our meeting." },
+          { s: "The parcel appears to have been opened before it arrived.", ok: true },
+          { s: "He seems to be knowing everyone in the building.", ok: false, fix: "He seems to know everyone in the building." },
+          { s: "Do you happen knowing where the nearest pharmacy is?", ok: false, fix: "Do you happen to know where the nearest pharmacy is?" },
+          { s: "The rumour turned out to be completely unfounded.", ok: true },
+          { s: "It seems him to have lost interest in the project.", ok: false, fix: "He seems to have lost interest in the project." },
+          { s: "They don't appear to have been told about the changes.", ok: true },
+          { s: "You seem to have been running — you're out of breath.", ok: true },
+          { s: "The figures appear being wrong.", ok: false, fix: "The figures appear to be wrong." },
+          { s: "It turned out that the manager had known all along.", ok: true }
+        ]
+      },
+      {
+        type: "sort",
+        title: "Can the sentence be rewritten as Subject + verb/adjective + to-infinitive?",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability",
+        intro: "Наприклад, It seems that the printer is broken → The printer seems to be broken. Не всі вирази так «піднімають» підмет.",
+        categories: ["Yes: subject raising works", "No: only It … that"],
+        items: [
+          { text: "It seems that the printer is broken.", cat: 0 },
+          { text: "It is likely that the train will be late.", cat: 0 },
+          { text: "It is obvious that she is upset.", cat: 1 },
+          { text: "It appears that someone has taken my umbrella.", cat: 0 },
+          { text: "It is possible that they missed the bus.", cat: 1 },
+          { text: "It turned out that the café was closed.", cat: 0 },
+          { text: "It is clear that the plan has failed.", cat: 1 },
+          { text: "It is certain that prices will rise.", cat: 0 },
+          { text: "It is probable that he forgot.", cat: 1 },
+          { text: "It is unlikely that we'll win.", cat: 0 },
+          { text: "It is true that he lied.", cat: 1 }
         ]
       }
     ]

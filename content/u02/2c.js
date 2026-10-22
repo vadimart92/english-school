@@ -53,6 +53,17 @@ ES.registerLesson({
           ["group", "mob"],
           ["firm", "harsh"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Пояснення й тест про способи наголосу: it-cleft, what-cleft, інверсію та емфатичне do.",
+        links: [
+          {
+            title: "British Council LearnEnglish: Emphasis — cleft sentences, inversion and auxiliaries",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/emphasis-cleft-sentences-inversion-auxiliaries",
+            note: "it-cleft, what-cleft, all I did was, емфатичне do — пояснення і тест"
+          }
+        ]
       }
     ],
     exercises: [
@@ -611,6 +622,84 @@ ES.registerLesson({
           { a: "What this city needs is", b: "more affordable housing." },
           { a: "What we should do", b: "is find out how to save more time." },
           { a: "It's the people in Marketing", b: "who spend the most money." }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Are the cleft sentences correct? Correct the ones with a mistake",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/emphasis-cleft-sentences-inversion-auxiliaries",
+        items: [
+          { s: "What I hate is wait in queues.", ok: false, fix: "What I hate is waiting in queues." },
+          { s: "What they did was close the road for a week.", ok: true },
+          { s: "It was my neighbour who he called the police.", ok: false, fix: "It was my neighbour who called the police." },
+          { s: "All I want right now is to sleep.", ok: true },
+          { s: "It's the noise what annoys me most.", ok: false, fix: "It's the noise that annoys me most." },
+          { s: "It was because of the strike that we stayed at home.", ok: true },
+          { s: "What I'm saying it's that we need a plan.", ok: false, fix: "What I'm saying is that we need a plan." },
+          { s: "All what we need is a bit more time.", ok: false, fix: "All we need is a bit more time." },
+          { s: "It wasn't until I got home that I noticed the scratch.", ok: true }
+        ]
+      },
+      {
+        type: "gap",
+        title: "Complete the cleft sentences with one word",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/emphasis-cleft-sentences-inversion-auxiliaries",
+        items: [
+          {
+            q: "What she did ___ resign on the spot.",
+            answers: [
+              ["was"]
+            ]
+          },
+          {
+            q: "All I did ___ ask a simple question!",
+            answers: [
+              ["was"]
+            ]
+          },
+          {
+            q: "It ___ until midnight that the results finally came in.",
+            answers: [
+              ["wasn't", "was not"]
+            ],
+            hint: "negative"
+          },
+          {
+            q: "It was Olena ___ spotted the mistake, not me.",
+            answers: [
+              ["who", "that"]
+            ]
+          },
+          {
+            q: "It's not the cost ___ worries me — it's the timing.",
+            answers: [
+              ["that", "which"]
+            ]
+          },
+          {
+            q: "___ I love about this city is its markets.",
+            answers: [
+              ["What"]
+            ]
+          },
+          {
+            q: "What happened ___ that the bridge was closed for repairs.",
+            answers: [
+              ["was"]
+            ]
+          },
+          {
+            q: "The reason ___ I called is to apologise.",
+            answers: [
+              ["why", "that"]
+            ]
+          },
+          {
+            q: "What we need ___ more bins, not higher fines.",
+            answers: [
+              ["is", "are"]
+            ]
+          }
         ]
       }
     ]
