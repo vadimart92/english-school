@@ -59,6 +59,18 @@ ES.registerLesson({
           ["the coast is clear", "it's safe to act without being seen"],
           ["(not) out of the woods", "(not yet) free from danger or difficulty"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Ці сторінки допоможуть потренувати емфатичні конструкції та інверсію після заперечних виразів.",
+        links: [
+          {
+            title: "British Council: Emphasis",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/emphasis-cleft-sentences-inversion-auxiliaries",
+            note: "cleft sentences, інверсія та емфатичні do/does/did (рівень C1) з тестом"
+          },
+          { title: "Perfect English Grammar: inversion", url: "https://www.perfect-english-grammar.com/inversion-exercise-1.html", note: "вправа на інверсію після never, not only, under no circumstances тощо" }
+        ]
       }
     ],
     exercises: [
@@ -556,6 +568,40 @@ ES.registerLesson({
               ["valid"]
             ]
           }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Correct or not? Inversion and emphatic advice",
+        src: "extra: https://www.perfect-english-grammar.com/inversion-exercise-1.html",
+        items: [
+          { s: "Under no circumstances should you leave your bag unattended.", ok: true },
+          { s: "Under no circumstances you should give out your PIN.", ok: false, fix: "Under no circumstances should you give out your PIN." },
+          { s: "Not until you've checked the route should you set off.", ok: true },
+          { s: "Never I have seen such a dangerous crossing.", ok: false, fix: "Never have I seen such a dangerous crossing." },
+          { s: "Whatever you do, don't make eye contact with him.", ok: true },
+          { s: "Only when the light turns green should you cross.", ok: true },
+          { s: "Do be careful on the way home.", ok: true },
+          { s: "Whichever you choose route, avoid the park after dark.", ok: false, fix: "Whichever route you choose, avoid the park after dark." },
+          { s: "Not only did he lose his wallet, but he also missed the last train.", ok: true },
+          { s: "On no account must the door to be left open.", ok: false, fix: "On no account must the door be left open." }
+        ]
+      },
+      {
+        type: "sort",
+        title: "Cleft sentence, inversion or emphatic auxiliary?",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/emphasis-cleft-sentences-inversion-auxiliaries",
+        categories: ["cleft sentence", "inversion", "emphatic do / does / did"],
+        items: [
+          { text: "What you really need is a good map.", cat: 0 },
+          { text: "It's at night that the streets become dangerous.", cat: 0 },
+          { text: "All you need to do is stay calm.", cat: 0 },
+          { text: "Seldom do tourists venture into this part of town.", cat: 1 },
+          { text: "Under no circumstances should you accept a lift from a stranger.", cat: 1 },
+          { text: "No sooner had we left the station than it began to pour.", cat: 1 },
+          { text: "I do understand your concerns, but the area is perfectly safe.", cat: 2 },
+          { text: "Do take a taxi if you're coming home late.", cat: 2 },
+          { text: "She did warn us about pickpockets — we just didn't listen.", cat: 2 }
         ]
       }
     ]

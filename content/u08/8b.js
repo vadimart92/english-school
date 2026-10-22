@@ -65,6 +65,13 @@ ES.registerLesson({
           ["be in a quandary (over)", "be unsure what to do in a difficult situation"],
           ["on reflection", "after thinking about it again"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "На EnglishPage є пояснення майбутнього в минулому з прикладами та вправами.",
+        links: [
+          { title: "EnglishPage: future in the past", url: "https://www.englishpage.com/verbpage/futureinpast.html", note: "would і was going to для майбутнього з погляду минулого, з вправами" }
+        ]
       }
     ],
     exercises: [
@@ -578,6 +585,38 @@ ES.registerLesson({
           { a: "take over the reins", b: "take control of something" },
           { a: "live to tell the tale", b: "survive a difficult experience" },
           { a: "in a flash", b: "very quickly" }
+        ]
+      },
+      {
+        type: "choice",
+        title: "Choose the correct form",
+        src: "extra: https://www.englishpage.com/verbpage/futureinpast.html",
+        items: [
+          { q: "I ___ call you last night, but my phone died.", options: ["was going to", "would", "will"], answer: 0, explain: "was going to — намір, який не здійснився." },
+          { q: "She knew that one day she ___ become a surgeon.", options: ["would", "will", "is going to"], answer: 0, explain: "Майбутнє з погляду минулого: will → would." },
+          { q: "The two men met in 1990; they ___ remain friends for the rest of their lives.", options: ["were to", "were going to", "are to"], answer: 0, explain: "was/were to — так склалася доля (погляд з минулого)." },
+          { q: "We were ___ when the phone rang.", options: ["on the point of leaving", "about leaving", "due leaving"], answer: 0, explain: "on the point of + -ing; але about to leave, due to leave." },
+          { q: "The meeting ___ start at nine, but the CEO was stuck in traffic.", options: ["was due to", "was due", "would"], answer: 0, explain: "was due to + інфінітив — за розкладом." },
+          { q: "He promised he ___ never do it again — and of course he did.", options: ["would", "had", "was to"], answer: 0, explain: "Обіцянка в минулому: would." },
+          { q: "The ceremony ___ held in the cathedral, but it was moved at the last minute.", options: ["was to have been", "was to be having", "would have"], answer: 0, explain: "was to have + V3 — план, який не здійснився." },
+          { q: "Little did she know that the letter ___ change her life.", options: ["would", "will", "was going"], answer: 0, explain: "would — майбутнє з погляду минулого." }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Correct or not? The future in the past",
+        src: "extra: https://www.englishpage.com/verbpage/futureinpast.html",
+        items: [
+          { s: "I was going to tell you, but I forgot.", ok: true },
+          { s: "We were about leaving when it started to pour.", ok: false, fix: "We were about to leave when it started to pour." },
+          { s: "They were to be married in June, but the wedding was called off.", ok: true },
+          { s: "I thought it will rain, so I took an umbrella.", ok: false, fix: "I thought it would rain, so I took an umbrella." },
+          { s: "She was on the verge of giving up when the results came in.", ok: true },
+          { s: "He was due arriving at noon.", ok: false, fix: "He was due to arrive at noon." },
+          { s: "I was meaning to ring you, but things got hectic.", ok: true },
+          { s: "The train was to leaving at 6.15.", ok: false, fix: "The train was to leave at 6.15." },
+          { s: "Who could have guessed that this small start-up was to become a global giant?", ok: true },
+          { s: "We were supposed to meet at eight, but she never showed up.", ok: true }
         ]
       }
     ]

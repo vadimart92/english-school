@@ -61,6 +61,17 @@ ES.registerLesson({
           ["see red / be up in arms", "very angry / angry and protesting"],
           ["feel out of it", "uncomfortable, not part of what's happening"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Сторінка British Council допоможе розібрати тонкі випадки Present Simple і Continuous, зокрема always + -ing для дратівливих звичок.",
+        links: [
+          {
+            title: "British Council: Advanced present simple and continuous",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-present-simple-continuous",
+            note: "дієслова стану, звички, переказ сюжету й анекдоти (рівень C1) з тестом"
+          }
+        ]
       }
     ],
     exercises: [
@@ -731,6 +742,40 @@ ES.registerLesson({
               ["curve"]
             ]
           }
+        ]
+      },
+      {
+        type: "sort",
+        title: "Irritation or neutral habit? Sort the sentences",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-present-simple-continuous",
+        categories: ["irritation or criticism", "neutral habit or fact"],
+        items: [
+          { text: "He's always borrowing my charger without asking.", cat: 0 },
+          { text: "He always borrows a book from the library on Fridays.", cat: 1 },
+          { text: "My flatmate is forever leaving the lights on.", cat: 0 },
+          { text: "She will keep interrupting me, however many times I ask her not to.", cat: 0 },
+          { text: "They're constantly complaining about the neighbours.", cat: 0 },
+          { text: "The ferry leaves at seven every morning.", cat: 1 },
+          { text: "My grandfather would take us fishing every summer.", cat: 1 },
+          { text: "You're always checking your phone in the middle of conversations!", cat: 0 },
+          { text: "I usually walk to work unless it's raining.", cat: 1 }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Correct or not? Present simple, continuous and would",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-present-simple-continuous",
+        items: [
+          { s: "I'm thinking you should apologise to her.", ok: false, fix: "I think you should apologise to her." },
+          { s: "I'm thinking of taking up yoga.", ok: true },
+          { s: "She's always forgetting her keys — it drives me mad.", ok: true },
+          { s: "This soup is tasting delicious.", ok: false, fix: "This soup tastes delicious." },
+          { s: "The chef is tasting the soup to check the seasoning.", ok: true },
+          { s: "In the film, the hero finds out that his brother has betrayed him.", ok: true },
+          { s: "I'm living with my parents until I find a flat.", ok: true },
+          { s: "She's owning three cars.", ok: false, fix: "She owns three cars." },
+          { s: "My sister would live in Paris when she was younger.", ok: false, fix: "My sister used to live in Paris when she was younger." },
+          { s: "Whenever we visited, Gran would bake us a cake.", ok: true }
         ]
       }
     ]

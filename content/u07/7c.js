@@ -64,6 +64,13 @@ ES.registerLesson({
           ["gaining / losing", "learn the basics/the ropes, dabble in, rusty"],
           ["lacking", "out of my depth, incompetent, inept, clueless, computer illiterate, a novice"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "На сторінці British Council є пояснення та вправи на дієприкметникові звороти — вони продовжують тему скорочених відносних речень.",
+        links: [
+          { title: "British Council: Participle clauses", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses", note: "звороти з -ing, -ed і having done (рівень C1) з онлайн-тестом" }
+        ]
       }
     ],
     exercises: [
@@ -671,6 +678,38 @@ ES.registerLesson({
           { q: "The man ___ the window yesterday has been caught.", options: ["breaking", "who broke", "broken"], answer: 1 },
           { q: "Anyone ___ the instructions will lose points.", options: ["not following", "not followed", "not to follow"], answer: 0 },
           { q: "It's a city ___ history and culture.", options: ["full of", "filling", "to fill"], answer: 0 }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Correct or not? Reduced relative and participle clauses",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses",
+        items: [
+          { s: "Anyone wishing to join the course should register by Friday.", ok: true },
+          { s: "The skills taught on the course are surprisingly practical.", ok: true },
+          { s: "People who living in remote areas need survival skills.", ok: false, fix: "People living in remote areas need survival skills." },
+          { s: "Knowing that the exam would be tough, she started revising early.", ok: true },
+          { s: "Having finished the course, the certificate was sent to me.", ok: false, fix: "Having finished the course, I was sent the certificate." },
+          { s: "The first person to master the knot wins a prize.", ok: true },
+          { s: "The man arrested last night was released without charge.", ok: true },
+          { s: "Walking into the workshop, the smell of sawdust hit me.", ok: false, fix: "As I walked into the workshop, the smell of sawdust hit me." },
+          { s: "Given enough practice, almost anyone can learn to juggle.", ok: true },
+          { s: "Born in a fishing village, sailing came naturally to him.", ok: false, fix: "Born in a fishing village, he found that sailing came naturally to him." }
+        ]
+      },
+      {
+        type: "match",
+        title: "Match the participle clauses to the main clauses",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses",
+        items: [
+          { a: "Not knowing how to swim,", b: "he refused to get into the kayak." },
+          { a: "Having lost her map,", b: "she had to navigate by the stars." },
+          { a: "Asked about his secret,", b: "the chef simply shrugged and smiled." },
+          { a: "Left to their own devices,", b: "the children built an impressive raft." },
+          { a: "Once mastered,", b: "the technique is never forgotten." },
+          { a: "Having been warned about the storm,", b: "the climbers turned back early." },
+          { a: "Feeling increasingly rusty,", b: "I signed up for a refresher course." },
+          { a: "Compared with last year's group,", b: "this year's trainees are far more confident." }
         ]
       }
     ]

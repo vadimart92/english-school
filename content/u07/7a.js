@@ -82,6 +82,14 @@ ES.registerLesson({
           ["off the beaten track", "away from popular places"],
           ["lose your bearings", "get confused about where you are"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Короткі онлайн-вправи з автоперевіркою, щоб ще раз потренувати визначники кількості та some/any.",
+        links: [
+          { title: "Perfect English Grammar: a little / a few", url: "https://www.perfect-english-grammar.com/a-little-a-few-exercise-1.html", note: "вправа на a little / a few з обчислюваними й необчислюваними іменниками" },
+          { title: "Perfect English Grammar: some and any", url: "https://www.perfect-english-grammar.com/some-and-any-exercise-1.html", note: "вправа на some і any у ствердженнях, запереченнях і питаннях" }
+        ]
       }
     ],
     exercises: [
@@ -758,6 +766,45 @@ ES.registerLesson({
           { text: "Anyhow, …", cat: 1 },
           { text: "Getting back to my original point, …", cat: 1 },
           { text: "Going back to what I was saying earlier, …", cat: 1 }
+        ]
+      },
+      {
+        type: "choice",
+        title: "Choose the correct determiner: little, a little, few or a few",
+        src: "extra: https://www.perfect-english-grammar.com/a-little-a-few-exercise-1.html",
+        items: [
+          {
+            q: "There's ___ point in complaining now — the tickets are non-refundable.",
+            options: ["little", "a little", "few", "a few"],
+            answer: 0,
+            explain: "little = майже немає (негативне значення), point — тут необчислюване."
+          },
+          { q: "We've got ___ hours before the ferry leaves, so let's grab a coffee.", options: ["little", "a little", "few", "a few"], answer: 3, explain: "a few + обчислюваний іменник = кілька (достатньо)." },
+          { q: "Very ___ explorers have reached both poles on foot.", options: ["little", "a little", "few", "a few"], answer: 2, explain: "very few = дуже мало; very a few не існує." },
+          { q: "Quite ___ travellers turned up without visas, which caused chaos at the border.", options: ["little", "a little", "few", "a few"], answer: 3, explain: "quite a few = чимало." },
+          { q: "She speaks ___ Portuguese — enough to order food and ask for directions.", options: ["little", "a little", "few", "a few"], answer: 1, explain: "a little + необчислюваний = трохи (достатньо)." },
+          { q: "Only ___ of the original expedition notes survived the fire.", options: ["little", "a little", "few", "a few"], answer: 3, explain: "only a few of + множина; only few of не вживається." },
+          {
+            q: "There was ___ hope of finding survivors, and the search was eventually called off.",
+            options: ["little", "a little", "few", "a few"],
+            answer: 0,
+            explain: "little hope = майже жодної надії, тому пошуки припинили."
+          },
+          { q: "I've saved ___ money, so I could afford a short trip in the spring.", options: ["little", "a little", "few", "a few"], answer: 1, explain: "a little money = трохи грошей, достатньо для поїздки." }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in order",
+        src: "extra: https://www.perfect-english-grammar.com/some-and-any-exercise-1.html",
+        items: [
+          { words: ["any", "seat", "Take", "like", "you"], answer: "Take any seat you like." },
+          { words: ["of", "the", "spoke", "any", "Hardly", "English", "guides"], answer: "Hardly any of the guides spoke English." },
+          { words: ["coffee", "Would", "you", "some", "like", "more"], answer: "Would you like some more coffee?" },
+          { words: ["was", "of", "Neither", "safe", "routes", "the", "particularly"], answer: "Neither of the routes was particularly safe." },
+          { words: ["searched", "bags", "of", "Every", "the", "one", "single", "was"], answer: "Every single one of the bags was searched." },
+          { words: ["traveller", "needs", "a", "every", "Not", "visa"], answer: "Not every traveller needs a visa." },
+          { words: ["any", "of", "see", "didn't", "I", "the", "sights"], answer: "I didn't see any of the sights." }
         ]
       }
     ]

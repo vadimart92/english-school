@@ -58,6 +58,19 @@ ES.registerLesson({
         h: "Pronunciation: to",
         p: "In the middle of a clause to is weak /tə/ (the person I lent it to was…); at the very end of a sentence it is strong /tuː/ (…the scam you fell victim to).",
         ex: ["Who did you send it to?", "That's the man I sent the money to last week."]
+      },
+      {
+        h: "Більше практики",
+        p: "Ці онлайн-вправи допоможуть закріпити відносні речення, пропуск займенника та вибір між who, whom і whose.",
+        links: [
+          { title: "Perfect English Grammar: defining relative clauses", url: "https://www.perfect-english-grammar.com/relative-clauses-exercise-1.html", note: "вправа на who / which / that / whose в обмежувальних реченнях" },
+          {
+            title: "Perfect English Grammar: dropping the relative pronoun",
+            url: "https://www.perfect-english-grammar.com/dropping-the-relative-pronoun-exercise.html",
+            note: "коли відносний займенник можна пропустити, а коли ні"
+          },
+          { title: "EnglishPage: who / whom / whose", url: "https://www.englishpage.com/minitutorials/who_whom.html", note: "коротке пояснення різниці між who, whom і whose з тестом" }
+        ]
       }
     ],
     exercises: [
@@ -697,6 +710,38 @@ ES.registerLesson({
           { text: "Had I been aware of the situation, I would have made efforts to rectify the issues.", cat: 0 },
           { text: "I've got to get my head down at work for a bit. Talk soon.", cat: 1 },
           { text: "It is with deepest regret that I inform you that your relative has passed away.", cat: 0 }
+        ]
+      },
+      {
+        type: "choice",
+        title: "Choose the correct relative word",
+        src: "extra: https://www.englishpage.com/minitutorials/who_whom.html",
+        items: [
+          { q: "The investor ___ money disappeared overnight has gone to the police.", options: ["who", "whom", "whose"], answer: 2, explain: "whose = чий (гроші інвестора)." },
+          { q: "The man to ___ she wired the deposit never existed.", options: ["who", "whom", "whose"], answer: 1, explain: "Після прийменника — тільки whom." },
+          { q: "Several victims, most of ___ were pensioners, lost their savings.", options: ["who", "whom", "whose"], answer: 1, explain: "most of whom — після of лише whom." },
+          { q: "The scheme, ___ promised 30% returns, collapsed within a year.", options: ["which", "that", "what"], answer: 0, explain: "У необмежувальному реченні (з комами) that не вживається." },
+          { q: "___ really annoyed me was how polite the fraudster was.", options: ["What", "Which", "That"], answer: 0, explain: "what = the thing that." },
+          { q: "He blamed the bank, ___ was frankly absurd.", options: ["what", "which", "that"], answer: 1, explain: "which відсилає до всього попереднього речення." },
+          { q: "The website ___ I found the offer looked completely genuine.", options: ["which", "where", "that"], answer: 1, explain: "where = on which; без прийменника which/that тут не підходять." },
+          { q: "She finally confessed, at ___ point the investigation was closed.", options: ["which", "what", "that"], answer: 0, explain: "Фіксований вираз at which point." }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Correct or not? Find the mistakes with relative clauses",
+        src: "extra: https://www.perfect-english-grammar.com/dropping-the-relative-pronoun-exercise.html",
+        items: [
+          { s: "The email I received yesterday looked suspicious.", ok: true },
+          { s: "The woman lent me the money has disappeared.", ok: false, fix: "The woman who lent me the money has disappeared." },
+          { s: "My brother, that works in IT, spotted the scam at once.", ok: false, fix: "My brother, who works in IT, spotted the scam at once." },
+          { s: "The company I invested in went bankrupt.", ok: true },
+          { s: "The company in that I invested went bankrupt.", ok: false, fix: "The company in which I invested went bankrupt." },
+          { s: "Is this the account into which the money was transferred?", ok: true },
+          { s: "The documents, most of them were forged, were seized by the police.", ok: false, fix: "The documents, most of which were forged, were seized by the police." },
+          { s: "Everything what he told us turned out to be a lie.", ok: false, fix: "Everything (that) he told us turned out to be a lie." },
+          { s: "Anyone who's had their identity stolen will know how stressful it is.", ok: true },
+          { s: "The reason why he lied is still a mystery.", ok: true }
         ]
       }
     ]
