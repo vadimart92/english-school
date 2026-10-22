@@ -78,6 +78,15 @@ ES.registerLesson({
           "If you hadn't been wearing a helmet, you could have been seriously hurt.",
           "If I'd known how he felt, I'd have done something about it."
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Онлайн-вправи на змішані умовні, were to і третій умовний.",
+        links: [
+          { title: "EnglishPage: Mixed conditionals", url: "https://www.englishpage.com/conditional/mixedconditional.html", note: "змішані умовні: минуле → теперішнє і навпаки, з вправами" },
+          { title: "EnglishPage: Were to", url: "https://www.englishpage.com/conditional/wereto.html", note: "were to + інфінітив для дуже гіпотетичного майбутнього" },
+          { title: "Perfect English Grammar: third conditional", url: "https://www.perfect-english-grammar.com/third-conditional-exercise-1.html", note: "вправа з автоперевіркою на третій умовний" }
+        ]
       }
     ],
     exercises: [
@@ -852,6 +861,42 @@ ES.registerLesson({
               "I once organised a quiz night that fell completely flat. Had I known how few people would come, I'd have booked a smaller room."
             ]
           }
+        ]
+      },
+      {
+        type: "choice",
+        title: "Choose the correct option",
+        src: "extra: https://www.englishpage.com/conditional/mixedconditional.html",
+        items: [
+          { q: "If I ___ Spanish at school, I could help you with this letter now.", options: ["studied", "had studied", "would study"], answer: 1, explain: "Past cause → present result: if + past perfect, could + infinitive." },
+          {
+            q: "If Maria ___ such an impatient person, she wouldn't have walked out of the interview yesterday.",
+            options: ["weren't", "wouldn't be", "would have been"],
+            answer: 0,
+            explain: "A permanent trait (present) explains a past result: if + past simple, would have + participle."
+          },
+          { q: "___ the government to raise taxes again, there would be protests.", options: ["Were", "Had", "Would"], answer: 0, explain: "Inversion of 'If the government were to raise…'." },
+          { q: "___ the quick thinking of the lifeguard, the boy would have drowned.", options: ["But for", "Unless", "Except"], answer: 0, explain: "But for + noun = if it hadn't been for." },
+          { q: "If he ___ for that start-up, he'd be a millionaire by now — but he turned the offer down.", options: ["worked", "had worked", "would work"], answer: 1 },
+          { q: "If you were to fail the exam, what ___?", options: ["will you do", "would you do", "would you have done"], answer: 1 },
+          { q: "If it ___ for the delay at the border yesterday, we'd have arrived before the speeches.", options: ["weren't", "hadn't been", "wouldn't be"], answer: 1 },
+          { q: "Had they ___ the risks, they would never have invested.", options: ["known", "knew", "know"], answer: 0 }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Are these conditionals correct? Correct the wrong ones",
+        src: "extra: https://www.perfect-english-grammar.com/third-conditional-exercise-1.html",
+        items: [
+          { s: "If I would have known about the strike, I'd have taken the bus.", ok: false, fix: "If I had known about the strike, I'd have taken the bus." },
+          { s: "If I weren't so afraid of heights, I'd have tried the zip line on holiday.", ok: true },
+          { s: "If we hadn't missed the ferry, we would be in Odesa now.", ok: true },
+          { s: "Did I know the answer, I'd tell you.", ok: false, fix: "If I knew the answer, I'd tell you." },
+          { s: "But for your help, we would never finish the project on time last week.", ok: false, fix: "But for your help, we would never have finished the project on time last week." },
+          { s: "If it weren't for my grandmother, I'd never have learnt to cook.", ok: true },
+          { s: "If the company were to collapse, thousands of people would lose their jobs.", ok: true },
+          { s: "Were it not for the rain yesterday, the match wouldn't be cancelled.", ok: false, fix: "Had it not been for the rain yesterday, the match wouldn't have been cancelled." },
+          { s: "If you had been listening, you would know what to do now.", ok: true }
         ]
       }
     ]

@@ -70,6 +70,22 @@ ES.registerLesson({
           "Children are abandoned by their parents.",
           "Governments are often portrayed as dictatorships."
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Онлайн-вправи на складніші пасивні конструкції.",
+        links: [
+          {
+            title: "British Council: Advanced passives review",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-passives-review",
+            note: "модальний пасив, get-пасив, is said to / is thought to have done"
+          },
+          {
+            title: "Perfect English Grammar: passive in subordinate clauses",
+            url: "https://www.perfect-english-grammar.com/passive-subordinate-clauses-exercise-1.html",
+            note: "вправа з автоперевіркою: пасив у підрядних реченнях"
+          }
+        ]
       }
     ],
     exercises: [
@@ -645,6 +661,40 @@ ES.registerLesson({
           { q: "A few of the volunteers refused to answer.", models: ["15% of the participants refused to answer."] },
           { q: "This study proves that people copy others.", models: ["The study suggests that individuals tend to conform to the behaviour of others."] },
           { q: "Like everyone, the participants used their phones for games.", models: ["The participants reported using their phones for games."] }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Are these passive sentences correct? Correct the wrong ones",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-passives-review",
+        items: [
+          { s: "The new airport is said to be the largest in Europe.", ok: true },
+          { s: "The suspect is believed to leave the country last night.", ok: false, fix: "The suspect is believed to have left the country last night." },
+          { s: "The accident was happened on a quiet country road.", ok: false, fix: "The accident happened on a quiet country road." },
+          { s: "I had my phone stolen on the metro.", ok: true },
+          { s: "The old cinema is being turned into flats.", ok: true },
+          { s: "It is thought that the painting was stolen to order.", ok: true },
+          { s: "My brother got sacked for being late every day.", ok: true },
+          { s: "The meeting is reported to have been cancel at the last minute.", ok: false, fix: "The meeting is reported to have been cancelled at the last minute." },
+          { s: "The problem was dealt quickly.", ok: false, fix: "The problem was dealt with quickly." },
+          { s: "She was given a second chance by her manager.", ok: true }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in the correct order",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-passives-review",
+        items: [
+          { words: ["having", "our", "We", "redesigned", "are", "kitchen"], answer: "We are having our kitchen redesigned." },
+          { words: ["alleged", "to", "The", "accepted", "minister", "have", "is", "bribes"], answer: "The minister is alleged to have accepted bribes." },
+          { words: ["thought", "hiding", "The", "to", "suspect", "be", "is", "in", "the", "forest"], answer: "The suspect is thought to be hiding in the forest." },
+          { words: ["needs", "looked", "This", "be", "into", "issue", "to", "immediately"], answer: "This issue needs to be looked into immediately.", alts: ["This issue immediately needs to be looked into."] },
+          { words: ["lost", "wedding", "Their", "in", "photos", "got", "the", "move"], answer: "Their wedding photos got lost in the move." },
+          {
+            words: ["heard", "has", "Nothing", "of", "been", "the", "expedition", "since", "Tuesday"],
+            answer: "Nothing has been heard of the expedition since Tuesday.",
+            alts: ["Since Tuesday nothing has been heard of the expedition."]
+          }
         ]
       }
     ]

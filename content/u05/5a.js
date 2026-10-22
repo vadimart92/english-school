@@ -117,6 +117,18 @@ ES.registerLesson({
           "Granted, there were only four people in the race.",
           "He didn't even notice me, let alone thank me."
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Додаткові безкоштовні вправи онлайн на лінкери контрасту й поступки.",
+        links: [
+          { title: "British Council: Contrasting ideas", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/contrasting-ideas", note: "although, despite, whereas, much as — пояснення і вправи рівня C1" },
+          {
+            title: "Perfect English Grammar: linking words of contrast",
+            url: "https://www.perfect-english-grammar.com/linking-words-contrast-exercise-1.html",
+            note: "вправа з автоперевіркою: however, although, despite, in spite of"
+          }
+        ]
       }
     ],
     exercises: [
@@ -694,6 +706,71 @@ ES.registerLesson({
           { q: "His decision had ___ consequences for the whole industry.", options: ["far-reaching", "peripheral", "superfluous"], answer: 0 },
           { q: "Many people think his books are ___; I don't see what's so special about them.", options: ["overrated", "undervalued", "indispensable"], answer: 0 },
           { q: "You can borrow my car, ___ you bring it back by Friday.", options: ["provided", "given", "inasmuch"], answer: 0 }
+        ]
+      },
+      {
+        type: "sort",
+        title: "What comes after each linker? Sort them",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/contrasting-ideas",
+        categories: ["+ clause (subject + verb)", "+ noun phrase / -ing", "linking adverb (new sentence)"],
+        items: [
+          { text: "although", cat: 0 },
+          { text: "even though", cat: 0 },
+          { text: "whereas", cat: 0 },
+          { text: "much as", cat: 0 },
+          { text: "while", cat: 0 },
+          { text: "despite", cat: 1 },
+          { text: "in spite of", cat: 1 },
+          { text: "regardless of", cat: 1 },
+          { text: "apart from", cat: 1 },
+          { text: "however", cat: 2 },
+          { text: "nevertheless", cat: 2 },
+          { text: "even so", cat: 2 },
+          { text: "on the other hand", cat: 2 }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Join the two sentences using the word in brackets",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/contrasting-ideas",
+        items: [
+          { q: "I respect his experience. I think he's wrong this time. (much as)", models: ["Much as I respect his experience, I think he's wrong this time."] },
+          {
+            q: "It was pouring with rain. The match went ahead. (despite)",
+            models: [
+              "Despite the pouring rain, the match went ahead.",
+              "Despite the fact that it was pouring with rain, the match went ahead."
+            ]
+          },
+          {
+            q: "My brother is a night owl. I'm up at five every morning. (whereas)",
+            models: [
+              "My brother is a night owl, whereas I'm up at five every morning.",
+              "Whereas my brother is a night owl, I'm up at five every morning."
+            ]
+          },
+          {
+            q: "The volunteers had no training. They did a brilliant job. (nevertheless)",
+            models: [
+              "The volunteers had no training. Nevertheless, they did a brilliant job.",
+              "The volunteers had no training; nevertheless, they did a brilliant job."
+            ]
+          },
+          {
+            q: "Funding was cut. The library stayed open. (in spite of)",
+            models: [
+              "In spite of the funding cuts, the library stayed open.",
+              "In spite of the fact that funding was cut, the library stayed open."
+            ]
+          },
+          { q: "He had never sailed before. He signed up for a round-the-world race. (even though)", models: ["Even though he had never sailed before, he signed up for a round-the-world race."] },
+          {
+            q: "It doesn't matter how much it costs. We need a new boiler. (regardless of)",
+            models: [
+              "We need a new boiler regardless of how much it costs.",
+              "Regardless of the cost, we need a new boiler."
+            ]
+          }
         ]
       }
     ]

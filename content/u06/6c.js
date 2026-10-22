@@ -89,6 +89,13 @@ ES.registerLesson({
           "Your idea is one of the best I've heard.",
           "Your jokes are nowhere near as bad as his."
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Онлайн-вправа на вищий ступінь прикметників.",
+        links: [
+          { title: "Perfect English Grammar: comparative adjectives", url: "https://www.perfect-english-grammar.com/comparative-adjectives-exercise-1.html", note: "вправа з автоперевіркою на форми вищого ступеня" }
+        ]
       }
     ],
     exercises: [
@@ -592,6 +599,43 @@ ES.registerLesson({
           { q: "Compare a film with the book it was based on.", models: ["The film isn't a patch on the book – the characters are nowhere near as interesting."] },
           { q: "Talk about an advert or slogan you remember.", models: ["There's a bank advert with a really catchy jingle, but the slogan itself is a bit corny."] },
           { q: "Which would you rather do: give a speech or sing in public?", models: ["I'd sooner give a speech than sing in public – my singing can't hold a candle to my sister's."] }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Are these comparative sentences correct? Correct the wrong ones",
+        src: "extra: https://www.perfect-english-grammar.com/comparative-adjectives-exercise-1.html",
+        items: [
+          { s: "The sequel is nowhere near as good as the original.", ok: true },
+          { s: "The more I read about it, more I worry.", ok: false, fix: "The more I read about it, the more I worry." },
+          { s: "This is by far the more interesting book I've read this year.", ok: false, fix: "This is by far the most interesting book I've read this year." },
+          { s: "She drives much more carefully than her brother.", ok: true },
+          { s: "He did badlier in the final than in the semi-final.", ok: false, fix: "He did worse in the final than in the semi-final." },
+          { s: "Prices are getting more and more high.", ok: false, fix: "Prices are getting higher and higher." },
+          { s: "The new phone is slightly more cheaper than the old one.", ok: false, fix: "The new phone is slightly cheaper than the old one." },
+          { s: "I'd rather walk than take the bus.", ok: true },
+          { s: "It's one of the best decision I've ever made.", ok: false, fix: "It's one of the best decisions I've ever made." },
+          { s: "I prefer cycling than driving.", ok: false, fix: "I prefer cycling to driving." }
+        ]
+      },
+      {
+        type: "sort",
+        title: "How big is the difference? Sort the phrases",
+        src: "extra: https://www.perfect-english-grammar.com/comparative-adjectives-exercise-1.html",
+        categories: ["a big difference", "a small difference", "no difference"],
+        items: [
+          { text: "far more expensive", cat: 0 },
+          { text: "way bigger", cat: 0 },
+          { text: "nowhere near as fast as", cat: 0 },
+          { text: "nothing like as strict as", cat: 0 },
+          { text: "considerably cheaper", cat: 0 },
+          { text: "slightly warmer", cat: 1 },
+          { text: "a bit older", cat: 1 },
+          { text: "marginally better", cat: 1 },
+          { text: "not quite as tall as", cat: 1 },
+          { text: "just as good as", cat: 2 },
+          { text: "every bit as clever as", cat: 2 },
+          { text: "no different from", cat: 2 }
         ]
       }
     ]

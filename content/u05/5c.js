@@ -85,6 +85,13 @@ ES.registerLesson({
         h: "Pronunciation: 'd",
         p: "'d can be had or would, and in fast speech they sound the same. Listen to what follows: past participle → had (I wish you'd tried); bare infinitive → would (I wish you'd try).",
         ex: ["I wish you'd tried to help.", "I wish you'd try to help."]
+      },
+      {
+        h: "Більше практики",
+        p: "Онлайн-пояснення і вправи на wish, if only, it's time і would rather.",
+        links: [
+          { title: "British Council: Unreal time", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/unreal-time", note: "wish, if only, it's (high) time, as if, would rather — пояснення і вправи" }
+        ]
       }
     ],
     exercises: [
@@ -703,6 +710,33 @@ ES.registerLesson({
           { q: "What would you change about the street where you live?", models: ["I wish there were more trees, and it's about time the council fixed the pavements."] },
           { q: "What do neighbours or tourists do that annoys you?", models: ["I wish people wouldn't leave litter by the bins. I'd rather they took it home."] },
           { q: "What do you regret not doing last year?", models: ["If only I had started learning to swim – I keep saying I will."] }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in the correct order",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/unreal-time",
+        items: [
+          { words: ["rather", "anyone", "I'd", "tell", "you", "this", "didn't", "about"], answer: "I'd rather you didn't tell anyone about this." },
+          { words: ["time", "looking", "high", "we", "for", "It's", "started", "a", "new", "flat"], answer: "It's high time we started looking for a new flat." },
+          { words: ["only", "sold", "I", "my", "If", "hadn't", "old", "guitar"], answer: "If only I hadn't sold my old guitar." },
+          { words: ["as", "talks", "if", "owned", "She", "she", "the", "place"], answer: "She talks as if she owned the place." },
+          { words: ["neighbours", "turn", "I", "would", "wish", "my", "the", "down", "music"], answer: "I wish my neighbours would turn the music down.", alts: ["I wish my neighbours would turn down the music."] },
+          { words: ["rather", "met", "you", "Would", "we", "the", "at", "café"], answer: "Would you rather we met at the café?" }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Rewrite the sentences using the words in brackets",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/unreal-time",
+        items: [
+          { q: "I regret not taking that photography course. (wish)", models: ["I wish I had taken that photography course."] },
+          { q: "Please don't smoke in the car. (rather)", models: ["I'd rather you didn't smoke in the car."] },
+          { q: "The council should have repaired this bridge years ago. (high time)", models: ["It's high time the council repaired this bridge."] },
+          { q: "It annoys me that you keep leaving the door open. (wish)", models: ["I wish you wouldn't keep leaving the door open.", "I wish you'd stop leaving the door open."] },
+          { q: "I can't play the piano, and I'd love to. (if only)", models: ["If only I could play the piano!"] },
+          { q: "He behaves like the boss, but he isn't. (as if)", models: ["He behaves as if he were the boss.", "He behaves as if he was the boss."] },
+          { q: "It's a pity you told Mum about the party. (rather)", models: ["I'd rather you hadn't told Mum about the party."] }
         ]
       }
     ]

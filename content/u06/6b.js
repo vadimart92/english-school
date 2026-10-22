@@ -81,6 +81,13 @@ ES.registerLesson({
           "It's ESSENTIAL these practices be regulated.",
           "It's absolutely CRUCIAL you remove temptations to buy more."
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Онлайн-пояснення до суміжних конструкцій: would rather, it's time, as if.",
+        links: [
+          { title: "British Council: Unreal time", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/unreal-time", note: "it's (high) time, would rather + підмет — пояснення і вправи" }
+        ]
       }
     ],
     exercises: [
@@ -556,6 +563,46 @@ ES.registerLesson({
               "It's essential that they remove my address from their list and that they comply with data protection law."
             ]
           }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Rewrite as a formal recommendation using the word in brackets",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/unreal-time",
+        items: [
+          { q: "The manager should be told immediately. (essential)", models: ["It is essential that the manager be told immediately."] },
+          { q: "'You really must apologise to the customer, Tom,' she said. (insisted)", models: ["She insisted that Tom apologise to the customer."] },
+          { q: "We think the company ought to reduce its prices. (recommend)", models: ["We recommend that the company reduce its prices."] },
+          {
+            q: "'Don't publish the article yet,' the lawyer told the editor. (advisable)",
+            models: [
+              "It is advisable that the article not be published yet.",
+              "It is advisable that the editor not publish the article yet."
+            ]
+          },
+          {
+            q: "Every driver must carry a licence — that's the rule. (requirement)",
+            models: [
+              "There is a requirement that every driver carry a licence.",
+              "It is a requirement that every driver carry a licence."
+            ]
+          },
+          { q: "The union wants the CEO to resign. (demand)", models: ["The union demands that the CEO resign."] },
+          { q: "I think we should postpone the meeting. (propose)", models: ["I propose that the meeting be postponed.", "I propose that we postpone the meeting."] }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in the correct order",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/unreal-time",
+        items: [
+          { words: ["vital", "not", "It", "miss", "is", "he", "that", "the", "deadline"], answer: "It is vital that he not miss the deadline." },
+          { words: ["insisted", "be", "The", "report", "board", "that", "the", "published", "in", "full"], answer: "The board insisted that the report be published in full." },
+          { words: ["suggest", "contact", "I", "he", "that", "the", "bank", "directly"], answer: "I suggest that he contact the bank directly.", alts: ["I suggest that he directly contact the bank."] },
+          { words: ["imperative", "comply", "It", "every", "is", "employee", "that", "with", "the", "new", "rules"], answer: "It is imperative that every employee comply with the new rules." },
+          { words: ["recommended", "be", "They", "the", "that", "product", "withdrawn", "from", "sale"], answer: "They recommended that the product be withdrawn from sale." },
+          { words: ["be", "me", "Far", "from", "it", "to", "criticise", "your", "cooking"], answer: "Far be it from me to criticise your cooking." },
+          { words: ["what", "will", "Come", "finish", "may", "we", "on", "time"], answer: "Come what may, we will finish on time.", alts: ["We will finish on time, come what may."] }
         ]
       }
     ]
