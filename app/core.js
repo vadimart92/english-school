@@ -140,11 +140,30 @@
     return errs;
   }
 
+  /* ------------------------------------------------------------ debug export */
+
+  /* Markdown file of debug comments, meant to be handed back to Claude. */
+  function exportComments(list, meta) {
+    var out = ["# Debug-коментарі · " + meta.date, ""];
+    if (!list.length) return out.concat(["Коментарів немає.", ""]).join("\n");
+    out.push("Кожен коментар прив'язаний до елемента застосунку: `ref` — урок/режим/вправа/пункт, `route` — адреса сторінки.", "");
+    list.forEach(function (c, i) {
+      out.push("## " + (i + 1) + ". " + (c.ref || c.path));
+      out.push("Коментар: " + String(c.comment).trim());
+      out.push("- route: `" + c.route + "`");
+      if (c.ref) out.push("- element: `" + c.path + "`");
+      if (c.text) out.push("- текст елемента: " + JSON.stringify(c.text));
+      out.push("");
+    });
+    return out.join("\n");
+  }
+
   var core = {
     MODES: MODES, TYPES: TYPES,
     norm: norm, same: same,
     scoreKey: scoreKey, itemKey: itemKey, lessonModes: lessonModes,
-    migrateV1: migrateV1, validateLesson: validateLesson
+    migrateV1: migrateV1, validateLesson: validateLesson,
+    exportComments: exportComments
   };
 
   if (typeof module !== "undefined" && module.exports) module.exports = core;
