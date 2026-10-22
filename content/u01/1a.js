@@ -10,8 +10,449 @@ ES.registerLesson({
   uk: "Командна робота: перфектні часи і фрази з делексичними дієсловами",
   goal: "give feedback on an event",
   focus: { grammar: "present, past and future perfect", vocab: "phrases with delexical verbs", pron: "pronunciation of have/had in perfect forms" },
-  learn: { theory: [], exercises: [] },
-  homework: { exercises: [] },
+  learn: {
+    theory: [
+      {
+        h: "Perfect forms: looking back from a point",
+        p: "Перфектні форми дивляться назад від певної точки: зараз (present perfect), тоді в минулому (past perfect) або тоді в майбутньому (future perfect). Simple (have + V3) — про завершену подію чи кількість разів; continuous (have been + -ing) — про процес чи активність. Дієслова стану (know, own, cost, believe) зазвичай лишаються в simple.",
+        ex: [
+          "We've known each other since primary school.",
+          "I've been waiting for the bus for twenty minutes.",
+          "By Friday she'll have finished the report.",
+          "They were soaked because they'd been walking in the rain."
+        ]
+      },
+      {
+        h: "Four reasons to use a perfect form",
+        table: [
+          [
+            "1 Time up to a point (for, since, how long)",
+            "Simple for states, continuous for actions: I've had this bike for ages. / I've been learning Spanish since May."
+          ],
+          [
+            "2 Results of earlier events (so, because)",
+            "Simple for completed events, continuous for processes: I'm upset because I've broken my glasses. / I'm sweaty because I've been cycling."
+          ],
+          [
+            "3 Experiences up to a point (ever, never, already, yet, times)",
+            "Almost always simple, even for repeated events: I've already read this book three times."
+          ],
+          [
+            "4 Recent news and trends",
+            "Simple for news, continuous for trends: The prices have just gone up. / More people have been working from home lately."
+          ]
+        ]
+      },
+      {
+        h: "Watch out",
+        list: [
+          "Negatives: I haven't driven for years = востаннє давно; I haven't been driving for long = почав нещодавно.",
+          "Present perfect не вживається з конкретним минулим часом (last week, in 2019), а past/future perfect — можуть: I'd sprained my ankle the day before.",
+          "Після when / as soon as / until про майбутнє — present perfect, не future perfect: Call me when you've finished (NOT when you'll have finished).",
+          "Вимова: у швидкому мовленні have/had у перфекті ненаголошені — /əv/, /əd/, часто скорочені: we'd been, they'll have been."
+        ]
+      },
+      {
+        h: "Delexical verbs",
+        p: "Делексичні дієслова (have, take, make, give, get, go, do, hold) мають «слабке» значення — основний зміст несе іменник: take a look = look, have a chat = chat, go for a hike = hike. Такі фрази звучать природніше й дозволяють додати прикметник: have a quick chat, take a closer look.",
+        table: [
+          ["have", "a lie-down, a well-earned rest, a chat, a sit-down"],
+          ["go", "for a run / a stroll / a hike, on a course, on a search"],
+          ["give someone", "help, a break, a warm welcome, a nudge"],
+          ["get", "some fresh air, some exercise, people talking, the benefits of sth"],
+          ["hold", "a meeting, a competition, a feedback session, a race"],
+          ["make", "a contribution, a success of sth, a statement, the effort"],
+          ["do", "some rock-climbing, plenty of preparation, someone good, team building"],
+          ["take", "the initiative, the lead, a look, sth into consideration"]
+        ]
+      }
+    ],
+    exercises: [
+      {
+        type: "match",
+        title: "Match the simple verb to the phrase with a delexical verb",
+        src: "SB 4a",
+        items: [
+          { a: "try", b: "make the effort" },
+          { a: "nudge", b: "give a nudge" },
+          { a: "look", b: "take a look" },
+          { a: "build a team", b: "do team building" },
+          { a: "search", b: "go on a search" },
+          { a: "exercise", b: "get some exercise" },
+          { a: "race", b: "hold a race" },
+          { a: "hike", b: "go for a hike" },
+          { a: "chat", b: "have a chat" }
+        ]
+      },
+      {
+        type: "cards",
+        title: "Phrases with delexical verbs",
+        src: "SB 5a",
+        items: [
+          { front: "have a well-earned rest", back: "заслужено відпочити", ex: "After the conference we all had a well-earned rest." },
+          { front: "have a lie-down", back: "трохи полежати", ex: "I've got a headache – I'm going to have a lie-down." },
+          { front: "go for a stroll", back: "прогулятися (неспішно)", ex: "Let's go for a stroll along the river after lunch." },
+          { front: "give someone a warm welcome", back: "тепло когось зустріти", ex: "The team gave the new intern a warm welcome." },
+          { front: "give someone a nudge", back: "підштовхнути когось (до дії)", ex: "He needs a nudge to apply for that job." },
+          { front: "get people talking", back: "змусити людей розговоритися", ex: "A quiz is a good way to get people talking." },
+          { front: "get the benefits of something", back: "отримати користь від чогось", ex: "You'll only get the benefits of the course if you do the homework." },
+          { front: "hold a feedback session", back: "провести зустріч для відгуків", ex: "We'll hold a feedback session on Friday." },
+          { front: "make a success of something", back: "домогтися успіху в чомусь", ex: "She made a real success of her small bakery." },
+          { front: "make a statement", back: "зробити (офіційну) заяву", ex: "The minister refused to make a statement." },
+          { front: "do someone good", back: "піти комусь на користь", ex: "A week by the sea will do you good." },
+          { front: "take the initiative", back: "проявити ініціативу", ex: "Nobody was organising anything, so Ola took the initiative." },
+          { front: "take something into consideration", back: "взяти щось до уваги", ex: "We'll take your experience into consideration." }
+        ]
+      },
+      {
+        type: "gap",
+        title: "Complete with the correct form of a delexical verb (do, get, give, go, have, hold, make, take)",
+        src: "SB 5a",
+        items: [
+          {
+            q: "Before the trip we ___ plenty of preparation, so nothing went wrong.",
+            answers: [
+              ["did"]
+            ]
+          },
+          {
+            q: "I'm going to ___ for a run before work tomorrow.",
+            answers: [
+              ["go"]
+            ]
+          },
+          {
+            q: "The new manager ___ the initiative and reorganised the whole office.",
+            answers: [
+              ["took"]
+            ]
+          },
+          {
+            q: "Why don't we ___ a singing competition at the end-of-year party?",
+            answers: [
+              ["hold"]
+            ]
+          },
+          {
+            q: "Open the window – we need to ___ some fresh air in here.",
+            answers: [
+              ["get"]
+            ]
+          },
+          {
+            q: "Everyone ___ a contribution during yesterday's discussion.",
+            answers: [
+              ["made"]
+            ]
+          },
+          {
+            q: "You look exhausted. Why don't you ___ a sit-down?",
+            answers: [
+              ["have"]
+            ]
+          },
+          {
+            q: "Could you ___ me a hand with these chairs?",
+            answers: [
+              ["give"]
+            ]
+          },
+          {
+            q: "When choosing a venue, we have to ___ the cost into consideration.",
+            answers: [
+              ["take"]
+            ]
+          },
+          {
+            q: "A day off would ___ you a lot of good.",
+            answers: [
+              ["do"]
+            ]
+          }
+        ]
+      },
+      {
+        type: "choice",
+        title: "Choose the most natural alternative",
+        src: "SB 7a",
+        items: [
+          { q: "We've ___ about the office party a lot lately and decided to change the venue.", options: ["talked", "been talking"], answer: 1, explain: "A repeated activity up to now → continuous." },
+          { q: "…and we've ___ to the conclusion that last year's format was too long.", options: ["come", "been coming"], answer: 0, explain: "A completed result (we reached a conclusion) → simple." },
+          { q: "Most people worked with colleagues they'd already ___ for years.", options: ["known", "been knowing"], answer: 0, explain: "know is a state verb → simple." },
+          { q: "The groups will be mixed, so many people won't have ___ each other before.", options: ["met", "been meeting"], answer: 0, explain: "Experience up to a point → simple." },
+          { q: "They were exhausted because they'd ___ for hours.", options: ["cycled", "been cycling"], answer: 1, explain: "A process that explains a past result → continuous." },
+          { q: "We spent five days camping, and by the fourth day we'd ___ enough of the rain!", options: ["had", "been having"], answer: 0, explain: "have enough = state → simple." },
+          { q: "I'm worried because I've ___ my passport.", options: ["lost", "been losing"], answer: 0, explain: "Present result of a completed event → simple." },
+          { q: "I've ___ this series three times already.", options: ["watched", "been watching"], answer: 0, explain: "Number of times → simple." }
+        ]
+      },
+      {
+        type: "gap",
+        title: "Complete with the most natural perfect form of the verb",
+        src: "SB 9",
+        items: [
+          {
+            q: "They'll be hungry when they get back – they ___ non-stop since breakfast.",
+            hint: "walk",
+            answers: [
+              ["will have been walking", "'ll have been walking"]
+            ]
+          },
+          {
+            q: "The talk was boring because I ___ the same ideas many times before.",
+            hint: "already / hear",
+            answers: [
+              ["had already heard", "'d already heard"]
+            ]
+          },
+          {
+            q: "Lately, more and more staff ___ to work by bike.",
+            hint: "come",
+            answers: [
+              ["have been coming", "'ve been coming"]
+            ]
+          },
+          {
+            q: "Please text me as soon as you ___ which restaurant to book.",
+            hint: "choose",
+            answers: [
+              ["have chosen", "'ve chosen"]
+            ]
+          },
+          {
+            q: "By the time the guests arrived, we ___ for three hours.",
+            hint: "cook",
+            answers: [
+              ["had been cooking", "'d been cooking"]
+            ]
+          },
+          {
+            q: "Next June, Marta ___ at this company for ten years.",
+            hint: "work",
+            answers: [
+              ["will have been working", "'ll have been working", "will have worked", "'ll have worked"]
+            ]
+          },
+          {
+            q: "I'm so happy – I ___ my driving test!",
+            hint: "just / pass",
+            answers: [
+              ["have just passed", "'ve just passed"]
+            ]
+          },
+          {
+            q: "I didn't recognise him – he ___ a beard.",
+            hint: "grow",
+            answers: [
+              ["had grown", "'d grown"]
+            ]
+          }
+        ]
+      },
+      {
+        type: "speak",
+        title: "Give feedback on an event",
+        src: "SB 11",
+        intro: "Imagine you attended a team-building day, a conference or a party. Give feedback as an attendee, then respond as the organiser. Use perfect forms and delexical phrases.",
+        phrases: [
+          "had been",
+          "have been",
+          "will have",
+          "take into consideration",
+          "get people talking",
+          "give a warm welcome",
+          "make a success of",
+          "hold a",
+          "do plenty of"
+        ],
+        items: [
+          {
+            q: "Attendee: what did you like about the event?",
+            models: [
+              "The organisers had clearly done plenty of preparation, and the quiz really got people talking. We'd been sitting in meetings all week, so it did us a lot of good."
+            ]
+          },
+          {
+            q: "Attendee: what went wrong?",
+            models: [
+              "The activities went on too long – by lunchtime we'd been standing outside for three hours and nobody had had a sit-down."
+            ]
+          },
+          {
+            q: "Organiser: justify a decision people complained about.",
+            models: [
+              "We chose an outdoor venue because people had been asking for more fresh air, but we'll take the weather into consideration next time."
+            ]
+          },
+          {
+            q: "Organiser: what will be different next year?",
+            models: [
+              "By next year we'll have found a bigger venue, and we'll hold a feedback session straight after the event."
+            ]
+          },
+          { q: "Attendee: suggest one improvement.", models: ["Maybe someone could take the lead in each group – some teams didn't know what to do."] }
+        ]
+      }
+    ]
+  },
+  homework: {
+    exercises: [
+      {
+        type: "choice",
+        title: "Choose the correct alternative",
+        src: "WB 1",
+        items: [
+          { q: "Oksana should ___ the lead on the new project.", options: ["hold", "make", "take"], answer: 2 },
+          { q: "Let's go to the park and ___ some exercise.", options: ["get", "go", "take"], answer: 0 },
+          { q: "I think we need to ___ Pavlo a nudge in the right direction.", options: ["do", "get", "give"], answer: 2 },
+          { q: "If you ___ plenty of preparation, the interview will go fine.", options: ["do", "have", "make"], answer: 0 },
+          { q: "You won't succeed unless you ___ the effort.", options: ["give", "make", "take"], answer: 1 },
+          { q: "I'm afraid the new rules have ___ more harm than good.", options: ["done", "had", "held"], answer: 0 },
+          { q: "Let's ___ our new colleague a warm welcome.", options: ["give", "have", "make"], answer: 0 },
+          { q: "Could you ___ a look at this invoice? Something's wrong.", options: ["give", "hold", "take"], answer: 2 }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Correct the mistake in each sentence",
+        src: "WB 2",
+        items: [
+          { s: "They tried to do a success of the café, but it closed after a year.", ok: false, fix: "They tried to make a success of the café, but it closed after a year." },
+          { s: "I'm going outside to make some fresh air.", ok: false, fix: "I'm going outside to get some fresh air." },
+          { s: "We held a search for information about our family history.", ok: false, fix: "We went on a search for information about our family history." },
+          { s: "I'm getting for a run after work.", ok: false, fix: "I'm going for a run after work." },
+          { s: "A weekend in the mountains will give you a lot of good.", ok: false, fix: "A weekend in the mountains will do you a lot of good." },
+          { s: "I'm going to make a lie-down before the guests arrive.", ok: false, fix: "I'm going to have a lie-down before the guests arrive." }
+        ]
+      },
+      {
+        type: "gap",
+        title: "Complete with a word/phrase: a chat, a contribution, a well-earned rest, into consideration, people talking, rock-climbing, the effort",
+        src: "WB 3",
+        items: [
+          {
+            q: "A: Your argument with the boss certainly got ___. B: I know. We both need to make ___ to sort things out.",
+            answers: [
+              ["people talking"],
+              ["the effort"]
+            ]
+          },
+          {
+            q: "A: I didn't make much of ___ to the meeting today. B: Don't worry, everyone's taking the fact that you're ill ___.",
+            answers: [
+              ["a contribution"],
+              ["into consideration"]
+            ]
+          },
+          {
+            q: "A: Did you have ___ at the weekend? B: Not really. I did some ___!",
+            answers: [
+              ["a well-earned rest"],
+              ["rock-climbing"]
+            ]
+          },
+          {
+            q: "Grandma seemed fine when we had ___ on the phone last week.",
+            answers: [
+              ["a chat"]
+            ]
+          }
+        ]
+      },
+      {
+        type: "choice",
+        title: "Choose the best option",
+        src: "WB 4",
+        items: [
+          { q: "You ___ me this joke at least four times already!", options: ["'ve been telling", "'ve told"], answer: 1, explain: "Number of times → simple." },
+          { q: "I ___ my hair dyed. Do you like it?", options: ["'ve had", "'ve been having"], answer: 0, explain: "Completed event with a present result → simple." },
+          { q: "I ___ since seven this morning and I still haven't finished.", options: ["'ve been working", "worked"], answer: 0, explain: "Activity continuing up to now → present perfect continuous." },
+          { q: "What time ___ finished at the gym, do you think?", options: ["have you", "will you have"], answer: 1, explain: "Looking back from a future point → future perfect." },
+          { q: "At the end of next month we ___ here for two years.", options: ["'ve been living", "will have been living"], answer: 1, explain: "Duration up to a future point → future perfect continuous." },
+          { q: "I ___ on my feet all day and my legs hurt when I got home.", options: ["'d been standing", "'ve been standing"], answer: 0, explain: "Process before a past moment → past perfect continuous." },
+          { q: "I doubt I ___ everything on my list by the end of the day.", options: ["'ve been doing", "'ll have done"], answer: 1, explain: "Completed by a future point → future perfect simple." }
+        ]
+      },
+      {
+        type: "gap",
+        title: "Complete with a perfect form of the verb in brackets",
+        src: "WB 5",
+        intro: "The sentences are about a volunteer team at a food bank.",
+        items: [
+          {
+            q: "For four years, my colleagues and I ___ out at a food bank one Saturday a month.",
+            hint: "help",
+            answers: [
+              ["have been helping", "'ve been helping", "have helped", "'ve helped"]
+            ]
+          },
+          {
+            q: "The food bank ___ in operation for about six years.",
+            hint: "be",
+            answers: [
+              ["has been", "'s been"]
+            ]
+          },
+          {
+            q: "Its founder started it because, a few years earlier, her husband ___ his job.",
+            hint: "lose",
+            answers: [
+              ["had lost", "'d lost"]
+            ]
+          },
+          {
+            q: "By the end of this year, the food bank ___ help to around 1,000 families.",
+            hint: "provide",
+            answers: [
+              ["will have provided", "'ll have provided"]
+            ]
+          },
+          {
+            q: "Many of these people work, but they ___ to find low-paid jobs.",
+            hint: "only / be able",
+            answers: [
+              ["have only been able", "'ve only been able"]
+            ]
+          },
+          {
+            q: "One woman ___ a small shop for ten years before a supermarket opened nearby.",
+            hint: "run",
+            answers: [
+              ["had run", "'d run", "had been running", "'d been running"]
+            ]
+          },
+          {
+            q: "Since then, she ___ at that supermarket for a few months.",
+            hint: "work",
+            answers: [
+              ["has been working", "'s been working", "has worked", "'s worked"]
+            ]
+          },
+          {
+            q: "Her husband ___ to find temporary work here and there.",
+            hint: "only / manage",
+            answers: [
+              ["has only managed", "'s only managed"]
+            ]
+          },
+          {
+            q: "I think the work ___ our team closer together.",
+            hint: "bring",
+            answers: [
+              ["has brought", "'s brought"]
+            ]
+          },
+          {
+            q: "We all ___ the work very rewarding.",
+            hint: "find",
+            answers: [
+              ["have found", "'ve found"]
+            ]
+          }
+        ]
+      }
+    ]
+  },
   refresh: {
     theory: [
       {
@@ -336,6 +777,62 @@ ES.registerLesson({
           { q: "You want to evaluate how a project went after it finished.", models: ["Let's hold a feedback session."] }
         ],
         src: "Revision"
+      },
+      {
+        type: "gap",
+        title: "Complete with the correct form of do, get, give, go, make or take",
+        src: "Check 1",
+        items: [
+          {
+            q: "After the scandal, the club was forced to ___ a statement.",
+            answers: [
+              ["make"]
+            ]
+          },
+          {
+            q: "I'm shattered. I think I'll ___ for a quick walk to wake up.",
+            answers: [
+              ["go"]
+            ]
+          },
+          {
+            q: "Complaining politely might actually ___ the shop some good.",
+            answers: [
+              ["do"]
+            ]
+          },
+          {
+            q: "Who usually ___ the lead in your group projects?",
+            answers: [
+              ["takes"]
+            ]
+          },
+          {
+            q: "Can you ___ me a break? I've been working since six!",
+            answers: [
+              ["give"]
+            ]
+          },
+          {
+            q: "Name games are a good way to ___ people talking.",
+            answers: [
+              ["get"]
+            ]
+          }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Find the four sentences with a mistake and correct them",
+        src: "Check 2",
+        items: [
+          { s: "The players will be exhausted after the match. They'll have run around for ninety minutes.", ok: false, fix: "The players will be exhausted after the match. They'll have been running around for ninety minutes." },
+          { s: "My hands were dirty because I've been fixing the bike.", ok: false, fix: "My hands were dirty because I'd been fixing the bike." },
+          { s: "We've been having some trouble with our neighbours recently.", ok: true },
+          { s: "I'll text you when I'll have arrived at the station.", ok: false, fix: "I'll text you when I've arrived at the station." },
+          { s: "We ate the cake that we'd baked the previous evening.", ok: true },
+          { s: "It's my favourite play. I've been seeing it four times.", ok: false, fix: "It's my favourite play. I've seen it four times." }
+        ]
       }
     ]
   }
