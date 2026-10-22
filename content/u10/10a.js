@@ -52,6 +52,17 @@ ES.registerLesson({
           ["spearhead / spur / lead (an effort, a campaign)", "очолювати / стимулювати"],
           ["a new dawn / era (in…)", "нова ера, початок нової епохи"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Додаткові онлайн-вправи на інверсію після заперечних прислівників — один із ключових прийомів емфази.",
+        links: [
+          {
+            title: "British Council: Inversion after negative adverbials",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-after-negative-adverbials",
+            note: "never, rarely, hardly, no sooner, only, little + два тести"
+          }
+        ]
       }
     ],
     exercises: [
@@ -526,6 +537,36 @@ ES.registerLesson({
           { q: "You may not believe it, but it works. (emphatic auxiliary)", models: ["It does work – honestly."] },
           { q: "The course is useful. (statement + repetition + explanation)", models: ["The course is useful… it's useful because you practise real situations."] },
           { q: "We don't want to copy others. (contrasting pair)", models: ["We don't want to copy others. We want to lead."] }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Is the inversion correct? Correct the wrong ones",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-after-negative-adverbials",
+        items: [
+          { s: "Never I have seen such a brilliant pitch.", ok: false, fix: "Never have I seen such a brilliant pitch." },
+          { s: "Not only the app is cheaper, but it is also faster.", ok: false, fix: "Not only is the app cheaper, but it is also faster." },
+          { s: "Rarely do investors take such a risk on an unknown start-up.", ok: true },
+          { s: "No sooner had we launched the product than a rival copied it.", ok: true },
+          { s: "Only when the results came in we realised how successful it was.", ok: false, fix: "Only when the results came in did we realise how successful it was." },
+          { s: "Little they knew that the idea would change the whole industry.", ok: false, fix: "Little did they know that the idea would change the whole industry." },
+          { s: "No sooner had the shop opened when a queue formed outside.", ok: false, fix: "No sooner had the shop opened than a queue formed outside." },
+          { s: "Under no circumstances should you share the prototype.", ok: true },
+          { s: "Not until the second year the company made a profit.", ok: false, fix: "Not until the second year did the company make a profit." },
+          { s: "Hardly had the presentation started when the projector broke down.", ok: true }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in order to make emphatic sentences",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-after-negative-adverbials",
+        items: [
+          { words: ["seldom", "have", "we", "seen", "such", "enthusiasm", "from", "customers"], answer: "Seldom have we seen such enthusiasm from customers." },
+          { words: ["what", "makes", "this", "device", "unique", "is", "its", "battery", "life"], answer: "What makes this device unique is its battery life.", alts: ["Its battery life is what makes this device unique."] },
+          { words: ["it", "was", "the", "design", "that", "won", "us", "the", "contract"], answer: "It was the design that won us the contract." },
+          { words: ["not", "once", "did", "the", "team", "lose", "sight", "of", "their", "goal"], answer: "Not once did the team lose sight of their goal." },
+          { words: ["at", "no", "point", "were", "the", "users", "consulted"], answer: "At no point were the users consulted." },
+          { words: ["only", "by", "working", "together", "can", "we", "solve", "this", "problem"], answer: "Only by working together can we solve this problem." }
         ]
       }
     ]

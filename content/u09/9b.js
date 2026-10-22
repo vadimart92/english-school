@@ -74,6 +74,18 @@ ES.registerLesson({
           ["spread like wildfire", "поширюватися блискавично"],
           ["I'm all ears", "я весь увага"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Додаткові онлайн-вправи на непряму мову та моделі дієслів, що вводять чужі слова.",
+        links: [
+          {
+            title: "British Council: Patterns with reporting verbs",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/patterns-reporting-verbs",
+            note: "infinitive, -ing, прийменник чи that-clause після reporting verbs"
+          },
+          { title: "Perfect English Grammar: reported speech (mixed)", url: "https://www.perfect-english-grammar.com/reported-speech-exercise-4.html", note: "змішана вправа на перетворення прямої мови в непряму" }
+        ]
       }
     ],
     exercises: [
@@ -576,6 +588,37 @@ ES.registerLesson({
               ["grapevine"]
             ]
           }
+        ]
+      },
+      {
+        type: "sort",
+        title: "Which pattern does each reporting verb take?",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/patterns-reporting-verbs",
+        categories: ["verb + to-infinitive", "verb + object + to-infinitive", "verb (+ preposition) + -ing"],
+        items: [
+          { text: "refuse", cat: 0 },
+          { text: "threaten", cat: 0 },
+          { text: "offer", cat: 0 },
+          { text: "persuade", cat: 1 },
+          { text: "urge", cat: 1 },
+          { text: "remind", cat: 1 },
+          { text: "deny", cat: 2 },
+          { text: "apologise for", cat: 2 },
+          { text: "insist on", cat: 2 }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in order to make reported sentences",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/patterns-reporting-verbs",
+        items: [
+          { words: ["he", "insisted", "that", "she", "be", "told", "the", "truth"], answer: "He insisted that she be told the truth." },
+          { words: ["the", "minister", "is", "said", "to", "have", "resigned", "last", "night"], answer: "The minister is said to have resigned last night.", alts: ["Last night the minister is said to have resigned."] },
+          { words: ["she", "accused", "him", "of", "having", "read", "her", "diary"], answer: "She accused him of having read her diary." },
+          { words: ["they", "recommended", "that", "the", "bridge", "be", "closed", "immediately"], answer: "They recommended that the bridge be closed immediately." },
+          { words: ["my", "boss", "warned", "me", "not", "to", "be", "late", "again"], answer: "My boss warned me not to be late again." },
+          { words: ["it", "is", "thought", "that", "the", "painting", "was", "stolen", "to", "order"], answer: "It is thought that the painting was stolen to order." },
+          { words: ["he", "apologised", "for", "not", "having", "called", "sooner"], answer: "He apologised for not having called sooner." }
         ]
       }
     ]

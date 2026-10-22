@@ -56,6 +56,18 @@ ES.registerLesson({
           ["the initial phase (of the game)", "початкова фаза"],
           ["the ultimate goal", "кінцева мета"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Ще про те, як у розмовній і письмовій мові пропускати або замінювати повторювані слова.",
+        links: [
+          { title: "British Council: Ellipsis", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/ellipsis", note: "пропуск слів після сполучників, після to, після допоміжних і модальних дієслів" },
+          {
+            title: "British Council: Avoiding repetition in a text",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/avoiding-repetition-text",
+            note: "it, this, that, such, do so і синоніми замість повторів"
+          }
+        ]
       }
     ],
     exercises: [
@@ -564,6 +576,37 @@ ES.registerLesson({
               ["outburst"]
             ]
           }
+        ]
+      },
+      {
+        type: "errors",
+        title: "Is the short form correct? Correct the wrong ones",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/ellipsis",
+        items: [
+          { s: "'Will we lose again?' 'I don't hope so.'", ok: false, fix: "'Will we lose again?' 'I hope not.'" },
+          { s: "'Did you win?' 'No, but I nearly do.'", ok: false, fix: "'Did you win?' 'No, but I nearly did.'" },
+          { s: "She promised to teach me the rules, and she did so the following weekend.", ok: true },
+          { s: "He can play chess much better than I do.", ok: false, fix: "He can play chess much better than I can." },
+          { s: "That rule about the dice – I just don't get it.", ok: true },
+          { s: "It's so annoying, losing on the very last turn.", ok: true },
+          { s: "'Have you read the instructions?' 'No, but I'm going to read.'", ok: false, fix: "'Have you read the instructions?' 'No, but I'm going to.'" },
+          { s: "'Has anyone seen the dice?' 'I think that.'", ok: false, fix: "'Has anyone seen the dice?' 'I think so.'" },
+          { s: "I've never played Go, but my sister has.", ok: true },
+          { s: "If you don't want to roll the dice, you don't have.", ok: false, fix: "If you don't want to roll the dice, you don't have to." }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Rewrite to avoid repetition or to add a head or tail",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/avoiding-repetition-text",
+        items: [
+          { q: "I'd like to try the new strategy game, but I don't think I'll have time to try the new strategy game.", models: ["I'd like to try the new strategy game, but I don't think I'll have time to."] },
+          { q: "She said she would bring snacks and she brought snacks.", models: ["She said she would bring snacks and she did."] },
+          { q: "Tom cheated at cards. Tom cheating at cards annoyed everyone.", models: ["Tom cheated at cards, which annoyed everyone.", "Tom cheated at cards. This annoyed everyone."] },
+          { q: "Have you got any spare counters? If you have got any spare counters, can I borrow one?", models: ["Have you got any spare counters? If so, can I borrow one?"] },
+          { q: "I asked him to put the game away, but he refused to put the game away.", models: ["I asked him to put the game away, but he refused to."] },
+          { q: "That new board game is brilliant. (add a head)", start: "That new board game…", models: ["That new board game – it's brilliant."] },
+          { q: "Your sister is a really good loser. (add a tail)", start: "She's…", models: ["She's a really good loser, your sister.", "She's a really good loser, she is."] }
         ]
       }
     ]

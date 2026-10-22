@@ -82,6 +82,14 @@ ES.registerLesson({
           ["perform / present competently", "виконувати вміло, професійно (але без блиску)"],
           ["shake / cry / laugh uncontrollably", "трястися / плакати / сміятися неконтрольовано"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Додаткові онлайн-вправи на розрізнення минулих часів у розповіді.",
+        links: [
+          { title: "Perfect English Grammar: past simple or past continuous", url: "https://www.perfect-english-grammar.com/past-simple-past-continuous-exercise-1.html", note: "фонова дія чи подія, що її перервала" },
+          { title: "Perfect English Grammar: past perfect or past simple", url: "https://www.perfect-english-grammar.com/past-perfect-exercise-3.html", note: "що сталося раніше, а що потім — ретроспектива" }
+        ]
       }
     ],
     exercises: [
@@ -683,6 +691,43 @@ ES.registerLesson({
           { q: "A man came up to me and asked for my name. (historic present)", start: "So this man…", models: ["So this man comes up to me and asks for my name."] },
           { q: "The trip turned into a disaster. (preview with future in the past)", start: "I didn't know it yet, but…", models: ["I didn't know it yet, but the trip was going to turn into a disaster."] },
           { q: "It was dark and someone stood behind the door. (suspense with background forms)", models: ["It was getting dark. Someone was standing behind the door. I couldn't see who it was…"] }
+        ]
+      },
+      {
+        type: "choice",
+        title: "Choose the correct narrative tense",
+        src: "extra: https://www.perfect-english-grammar.com/past-perfect-exercise-3.html",
+        items: [
+          {
+            q: "By the time the ambulance arrived, the injured cyclist ___ on the road for over an hour.",
+            options: ["had been lying", "was lying", "lay"],
+            answer: 0,
+            explain: "Тривала дія до моменту в минулому з вказаною тривалістю — past perfect continuous."
+          },
+          { q: "I ___ the email three times before I finally pressed 'send'.", options: ["had read", "was reading", "have read"], answer: 0 },
+          { q: "We ___ across the bridge when the lights suddenly went out.", options: ["were walking", "walked", "have walked"], answer: 0, explain: "Фонова дія, яку перервала подія." },
+          { q: "She burst into tears because she ___ the bad news from her sister an hour earlier.", options: ["had heard", "was hearing", "has heard"], answer: 0 },
+          { q: "When he finally came in for dinner, his hands were black: he ___ on the engine all afternoon.", options: ["had been working", "has been working", "works"], answer: 0 },
+          { q: "I ___ call you last night, but my phone died.", options: ["was going to", "had gone to", "went to"], answer: 0, explain: "Намір у минулому, який не здійснився — future in the past." },
+          { q: "Every summer when I was a kid, we ___ to my grandparents' village by the sea.", options: ["would go", "were going", "had gone"], answer: 0, explain: "Повторювана дія в минулому — would." },
+          { q: "It was the first time I ___ a live volcano.", options: ["had seen", "saw", "was seeing"], answer: 0, explain: "It was the first time + past perfect." }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in order to make sentences from a story",
+        src: "extra: https://www.perfect-english-grammar.com/past-simple-past-continuous-exercise-1.html",
+        items: [
+          { words: ["we", "had", "only", "just", "set", "off", "when", "it", "started", "to", "pour"], answer: "We had only just set off when it started to pour." },
+          { words: ["she", "was", "about", "to", "leave", "when", "somebody", "knocked", "at", "the", "door"], answer: "She was about to leave when somebody knocked at the door." },
+          {
+            words: ["by", "then", "the", "guests", "had", "been", "waiting", "for", "over", "two", "hours"],
+            answer: "By then the guests had been waiting for over two hours.",
+            alts: ["The guests had been waiting for over two hours by then."]
+          },
+          { words: ["I", "was", "due", "to", "fly", "home", "the", "following", "morning"], answer: "I was due to fly home the following morning.", alts: ["The following morning I was due to fly home."] },
+          { words: ["little", "did", "I", "know", "that", "the", "worst", "was", "yet", "to", "come"], answer: "Little did I know that the worst was yet to come." },
+          { words: ["he", "had", "been", "meaning", "to", "tell", "her", "for", "weeks"], answer: "He had been meaning to tell her for weeks.", alts: ["For weeks he had been meaning to tell her."] }
         ]
       }
     ]

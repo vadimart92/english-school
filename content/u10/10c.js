@@ -67,6 +67,17 @@ ES.registerLesson({
           ["lacking (in detail)", "− якому бракує (деталей)"],
           ["badly thought through", "− непродуманий"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Додаткове пояснення і тести на способи протиставлення та поступки.",
+        links: [
+          {
+            title: "British Council: Contrasting ideas",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/contrasting-ideas",
+            note: "although, despite, even if, whereas, much as — граматичні моделі й тести"
+          }
+        ]
       }
     ],
     exercises: [
@@ -450,6 +461,55 @@ ES.registerLesson({
               ["nevertheless", "nonetheless", "however"]
             ]
           }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Rewrite using the concession structure given",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/contrasting-ideas",
+        items: [
+          {
+            q: "Although the headset is impressive, it's far too expensive.",
+            start: "Impressive…",
+            models: [
+              "Impressive as the headset is, it's far too expensive.",
+              "Impressive though the headset is, it's far too expensive."
+            ]
+          },
+          { q: "I admire his ambition a lot, but I think the plan is unrealistic.", start: "Much as…", models: ["Much as I admire his ambition, I think the plan is unrealistic."] },
+          { q: "It doesn't matter how hard they try; robots can't replace nurses.", start: "However…", models: ["However hard they try, robots can't replace nurses."] },
+          {
+            q: "In spite of the fact that it was widely tested, the app still crashes.",
+            start: "Despite…",
+            models: [
+              "Despite being widely tested, the app still crashes.",
+              "Despite the fact that it was widely tested, the app still crashes."
+            ]
+          },
+          { q: "The technology is promising. However, it raises serious privacy concerns.", start: "While…", models: ["While the technology is promising, it raises serious privacy concerns."] },
+          { q: "It doesn't matter what critics say; the product will sell.", start: "Whatever…", models: ["Whatever critics say, the product will sell."] },
+          { q: "They tried very hard, but they couldn't fix the bug.", start: "Try as…", models: ["Try as they might, they couldn't fix the bug."] }
+        ]
+      },
+      {
+        type: "order",
+        title: "Put the words in order to make sentences with concession",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/contrasting-ideas",
+        items: [
+          { words: ["strange", "as", "it", "may", "seem", "people", "trust", "the", "algorithm"], answer: "Strange as it may seem, people trust the algorithm.", alts: ["People trust the algorithm, strange as it may seem."] },
+          { words: ["much", "as", "I", "hate", "to", "admit", "it", "the", "robot", "was", "right"], answer: "Much as I hate to admit it, the robot was right.", alts: ["The robot was right, much as I hate to admit it."] },
+          {
+            words: ["however", "convincing", "the", "demo", "was", "I", "remained", "sceptical"],
+            answer: "However convincing the demo was, I remained sceptical.",
+            alts: ["I remained sceptical, however convincing the demo was."]
+          },
+          {
+            words: ["whereas", "older", "users", "were", "cautious", "teenagers", "embraced", "the", "app"],
+            answer: "Whereas older users were cautious, teenagers embraced the app.",
+            alts: ["Teenagers embraced the app, whereas older users were cautious."]
+          },
+          { words: ["despite", "having", "doubts", "she", "invested", "in", "the", "project"], answer: "Despite having doubts, she invested in the project.", alts: ["She invested in the project despite having doubts."] },
+          { words: ["although", "expensive", "the", "headset", "is", "worth", "every", "penny"], answer: "Although expensive, the headset is worth every penny.", alts: ["The headset, although expensive, is worth every penny."] }
         ]
       }
     ]

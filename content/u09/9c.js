@@ -68,6 +68,17 @@ ES.registerLesson({
           ["slow down / stop", "hamper / hinder (заважати, гальмувати)"],
           ["get worse (no object)", "deteriorate (погіршуватися)"]
         ]
+      },
+      {
+        h: "Більше практики",
+        p: "Додаткове пояснення і тести на дієприкметникові звороти (present, past, perfect).",
+        links: [
+          {
+            title: "British Council: Participle clauses",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses",
+            note: "having done, done, doing; звороти після сполучників і прийменників + два тести"
+          }
+        ]
       }
     ],
     exercises: [
@@ -689,6 +700,35 @@ ES.registerLesson({
           { s: "If necessary, we can postpone the meeting.", ok: true },
           { s: "Having been worked all night, the nurses were exhausted.", ok: false, fix: "Having been working all night, the nurses were exhausted." },
           { s: "Pollution is likely to exacerbate the problem.", ok: true }
+        ]
+      },
+      {
+        type: "choice",
+        title: "Choose the correct participle or verbless clause",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses",
+        items: [
+          { q: "___ the report, she sent it straight to her manager.", options: ["Having finished", "Finished", "Being finished"], answer: 0 },
+          { q: "___ in 1890, the bridge is still in use today.", options: ["Built", "Having built", "Building"], answer: 0, explain: "Пасивне значення — past participle." },
+          { q: "___ for six hours, the hikers were desperate for a rest.", options: ["Having walked", "Walked", "Being walked"], answer: 0 },
+          { q: "Walking into the abandoned barn, ___.", options: ["I noticed a strange smell", "a strange smell hit me"], answer: 0, explain: "Підмет зворота має збігатися з підметом речення (інакше — dangling participle)." },
+          { q: "Once ___, the dough should rest for an hour.", options: ["kneaded", "kneading", "having kneaded"], answer: 0, explain: "Тісто місять (пасив) — once + past participle." },
+          { q: "___ of the risks, they went ahead with the climb.", options: ["Although aware", "Despite aware", "Although being aware"], answer: 0, explain: "Verbless clause: although + adjective." },
+          { q: "Not ___ what to say, he simply nodded.", options: ["knowing", "known", "having known"], answer: 0 },
+          { q: "The money ___ from the auction will go to a wildlife charity.", options: ["raised", "raising", "having raised"], answer: 0 }
+        ]
+      },
+      {
+        type: "transform",
+        title: "Rewrite using a participle or verbless clause",
+        src: "extra: https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses",
+        items: [
+          { q: "After she had read the contract carefully, she signed it.", start: "Having…", models: ["Having read the contract carefully, she signed it."] },
+          { q: "The forest was destroyed by fire in 2010 and has now fully recovered.", start: "Destroyed…", models: ["Destroyed by fire in 2010, the forest has now fully recovered."] },
+          { q: "Because he didn't want to wake the baby, he tiptoed out of the room.", start: "Not…", models: ["Not wanting to wake the baby, he tiptoed out of the room."] },
+          { q: "When you are in doubt, ask a ranger.", start: "When…", models: ["When in doubt, ask a ranger."] },
+          { q: "If it is reintroduced carefully, the lynx could control the deer population.", start: "If…", models: ["If reintroduced carefully, the lynx could control the deer population."] },
+          { q: "Wolves, which were once hunted to extinction here, now roam freely.", start: "Once…", models: ["Once hunted to extinction here, wolves now roam freely."] },
+          { q: "As soon as the work is finished, the wetland will be opened to the public.", start: "Once…", models: ["Once finished, the wetland will be opened to the public."] }
         ]
       }
     ]
