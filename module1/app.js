@@ -28,7 +28,11 @@
       var raw = localStorage.getItem(STORE_KEY);
       if (raw) return JSON.parse(raw);
     } catch (e) { /* private mode etc. */ }
-    return { scores: {}, cards: {}, streak: { day: null, count: 0 } };
+    return emptyState();
+  }
+
+  function emptyState() {
+    return { scores: {}, cards: {}, mistakes: {}, streak: { day: null, count: 0 } };
   }
 
   function save() {
@@ -51,6 +55,42 @@
     s.count = s.day === y ? s.count + 1 : 1;
     s.day = today;
     state.streak = s;
+  }
+
+  /* Mistakes: every wrong answer in a step-by-step exercise is remembered by
+     its item id ("topic:exercise:item") until it is answered right twice in a row. */
+  var CLEAR_AFTER = 2;
+
+  function noteAnswer(id, ok) {
+    var m = state.mistakes || (state.mistakes = {});
+    if (!ok) {
+      var prev = m[id];
+      m[id] = { misses: (prev ? prev.misses : 0) + 1, streak: 0, at: Date.now() };
+    } else if (m[id]) {
+      m[id].streak++;
+      if (m[id].streak >= CLEAR_AFTER) delete m[id];
+    } else {
+      return;
+    }
+    save();
+  }
+
+  function itemId(topic, exIdx, itemIdx) { return topic.id + ":" + exIdx + ":" + itemIdx; }
+
+  /* Resolve stored ids back to items; ids whose content no longer exists are skipped. */
+  function mistakeItems() {
+    var out = [];
+    var m = state.mistakes || {};
+    DATA.topics.forEach(function (t) {
+      t.exercises.forEach(function (ex, ei) {
+        if (!ITEM[ex.type]) return;
+        ex.items.forEach(function (it, ii) {
+          var id = itemId(t, ei, ii);
+          if (m[id]) out.push({ id: id, type: ex.type, item: it, phrases: ex.phrases, topic: t, rec: m[id] });
+        });
+      });
+    });
+    return out;
   }
 
   function topicProgress(topic) {
@@ -186,6 +226,7 @@
     if (parts[0] === "t" && parts[1]) return renderTopic(parts[1], parts[2]);
     if (parts[0] === "mix") return renderMix();
     if (parts[0] === "cards") return renderAllCards();
+    if (parts[0] === "mistakes") return renderMistakes();
     renderHome();
   }
 
@@ -210,6 +251,7 @@
     var vocab = DATA.topics.filter(function (t) { return t.kind === "vocab"; });
     var overall = Math.round(DATA.topics.reduce(function (s, t) { return s + topicProgress(t); }, 0) / DATA.topics.length);
     var dueCards = countCards();
+    var nMistakes = mistakeItems().length;
 
     shell([
       h("section", { class: "hero" }, [
@@ -231,6 +273,10 @@
         h("a", { class: "quick-card", href: "#/cards" }, [
           h("strong", { text: "▣ Усі картки" }),
           h("span", { text: "Інтервальне повторення лексики й фраз" })
+        ]),
+        h("a", { class: "quick-card" + (nMistakes ? " alert" : ""), href: "#/mistakes" }, [
+          h("strong", { text: "✗ Робота над помилками" + (nMistakes ? " · " + nMistakes : "") }),
+          h("span", { text: nMistakes ? "Питання, на які ти відповів неправильно" : "Помилок поки немає. Так тримати!" })
         ])
       ]),
       h("h2", { text: "Граматика" }),
@@ -265,7 +311,7 @@
 
   function resetProgress() {
     if (!confirm("Скинути весь прогрес?")) return;
-    state = { scores: {}, cards: {}, streak: { day: null, count: 0 } };
+    state = emptyState();
     save();
     renderHome();
   }
@@ -366,8 +412,10 @@
       if (ex.type === "match") return stage.appendChild(matchGame(ex.items, finish));
       if (ex.type === "sort") return stage.appendChild(sortGame(ex, finish));
       if (ex.type === "cards") return stage.appendChild(cardDeck(ex.items, key, finish));
-      var items = ex.type === "speak" || ex.type === "transform" ? ex.items.slice() : shuffle(ex.items);
-      stage.appendChild(stepper(items.map(function (it) { return { type: ex.type, item: it, phrases: ex.phrases }; }), finish));
+      var tid = key.split(":"), topic = { id: tid[0] };
+      var items = ex.items.map(function (it, i) { return { id: itemId(topic, tid[1], i), type: ex.type, item: it, phrases: ex.phrases }; });
+      if (ex.type !== "speak" && ex.type !== "transform") items = shuffle(items);
+      stage.appendChild(stepper(items, finish));
     }
 
     start();
@@ -403,8 +451,10 @@
       count.textContent = (i + 1) + " / " + queue.length;
       slot.innerHTML = "";
       var q = queue[i];
+      if (q.label) slot.appendChild(h("p", { class: "from muted", text: q.label }));
       var view = ITEM[q.type](q.item, q.phrases, function (ok) {
         if (ok) correct++;
+        if (q.id) noteAnswer(q.id, ok);
         var last = i === queue.length - 1;
         var next = h("button", { class: "btn primary next", type: "button", text: last ? "Завершити" : "Далі →" });
         next.addEventListener("click", function () {
@@ -868,9 +918,9 @@
     function start() {
       var pool = [];
       DATA.topics.forEach(function (t) {
-        t.exercises.forEach(function (ex) {
+        t.exercises.forEach(function (ex, ei) {
           if (!AUTO_CHECKED[ex.type]) return;
-          ex.items.forEach(function (it) { pool.push({ type: ex.type, item: it, ref: t.ref }); });
+          ex.items.forEach(function (it, ii) { pool.push({ id: itemId(t, ei, ii), type: ex.type, item: it, ref: t.ref }); });
         });
       });
       var picked = shuffle(pool).slice(0, 15);
@@ -882,6 +932,70 @@
       }));
     }
     start();
+  }
+
+  /* Mistakes review: the oldest, most-missed items first, 15 per round. */
+  function renderMistakes() {
+    var stage = h("div", {});
+    var list = mistakeItems();
+    shell([
+      h("div", { class: "topic-head" }, [h("div", {}, [
+        h("h1", { text: "Робота над помилками" }),
+        h("p", { class: "muted", text: "Сюди потрапляють завдання, на які ти відповів неправильно. Питання зникає зі списку, коли відповіси правильно " + CLEAR_AFTER + " рази поспіль." })
+      ])]),
+      h("div", { class: "panel" }, [stage])
+    ], "Помилки");
+
+    function overview() {
+      list = mistakeItems();
+      stage.innerHTML = "";
+      if (!list.length) {
+        stage.appendChild(h("div", { class: "result" }, [
+          h("h3", { text: "Помилок немає 🎉" }),
+          h("p", { class: "muted", text: "Коли помилишся у вправі чи змішаному тесті, завдання з'явиться тут." }),
+          h("div", { class: "actions" }, [
+            h("a", { class: "btn", href: "#/mix", text: "⚡ Змішаний тест" }),
+            h("a", { class: "btn primary", href: "#/", text: "До тем" })
+          ])
+        ]));
+        return;
+      }
+      var byTopic = [];
+      list.forEach(function (x) {
+        var g = byTopic.filter(function (b) { return b.topic === x.topic; })[0];
+        if (!g) byTopic.push(g = { topic: x.topic, n: 0 });
+        g.n++;
+      });
+      stage.appendChild(h("div", { class: "mistake-topics" }, byTopic.map(function (g) {
+        return h("a", { class: "mistake-topic", href: "#/t/" + g.topic.id }, [
+          h("span", { class: "ref " + g.topic.kind, text: g.topic.ref }),
+          h("span", { class: "name", text: g.topic.title }),
+          h("b", { text: String(g.n) })
+        ]);
+      })));
+      stage.appendChild(h("div", { class: "actions" }, [
+        h("button", { class: "btn primary", type: "button", onclick: start, text: "Почати повторення (" + Math.min(15, list.length) + ")" })
+      ]));
+    }
+
+    function start() {
+      var picked = shuffle(list);
+      picked.sort(function (a, b) { return (b.rec.misses - a.rec.misses) || (a.rec.at - b.rec.at); });
+      picked = picked.slice(0, 15).map(function (x) {
+        return { id: x.id, type: x.type, item: x.item, phrases: x.phrases, label: x.topic.ref + " · " + x.topic.title };
+      });
+      stage.innerHTML = "";
+      stage.appendChild(stepper(picked, function (c, total) {
+        recordScore("mistakes", c, total);
+        var left = mistakeItems().length;
+        stage.innerHTML = "";
+        var card = resultCard(c, total, overview, null);
+        card.insertBefore(h("p", { class: "muted", text: left ? "У списку залишилось помилок: " + left : "Список помилок порожній!" }), card.querySelector(".actions"));
+        stage.appendChild(card);
+      }));
+    }
+
+    overview();
   }
 
   route();
