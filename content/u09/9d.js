@@ -25,7 +25,23 @@ ES.registerLesson({
           ["business acumen", "you make good, quick judgements based on professional knowledge"],
           ["tolerance of ambiguity", "you cope when the 'rules' are unclear or keep changing"],
           ["professional confidence", "you respect yourself as someone good at your job"]
-        ]
+        ],
+        uk: {
+          h: "Компетенції й кваліфікації",
+          p: "Компетенція — це будь-яка навичка, знання, досвід чи риса характеру, що допомагає добре виконувати роботу. Employability (здатність до працевлаштування) — це поєднання компетенцій, яке допомагає знайти й утримати роботу, що приносить задоволення. Кваліфікації — це лише сертифікати.",
+          table: [
+            ["resilience", "ви долаєте невдачі й критику"],
+            ["critical thinking", "ви ставите під сумнів припущення, а не вірите всьому"],
+            ["perseverance", "ви не здаєтеся там, де більшість здалася б"],
+            ["adaptability", "ви швидко пристосовуєтеся до нових ситуацій"],
+            ["growth mindset", "ви весь час хочете вчитися й ставати кращими"],
+            ["autonomy", "ви працюєте самостійно й ухвалюєте рішення без постійних порад"],
+            ["entrepreneurial skills", "ви креативні, винахідливі й ризикуєте там, де інші не наважуються"],
+            ["business acumen", "ви ухвалюєте добрі й швидкі рішення на основі професійних знань"],
+            ["tolerance of ambiguity", "ви даєте раду, коли «правила» неясні або постійно змінюються"],
+            ["professional confidence", "ви поважаєте себе як фахівця, що добре знає свою справу"]
+          ]
+        }
       },
       {
         h: "The STAR technique",
@@ -35,7 +51,17 @@ ES.registerLesson({
           "T – Target: what problem were you trying to solve, and why?",
           "A – Action: what specific steps did you take? how did you overcome resistance?",
           "R – Result: did your plan work? what were the longer-term consequences?"
-        ]
+        ],
+        uk: {
+          h: "Техніка STAR",
+          p: "На запитання про компетенції ('Tell us about a time when you…') найкраще відповідати короткою історією з чотирьох частин.",
+          list: [
+            "S – Situation (ситуація): де й коли це сталося? чому ви там були?",
+            "T – Target (мета): яку проблему ви намагалися розв'язати і чому?",
+            "A – Action (дії): які конкретні кроки ви зробили? як подолали опір?",
+            "R – Result (результат): чи спрацював ваш план? які були довгострокові наслідки?"
+          ]
+        }
       },
       {
         h: "Useful phrases",
@@ -48,7 +74,20 @@ ES.registerLesson({
           "Eventually, and very reluctantly, he/she agreed, and I started my experiment.",
           "It turned out that my hunch had been correct.",
           "My little experiment revealed that… was actually…"
-        ]
+        ],
+        uk: {
+          h: "Корисні фрази",
+          list: [
+            "Well, perhaps a good example comes from (my time at…). — Що ж, мабуть, добрий приклад — з (часу, коли я був у…).",
+            "It was a great experience for me because… — Це був чудовий досвід для мене, тому що…",
+            "Anyway, after a few weeks, I noticed that… — Так от, через кілька тижнів я помітив, що…",
+            "So I wanted to find out whether… — Тож я хотів з'ясувати, чи…",
+            "So what I did was offer to… — Тож я запропонував…",
+            "Eventually, and very reluctantly, he/she agreed, and I started my experiment. — Зрештою, дуже неохоче, він/вона погодився(-лася), і я почав свій експеримент.",
+            "It turned out that my hunch had been correct. — Виявилося, що моє передчуття було правильним.",
+            "My little experiment revealed that… was actually… — Мій невеликий експеримент показав, що… насправді було…"
+          ]
+        }
       }
     ],
     exercises: [
@@ -389,7 +428,8 @@ ES.registerLesson({
           "T: Guests kept complaining about slow check-in, and I wanted to find out why.",
           "A: So what I did was offer to time every step for a week.",
           "R: It turned out the printer was the problem. We went paperless and complaints dropped by half."
-        ]
+        ],
+        uk: { h: "Відповідь за STAR за 30 секунд" }
       }
     ],
     exercises: [

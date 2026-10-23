@@ -17,7 +17,11 @@ ES.registerLesson({
         ex: [
           "'I've already apologised, so I'm not doing it again.' → He said he had already apologised, so he wasn't doing it again.",
           "'I heard the news while I was cycling.' → She said she had heard the news while she had been cycling."
-        ]
+        ],
+        uk: {
+          h: "Зсув часів (backshifting)",
+          p: "Коли ми переказуємо чиїсь слова, то зазвичай зсуваємо дієслово на крок у минуле: present → past, past / present perfect → past perfect. Часто змінюються й слова часу та місця (tomorrow → the next day, here → there)."
+        }
       },
       {
         h: "When we don't backshift",
@@ -26,7 +30,16 @@ ES.registerLesson({
           "The reporting verb is in a present tense (incl. present perfect): He's told me a hundred times that he hates gossip.",
           "The information is still true and we agree with it / want to show it's still valid: She told me she's moving to Kyiv next month (she still is).",
           "Compare: 'I'm arriving tomorrow.' → She said she's arriving this morning (I still expect her) vs She said she was arriving this morning (but she hasn't come / maybe it's no longer true)."
-        ]
+        ],
+        uk: {
+          h: "Коли часи не зсуваємо",
+          list: [
+            "Дієслово вже в past perfect або це модальне дієслово минулої форми (would, could, might, should): 'I'd love to come.' → She said she'd love to come.",
+            "Дієслово, що вводить чужі слова, стоїть у теперішньому часі (зокрема present perfect): He's told me a hundred times that he hates gossip.",
+            "Інформація досі правдива, і ми з нею згодні / хочемо показати, що вона й далі чинна: She told me she's moving to Kyiv next month (she still is).",
+            "Порівняйте: 'I'm arriving tomorrow.' → She said she's arriving this morning (я й досі на неї чекаю) vs She said she was arriving this morning (але вона не приїхала / можливо, це вже неправда)."
+          ]
+        }
       },
       {
         h: "Modals in reported speech",
@@ -39,7 +52,16 @@ ES.registerLesson({
         ex: [
           "'You must be on time.' → She said I had to be on time.",
           "'What should I wear?' → He asked what he was supposed to wear."
-        ]
+        ],
+        uk: {
+          h: "Модальні дієслова в непрямій мові",
+          table: [
+            ["will / can / may / shall", "would / could / might / should"],
+            ["must / mustn't (obligation)", "had to / wasn't allowed to (або must не змінюється)"],
+            ["should (advice)", "was supposed to / should"],
+            ["would / could / might / should", "без змін"]
+          ]
+        }
       },
       {
         h: "Passive reporting verbs",
@@ -56,36 +78,78 @@ ES.registerLesson({
             "It was rumoured that it wasn't true.",
             "It was rumoured not to be true. (negative: not before to)"
           ]
-        ]
+        ],
+        uk: {
+          h: "Пасивні дієслова передачі мови",
+          p: "Із allege, assume, believe, consider, expect, know, report, rumour, say, think, understand можна (1) почати з It + пасив + that-clause або (2) зробити підмет that-clause підметом усього речення, а після пасивного дієслова вжити to-infinitive.",
+          table: [
+            ["It is said that she earns a fortune.", "She is said to earn a fortune. (одночасно)"],
+            ["It is thought that they are negotiating.", "They are thought to be negotiating. (у процесі)"],
+            ["It is alleged that he stole the files.", "He is alleged to have stolen the files. (раніше)"],
+            [
+              "It is believed they were hiding it.",
+              "They are believed to have been hiding it. (раніше, у процесі)"
+            ],
+            [
+              "It was rumoured that it wasn't true.",
+              "It was rumoured not to be true. (заперечення: not перед to)"
+            ]
+          ]
+        }
       },
       {
         h: "Gossip and rumours",
         table: [
-          ["Rumour has it (that)…", "ходять чутки, що…"],
-          ["read between the lines", "читати між рядків, розуміти прихований зміст"],
-          ["hear sth on/through the grapevine", "почути через сарафанне радіо"],
-          ["get (hold of) the wrong end of the stick", "зрозуміти все навпаки"],
-          ["drop a few hints", "кинути кілька натяків"],
-          ["put two and two together", "скласти два і два, здогадатися"],
-          ["two-faced", "дволикий, нещирий"],
-          ["juicy gossip", "смачні, скандальні плітки"],
-          ["a little bird told me", "сорока на хвості принесла"],
-          ["take it with a pinch of salt", "сприймати скептично, з пересторогою"],
-          ["spread like wildfire", "поширюватися блискавично"],
-          ["I'm all ears", "я весь увага"]
-        ]
+          ["Rumour has it (that)…", "people are saying (that)…, there's a rumour (that)…"],
+          ["read between the lines", "understand the hidden meaning"],
+          ["hear sth on/through the grapevine", "hear news informally, from other people"],
+          ["get (hold of) the wrong end of the stick", "completely misunderstand something"],
+          ["drop a few hints", "suggest something indirectly"],
+          ["put two and two together", "work something out from what you know"],
+          ["two-faced", "insincere, saying different things to different people"],
+          ["juicy gossip", "exciting, scandalous gossip"],
+          ["a little bird told me", "I heard it from someone (and I won't say who)"],
+          ["take it with a pinch of salt", "not completely believe it, be sceptical"],
+          ["spread like wildfire", "spread very fast"],
+          ["I'm all ears", "I'm listening very carefully"]
+        ],
+        uk: {
+          h: "Плітки й чутки",
+          table: [
+            ["Rumour has it (that)…", "ходять чутки, що…"],
+            ["read between the lines", "читати між рядків, розуміти прихований зміст"],
+            ["hear sth on/through the grapevine", "почути через сарафанне радіо"],
+            ["get (hold of) the wrong end of the stick", "зрозуміти все навпаки"],
+            ["drop a few hints", "кинути кілька натяків"],
+            ["put two and two together", "скласти два і два, здогадатися"],
+            ["two-faced", "дволикий, нещирий"],
+            ["juicy gossip", "смачні, скандальні плітки"],
+            ["a little bird told me", "сорока на хвості принесла"],
+            ["take it with a pinch of salt", "сприймати скептично, з пересторогою"],
+            ["spread like wildfire", "поширюватися блискавично"],
+            ["I'm all ears", "я весь увага"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Додаткові онлайн-вправи на непряму мову та моделі дієслів, що вводять чужі слова.",
+        h: "More practice",
+        p: "Extra online exercises on reported speech and the patterns of reporting verbs.",
         links: [
           {
             title: "British Council: Patterns with reporting verbs",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/patterns-reporting-verbs",
-            note: "infinitive, -ing, прийменник чи that-clause після reporting verbs"
+            note: "infinitive, -ing, preposition or that-clause after reporting verbs"
           },
-          { title: "Perfect English Grammar: reported speech (mixed)", url: "https://www.perfect-english-grammar.com/reported-speech-exercise-4.html", note: "змішана вправа на перетворення прямої мови в непряму" }
-        ]
+          { title: "Perfect English Grammar: reported speech (mixed)", url: "https://www.perfect-english-grammar.com/reported-speech-exercise-4.html", note: "a mixed exercise on changing direct speech into reported speech" }
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Додаткові онлайн-вправи на непряму мову та моделі дієслів, що вводять чужі слова.",
+          notes: [
+            "infinitive, -ing, прийменник чи that-clause після reporting verbs",
+            "змішана вправа на перетворення прямої мови на непряму"
+          ]
+        }
       }
     ],
     exercises: [
@@ -425,7 +489,15 @@ ES.registerLesson({
           "1. Is the reporting verb past (said, told)? If it's present (says, has told), keep the tenses.",
           "2. Is the information still true and do I want to show that? Then backshifting is optional.",
           "3. Past perfect and would/could/might/should never change."
-        ]
+        ],
+        uk: {
+          h: "Непряма мова у три кроки",
+          list: [
+            "1. Дієслово, що вводить мову, у минулому (said, told)? Якщо воно в теперішньому (says, has told), часи не змінюємо.",
+            "2. Інформація досі правдива, і я хочу це показати? Тоді зсув часів необов'язковий.",
+            "3. Past perfect і would/could/might/should ніколи не змінюються."
+          ]
+        }
       },
       {
         h: "Which infinitive after a passive reporting verb?",
@@ -435,7 +507,17 @@ ES.registerLesson({
           ["to have done", "earlier, complete", "She is alleged to have lied."],
           ["to have been doing", "earlier, in progress", "He is thought to have been planning it for years."],
           ["to have been done", "earlier, passive", "The vase is assumed to have been stolen."]
-        ]
+        ],
+        uk: {
+          h: "Який інфінітив після пасивного reporting verb?",
+          table: [
+            ["to do", "одночасно / загальний факт", "He is known to work nights."],
+            ["to be doing", "у процесі на той момент", "They are believed to be hiding."],
+            ["to have done", "раніше, завершено", "She is alleged to have lied."],
+            ["to have been doing", "раніше, у процесі", "He is thought to have been planning it for years."],
+            ["to have been done", "раніше, пасив", "The vase is assumed to have been stolen."]
+          ]
+        }
       }
     ],
     exercises: [

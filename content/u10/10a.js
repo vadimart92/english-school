@@ -27,42 +27,93 @@ ES.registerLesson({
           ["Machine-gunning (a fast list)", "It's smart, stylish, cheap, portable, durable and fun."],
           ["Contrasting pair (negative, then what we want)", "We don't want to wait. We want to act."],
           ["Alliteration", "a fast, fun, family-friendly game"]
-        ]
+        ],
+        uk: {
+          h: "Прийоми емфази й переконання",
+          table: [
+            [
+              "Емфатичне допоміжне дієслово (do/does/did, під наголосом)",
+              "It does save you time. / We do believe in it."
+            ],
+            ["Повторений підсилювач", "It's really, really simple to use."],
+            ["Вищий ступінь + вищий ступінь", "It just gets better and better."],
+            ["Твердження + повтор + пояснення", "It's safe… it's safe because nothing can overheat."],
+            ["Повтор ключового слова", "Nobody wants to waste money… nobody."],
+            [
+              "Риторичне запитання (+ відповідь)",
+              "Who doesn't want a cheaper alternative? / When do we need this? Now."
+            ],
+            ["Тріада (три пункти)", "It's light, quick and quiet."],
+            ["«Кулеметна черга» (швидкий перелік)", "It's smart, stylish, cheap, portable, durable and fun."],
+            [
+              "Контрастна пара (спершу заперечення, потім те, чого ми хочемо)",
+              "We don't want to wait. We want to act."
+            ],
+            ["Алітерація", "a fast, fun, family-friendly game"]
+          ]
+        }
       },
       {
         h: "Intonation in lists",
         p: "In a list, the voice usually rises on each item and falls on the last one, which signals the end: It's light ↗, compact ↗ and portable ↘. The same pattern helps tripling and machine-gunning sound confident.",
-        ex: ["It comes in small, medium or large.", "It's cool, it's clever, it's you."]
+        ex: ["It comes in small, medium or large.", "It's cool, it's clever, it's you."],
+        uk: {
+          h: "Інтонація в переліках",
+          p: "У переліку голос зазвичай підвищується на кожному пункті й знижується на останньому, що сигналізує про кінець: It's light ↗, compact ↗ and portable ↘. Та сама модель допомагає тріаді й «кулеметній черзі» звучати впевнено."
+        }
       },
       {
         h: "Collocations: innovation",
         table: [
-          ["push back the boundaries / frontiers / limits of…", "розширювати межі (знань, можливого)"],
+          [
+            "push back the boundaries / frontiers / limits of…",
+            "extend the limits (of knowledge, of what's possible)"
+          ],
           [
             "harness / exploit / utilise (technology, power)",
-            "використати, приборкати (енергію, технологію)"
+            "use, control and make the most of (energy, technology)"
           ],
-          ["state-of-the-art / cutting-edge (design)", "найсучасніший"],
+          ["state-of-the-art / cutting-edge (design)", "the most modern, using the latest technology"],
           [
             "a revolutionary / pioneering / groundbreaking / trailblazing (concept)",
-            "революційний, новаторський"
+            "completely new and innovative"
           ],
-          ["catch on / thrive / flourish", "набути популярності / процвітати"],
-          ["pave the way for / herald (changes)", "прокласти шлях / віщувати, знаменувати"],
-          ["spearhead / spur / lead (an effort, a campaign)", "очолювати / стимулювати"],
-          ["a new dawn / era (in…)", "нова ера, початок нової епохи"]
-        ]
+          ["catch on / thrive / flourish", "become popular / do very well"],
+          ["pave the way for / herald (changes)", "make possible / be a sign that something is coming"],
+          ["spearhead / spur / lead (an effort, a campaign)", "lead / encourage, give a push to"],
+          ["a new dawn / era (in…)", "the beginning of a new period"]
+        ],
+        uk: {
+          h: "Колокації: інновації",
+          table: [
+            ["push back the boundaries / frontiers / limits of…", "розширювати межі (знань, можливого)"],
+            [
+              "harness / exploit / utilise (technology, power)",
+              "використати, приборкати (енергію, технологію)"
+            ],
+            ["state-of-the-art / cutting-edge (design)", "найсучасніший"],
+            [
+              "a revolutionary / pioneering / groundbreaking / trailblazing (concept)",
+              "революційний, новаторський"
+            ],
+            ["catch on / thrive / flourish", "набути популярності / процвітати"],
+            ["pave the way for / herald (changes)", "прокласти шлях / віщувати, знаменувати"],
+            ["spearhead / spur / lead (an effort, a campaign)", "очолювати / стимулювати"],
+            ["a new dawn / era (in…)", "нова ера, початок нової епохи"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Додаткові онлайн-вправи на інверсію після заперечних прислівників — один із ключових прийомів емфази.",
+        h: "More practice",
+        p: "Extra online exercises on inversion after negative adverbials – one of the key techniques for emphasis.",
         links: [
           {
             title: "British Council: Inversion after negative adverbials",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-after-negative-adverbials",
-            note: "never, rarely, hardly, no sooner, only, little + два тести"
+            note: "never, rarely, hardly, no sooner, only, little + two tests"
           }
-        ]
+        ],
+        uk: { h: "Більше практики", p: "Додаткові онлайн-вправи на інверсію після заперечних прислівників — один із ключових прийомів емфази.", notes: ["never, rarely, hardly, no sooner, only, little + два тести"] }
       }
     ],
     exercises: [
@@ -362,24 +413,51 @@ ES.registerLesson({
           "To overwhelm with benefits: machine-gunning.",
           "To involve the audience: rhetorical questions.",
           "To show what you want instead: contrasting pairs."
-        ]
+        ],
+        uk: {
+          h: "Який прийом коли?",
+          list: [
+            "Щоб заперечити: емфатичне допоміжне дієслово – You think it's expensive? It does cost less than its rivals.",
+            "Щоб думка запам'яталася: тріада або алітерація.",
+            "Щоб засипати перевагами: «кулеметна черга».",
+            "Щоб залучити аудиторію: риторичні запитання.",
+            "Щоб показати, чого ви хочете натомість: контрастні пари."
+          ]
+        }
       },
       {
         h: "Collocations with idea",
         table: [
-          ["the very idea of… (seems ridiculous)", "сама думка про…"],
-          ["I like / love the idea of…", "мені подобається ідея…"],
-          ["not my idea of fun", "не те, що я вважаю розвагою"],
-          ["What's the big idea?", "Що це ти задумав? (роздратовано)"],
-          ["Whose bright idea was it to…?", "Чия «геніальна» ідея була…? (іронічно)"],
-          ["a crackpot idea", "безглузда, божевільна ідея"],
-          ["give me an idea as to…", "дати уявлення про…"],
-          ["toy / flirt with the idea of…", "обмірковувати ідею (несерйозно)"],
-          ["bounce ideas around / off each other", "обмінюватися ідеями"],
-          ["stem from the idea that…", "походити з уявлення, що…"],
-          ["not have the faintest / foggiest idea", "не мати найменшого уявлення"],
-          ["come up with ideas", "вигадувати ідеї"]
-        ]
+          ["the very idea of… (seems ridiculous)", "just the thought of…"],
+          ["I like / love the idea of…", "I find the idea of… attractive"],
+          ["not my idea of fun", "not something I find enjoyable"],
+          ["What's the big idea?", "What do you think you're doing? (annoyed)"],
+          ["Whose bright idea was it to…?", "Whose 'brilliant' idea was it to…? (ironic)"],
+          ["a crackpot idea", "a crazy, ridiculous idea"],
+          ["give me an idea as to…", "give me a rough understanding of…"],
+          ["toy / flirt with the idea of…", "consider an idea, but not seriously"],
+          ["bounce ideas around / off each other", "share and discuss ideas"],
+          ["stem from the idea that…", "come from the belief that…"],
+          ["not have the faintest / foggiest idea", "have absolutely no idea"],
+          ["come up with ideas", "think of new ideas"]
+        ],
+        uk: {
+          h: "Колокації з idea",
+          table: [
+            ["the very idea of… (seems ridiculous)", "сама думка про…"],
+            ["I like / love the idea of…", "мені подобається ідея…"],
+            ["not my idea of fun", "не те, що я вважаю розвагою"],
+            ["What's the big idea?", "Що це ти задумав? (роздратовано)"],
+            ["Whose bright idea was it to…?", "Чия «геніальна» ідея була…? (іронічно)"],
+            ["a crackpot idea", "безглузда, божевільна ідея"],
+            ["give me an idea as to…", "дати уявлення про…"],
+            ["toy / flirt with the idea of…", "обмірковувати ідею (несерйозно)"],
+            ["bounce ideas around / off each other", "обмінюватися ідеями"],
+            ["stem from the idea that…", "походити з уявлення, що…"],
+            ["not have the faintest / foggiest idea", "не мати найменшого уявлення"],
+            ["come up with ideas", "вигадувати ідеї"]
+          ]
+        }
       }
     ],
     exercises: [

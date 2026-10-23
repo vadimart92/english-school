@@ -19,7 +19,20 @@ ES.registerLesson({
           ["Time", "Walking through the forest, I spotted a lynx. (= while I was walking)"],
           ["Condition", "Managed properly, a meadow needs little care. (= if it is managed properly)"],
           ["Reduced relative clause", "Planted in 2015, these oaks are already tall. (= which were planted)"]
-        ]
+        ],
+        uk: {
+          h: "Дієприкметникові звороти (participle clauses)",
+          p: "Дієприкметниковий зворот замінює повне речення (підмет + час) формою на -ing або дієприкметником минулого часу. Він працює лише тоді, коли слухач легко відновить пропущений підмет і час, тому типовий для ретельного або офіційного письма. Підмет дієприкметника зазвичай має збігатися з підметом головного речення.",
+          table: [
+            ["Причина", "Not knowing the way, we asked a farmer. (= because we didn't know)"],
+            ["Час", "Walking through the forest, I spotted a lynx. (= while I was walking)"],
+            ["Умова", "Managed properly, a meadow needs little care. (= if it is managed properly)"],
+            [
+              "Скорочене означальне речення",
+              "Planted in 2015, these oaks are already tall. (= which were planted)"
+            ]
+          ]
+        }
       },
       {
         h: "Active, passive, earlier",
@@ -28,7 +41,16 @@ ES.registerLesson({
           "Past participle = passive meaning: Reintroduced ten years ago, beavers are now thriving.",
           "Perfect participle (having done / having been doing) = an earlier action, often a reason: Having spent all day planting trees, we were exhausted.",
           "Negative: put not or never before the participle: Never having seen a bison, I was amazed. / Not wanting to seem rude, I agreed."
-        ]
+        ],
+        uk: {
+          h: "Актив, пасив, попередня дія",
+          list: [
+            "Present participle (-ing) = активне значення: Hoping to help, she volunteered.",
+            "Past participle = пасивне значення: Reintroduced ten years ago, beavers are now thriving.",
+            "Perfect participle (having done / having been doing) = попередня дія, часто причина: Having spent all day planting trees, we were exhausted.",
+            "Заперечення: not або never ставимо перед дієприкметником: Never having seen a bison, I was amazed. / Not wanting to seem rude, I agreed."
+          ]
+        }
       },
       {
         h: "After linking words; verbless clauses",
@@ -39,46 +61,79 @@ ES.registerLesson({
           "I'm not keen on them building houses here. (subject before -ing)",
           "If possible, bring your own gloves. (= if it is possible)",
           "While in Patagonia, we saw condors. (= while we were in Patagonia)"
-        ]
+        ],
+        uk: {
+          h: "Після сполучників; звороти без дієслова",
+          p: "Дієприкметники часто стоять після сполучників і прийменників (while, when, before, after, since, unless, if, instead of, despite). У зворотах без дієслова повністю зникають і підмет, і 'be'."
+        }
       },
       {
         h: "Fixed expressions",
         table: [
-          ["all being well", "якщо все буде добре"],
-          ["all things considered", "зважаючи на все"],
-          ["bearing in mind (that)…", "беручи до уваги, що…"],
-          ["given the chance", "якби була можливість"],
-          ["judging by…", "судячи з…"],
-          ["speaking of…", "до речі, говорячи про…"],
-          ["that said / having said that", "проте, разом з тим"],
-          ["considering…", "враховуючи…"]
-        ]
+          ["all being well", "if everything goes as planned"],
+          ["all things considered", "taking everything into account"],
+          ["bearing in mind (that)…", "remembering / taking into account that…"],
+          ["given the chance", "if I/you had the opportunity"],
+          ["judging by…", "based on what you can see from…"],
+          ["speaking of…", "by the way, while we're talking about…"],
+          ["that said / having said that", "however, but at the same time"],
+          ["considering…", "taking into account…"]
+        ],
+        uk: {
+          h: "Сталі вирази",
+          table: [
+            ["all being well", "якщо все буде добре"],
+            ["all things considered", "зважаючи на все"],
+            ["bearing in mind (that)…", "беручи до уваги, що…"],
+            ["given the chance", "якби була можливість"],
+            ["judging by…", "судячи з…"],
+            ["speaking of…", "до речі, говорячи про…"],
+            ["that said / having said that", "проте, разом з тим"],
+            ["considering…", "враховуючи…"]
+          ]
+        }
       },
       {
         h: "Improvement and deterioration",
         table: [
           [
             "make better",
-            "enhance (якість), beautify (вигляд), rectify (виправити помилку), alleviate (полегшити біль, проблему), facilitate (полегшити процес)"
+            "enhance (quality), beautify (appearance), rectify (correct a mistake), alleviate (ease pain or a problem), facilitate (make a process easier)"
           ],
           [
             "make worse",
-            "aggravate / exacerbate / compound (посилити наявну проблему), impair (послабити здатність), undermine (підірвати), complicate (ускладнити)"
+            "aggravate / exacerbate / compound (make an existing problem worse), impair (weaken an ability), undermine (gradually weaken), complicate (make more difficult)"
           ],
-          ["slow down / stop", "hamper / hinder (заважати, гальмувати)"],
-          ["get worse (no object)", "deteriorate (погіршуватися)"]
-        ]
+          ["slow down / stop", "hamper / hinder (get in the way, hold back)"],
+          ["get worse (no object)", "deteriorate (become worse)"]
+        ],
+        uk: {
+          h: "Покращення й погіршення",
+          table: [
+            [
+              "покращити",
+              "enhance (якість), beautify (вигляд), rectify (виправити помилку), alleviate (полегшити біль, проблему), facilitate (полегшити процес)"
+            ],
+            [
+              "погіршити",
+              "aggravate / exacerbate / compound (посилити наявну проблему), impair (послабити здатність), undermine (підірвати), complicate (ускладнити)"
+            ],
+            ["сповільнити / зупинити", "hamper / hinder (заважати, гальмувати)"],
+            ["погіршуватися (без додатка)", "deteriorate (погіршуватися)"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Додаткове пояснення і тести на дієприкметникові звороти (present, past, perfect).",
+        h: "More practice",
+        p: "Extra explanation and tests on participle clauses (present, past, perfect).",
         links: [
           {
             title: "British Council: Participle clauses",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses",
-            note: "having done, done, doing; звороти після сполучників і прийменників + два тести"
+            note: "having done, done, doing; clauses after conjunctions and prepositions + two tests"
           }
-        ]
+        ],
+        uk: { h: "Більше практики", p: "Додаткове пояснення і тести на дієприкметникові звороти (present, past, perfect).", notes: ["having done, done, doing; звороти після сполучників і прийменників + два тести"] }
       }
     ],
     exercises: [
@@ -450,7 +505,16 @@ ES.registerLesson({
           "Active or passive? Built in 1900, the bridge… (the bridge was built) / Building the bridge, they… (they built it)",
           "Earlier? Use having + past participle: Having finished, we left.",
           "In conversation, prefer full clauses – except fixed phrases like all things considered, that said, judging by."
-        ]
+        ],
+        uk: {
+          h: "Перевірте свій дієприкметниковий зворот",
+          list: [
+            "Той самий підмет? Walking home, I saw a deer. ✔  Walking home, a deer appeared. ✘ (олень не йшов додому)",
+            "Актив чи пасив? Built in 1900, the bridge… (міст побудували) / Building the bridge, they… (вони його будували)",
+            "Попередня дія? Вживайте having + past participle: Having finished, we left.",
+            "У розмові краще повні речення — крім сталих виразів на зразок all things considered, that said, judging by."
+          ]
+        }
       },
       {
         h: "Landscape adjectives",
@@ -466,7 +530,23 @@ ES.registerLesson({
           ["windswept", "exposed to strong winds"],
           ["barren", "with no plants or wildlife"],
           ["craggy", "rough, covered in large rocks"]
-        ]
+        ],
+        uk: {
+          h: "Прикметники для опису краєвиду",
+          table: [
+            ["parched", "висохлий, спалений спекою"],
+            ["arid", "посушливий, з малою кількістю опадів (клімат, регіон)"],
+            ["overgrown", "зарослий дикими рослинами, бур'янами"],
+            ["bleak", "холодний, порожній і гнітючий"],
+            ["forested", "вкритий лісом"],
+            ["undulating", "хвилястий, горбистий (плавно здіймається й опускається)"],
+            ["picturesque", "мальовничий"],
+            ["sheer", "стрімкий, майже прямовисний"],
+            ["windswept", "відкритий усім вітрам"],
+            ["barren", "безплідний, голий — без рослин і тварин"],
+            ["craggy", "скелястий, вкритий великими каменями"]
+          ]
+        }
       }
     ],
     exercises: [
