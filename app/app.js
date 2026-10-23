@@ -471,8 +471,27 @@
     });
   }
 
+  /* Rules are in English; one switch shows every rule block in Ukrainian (remembered). */
+  function rulesLang() { return (state.prefs && state.prefs.rulesLang) || "en"; }
+
   function renderTheory(blocks, ref) {
-    return h("div", { class: "theory" }, blocks.map(function (b, bi) {
+    var lang = rulesLang();
+    var hasUk = blocks.some(function (b) { return b.uk; });
+    var box = h("div", { class: "theory" });
+    if (hasUk) {
+      box.appendChild(h("div", { class: "lang-switch" }, [
+        h("button", { class: "btn ghost", type: "button", "aria-pressed": lang === "uk" ? "true" : "false",
+          text: lang === "uk" ? "🇬🇧 Show in English" : "🇺🇦 Показати українською",
+          onclick: function () {
+            state.prefs = state.prefs || {};
+            state.prefs.rulesLang = lang === "uk" ? "en" : "uk";
+            save();
+            box.replaceWith(renderTheory(blocks, ref));
+          } })
+      ]));
+    }
+    blocks.forEach(function (raw, bi) {
+      var b = ES.core.localizeBlock(raw, lang);
       var kids = [h("h3", { text: b.h })];
       if (b.p) kids.push(h("p", { text: b.p }));
       if (b.table) {
@@ -493,8 +512,9 @@
           return h("li", {}, [h("a", { href: lk.url, target: "_blank", rel: "noopener", text: lk.title }), lk.note ? h("span", { class: "muted", text: " — " + lk.note }) : null]);
         })));
       }
-      return h("section", { class: "rule", "data-ref": ref + "/theory" + bi }, kids);
-    }));
+      box.appendChild(h("section", { class: "rule", lang: lang === "uk" && raw.uk ? "uk" : "en", "data-ref": ref + "/theory" + bi }, kids));
+    });
+    return box;
   }
 
   /* ------------------------------------------------------------ exercises */

@@ -57,3 +57,25 @@ test("gap answers given as strings instead of arrays are reported, not thrown", 
   var errs = core.validateLesson(lesson([{ type: "gap", title: "x", items: [{ q: "a ___", answers: ["abc"] }] }]));
   assert.match(errs.join("\n"), /answers must be arrays/);
 });
+
+function withTheory(block) {
+  var l = lesson([]);
+  l.learn.theory = [block];
+  return core.validateLesson(l);
+}
+
+test("theory text without a Ukrainian translation is reported", function () {
+  assert.match(withTheory({ h: "Idea", p: "Text." }).join("\n"), /missing uk/);
+});
+
+test("Ukrainian list must match the English list length", function () {
+  assert.match(withTheory({ h: "Idea", list: ["a", "b"], uk: { h: "І", list: ["а"] } }).join("\n"), /uk\.list length/);
+});
+
+test("theory written in Ukrainian in the English field is reported", function () {
+  assert.match(withTheory({ h: "Ідея", p: "Перфектні форми.", uk: { h: "Ідея", p: "Перфектні форми." } }).join("\n"), /English field contains Cyrillic/);
+});
+
+test("fully translated block is valid", function () {
+  assert.deepStrictEqual(withTheory({ h: "Idea", p: "Text.", list: ["a"], ex: ["I've been."], uk: { h: "Ідея", p: "Текст.", list: ["а"] } }), []);
+});

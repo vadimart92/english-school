@@ -439,3 +439,4 @@ input.wrong { border-color: var(--bad); background: var(--bad-soft); text-decora
 .dbg-text { white-space: pre-wrap; }
 .dbg-x { border: 0; background: none; color: var(--muted); cursor: pointer; font: inherit; }
 .exercise .src { font-size: .85rem; margin: 4px 0 0; }
+.lang-switch { display: flex; justify-content: flex-end; }
