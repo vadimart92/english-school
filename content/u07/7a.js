@@ -23,7 +23,21 @@ ES.registerLesson({
             "indefinite",
             "a/an, another, some, any, no, much/many, (a) few/little, all, most, each, every, half, numbers – mainly about quantity, often new information"
           ]
-        ]
+        ],
+        uk: {
+          h: "Дві групи детермінантів",
+          p: "Детермінанти стоять перед іменником і показують слухачеві, про що саме йдеться і як.",
+          table: [
+            [
+              "означені",
+              "the, this/that/these/those, my/your/their, Anna's – слухач уже знає, про кого чи що йдеться"
+            ],
+            [
+              "неозначені",
+              "a/an, another, some, any, no, much/many, (a) few/little, all, most, each, every, half, числа – здебільшого про кількість, часто нова інформація"
+            ]
+          ]
+        }
       },
       {
         h: "Using two or three determiners",
@@ -37,7 +51,17 @@ ES.registerLesson({
         ex: [
           "Most of the thirty people on the tour had never left Europe.",
           "The train takes twice the time but costs half the price."
-        ]
+        ],
+        uk: {
+          h: "Два або три детермінанти разом",
+          list: [
+            "неозначений + of + означений: some of the time, most of our money, three of my friends, one of your journeys",
+            "після all, both і дробів of не обов'язкове: all (of) the passengers, both (of) those routes, half (of) the time",
+            "множники (twice, three times) стоять одразу перед означеним детермінантом: twice the distance, ten times the price (НЕ twice of the)",
+            "числа та many/few/little можуть стояти після означеного детермінанта: my three ideas, those few visitors, the many problems",
+            "слово порядку (first, last, next, previous) стоїть між двома детермінантами: the next three days, your first few flights"
+          ]
+        }
       },
       {
         h: "Modifying determiners",
@@ -45,7 +69,8 @@ ES.registerLesson({
         ex: [
           "Just under half the group had done any camping before.",
           "You can deal with virtually any problem if you have the right tools."
-        ]
+        ],
+        uk: { h: "Уточнення детермінантів", p: "Прислівники уточнюють кількість або точність: almost all, nearly every, just over/under half, exactly/precisely those reasons, very few, quite a few, not quite half, virtually any." }
       },
       {
         h: "quite / rather / such / something of + a/an",
@@ -55,7 +80,8 @@ ES.registerLesson({
           "Overlanding used to be rather a niche activity.",
           "It's been something of a boom.",
           "That was such a bad experience."
-        ]
+        ],
+        uk: { h: "quite / rather / such / something of + a/an", p: "Ці слова ставимо перед a/an + (прикметник) іменник, щоб висловити оцінку. Зверни увагу на порядок слів: quite a, rather a, such a, something of a." }
       },
       {
         h: "Special uses: some and any",
@@ -64,7 +90,16 @@ ES.registerLesson({
           "stressed some = amazement: Wow, that was SOME party!",
           "stressed any = it doesn't matter which (all are possible): ANY field where you can pitch a tent will do.",
           "unstressed any = whatever ones exist, or in negatives/questions: Buy any medicines you'll need before you go."
-        ]
+        ],
+        uk: {
+          h: "Особливі значення some та any",
+          list: [
+            "ненаголошене some + іменник в однині = не знаю, хто/що саме: There's some guy at the door asking for you.",
+            "наголошене some = захоплення, подив: Wow, that was SOME party!",
+            "наголошене any = байдуже, який саме (підходить будь-який): ANY field where you can pitch a tent will do.",
+            "ненаголошене any = які є / які знадобляться, або в запереченнях і питаннях: Buy any medicines you'll need before you go."
+          ]
+        }
       },
       {
         h: "Idioms related to exploration",
@@ -81,15 +116,40 @@ ES.registerLesson({
           ["retrace your steps", "go back the way you came"],
           ["off the beaten track", "away from popular places"],
           ["lose your bearings", "get confused about where you are"]
-        ]
+        ],
+        uk: {
+          h: "Ідіоми про мандри й дослідження",
+          table: [
+            ["as the crow flies", "по прямій (про відстань)"],
+            ["steer clear of", "уникати, обходити стороною"],
+            ["get away from it all", "відпочити від буденної метушні"],
+            ["follow the herd", "робити те, що й усі"],
+            ["go with your gut", "довіритися інтуїції"],
+            ["the great outdoors", "природа, життя просто неба"],
+            ["take the scenic route", "поїхати довшим, але мальовничішим шляхом"],
+            ["in the middle of nowhere", "далеко від будь-якого міста, у глушині"],
+            ["in the back of beyond", "у дуже віддаленому місці, на краю світу"],
+            ["retrace your steps", "повернутися тим самим шляхом"],
+            ["off the beaten track", "далеко від популярних місць"],
+            ["lose your bearings", "втратити орієнтацію, заблукати"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Короткі онлайн-вправи з автоперевіркою, щоб ще раз потренувати визначники кількості та some/any.",
+        h: "More practice",
+        p: "Short online exercises with automatic checking for extra practice with quantity determiners and some/any.",
         links: [
-          { title: "Perfect English Grammar: a little / a few", url: "https://www.perfect-english-grammar.com/a-little-a-few-exercise-1.html", note: "вправа на a little / a few з обчислюваними й необчислюваними іменниками" },
-          { title: "Perfect English Grammar: some and any", url: "https://www.perfect-english-grammar.com/some-and-any-exercise-1.html", note: "вправа на some і any у ствердженнях, запереченнях і питаннях" }
-        ]
+          { title: "Perfect English Grammar: a little / a few", url: "https://www.perfect-english-grammar.com/a-little-a-few-exercise-1.html", note: "a little / a few with countable and uncountable nouns" },
+          { title: "Perfect English Grammar: some and any", url: "https://www.perfect-english-grammar.com/some-and-any-exercise-1.html", note: "some and any in statements, negatives and questions" }
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Короткі онлайн-вправи з автоперевіркою, щоб ще раз потренувати визначники кількості та some/any.",
+          notes: [
+            "вправа на a little / a few зі злічуваними й незлічуваними іменниками",
+            "вправа на some і any у ствердженнях, запереченнях і питаннях"
+          ]
+        }
       }
     ],
     exercises: [
@@ -485,7 +545,21 @@ ES.registerLesson({
           ],
           ["modifier + determiner", "almost all, just over half, very few, quite a few, virtually any"],
           ["quite / rather / such / something of + a", "quite a challenge, such a disaster"]
-        ]
+        ],
+        uk: {
+          h: "Детермінанти в одній таблиці",
+          table: [
+            ["неозначений + of + означений", "most of the people, one of your journeys"],
+            ["all / both / half (+ of) + означений", "all (of) those facts, half (of) the time"],
+            ["множник + означений (без of)", "twice the size, three times the price"],
+            [
+              "означений + слово порядку + число/few/many",
+              "the next three days, your first few flights, the many problems"
+            ],
+            ["уточнювач + детермінант", "almost all, just over half, very few, quite a few, virtually any"],
+            ["quite / rather / such / something of + a", "quite a challenge, such a disaster"]
+          ]
+        }
       },
       {
         h: "Travel problems",
@@ -500,14 +574,30 @@ ES.registerLesson({
           ["grounded", "(planes) not allowed to take off"],
           ["a write-off", "a vehicle too damaged to repair"],
           ["impassable", "a road/route that can't be travelled on"]
-        ]
+        ],
+        uk: {
+          h: "Проблеми в дорозі",
+          table: [
+            ["seize up", "двигун заклинює, бо деталі не рухаються"],
+            ["jetlag", "втома після перельоту через часові пояси"],
+            ["a puncture", "прокол шини"],
+            ["congested / gridlock", "забитий транспортом / повний затор"],
+            ["stranded", "застряглий десь без можливості виїхати"],
+            ["shipwrecked / capsized", "корабель розбився в морі / човен перекинувся"],
+            ["collide (with)", "зіткнутися (з)"],
+            ["grounded", "(про літаки) без дозволу на зліт"],
+            ["a write-off", "транспорт, який уже не відремонтувати"],
+            ["impassable", "непрохідний, непроїзний (про дорогу чи маршрут)"]
+          ]
+        }
       },
       {
         h: "Changing the topic in a discussion",
         p: "To digress: by the way, incidentally. To come back to the main point: anyway, anyhow, getting back to my original point, going back to what I was saying earlier.",
         ex: [
           "Incidentally, have you ever been to Lisbon? … Anyway, getting back to my original point – travel doesn't change who you are."
-        ]
+        ],
+        uk: { h: "Як змінити тему в дискусії", p: "Щоб відійти від теми: by the way, incidentally. Щоб повернутися до головного: anyway, anyhow, getting back to my original point, going back to what I was saying earlier." }
       }
     ],
     exercises: [

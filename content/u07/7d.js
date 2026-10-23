@@ -20,7 +20,18 @@ ES.registerLesson({
           "Each team tries to refute the other side's points with rebuttals and counterarguments.",
           "There may be questions from the floor, then short summaries from the team leaders.",
           "The winner is chosen by a show of hands – often for rhetorical skills rather than the substance of the arguments."
-        ]
+        ],
+        uk: {
+          h: "Як відбуваються дебати",
+          list: [
+            "Головуючий оголошує тезу (ідею, яку обговорюють) і нагадує учасникам правила.",
+            "Команда A аргументує на підтримку тези якомога красномовніше й послідовніше.",
+            "Команда B намагається переконати аудиторію власними аргументами проти неї.",
+            "Кожна команда намагається спростувати аргументи суперників запереченнями та контраргументами.",
+            "Можуть бути питання із зали, потім короткі підсумки від лідерів команд.",
+            "Переможця обирають підняттям рук – часто за риторичну майстерність, а не за суть аргументів."
+          ]
+        }
       },
       {
         h: "Useful phrases",
@@ -33,7 +44,20 @@ ES.registerLesson({
             "debater",
             "I'd like to present my case by drawing your attention to… / Secondly, there's the fact that… / I'm sure you've all experienced… / Finally, I'd like to point out that… / That's why I firmly believe that… / To sum up, …"
           ]
-        ]
+        ],
+        uk: {
+          h: "Корисні фрази",
+          table: [
+            [
+              "головуючий",
+              "Thank you all for coming. / Tonight we are debating the motion that… / Without further ado, let me introduce the first speaker. / I'd like to remind the audience that… / Your allotted two minutes start now."
+            ],
+            [
+              "учасник дебатів",
+              "I'd like to present my case by drawing your attention to… / Secondly, there's the fact that… / I'm sure you've all experienced… / Finally, I'd like to point out that… / That's why I firmly believe that… / To sum up, …"
+            ]
+          ]
+        }
       },
       {
         h: "Rhetorical techniques",
@@ -44,7 +68,18 @@ ES.registerLesson({
           "'more and more / worse and worse' for endless processes",
           "rhetorical questions: And what about the pollution?",
           "sets of three, often two short ideas + one longer: too many feet, too much noise and too little respect for the people who live here"
-        ]
+        ],
+        uk: {
+          h: "Риторичні прийоми",
+          list: [
+            "«ми проти них»: For them it's a photo opportunity; for us it's home.",
+            "сильні негативні образи: Our old town has become a wasteland for locals.",
+            "звернення до досвіду слухачів: I'm sure you've all been stuck behind…",
+            "«more and more / worse and worse» для нескінченних процесів",
+            "риторичні питання: And what about the pollution?",
+            "трійки, часто дві короткі ідеї + одна довша: too many feet, too much noise and too little respect for the people who live here"
+          ]
+        }
       },
       {
         h: "Power pauses",
@@ -52,7 +87,8 @@ ES.registerLesson({
         ex: [
           "That's why I firmly believe … that tourism should be discouraged.",
           "I'd like to present my case by drawing your attention to … three irrefutable facts."
-        ]
+        ],
+        uk: { h: "Сильні паузи", p: "Промовці роблять довгу паузу перед ключовою думкою або після неї, щоб слухачі встигли відчути її вагу." }
       }
     ],
     exercises: [
@@ -405,7 +441,18 @@ ES.registerLesson({
           ["add", "Secondly, there's the fact that… Finally, I'd like to point out that…"],
           ["persuade", "I'm sure you've all experienced… That's why I firmly believe that…"],
           ["close", "To sum up, …"]
-        ]
+        ],
+        uk: {
+          h: "Мова дебатів з першого погляду",
+          table: [
+            ["відкрити", "Thank you all for coming. Tonight we are debating the motion that…"],
+            ["передати слово", "Without further ado, let me introduce… Your allotted two minutes start now."],
+            ["представити позицію", "I'd like to present my case by drawing your attention to…"],
+            ["додати аргумент", "Secondly, there's the fact that… Finally, I'd like to point out that…"],
+            ["переконати", "I'm sure you've all experienced… That's why I firmly believe that…"],
+            ["завершити", "To sum up, …"]
+          ]
+        }
       }
     ],
     exercises: [

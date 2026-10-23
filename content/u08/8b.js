@@ -37,7 +37,38 @@ ES.registerLesson({
             "was/were on the threshold of + noun",
             "a wider change or new situation that was beginning: Britain was on the threshold of a new era."
           ]
-        ]
+        ],
+        uk: {
+          h: "Майбутнє з погляду минулого",
+          p: "Кожна форма має відповідник у теперішньому; ми просто переносимо її в минуле. Часто план так і не здійснився.",
+          table: [
+            [
+              "was/were going to, Past Continuous",
+              "плани в минулому, зазвичай нездійснені: I was going to relax this weekend, but… / We were meeting on Friday, but he cancelled."
+            ],
+            [
+              "was always going to / was bound to",
+              "те, що мало статися неминуче: It was always going to end badly. / The policy was bound to cause problems."
+            ],
+            [
+              "was/were due to",
+              "заплановані, офіційно призначені події: The concert was due to start at eight."
+            ],
+            [
+              "was/were (all) set to, on course to",
+              "майже напевно через тодішні плани чи обставини: We were all set to leave when we heard the news."
+            ],
+            ["was/were about to", "от-от мало статися: I was about to leave when they turned up."],
+            [
+              "was/were on the point/verge of + -ing",
+              "зміна, яка вже почалася: They were on the verge of giving up."
+            ],
+            [
+              "was/were on the threshold of + іменник",
+              "ширша зміна чи нова ситуація, що починалася: Britain was on the threshold of a new era."
+            ]
+          ]
+        }
       },
       {
         h: "Verbs with future meaning",
@@ -46,12 +77,14 @@ ES.registerLesson({
           "We expected the book to sell well, but it didn't.",
           "It was envisaged that people would live on the Moon by 2000.",
           "I suspected they wouldn't accept our offer."
-        ]
+        ],
+        uk: { h: "Дієслова зі значенням майбутнього", p: "assume, decide, envisage, expect, guess, hope, imagine, know, plan, suspect, think + would / інфінітив з to / пасив з that." }
       },
       {
         h: "Pronunciation: linking at word boundaries",
         p: "When the same or a similar consonant ends one word and starts the next, we pronounce it once, slightly longer: expec(t) to, se(t) to, abou(t) to.",
-        ex: ["I didn't expect to see this happen.", "We were about to launch it."]
+        ex: ["I didn't expect to see this happen.", "We were about to launch it."],
+        uk: { h: "Вимова: зв'язування на межі слів", p: "Коли той самий або схожий приголосний закінчує одне слово й починає наступне, вимовляємо його один раз, трохи довше: expec(t) to, se(t) to, abou(t) to." }
       },
       {
         h: "Decision making and reflection",
@@ -64,14 +97,28 @@ ES.registerLesson({
           ["weigh up the options", "compare the pros and cons"],
           ["be in a quandary (over)", "be unsure what to do in a difficult situation"],
           ["on reflection", "after thinking about it again"]
-        ]
+        ],
+        uk: {
+          h: "Ухвалення рішень і роздуми",
+          table: [
+            ["with the benefit of hindsight", "оглядаючись назад, знаючи те, що знаєш тепер"],
+            ["(not) pan out", "(не) скластися так, як сподівався"],
+            ["stop short of (doing)", "мало не зробити щось, але зупинитися"],
+            ["agonise over", "довго й болісно вагатися щодо чогось"],
+            ["be torn between", "не могти вибрати між двома речами"],
+            ["weigh up the options", "зважити всі за і проти"],
+            ["be in a quandary (over)", "не знати, що робити в складній ситуації"],
+            ["on reflection", "добре подумавши"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "На EnglishPage є пояснення майбутнього в минулому з прикладами та вправами.",
+        h: "More practice",
+        p: "EnglishPage explains the future in the past, with examples and exercises.",
         links: [
-          { title: "EnglishPage: future in the past", url: "https://www.englishpage.com/verbpage/futureinpast.html", note: "would і was going to для майбутнього з погляду минулого, з вправами" }
-        ]
+          { title: "EnglishPage: future in the past", url: "https://www.englishpage.com/verbpage/futureinpast.html", note: "would and was going to for the future seen from the past, with exercises" }
+        ],
+        uk: { h: "Більше практики", p: "На EnglishPage є пояснення майбутнього в минулому з прикладами та вправами.", notes: ["would і was going to для майбутнього з погляду минулого, з вправами"] }
       }
     ],
     exercises: [
@@ -405,7 +452,19 @@ ES.registerLesson({
           ["on the threshold of + noun", "a new era/situation beginning"],
           ["was going to, was always going to, was bound to", "plans; certainty"],
           ["expected / envisaged / assumed / hoped / knew + would/to", "past view of the future"]
-        ]
+        ],
+        uk: {
+          h: "Майбутнє в минулому: швидка перевірка",
+          table: [
+            ["due to", "розклад / офіційний план"],
+            ["(all) set to, on course to", "майже напевно на той момент"],
+            ["about to", "от-от"],
+            ["on the point/verge of + -ing", "уже починається"],
+            ["on the threshold of + іменник", "початок нової епохи чи ситуації"],
+            ["was going to, was always going to, was bound to", "плани; неминучість"],
+            ["expected / envisaged / assumed / hoped / knew + would/to", "погляд у майбутнє з минулого"]
+          ]
+        }
       },
       {
         h: "Positive or negative context?",
@@ -413,7 +472,11 @@ ES.registerLesson({
         ex: [
           "The town is rife with cowboy builders. (negative)",
           "You're building up a lot of experience. (positive)"
-        ]
+        ],
+        uk: {
+          h: "Позитивний чи негативний контекст?",
+          p: "Деякі слова мають приховане позитивне чи негативне забарвлення від слів, з якими вони зазвичай уживаються: cause (trouble, harm, damage) – негативне; provide (support, information, opportunities) – позитивне."
+        }
       }
     ],
     exercises: [

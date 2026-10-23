@@ -27,7 +27,28 @@ ES.registerLesson({
             "No matter + what/which/who/where/when/how + you + verb, …",
             "No matter where you are, take a deep breath."
           ]
-        ]
+        ],
+        uk: {
+          h: "Слова на -ever і no matter",
+          table: [
+            [
+              "Whatever/However/Whichever/Whenever/Wherever/Whoever + you + дієслово, + наказовий спосіб/should",
+              "Wherever you are in the city, always check your surroundings."
+            ],
+            [
+              "However / No matter how + прикметник/прислівник, + наказовий спосіб/should",
+              "However tired you are, don't skip breakfast. / No matter how difficult it is, try not to panic."
+            ],
+            [
+              "Whatever / Whichever + іменник + you + дієслово, …",
+              "Whichever seat you take, don't eat on the bus."
+            ],
+            [
+              "No matter + what/which/who/where/when/how + you + дієслово, …",
+              "No matter where you are, take a deep breath."
+            ]
+          ]
+        }
       },
       {
         h: "whatever or whichever?",
@@ -35,7 +56,8 @@ ES.registerLesson({
         ex: [
           "Whatever type of transport you use, stay safe.",
           "You can take the motorway or the country roads, but whichever way you go, drive carefully."
-        ]
+        ],
+        uk: { h: "whatever чи whichever?", p: "whatever = будь-що з необмеженого вибору; whichever = будь-що з обмеженого набору, про який уже йшлося." }
       },
       {
         h: "Very strong emphasis: inversion",
@@ -44,9 +66,15 @@ ES.registerLesson({
           "Under no circumstances whatsoever should you travel without your documents.",
           "On no account should you make eye contact.",
           "No way should you get on without a ticket."
-        ]
+        ],
+        uk: { h: "Дуже сильний наголос: інверсія", p: "Under no circumstances / On no account (+ whatsoever) + should + підмет + дієслово. Розмовно: No way should you… Порядок слів – як у питанні." }
       },
-      { h: "Stress", p: "In short advice, the main stress usually falls on the -ever word and the key word of the advice.", ex: ["WHENEVER you're lost, don't PANIC.", "WHATEVER the weather, take an UMBRELLA."] },
+      {
+        h: "Stress",
+        p: "In short advice, the main stress usually falls on the -ever word and the key word of the advice.",
+        ex: ["WHENEVER you're lost, don't PANIC.", "WHATEVER the weather, take an UMBRELLA."],
+        uk: { h: "Наголос", p: "У короткій пораді головний наголос зазвичай падає на слово на -ever і на ключове слово поради." }
+      },
       {
         h: "Idioms related to risk",
         table: [
@@ -58,19 +86,40 @@ ES.registerLesson({
           ["watch your step", "be careful what you say or do (S)"],
           ["the coast is clear", "it's safe to act without being seen"],
           ["(not) out of the woods", "(not yet) free from danger or difficulty"]
-        ]
+        ],
+        uk: {
+          h: "Ідіоми про ризик",
+          table: [
+            ["play with fire", "гратися з вогнем, робити щось небезпечне (R)"],
+            ["run the risk (of)", "ризикувати, що станеться щось погане (R)"],
+            ["take a calculated risk", "свідомо ризикнути, усе добре обдумавши (R)"],
+            ["play it safe", "не ризикувати, діяти обачно (S)"],
+            ["keep your head down", "не висовуватися, уникати уваги чи халепи (S)"],
+            ["watch your step", "бути обережним у словах і діях (S)"],
+            ["the coast is clear", "шлях вільний – можна діяти непомітно"],
+            ["(not) out of the woods", "(ще не) поза небезпекою чи труднощами"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Ці сторінки допоможуть потренувати емфатичні конструкції та інверсію після заперечних виразів.",
+        h: "More practice",
+        p: "These pages will help you practise emphatic structures and inversion after negative expressions.",
         links: [
           {
             title: "British Council: Emphasis",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/emphasis-cleft-sentences-inversion-auxiliaries",
-            note: "cleft sentences, інверсія та емфатичні do/does/did (рівень C1) з тестом"
+            note: "cleft sentences, inversion and emphatic do/does/did (C1 level), with a test"
           },
-          { title: "Perfect English Grammar: inversion", url: "https://www.perfect-english-grammar.com/inversion-exercise-1.html", note: "вправа на інверсію після never, not only, under no circumstances тощо" }
-        ]
+          { title: "Perfect English Grammar: inversion", url: "https://www.perfect-english-grammar.com/inversion-exercise-1.html", note: "inversion after never, not only, under no circumstances and similar expressions" }
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Ці сторінки допоможуть потренувати емфатичні конструкції та інверсію після заперечних виразів.",
+          notes: [
+            "cleft sentences, інверсія та емфатичні do/does/did (рівень C1) з тестом",
+            "вправа на інверсію після never, not only, under no circumstances тощо"
+          ]
+        }
       }
     ],
     exercises: [
@@ -404,7 +453,17 @@ ES.registerLesson({
           "No matter + wh-word + you + verb, … – No matter who you meet, be polite.",
           "Under no circumstances / On no account (+ whatsoever) + should you… – On no account should you sign it.",
           "Informal: No way should you…"
-        ]
+        ],
+        uk: {
+          h: "Як підсилити пораду: підсумок",
+          list: [
+            "Whatever/Whichever (+ іменник) + you + дієслово, … – Whichever route you take, leave early.",
+            "However / No matter how + прикметник, … – However late it is, call me.",
+            "No matter + питальне слово + you + дієслово, … – No matter who you meet, be polite.",
+            "Under no circumstances / On no account (+ whatsoever) + should you… – On no account should you sign it.",
+            "Розмовно: No way should you…"
+          ]
+        }
       },
       {
         h: "Dealing with rudeness online",
@@ -413,7 +472,16 @@ ES.registerLesson({
           "Reframe rudeness as a thoughtful argument: I think your point is valid, however…",
           "Avoid the trolls – don't engage with people who only want to provoke.",
           "Useful phrases: I wholeheartedly agree that… / I can't speak for everyone, but… / I should have made it clearer that… / I don't want to nit-pick, but…"
-        ]
+        ],
+        uk: {
+          h: "Як реагувати на грубість онлайн",
+          list: [
+            "Зазнач, у чому ви згодні: I agree that it's not easy, but…",
+            "Переформулюй грубість як виважений аргумент: I think your point is valid, however…",
+            "Уникай тролів – не вступай у розмову з тими, хто лише хоче спровокувати.",
+            "Корисні фрази: I wholeheartedly agree that… / I can't speak for everyone, but… / I should have made it clearer that… / I don't want to nit-pick, but…"
+          ]
+        }
       }
     ],
     exercises: [

@@ -17,7 +17,15 @@ ES.registerLesson({
           "Defining clauses tell us which person/thing we mean. No commas. who/which/that can be left out when it is the object: This is the app (that) I downloaded.",
           "Non-defining clauses add extra information between commas. Use who/which (never that) and never leave the pronoun out: My bank, which I've used for years, has closed my account.",
           "which can comment on a whole statement: We got lost, which was annoying."
-        ]
+        ],
+        uk: {
+          h: "Обмежувальні й необмежувальні підрядні",
+          list: [
+            "Обмежувальні (defining) підрядні показують, про яку саме людину чи річ ідеться. Без ком. who/which/that можна пропустити, якщо це додаток: This is the app (that) I downloaded.",
+            "Необмежувальні (non-defining) підрядні додають інформацію між комами. Вживай who/which (ніколи не that) і ніколи не пропускай займенник: My bank, which I've used for years, has closed my account.",
+            "which може коментувати все попереднє твердження: We got lost, which was annoying."
+          ]
+        }
       },
       {
         h: "Short prepositions: two positions",
@@ -26,7 +34,11 @@ ES.registerLesson({
           "This is the scam (that) I warned you about. (neutral)",
           "This is the scam about which I warned you. (formal)",
           "the person to whom I sent the money (NOT to who)"
-        ]
+        ],
+        uk: {
+          h: "Короткі прийменники: два місця",
+          p: "Базові прийменники (about, of, with, to, for, in…) зазвичай лишаються там, де стояли б у звичайному реченні, – у кінці підрядного. В офіційній мові їх можна поставити перед which/whom (але ніколи перед who чи that)."
+        }
       },
       {
         h: "Longer prepositions always go first",
@@ -34,7 +46,11 @@ ES.registerLesson({
         ex: [
           "We spoke to an adviser, according to whom it was all above board. (NOT …who it was all above board according to)",
           "I paid for the software, shortly after which I realised it was a one-month trial."
-        ]
+        ],
+        uk: {
+          h: "Довгі прийменники завжди стоять першими",
+          p: "Довгі прийменники (according to, despite, in spite of, instead of, as a result of) і прийменники з уточненням (shortly after, three weeks after, two metres above) стоять перед which/whom, зазвичай у необмежувальних підрядних."
+        }
       },
       {
         h: "Number/quantifier + of which/whom",
@@ -43,7 +59,8 @@ ES.registerLesson({
           "I ordered ten parcels, half of which never arrived.",
           "The guests, most of whom I'd never met, were very friendly.",
           "There are many problems, the biggest of which is the cost."
-        ]
+        ],
+        uk: { h: "Число чи квантифікатор + of which/whom", p: "some/most/half/none/three/several/the biggest + of + which/whom." }
       },
       {
         h: "Fixed phrases with which",
@@ -52,25 +69,36 @@ ES.registerLesson({
           ["at which point", "My account was empty, at which point I realised I'd been taken in."],
           ["in which case", "It might be a scam, in which case we should report it."],
           ["after which", "I sent them my details, after which the emails stopped."]
-        ]
+        ],
+        uk: { h: "Сталі вирази з which" }
       },
       {
         h: "Pronunciation: to",
         p: "In the middle of a clause to is weak /tə/ (the person I lent it to was…); at the very end of a sentence it is strong /tuː/ (…the scam you fell victim to).",
-        ex: ["Who did you send it to?", "That's the man I sent the money to last week."]
+        ex: ["Who did you send it to?", "That's the man I sent the money to last week."],
+        uk: { h: "Вимова: to", p: "Усередині підрядного to слабке /tə/ (the person I lent it to was…); у самому кінці речення – сильне /tuː/ (…the scam you fell victim to)." }
       },
       {
-        h: "Більше практики",
-        p: "Ці онлайн-вправи допоможуть закріпити відносні речення, пропуск займенника та вибір між who, whom і whose.",
+        h: "More practice",
+        p: "These online exercises will help you consolidate relative clauses, leaving out the pronoun, and the choice between who, whom and whose.",
         links: [
-          { title: "Perfect English Grammar: defining relative clauses", url: "https://www.perfect-english-grammar.com/relative-clauses-exercise-1.html", note: "вправа на who / which / that / whose в обмежувальних реченнях" },
+          { title: "Perfect English Grammar: defining relative clauses", url: "https://www.perfect-english-grammar.com/relative-clauses-exercise-1.html", note: "who / which / that / whose in defining clauses" },
           {
             title: "Perfect English Grammar: dropping the relative pronoun",
             url: "https://www.perfect-english-grammar.com/dropping-the-relative-pronoun-exercise.html",
-            note: "коли відносний займенник можна пропустити, а коли ні"
+            note: "when you can leave out the relative pronoun and when you can't"
           },
-          { title: "EnglishPage: who / whom / whose", url: "https://www.englishpage.com/minitutorials/who_whom.html", note: "коротке пояснення різниці між who, whom і whose з тестом" }
-        ]
+          { title: "EnglishPage: who / whom / whose", url: "https://www.englishpage.com/minitutorials/who_whom.html", note: "a short explanation of who, whom and whose, with a quiz" }
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Ці онлайн-вправи допоможуть закріпити відносні речення, пропуск займенника та вибір між who, whom і whose.",
+          notes: [
+            "вправа на who / which / that / whose в обмежувальних реченнях",
+            "коли відносний займенник можна пропустити, а коли ні",
+            "коротке пояснення різниці між who, whom і whose з тестом"
+          ]
+        }
       }
     ],
     exercises: [
@@ -416,7 +444,17 @@ ES.registerLesson({
           "half of which / most of whom / none of which / the purpose of which – quantity or 'the X of'",
           "by which time / at which point / in which case – fixed phrases",
           "after a preposition: whom/which – never who or that"
-        ]
+        ],
+        uk: {
+          h: "Відносні речення: швидка перевірка",
+          list: [
+            "the scam (that) I fell for / the scam for which I fell (офіційно) – короткі прийменники",
+            "according to whom / despite which / instead of which / shortly after which – довгі прийменники завжди першими",
+            "half of which / most of whom / none of which / the purpose of which – кількість або «the X of»",
+            "by which time / at which point / in which case – сталі вирази",
+            "після прийменника: whom/which – ніколи не who чи that"
+          ]
+        }
       },
       {
         h: "Finance and investment",
@@ -439,7 +477,30 @@ ES.registerLesson({
             "commodities / derivatives",
             "raw materials like oil or gold / complex contracts about future prices"
           ]
-        ]
+        ],
+        uk: {
+          h: "Фінанси та інвестиції",
+          table: [
+            ["collateral", "застава – майно, яке гарантує повернення позики"],
+            ["a debtor / a creditor", "боржник / кредитор (людина чи банк, якому винні гроші)"],
+            ["default (on)", "не сплатити борг, допустити дефолт"],
+            ["repossess", "забрати майно через несплату"],
+            ["credit rating", "кредитний рейтинг – оцінка того, наскільки безпечно позичати тобі гроші"],
+            ["depreciate / appreciate", "втрачати / набирати вартість"],
+            ["speculate", "купувати ризиковані активи, сподіваючись на швидкий прибуток"],
+            ["assets", "активи – цінні речі, якими ти володієш"],
+            ["write off", "списати – визнати, що гроші втрачено"],
+            ["hedge fund", "хедж-фонд, що поєднує високо- й низькоризикові інвестиції"],
+            [
+              "bonds / stocks and shares",
+              "облігації (боргові сертифікати держави чи компанії) / акції (частки компанії)"
+            ],
+            [
+              "commodities / derivatives",
+              "сировина на кшталт нафти чи золота / деривативи – складні контракти на майбутні ціни"
+            ]
+          ]
+        }
       },
       {
         h: "Idioms from the scam emails",
@@ -450,7 +511,18 @@ ES.registerLesson({
           ["cost an arm and a leg", "be very expensive"],
           ["get the wrong end of the stick", "misunderstand"],
           ["a pain in the neck", "something annoying or inconvenient"]
-        ]
+        ],
+        uk: {
+          h: "Ідіоми з шахрайських листів",
+          table: [
+            ["come out of the blue", "статися зовсім несподівано"],
+            ["get the ball rolling / get cracking", "почати, взятися до справи"],
+            ["red tape", "бюрократія, тяганина з паперами"],
+            ["cost an arm and a leg", "коштувати шалених грошей"],
+            ["get the wrong end of the stick", "зрозуміти неправильно"],
+            ["a pain in the neck", "щось набридливе чи незручне"]
+          ]
+        }
       }
     ],
     exercises: [
