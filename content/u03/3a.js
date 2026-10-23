@@ -14,83 +14,154 @@ ES.registerLesson({
     theory: [
       {
         h: "Question forms in spoken English",
-        p: "У розмовній англійській питання — це не лише «do you…?». Форма питання показує ставлення мовця: здивування, впевненість у відповіді, ввічливість чи наголос. На рівні C1 важливо і розпізнавати ці форми, і самому їх вживати.",
+        p: "In spoken English, questions are not just 'Do you…?'. The form of a question shows the speaker's attitude: surprise, confidence about the answer, politeness or emphasis. At C1 you need to recognise these forms and use them yourself.",
         table: [
           [
             "Negative question",
-            "мовець уже очікує певну відповідь або шукає згоди; часто риторичне",
+            "the speaker already expects a particular answer or is looking for agreement; often rhetorical",
             "Don't you think we should wait for Ola? / Isn't it a bit late to start now?"
           ],
           [
             "Statement + question word",
-            "здивування чи недовіра, або перепитування («я не дочув»)",
+            "surprise or disbelief, or asking someone to repeat something you didn't catch",
             "You paid how much? / We're meeting where?"
           ],
           [
             "You mean / So you're saying + statement",
-            "перевірити, чи правильно зрозумів, або підсумувати думку співрозмовника",
+            "checking that you've understood correctly, or summing up the other person's point",
             "So you're saying the deadline has moved? / You mean we don't need tickets?"
           ],
           [
             "Indirect question",
-            "пом'якшити незручне чи особисте питання; формальніше; прямий порядок слів",
+            "softening an awkward or personal question; more formal; statement word order",
             "Could you tell me why the order was cancelled? / Would it be fair to say you weren't ready?"
           ],
           [
             "Question tag (falling)",
-            "перевірити чи підтвердити те, у чому ти майже впевнений",
+            "checking or confirming something you're almost sure about",
             "You've met Dan before, haven't you? / She isn't coming, is she?"
           ],
           [
             "Question word + is it (cleft)",
-            "наголос на тому, про що питаємо; звучить формально або напружено",
+            "puts emphasis on what you're asking about; sounds formal or tense",
             "What is it that you don't like about the plan? / Why is it that buses never come on time?"
           ]
-        ]
+        ],
+        uk: {
+          h: "Форми питань у розмовній англійській",
+          p: "У розмовній англійській питання — це не лише «do you…?». Форма питання показує ставлення мовця: здивування, впевненість у відповіді, ввічливість чи наголос. На рівні C1 важливо і розпізнавати ці форми, і самому їх вживати.",
+          table: [
+            [
+              "Заперечне питання (negative question)",
+              "мовець уже очікує певну відповідь або шукає згоди; часто риторичне",
+              "Don't you think we should wait for Ola? / Isn't it a bit late to start now?"
+            ],
+            [
+              "Твердження + питальне слово",
+              "здивування чи недовіра, або перепитування («я не дочув»)",
+              "You paid how much? / We're meeting where?"
+            ],
+            [
+              "You mean / So you're saying + твердження",
+              "перевірити, чи правильно зрозумів, або підсумувати думку співрозмовника",
+              "So you're saying the deadline has moved? / You mean we don't need tickets?"
+            ],
+            [
+              "Непряме питання (indirect question)",
+              "пом'якшити незручне чи особисте питання; формальніше; прямий порядок слів",
+              "Could you tell me why the order was cancelled? / Would it be fair to say you weren't ready?"
+            ],
+            [
+              "Розділове питання (спадна інтонація)",
+              "перевірити чи підтвердити те, у чому ти майже впевнений",
+              "You've met Dan before, haven't you? / She isn't coming, is she?"
+            ],
+            [
+              "Питальне слово + is it (cleft)",
+              "наголос на тому, про що питаємо; звучить формально або напружено",
+              "What is it that you don't like about the plan? / Why is it that buses never come on time?"
+            ]
+          ]
+        }
       },
       {
         h: "Less common tags and embedded questions",
         list: [
           "Let's … , shall we? — Let's take a short break, shall we?",
-          "Everyone / Nobody / Somebody → тег з they: Everybody enjoyed it, didn't they? Nobody called, did they?",
+          "Everyone / Nobody / Somebody → a tag with they: Everybody enjoyed it, didn't they? Nobody called, did they?",
           "Imperative → will you? / won't you? — Pass me the salt, will you?",
-          "Embedded questions після unclear, uncertain, not sure, I wonder: прямий порядок слів; для yes/no — if або whether. It's unclear why he resigned. I wonder whether they got our message."
-        ]
+          "Embedded questions after unclear, uncertain, not sure, I wonder: statement word order; for yes/no questions use if or whether. It's unclear why he resigned. I wonder whether they got our message."
+        ],
+        uk: {
+          h: "Менш поширені теги та вбудовані питання",
+          list: [
+            "Let's … , shall we? — Let's take a short break, shall we?",
+            "Everyone / Nobody / Somebody → тег із they: Everybody enjoyed it, didn't they? Nobody called, did they?",
+            "Наказовий спосіб → will you? / won't you? — Pass me the salt, will you?",
+            "Вбудовані питання після unclear, uncertain, not sure, I wonder: прямий порядок слів; для питань yes/no — if або whether. It's unclear why he resigned. I wonder whether they got our message."
+          ]
+        }
       },
       {
         h: "Intonation",
-        p: "У питанні типу statement + question word інтонація зазвичай різко йде вгору на питальному слові: We do it how many times? ↗ У tag-питаннях, якими ми лише підтверджуємо відоме, інтонація падає: It's cold, isn't it? ↘",
+        p: "In a 'statement + question word' question, the intonation usually rises sharply on the question word: We do it how many times? ↗ In question tags that only confirm what we already know, the intonation falls: It's cold, isn't it? ↘",
         ex: [
           "You've been here for how long?",
           "We need to leave at what time?",
           "You're not serious, are you?"
-        ]
+        ],
+        uk: {
+          h: "Інтонація",
+          p: "У питанні типу «твердження + питальне слово» інтонація зазвичай різко йде вгору на питальному слові: We do it how many times? ↗ У розділових питаннях, якими ми лише підтверджуємо відоме, інтонація спадає: It's cold, isn't it? ↘"
+        }
       },
       {
         h: "Ideas: useful phrases",
         table: [
-          ["It occurs to me that…", "мені спало на думку, що…"],
-          ["nothing springs to mind", "нічого не спадає на думку"],
-          ["it dawned on me that…", "до мене (поступово) дійшло, що…"],
-          ["bounce (a few) ideas around", "обговорити ідеї неформально, «покидати» ідеї"],
-          ["a bright idea", "блискуча ідея (часто іронічно)"],
-          ["just a passing thought", "просто думка, що промайнула; несерйозно"],
-          ["be out of ideas", "вичерпати ідеї"],
-          ["give someone an idea", "наштовхнути на думку"],
-          ["have a brainwave", "раптом придумати щось геніальне"]
-        ]
+          ["It occurs to me that…", "a thought has just come to me that…"],
+          ["nothing springs to mind", "no idea comes to mind"],
+          ["it dawned on me that…", "I gradually realised that…"],
+          ["bounce (a few) ideas around", "discuss ideas informally, throw ideas around"],
+          ["a bright idea", "a clever idea (often ironic)"],
+          ["just a passing thought", "just a thought that crossed my mind; not serious"],
+          ["be out of ideas", "have run out of ideas"],
+          ["give someone an idea", "make someone think of something"],
+          ["have a brainwave", "suddenly think of something brilliant"]
+        ],
+        uk: {
+          h: "Ідеї: корисні фрази",
+          table: [
+            ["It occurs to me that…", "мені спало на думку, що…"],
+            ["nothing springs to mind", "нічого не спадає на думку"],
+            ["it dawned on me that…", "до мене (поступово) дійшло, що…"],
+            ["bounce (a few) ideas around", "обговорити ідеї неформально, «покидати» ідеї"],
+            ["a bright idea", "блискуча ідея (часто іронічно)"],
+            ["just a passing thought", "просто думка, що промайнула; несерйозно"],
+            ["be out of ideas", "вичерпати ідеї"],
+            ["give someone an idea", "наштовхнути на думку"],
+            ["have a brainwave", "раптом придумати щось геніальне"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Короткі онлайн-вправи з автоперевіркою, щоб довести до автоматизму заперечні й непрямі питання.",
+        h: "More practice",
+        p: "Short online exercises with automatic checking, to make negative and indirect questions automatic.",
         links: [
-          { title: "Perfect English Grammar: negative questions", url: "https://www.perfect-english-grammar.com/negative-questions-exercise-1.html", note: "заперечні питання (Isn't it…? Don't you…?) — утворити з підказок" },
+          { title: "Perfect English Grammar: negative questions", url: "https://www.perfect-english-grammar.com/negative-questions-exercise-1.html", note: "negative questions (Isn't it…? Don't you…?) — build them from prompts" },
           {
             title: "Perfect English Grammar: indirect questions",
             url: "https://www.perfect-english-grammar.com/indirect-questions-exercise-1.html",
-            note: "непрямі питання: прямий порядок слів після Could you tell me… / Do you know…"
+            note: "indirect questions: statement word order after Could you tell me… / Do you know…"
           }
-        ]
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Короткі онлайн-вправи з автоперевіркою, щоб довести до автоматизму заперечні й непрямі питання.",
+          notes: [
+            "заперечні питання (Isn't it…? Don't you…?) — утворити з підказок",
+            "непрямі питання: прямий порядок слів після Could you tell me… / Do you know…"
+          ]
+        }
       }
     ],
     exercises: [
@@ -461,7 +532,37 @@ ES.registerLesson({
             "cleft question, adds emphasis, more formal",
             "What is it that you wanted to speak to me about?"
           ]
-        ]
+        ],
+        uk: {
+          h: "П'ять корисних форм",
+          table: [
+            [
+              "Заперечні питання",
+              "очікуємо певну відповідь, часто риторичні",
+              "Don't you want to see your cousin?"
+            ],
+            [
+              "Твердження + питальне слово",
+              "здивування або перевірка, чи правильно почув",
+              "You spent how much?"
+            ],
+            [
+              "Непрямі питання",
+              "пом'якшують складні питання; прямий порядок слів",
+              "Could you tell me what you plan to do about it?"
+            ],
+            [
+              "Розділові питання (спадна інтонація)",
+              "перевірити чи підтвердити інформацію",
+              "Jake's not really into sport, is he?"
+            ],
+            [
+              "Питальне слово + is it",
+              "розщеплене (cleft) питання: додає наголосу, звучить формальніше",
+              "What is it that you wanted to speak to me about?"
+            ]
+          ]
+        }
       },
       {
         h: "Embedded questions",
@@ -469,7 +570,8 @@ ES.registerLesson({
         ex: [
           "It's unclear why she took the documents with her.",
           "It's not clear if they received the order yet."
-        ]
+        ],
+        uk: { h: "Вбудовані питання", p: "Питання може стояти всередині твердження після unclear, uncertain тощо. Для питань yes/no вживаємо if або whether." }
       },
       {
         h: "Phrases",
@@ -483,7 +585,21 @@ ES.registerLesson({
           ["be out of ideas", "have no more ideas"],
           ["give someone an idea", "make someone think of something"],
           ["a brainwave", "a sudden clever idea"]
-        ]
+        ],
+        uk: {
+          h: "Фрази",
+          table: [
+            ["It occurs to me that…", "мені щойно спало на думку"],
+            ["(nothing) springs to mind", "(жодна) ідея одразу не спадає на думку"],
+            ["It dawned on me that…", "до мене поступово дійшло"],
+            ["bounce a few ideas around", "неформально обговорити ідеї з іншими"],
+            ["a bright idea", "розумна ідея (іноді іронічно)"],
+            ["a passing thought", "думка, яку не сприймаєш надто серйозно"],
+            ["be out of ideas", "більше не мати ідей"],
+            ["give someone an idea", "наштовхнути когось на думку"],
+            ["a brainwave", "раптова геніальна ідея"]
+          ]
+        }
       },
       {
         h: "Thinking hard",
@@ -493,7 +609,17 @@ ES.registerLesson({
           "grapple with / wrestle with – struggle with a difficult problem",
           "go round in circles – keep thinking without progress",
           "take stock – stop and assess the situation"
-        ]
+        ],
+        uk: {
+          h: "Напружено думати",
+          list: [
+            "deliberate, ruminate, ponder, mull over – довго й ретельно обмірковувати",
+            "rack your brains – щосили намагатися пригадати / придумати, сушити голову",
+            "grapple with / wrestle with – боротися зі складною проблемою",
+            "go round in circles – думати, не просуваючись уперед",
+            "take stock – зупинитися й оцінити ситуацію"
+          ]
+        }
       },
       {
         h: "Finding the answer",
@@ -503,7 +629,17 @@ ES.registerLesson({
           "shed light on – help explain",
           "root cause(s) – the real underlying reason",
           "intuitive – based on feeling rather than logic"
-        ]
+        ],
+        uk: {
+          h: "Знайти відповідь",
+          list: [
+            "zero in on – зосередитися на головному",
+            "pin it down – точно визначити",
+            "shed light on – допомогти пояснити, пролити світло на",
+            "root cause(s) – справжня глибинна причина",
+            "intuitive – заснований на відчутті, а не на логіці"
+          ]
+        }
       },
       {
         h: "Confusion and mistakes",
@@ -511,7 +647,15 @@ ES.registerLesson({
           "perplexed, baffled, befuddled – confused",
           "misconstrue, misread, misinterpret – understand wrongly",
           "underestimate – think something is smaller / easier than it is"
-        ]
+        ],
+        uk: {
+          h: "Плутанина й помилки",
+          list: [
+            "perplexed, baffled, befuddled – спантеличений",
+            "misconstrue, misread, misinterpret – неправильно зрозуміти",
+            "underestimate – вважати щось меншим / легшим, ніж воно є"
+          ]
+        }
       }
     ],
     exercises: [

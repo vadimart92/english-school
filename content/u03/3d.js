@@ -17,37 +17,74 @@ ES.registerLesson({
         table: [
           [
             "crystal clear / as clear as day",
-            "абсолютно зрозуміло",
+            "completely clear",
             "Thanks – your explanation was crystal clear."
           ],
-          ["as clear as mud", "(іронічно) зовсім незрозуміло", "The new parking rules are as clear as mud."],
+          ["as clear as mud", "(ironic) not clear at all", "The new parking rules are as clear as mud."],
           [
             "(say it) in plain English",
-            "простими словами, без жаргону",
+            "in simple words, without jargon",
             "Could you tell me in plain English what this contract means?"
           ],
           [
             "a hidden agenda",
-            "прихований мотив",
+            "a secret motive",
             "I'm sure he has a hidden agenda – he's never this helpful."
           ],
           [
             "can't (quite) put your finger on it",
-            "не можеш точно визначити, що не так",
+            "you can't say exactly what is wrong",
             "Something about her story is odd, but I can't put my finger on it."
           ]
-        ]
+        ],
+        uk: {
+          h: "Ідіоми про ясність",
+          table: [
+            [
+              "crystal clear / as clear as day",
+              "абсолютно зрозуміло",
+              "Thanks – your explanation was crystal clear."
+            ],
+            ["as clear as mud", "(іронічно) зовсім незрозуміло", "The new parking rules are as clear as mud."],
+            [
+              "(say it) in plain English",
+              "простими словами, без жаргону",
+              "Could you tell me in plain English what this contract means?"
+            ],
+            [
+              "a hidden agenda",
+              "прихований мотив",
+              "I'm sure he has a hidden agenda – he's never this helpful."
+            ],
+            [
+              "can't (quite) put your finger on it",
+              "не можеш точно визначити, що не так",
+              "Something about her story is odd, but I can't put my finger on it."
+            ]
+          ]
+        }
       },
       {
         h: "Summarising strategies",
         list: [
-          "3-2-1 — для лекції: три найважливіші факти, дві цікаві речі, одне питання, про яке хочеш дізнатися більше.",
-          "Somebody – Wanted – But – So — для історій і фільмів: хто герой, чого хотів, що завадило, як вирішив.",
-          "4 Ws, 1 H (Who, What, When, Why, How) — для новин і статей.",
-          "First, Then, Finally — події в хронологічному порядку.",
-          "The Cornell Method — дві колонки: ліворуч головні факти, праворуч деталі до них.",
-          "Twenty words — стиснути головні думки до 20 слів-підказок."
-        ]
+          "3-2-1 — for a lecture: the three most important facts, two interesting things, and one question you'd like to know more about.",
+          "Somebody – Wanted – But – So — for stories and films: who the main character is, what they wanted, what got in the way, and how it was resolved.",
+          "4 Ws, 1 H (Who, What, When, Why, How) — for news and articles.",
+          "First, Then, Finally — events in chronological order.",
+          "The Cornell Method — two columns: the main facts on the left and the details that go with them on the right.",
+          "Twenty words — boil the main ideas down to 20 key words."
+        ],
+        uk: {
+          h: "Стратегії підсумовування",
+          list: [
+            "3-2-1 — для лекції: три найважливіші факти, дві цікаві речі й одне питання, про яке хочеш дізнатися більше.",
+            "Somebody – Wanted – But – So — для історій і фільмів: хто герой, чого він хотів, що завадило і як усе вирішилося.",
+            "4 Ws, 1 H (Who, What, When, Why, How) — для новин і статей.",
+            "First, Then, Finally — події в хронологічному порядку.",
+            "The Cornell Method — дві колонки: ліворуч головні факти, праворуч — деталі до них.",
+            "Twenty words — стиснути головні думки до 20 ключових слів."
+          ]
+        }
       },
       {
         h: "Useful phrases",
@@ -60,12 +97,29 @@ ES.registerLesson({
             "Referring to information",
             "The former … / the latter … / Not only that, but … / In the previous/following section, … / So what happened was … / Going back to what I said at the beginning, … / In that case …"
           ]
-        ]
+        ],
+        uk: {
+          h: "Корисні фрази",
+          table: [
+            [
+              "Підсумовування",
+              "The main points are as follows… / What they did was… / The gist of it is that… / In a nutshell, … / The first thing you need to know is…"
+            ],
+            [
+              "Посилання на інформацію",
+              "The former … / the latter … / Not only that, but … / In the previous/following section, … / So what happened was … / Going back to what I said at the beginning, … / In that case …"
+            ]
+          ]
+        }
       },
       {
         h: "Assimilation",
-        p: "У швидкому мовленні кінцевий звук слова змінюється під впливом першого звуку наступного: main points → /meɪm pɔɪnts/ (n перед p звучить як m), that case → /ðæk keɪs/ (t перед k звучить як k). Це нормально для природної англійської — важливо впізнавати на слух.",
-        ex: ["The main points are as follows.", "In that case, the results were exceptional."]
+        p: "In fast speech, the last sound of a word changes under the influence of the first sound of the next word: main points → /meɪm pɔɪnts/ (n before p sounds like m), that case → /ðæk keɪs/ (t before k sounds like k). This is normal in natural English — the important thing is to recognise it when you hear it.",
+        ex: ["The main points are as follows.", "In that case, the results were exceptional."],
+        uk: {
+          h: "Асиміляція",
+          p: "У швидкому мовленні кінцевий звук слова змінюється під впливом першого звука наступного: main points → /meɪm pɔɪnts/ (n перед p звучить як m), that case → /ðæk keɪs/ (t перед k звучить як k). Це нормально для природної англійської — важливо впізнавати це на слух."
+        }
       }
     ],
     exercises: [

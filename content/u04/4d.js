@@ -14,27 +14,52 @@ ES.registerLesson({
       {
         h: "Negotiating idioms",
         table: [
-          ["reach a compromise", "дійти компромісу"],
-          ["give and take", "взаємні поступки"],
-          ["make a concession (on sth)", "поступитися (в чомусь)"],
-          ["stick to your guns", "стояти на своєму"],
-          ["dig your heels in", "уперто відмовлятися поступатися"],
-          ["split the difference", "поділити різницю навпіл"],
-          ["a bargaining chip", "козир у торгах (те, чим можна поступитися)"],
-          ["find common ground", "знайти спільну мову, точки згоди"],
-          ["break the deadlock", "вийти з глухого кута"]
-        ]
+          ["reach a compromise", "come to an agreement in which both sides give something up"],
+          ["give and take", "mutual concessions"],
+          ["make a concession (on sth)", "give way (on something)"],
+          ["stick to your guns", "refuse to change your position"],
+          ["dig your heels in", "stubbornly refuse to give way"],
+          ["split the difference", "agree on an amount halfway between two offers"],
+          ["a bargaining chip", "something you can offer or give up to get what you want in a negotiation"],
+          ["find common ground", "find points that both sides agree on"],
+          ["break the deadlock", "end a situation in which no progress is possible"]
+        ],
+        uk: {
+          h: "Ідіоми для переговорів",
+          table: [
+            ["reach a compromise", "дійти компромісу"],
+            ["give and take", "взаємні поступки"],
+            ["make a concession (on sth)", "поступитися (в чомусь)"],
+            ["stick to your guns", "стояти на своєму"],
+            ["dig your heels in", "уперто відмовлятися поступатися"],
+            ["split the difference", "поділити різницю навпіл"],
+            ["a bargaining chip", "козир у торгах (те, чим можна поступитися)"],
+            ["find common ground", "знайти спільну мову, точки згоди"],
+            ["break the deadlock", "вийти з глухого кута"]
+          ]
+        }
       },
       {
         h: "De-escalating a conflict",
         list: [
-          "Focus on interests, not positions: з'ясуй, чому людина хоче того, чого хоче.",
-          "Talk about feelings, not character: «I feel frustrated when…» замість «You're so careless».",
-          "Don't respond to emotional language: не відповідай на агресію агресією.",
-          "Let them let off steam: дай людині виговоритися.",
-          "See the situation through their eyes: подивись очима іншої сторони.",
-          "Remember the relationship: мета — і вирішити питання, і зберегти стосунки."
-        ]
+          "Focus on interests, not positions: find out why the person wants what they want.",
+          "Talk about feelings, not character: 'I feel frustrated when…' instead of 'You're so careless'.",
+          "Don't respond to emotional language: don't meet aggression with aggression.",
+          "Let them let off steam: allow the person to say everything they need to say.",
+          "See the situation through their eyes: look at it from the other side's point of view.",
+          "Remember the relationship: the aim is both to solve the problem and to keep the relationship."
+        ],
+        uk: {
+          h: "Як знизити напругу в конфлікті",
+          list: [
+            "Focus on interests, not positions: з'ясуй, чому людина хоче того, чого хоче.",
+            "Talk about feelings, not character: «I feel frustrated when…» замість «You're so careless».",
+            "Don't respond to emotional language: не відповідай на агресію агресією.",
+            "Let them let off steam: дай людині виговоритися.",
+            "See the situation through their eyes: подивися на ситуацію очима іншої сторони.",
+            "Remember the relationship: мета — і розв'язати питання, і зберегти стосунки."
+          ]
+        }
       },
       {
         h: "Useful phrases",
@@ -64,11 +89,42 @@ ES.registerLesson({
             "Well, I'm sure it won't come to that. / It's not that I don't trust you, of course."
           ],
           ["Identifying reasons", "How come you decided to …, if you don't mind me asking?"]
-        ]
+        ],
+        uk: {
+          h: "Корисні фрази",
+          table: [
+            [
+              "Емоційна мова (погрози)",
+              "Pay by Friday or you'll have to leave. / If you won't …, I'll … / I won't have you …-ing … / I'll have you know (that) … / Any more …, and …"
+            ],
+            [
+              "Спокійна відповідь",
+              "I know, and I'm really sorry. I'll try to sort it out. / Was there anything else? / I'll be a model tenant from now on."
+            ],
+            [
+              "Вияв співчуття",
+              "It must have been quite upsetting to … / I can see why you're so … / That can't be easy for you!"
+            ],
+            [
+              "Вибачення / визнання помилок",
+              "I may have lost my temper a little. / Perhaps I was a little harsh with you."
+            ],
+            ["Пошук компромісу", "Maybe we can try and work something out. / I suppose I might be able to …"],
+            [
+              "Заспокоєння",
+              "Well, I'm sure it won't come to that. / It's not that I don't trust you, of course."
+            ],
+            ["З'ясування причин", "How come you decided to …, if you don't mind me asking?"]
+          ]
+        }
       },
       {
         h: "Sounding empathetic",
-        p: "Одна й та сама фраза може звучати співчутливо або саркастично. Щоб звучати емпатично, говори повільніше, м'якше, з ширшим діапазоном інтонації та наголосом на словах почуттів: It must have been quite UPSETTING."
+        p: "The same phrase can sound sympathetic or sarcastic. To sound empathetic, speak more slowly and softly, with a wider intonation range, and stress the feeling words: It must have been quite UPSETTING.",
+        uk: {
+          h: "Як звучати емпатично",
+          p: "Одна й та сама фраза може звучати співчутливо або саркастично. Щоб звучати емпатично, говори повільніше й м'якше, з ширшим діапазоном інтонації та наголосом на словах, що передають почуття: It must have been quite UPSETTING."
+        }
       }
     ],
     exercises: [

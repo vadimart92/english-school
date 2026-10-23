@@ -13,11 +13,11 @@ ES.registerLesson({
     theory: [
       {
         h: "Will is not only about the future",
-        p: "Will/won't і would/wouldn't часто вживаються не для майбутнього, а щоб висловити здогадку (inference), звичку або відмову. Це дуже характерно для розмовної англійської.",
+        p: "Will/won't and would/wouldn't are often used not for the future but to make an inference (a confident guess), to talk about habits, or to express a refusal. This is very typical of spoken English.",
         table: [
           [
             "Inference about the present",
-            "will + infinitive (особливо know, be, have)",
+            "will + infinitive (especially know, be, have)",
             "Ask Marta – she'll know the answer. (= I'm sure she knows)"
           ],
           [
@@ -33,46 +33,107 @@ ES.registerLesson({
           ["Present habits", "will / won't + infinitive", "My grandad will sit in the garden for hours."],
           [
             "Past habits",
-            "would + infinitive (лише дії, не стани)",
+            "would + infinitive (actions only, not states)",
             "As kids, we'd spend every summer at the lake."
           ],
           [
             "Refusals",
-            "won't (теперішнє), wouldn't (минуле); також про речі й погоду",
+            "won't (present), wouldn't (past); also about things and the weather",
             "He won't tell me what's wrong. / The car wouldn't start. / Why won't it stop raining?"
           ]
-        ]
+        ],
+        uk: {
+          h: "Will — це не лише про майбутнє",
+          p: "Will/won't і would/wouldn't часто вживаються не для майбутнього, а щоб висловити здогадку (inference), звичку або відмову. Це дуже характерно для розмовної англійської.",
+          table: [
+            [
+              "Здогадка про теперішнє",
+              "will + infinitive (особливо know, be, have)",
+              "Ask Marta – she'll know the answer. (= I'm sure she knows)"
+            ],
+            [
+              "Здогадка про «зараз» (дія в процесі)",
+              "will be + -ing (future continuous)",
+              "Don't call Tom now. He'll be driving. (= He's probably driving)"
+            ],
+            [
+              "Здогадка про минуле",
+              "will have + V3 (future perfect)",
+              "You'll have heard the news, I suppose. (= I bet you've heard)"
+            ],
+            ["Теперішні звички", "will / won't + infinitive", "My grandad will sit in the garden for hours."],
+            [
+              "Минулі звички",
+              "would + infinitive (лише дії, не стани)",
+              "As kids, we'd spend every summer at the lake."
+            ],
+            [
+              "Відмова",
+              "won't (теперішнє), wouldn't (минуле); також про речі й погоду",
+              "He won't tell me what's wrong. / The car wouldn't start. / Why won't it stop raining?"
+            ]
+          ]
+        }
       },
       {
         h: "Watch out",
         list: [
-          "Would для минулих звичок — тільки з діями. Для станів (be, have, own, live, like) — used to: When I was little, I used to live in Lviv (NOT I would live).",
-          "Наголошене WILL (повна форма, не 'll) — скарга на чиюсь дратівливу звичку: She WILL leave her shoes in the hall! / You WILL keep interrupting, won't you?",
-          "Ненаголошене will у здогадках і звичках зазвичай скорочується: He'll be at work by now. Наголошене won't = рішуча відмова: I WON'T do it.",
-          "Inference про минуле: She won't have seen the message yet (= I'm pretty sure she hasn't)."
-        ]
+          "Would for past habits works only with actions. For states (be, have, own, live, like), use used to: When I was little, I used to live in Lviv (NOT I would live).",
+          "Stressed WILL (the full form, not 'll) is a complaint about someone's annoying habit: She WILL leave her shoes in the hall! / You WILL keep interrupting, won't you?",
+          "Unstressed will in inferences and habits is usually contracted: He'll be at work by now. Stressed won't means a firm refusal: I WON'T do it.",
+          "Inference about the past: She won't have seen the message yet (= I'm pretty sure she hasn't)."
+        ],
+        uk: {
+          h: "Зверніть увагу",
+          list: [
+            "Would для минулих звичок — тільки з діями. Для станів (be, have, own, live, like) — used to: When I was little, I used to live in Lviv (NOT I would live).",
+            "Наголошене WILL (повна форма, не 'll) — скарга на чиюсь дратівливу звичку: She WILL leave her shoes in the hall! / You WILL keep interrupting, won't you?",
+            "Ненаголошене will у здогадках і звичках зазвичай скорочується: He'll be at work by now. Наголошене won't = рішуча відмова: I WON'T do it.",
+            "Здогадка про минуле: She won't have seen the message yet (= я майже впевнений, що вона ще не бачила)."
+          ]
+        }
       },
       {
         h: "Anxiety and excitement",
         table: [
-          ["a panic attack", "напад паніки"],
-          ["traumatic", "травматичний, з довгими наслідками"],
-          ["bring someone out in a cold sweat", "кидати в холодний піт"],
-          ["a daunting prospect", "лякаюча перспектива"],
-          ["churn (stomach)", "крутити (в животі)"],
-          ["debilitating", "виснажливий, що паралізує"],
-          ["get a buzz out of something", "отримувати кайф від чогось"],
-          ["a rush (of adrenaline)", "приплив (адреналіну)"],
-          ["exhilaration", "захват, ейфорія"],
-          ["thrills", "гострі відчуття"]
-        ]
+          ["a panic attack", "a sudden attack of intense fear"],
+          ["traumatic", "deeply upsetting, with long-lasting effects"],
+          ["bring someone out in a cold sweat", "make someone break out in a cold sweat (from fear)"],
+          ["a daunting prospect", "a frightening prospect"],
+          ["churn (stomach)", "turn over (of your stomach, from nerves)"],
+          ["debilitating", "so severe that it stops you functioning normally"],
+          ["get a buzz out of something", "get a thrill out of something"],
+          ["a rush (of adrenaline)", "a sudden surge (of adrenaline)"],
+          ["exhilaration", "intense excitement and joy"],
+          ["thrills", "exciting sensations"]
+        ],
+        uk: {
+          h: "Тривога і захват",
+          table: [
+            ["a panic attack", "напад паніки"],
+            ["traumatic", "травматичний, з довгими наслідками"],
+            ["bring someone out in a cold sweat", "кидати в холодний піт"],
+            ["a daunting prospect", "лякаюча перспектива"],
+            ["churn (stomach)", "крутити (в животі)"],
+            ["debilitating", "виснажливий, що паралізує"],
+            ["get a buzz out of something", "отримувати кайф від чогось"],
+            ["a rush (of adrenaline)", "приплив (адреналіну)"],
+            ["exhilaration", "захват, ейфорія"],
+            ["thrills", "гострі відчуття"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Сторінка про future in the past допоможе відрізнити would як «майбутнє з погляду минулого» від would для звичок і відмов з цього уроку.",
+        h: "More practice",
+        p: "A page on the future in the past will help you tell apart would as 'the future seen from the past' and would for the habits and refusals in this lesson.",
         links: [
-          { title: "EnglishPage: future in the past", url: "https://www.englishpage.com/verbpage/futureinpast.html", note: "would / was going to для майбутнього в минулому — пояснення і вправи" }
-        ]
+          { title: "EnglishPage: future in the past", url: "https://www.englishpage.com/verbpage/futureinpast.html", note: "would / was going to for the future in the past — explanation and exercises" }
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Сторінка про future in the past допоможе відрізнити would як «майбутнє з погляду минулого» від would для звичок і відмов з цього уроку.",
+          notes: ["would / was going to для майбутнього в минулому — пояснення і вправи"]
+        }
       }
     ],
     exercises: [

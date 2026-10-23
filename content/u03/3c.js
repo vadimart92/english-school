@@ -14,7 +14,7 @@ ES.registerLesson({
     theory: [
       {
         h: "Gradable and ungradable adjectives",
-        p: "Gradable прикметники мають ступені (cold → colder, very cold): good, hot, difficult, tired. Ungradable вже означають крайність або абсолютну властивість: freezing, excellent, impossible, exhausted. Від цього залежить, яке підсилювальне слово можна вжити.",
+        p: "Gradable adjectives have degrees (cold → colder, very cold): good, hot, difficult, tired. Ungradable adjectives already express an extreme or an absolute quality: freezing, excellent, impossible, exhausted. This decides which intensifier you can use.",
         table: [
           [
             "+ gradable",
@@ -27,55 +27,112 @@ ES.registerLesson({
             "I'm absolutely exhausted. / It's virtually impossible."
           ],
           ["+ both", "really, pretty, quite", "really hot / really boiling; pretty good / pretty amazing"]
-        ]
+        ],
+        uk: {
+          h: "Градуйовані й неградуйовані прикметники",
+          p: "Градуйовані (gradable) прикметники мають ступені (cold → colder, very cold): good, hot, difficult, tired. Неградуйовані (ungradable) вже означають крайність або абсолютну властивість: freezing, excellent, impossible, exhausted. Від цього залежить, яке підсилювальне слово можна вжити.",
+          table: [
+            [
+              "+ градуйовані",
+              "barely, bitterly, deeply, extremely, fairly, perfectly, rather, somewhat, seriously, very",
+              "I'm extremely tired. / The test was fairly easy."
+            ],
+            [
+              "+ неградуйовані",
+              "absolutely, completely, essentially, nearly, totally, utterly, virtually",
+              "I'm absolutely exhausted. / It's virtually impossible."
+            ],
+            [
+              "+ обидва типи",
+              "really, pretty, quite",
+              "really hot / really boiling; pretty good / pretty amazing"
+            ]
+          ]
+        }
       },
       {
         h: "The trap with 'quite'",
-        p: "Quite з gradable прикметником пом'якшує (= fairly, «досить»), а з ungradable — підсилює (= absolutely, «цілком»). Тому The film was quite good — «непоганий», а The film was quite brilliant — «просто чудовий».",
+        p: "With a gradable adjective, quite softens the meaning (= fairly), but with an ungradable one it makes it stronger (= absolutely). So 'The film was quite good' means it was not bad, while 'The film was quite brilliant' means it was really excellent.",
         ex: [
           "The exam was quite difficult, but I passed.",
           "Your plan is quite impossible – we don't have the money."
-        ]
+        ],
+        uk: {
+          h: "Пастка зі словом quite",
+          p: "Quite з градуйованим прикметником пом'якшує (= fairly, «досить»), а з неградуйованим — підсилює (= absolutely, «цілком»). Тому The film was quite good — «непоганий», а The film was quite brilliant — «просто чудовий»."
+        }
       },
       {
         h: "Collocations and classifying adjectives",
         list: [
-          "Деякі прислівники «люблять» певні прикметники: bitterly cold / disappointed, deeply sorry / serious, perfectly capable / straightforward / credible, completely open / honest, seriously alarming / hurt, utterly ridiculous, highly recommended / unlikely, virtually impossible, ridiculously cheap / easy, strongly opposed.",
-          "Класифікаційні прикметники (married, fake, electric, foreign car) просто відносять до категорії — їх не підсилюють: It's a fake (NOT a very fake) photo.",
-          "Деякі прикметники бувають і класифікаційними, і gradable: a foreign car (класифікація) vs a slightly foreign accent (ступінь).",
-          "Вимова: в парі adverb + adjective зазвичай наголошене і прислівник, і прикметник: I'm PERfectly CApable; але щоб пом'якшити, наголос падає на прикметник: I'm fairly SURE."
-        ]
+          "Some adverbs 'prefer' particular adjectives: bitterly cold / disappointed, deeply sorry / serious, perfectly capable / straightforward / credible, completely open / honest, seriously alarming / hurt, utterly ridiculous, highly recommended / unlikely, virtually impossible, ridiculously cheap / easy, strongly opposed.",
+          "Classifying adjectives (married, fake, electric, foreign car) simply put something into a category, so we don't intensify them: It's a fake (NOT a very fake) photo.",
+          "Some adjectives can be both classifying and gradable: a foreign car (category) vs a slightly foreign accent (degree).",
+          "Pronunciation: in an adverb + adjective pair, both words are usually stressed: I'm PERfectly CApable; but to soften what you say, the stress falls on the adjective: I'm fairly SURE."
+        ],
+        uk: {
+          h: "Колокації та класифікаційні прикметники",
+          list: [
+            "Деякі прислівники «люблять» певні прикметники: bitterly cold / disappointed, deeply sorry / serious, perfectly capable / straightforward / credible, completely open / honest, seriously alarming / hurt, utterly ridiculous, highly recommended / unlikely, virtually impossible, ridiculously cheap / easy, strongly opposed.",
+            "Класифікаційні прикметники (married, fake, electric, foreign car) просто відносять предмет до категорії — їх не підсилюють: It's a fake (NOT a very fake) photo.",
+            "Деякі прикметники бувають і класифікаційними, і градуйованими: a foreign car (категорія) vs a slightly foreign accent (ступінь).",
+            "Вимова: у парі прислівник + прикметник зазвичай наголошені обидва слова: I'm PERfectly CApable; але щоб пом'якшити сказане, наголос падає на прикметник: I'm fairly SURE."
+          ]
+        }
       },
       {
         h: "The news and reporting",
         table: [
-          ["impartial", "неупереджений"],
-          ["disclose", "розголосити (інформацію)"],
-          ["unsubstantiated claims", "необґрунтовані твердження"],
-          ["footage", "відеозапис, кадри"],
-          ["character assassination", "навмисне знищення репутації"],
-          ["bend the truth", "перекручувати правду"],
-          ["credible", "правдоподібний, вартий довіри"],
-          ["publicity stunt", "рекламний трюк"],
-          ["interpretation (of the facts)", "тлумачення (фактів)"],
-          ["angle", "кут подачі історії"]
-        ]
+          ["impartial", "unbiased, neutral"],
+          ["disclose", "make (information) public, reveal"],
+          ["unsubstantiated claims", "claims not supported by evidence"],
+          ["footage", "recorded video, shots"],
+          ["character assassination", "a deliberate attempt to destroy someone's reputation"],
+          ["bend the truth", "distort the truth"],
+          ["credible", "believable, trustworthy"],
+          ["publicity stunt", "something done just to attract attention or publicity"],
+          ["interpretation (of the facts)", "a way of explaining (the facts)"],
+          ["angle", "the point of view from which a story is told"]
+        ],
+        uk: {
+          h: "Новини та журналістика",
+          table: [
+            ["impartial", "неупереджений"],
+            ["disclose", "розголосити (інформацію)"],
+            ["unsubstantiated claims", "необґрунтовані твердження"],
+            ["footage", "відеозапис, кадри"],
+            ["character assassination", "навмисне знищення репутації"],
+            ["bend the truth", "перекручувати правду"],
+            ["credible", "правдоподібний, вартий довіри"],
+            ["publicity stunt", "рекламний трюк"],
+            ["interpretation (of the facts)", "тлумачення (фактів)"],
+            ["angle", "кут подачі історії"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Онлайн-вправи на сполучення прислівників-підсилювачів із прикметниками — щоб відчувати, де utterly, а де highly чи very.",
+        h: "More practice",
+        p: "Online exercises on intensifying adverbs with adjectives, to get a feel for where utterly fits and where highly or very does.",
         links: [
           {
             title: "Perfect English Grammar: intensifier and adjective collocations",
             url: "https://www.perfect-english-grammar.com/intensifier-and-adjective-collocations-exercise.html",
-            note: "стійкі пари: highly unlikely, bitterly cold, deeply moving тощо"
+            note: "fixed pairs: highly unlikely, bitterly cold, deeply moving, etc."
           },
           {
             title: "Perfect English Grammar: intensifiers to show degree",
             url: "https://www.perfect-english-grammar.com/intensifiers-to-show-degree-exercise.html",
-            note: "very / absolutely / fairly з gradable та ungradable прикметниками"
+            note: "very / absolutely / fairly with gradable and ungradable adjectives"
           }
-        ]
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Онлайн-вправи на сполучення прислівників-підсилювачів із прикметниками — щоб відчувати, де utterly, а де highly чи very.",
+          notes: [
+            "стійкі пари: highly unlikely, bitterly cold, deeply moving тощо",
+            "very / absolutely / fairly з gradable та ungradable прикметниками"
+          ]
+        }
       }
     ],
     exercises: [
@@ -375,7 +432,27 @@ ES.registerLesson({
             "I felt totally overwhelmed by my workload."
           ],
           ["Both", "really, pretty, quite", "quite interesting = fairly; quite fascinating = absolutely"]
-        ]
+        ],
+        uk: {
+          h: "Градуйовані vs неградуйовані",
+          table: [
+            [
+              "Градуйовані (hot, good, difficult)",
+              "barely, bitterly, deeply, extremely, fairly, perfectly, rather, somewhat, seriously, very",
+              "We were deeply sorry to hear your news."
+            ],
+            [
+              "Неградуйовані (boiling, excellent, impossible)",
+              "absolutely, completely, essentially, nearly, totally, utterly, virtually",
+              "I felt totally overwhelmed by my workload."
+            ],
+            [
+              "Обидва типи",
+              "really, pretty, quite",
+              "quite interesting = fairly; quite fascinating = absolutely"
+            ]
+          ]
+        }
       },
       {
         h: "Collocations",
@@ -386,12 +463,24 @@ ES.registerLesson({
           "strongly opposed",
           "perfectly open / honest / straightforward",
           "virtually impossible"
-        ]
+        ],
+        uk: {
+          h: "Колокації",
+          list: [
+            "highly recommended / unlikely / successful",
+            "utterly ridiculous / wrong",
+            "ridiculously cheap / easy",
+            "strongly opposed",
+            "perfectly open / honest / straightforward",
+            "virtually impossible"
+          ]
+        }
       },
       {
         h: "Classifying adjectives",
         p: "Classifying adjectives (married, foreign car) can't be modified. Some change meaning when gradable.",
-        ex: ["She has a slightly foreign accent. (gradable)", "It's a foreign car. (classifying)"]
+        ex: ["She has a slightly foreign accent. (gradable)", "It's a foreign car. (classifying)"],
+        uk: { h: "Класифікаційні прикметники", p: "Класифікаційні прикметники (married, foreign car) не можна підсилювати чи пом'якшувати. Деякі з них змінюють значення, коли вживаються як градуйовані." }
       }
     ],
     exercises: [
