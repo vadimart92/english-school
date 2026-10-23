@@ -14,33 +14,59 @@ ES.registerLesson({
     theory: [
       {
         h: "Cleft sentences",
-        p: "Розщеплені речення ділять одну думку на дві частини, щоб пов'язати відоме з новим і наголосити на важливому. Два головні типи: It-cleft та What-cleft.",
+        p: "Cleft sentences split one idea into two parts to link known information to new information and to stress what matters. The two main types are It-clefts and What-clefts.",
         table: [
           [
-            "It + be + НОВЕ + who/that + відоме",
+            "It + be + NEW + who/that + known",
             "A: The whole town is complaining about the noise. B: Yes, but it's the people near the station who suffer most."
           ],
           [
-            "What + відоме + be + НОВЕ",
+            "What + known + be + NEW",
             "What I'm saying is that we need a plan. · What worries me is the cost."
           ],
-          ["All + відоме + be + НОВЕ (одна річ понад усе)", "All we want is a safe crossing."]
-        ]
+          ["All + known + be + NEW (one thing above everything else)", "All we want is a safe crossing."]
+        ],
+        uk: {
+          h: "Розщеплені речення (cleft sentences)",
+          p: "Розщеплені речення ділять одну думку на дві частини, щоб пов'язати відоме з новим і наголосити на важливому. Два головні типи — It-cleft і What-cleft.",
+          table: [
+            [
+              "It + be + НОВЕ + who/that + відоме",
+              "A: The whole town is complaining about the noise. B: Yes, but it's the people near the station who suffer most."
+            ],
+            [
+              "What + відоме + be + НОВЕ",
+              "What I'm saying is that we need a plan. · What worries me is the cost."
+            ],
+            ["All + відоме + be + НОВЕ (одна річ понад усе)", "All we want is a safe crossing."]
+          ]
+        }
       },
       {
         h: "Details",
         list: [
-          "It-cleft може виділяти людину, річ, місце, час чи причину: It was in 2019 that the park opened. · It was because of the rain that we stayed in.",
-          "Можна заперечення: It wasn't the mayor who made that decision.",
-          "Замість основного дієслова — did + інфінітив (з to або без): What they did was (to) close the road.",
-          "Якщо дієслово вимагає герундія, після be теж герундій: What I hate is waiting.",
-          "Після What-clause може бути й іменник: What we need is more bins.",
-          "Вимова: that у таких реченнях ненаголошене — /ðət/: What I'm saying is /ðət/ it's not easy."
-        ]
+          "An It-cleft can highlight a person, thing, place, time or reason: It was in 2019 that the park opened. · It was because of the rain that we stayed in.",
+          "It can be negative: It wasn't the mayor who made that decision.",
+          "Instead of the main verb, use did + infinitive (with or without to): What they did was (to) close the road.",
+          "If the verb needs a gerund, use a gerund after be too: What I hate is waiting.",
+          "A noun can also follow the What-clause: What we need is more bins.",
+          "Pronunciation: that in these sentences is unstressed — /ðət/: What I'm saying is /ðət/ it's not easy."
+        ],
+        uk: {
+          h: "Деталі",
+          list: [
+            "It-cleft може виділяти людину, річ, місце, час чи причину: It was in 2019 that the park opened. · It was because of the rain that we stayed in.",
+            "Можливе заперечення: It wasn't the mayor who made that decision.",
+            "Замість основного дієслова — did + інфінітив (з to або без): What they did was (to) close the road.",
+            "Якщо дієслово вимагає герундія, після be теж ставимо герундій: What I hate is waiting.",
+            "Після What-клаузи може стояти й іменник: What we need is more bins.",
+            "Вимова: that у таких реченнях ненаголошене — /ðət/: What I'm saying is /ðət/ it's not easy."
+          ]
+        }
       },
       {
         h: "Connotation 2",
-        p: "Ті самі речі можна описати нейтрально/позитивно або критично. Вибір слова показує ставлення мовця.",
+        p: "The same things can be described in a neutral/positive way or critically. The choice of word shows the speaker's attitude.",
         table: [
           ["more positive / neutral", "more negative"],
           ["issues, challenging", "problems, difficult"],
@@ -52,18 +78,35 @@ ES.registerLesson({
           ["charming", "run-down"],
           ["group", "mob"],
           ["firm", "harsh"]
-        ]
+        ],
+        uk: {
+          h: "Конотація 2",
+          p: "Ті самі речі можна описати нейтрально чи позитивно або критично. Вибір слова показує ставлення мовця.",
+          table: [
+            ["позитивніше / нейтрально", "негативніше"],
+            ["issues, challenging", "problems, difficult"],
+            ["vintage", "archaic"],
+            ["relaxed", "chaotic"],
+            ["economical, affordable", "penny-pinching, cheap"],
+            ["employ", "exploit"],
+            ["lively", "rowdy"],
+            ["charming", "run-down"],
+            ["group", "mob"],
+            ["firm", "harsh"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Пояснення й тест про способи наголосу: it-cleft, what-cleft, інверсію та емфатичне do.",
+        h: "More practice",
+        p: "An explanation and test on ways of adding emphasis: it-clefts, what-clefts, inversion and emphatic do.",
         links: [
           {
             title: "British Council LearnEnglish: Emphasis — cleft sentences, inversion and auxiliaries",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/emphasis-cleft-sentences-inversion-auxiliaries",
-            note: "it-cleft, what-cleft, all I did was, емфатичне do — пояснення і тест"
+            note: "it-cleft, what-cleft, all I did was, emphatic do — explanation and test"
           }
-        ]
+        ],
+        uk: { h: "Більше практики", p: "Пояснення й тест про способи наголосу: it-cleft, what-cleft, інверсія та емфатичне do.", notes: ["it-cleft, what-cleft, all I did was, емфатичне do — пояснення і тест"] }
       }
     ],
     exercises: [
@@ -396,7 +439,8 @@ ES.registerLesson({
           "It's tennis that Jamie plays, not badminton.",
           "It wasn't Sally who stole your watch.",
           "It was because of her hard work that she won."
-        ]
+        ],
+        uk: { h: "It-clefts", p: "Починай з It + be, щоб виділити важливу (нову) інформацію; решта речення пов'язує її з тим, що вже відомо." }
       },
       {
         h: "What-clefts",
@@ -405,9 +449,15 @@ ES.registerLesson({
           "What I love most are horror movies.",
           "What she did was (to) ask them for more money. (verb → did + infinitive)",
           "What I hate is being ignored. (gerund → gerund)"
-        ]
+        ],
+        uk: { h: "What-clefts", p: "What-клауза містить відому інформацію; те, що йде після be, — нове." }
       },
-      { h: "All-clefts", p: "To emphasise one thing above everything else, replace What with All.", ex: ["All I need is another two weeks."] }
+      {
+        h: "All-clefts",
+        p: "To emphasise one thing above everything else, replace What with All.",
+        ex: ["All I need is another two weeks."],
+        uk: { h: "All-clefts", p: "Щоб наголосити на одній речі понад усе інше, заміни What на All." }
+      }
     ],
     exercises: [
       {

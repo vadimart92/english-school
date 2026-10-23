@@ -15,28 +15,57 @@ ES.registerLesson({
       {
         h: "Socialising vocabulary",
         table: [
-          ["make small talk", "вести легку світську розмову"],
-          ["exchange pleasantries", "обмінятися люб'язностями"],
-          ["mingle", "ходити між гостями, коротко спілкуючись з багатьма"],
-          ["hover on the edge of a conversation", "«зависати» біля розмови, не вступаючи в неї"],
-          ["break the ice / an ice-breaker", "розрядити атмосферу / те, що допомагає почати розмову"],
-          ["a frosty atmosphere", "холодна, напружена атмосфера"],
-          ["my mind goes blank", "у голові порожньо"],
-          ["pick someone's brains", "розпитати когось, щоб скористатися його знаннями"],
-          ["make someone's acquaintance", "познайомитися з кимось"],
-          ["a mutual acquaintance", "спільний знайомий"]
-        ]
+          ["make small talk", "have a light, polite conversation"],
+          ["exchange pleasantries", "say polite, friendly things to each other"],
+          ["mingle", "move around a party, talking briefly to lots of people"],
+          ["hover on the edge of a conversation", "stay near a conversation without joining it"],
+          [
+            "break the ice / an ice-breaker",
+            "make people feel more relaxed / something that helps start a conversation"
+          ],
+          ["a frosty atmosphere", "a cold, tense atmosphere"],
+          ["my mind goes blank", "I suddenly can't think of anything"],
+          ["pick someone's brains", "ask someone questions to benefit from their knowledge"],
+          ["make someone's acquaintance", "meet someone for the first time"],
+          ["a mutual acquaintance", "a person you both know"]
+        ],
+        uk: {
+          h: "Лексика для спілкування",
+          table: [
+            ["make small talk", "вести легку світську розмову"],
+            ["exchange pleasantries", "обмінятися люб'язностями"],
+            ["mingle", "ходити між гостями, коротко спілкуючись із багатьма"],
+            ["hover on the edge of a conversation", "«зависати» біля розмови, не вступаючи в неї"],
+            ["break the ice / an ice-breaker", "розрядити атмосферу / те, що допомагає почати розмову"],
+            ["a frosty atmosphere", "холодна, напружена атмосфера"],
+            ["my mind goes blank", "у голові раптом порожньо"],
+            ["pick someone's brains", "розпитати когось, щоб скористатися його знаннями"],
+            ["make someone's acquaintance", "познайомитися з кимось"],
+            ["a mutual acquaintance", "спільний знайомий"]
+          ]
+        }
       },
       {
         h: "Tips for joining a conversation",
         list: [
-          "Перевір, чи можна приєднатися, — але не перепрошуй надміру: Do you mind if I join you?",
-          "Став прості відкриті питання, щоб інші говорили: So what do you do? What brings you to this event?",
-          "Реагуй позитивно й з ентузіазмом, навіть якщо тема не дуже цікава.",
-          "Залучай усіх у групі; можна «поставити на паузу» одного співрозмовника: I'd love to pick your brains in a moment, Martin – but first…",
-          "Запам'ятовуй імена й використовуй їх: And you are? Sorry, I'm not very good with names – can you say it again?",
-          "Представляючись: коротко ім'я і професія, одна незвичайна деталь, мета, і покажи, що не збираєшся «перехопити» розмову: I'd love to listen in on your advice, if that's OK."
-        ]
+          "Check that it's OK to join — but don't apologise too much: Do you mind if I join you?",
+          "Ask simple open questions to get others talking: So what do you do? What brings you to this event?",
+          "React positively and with enthusiasm, even if the topic isn't very interesting.",
+          "Include everyone in the group; you can 'put one speaker on hold': I'd love to pick your brains in a moment, Martin – but first…",
+          "Remember people's names and use them: And you are? Sorry, I'm not very good with names – can you say it again?",
+          "When introducing yourself: give your name and job briefly, one unusual detail and your purpose, and show you're not going to take over the conversation: I'd love to listen in on your advice, if that's OK."
+        ],
+        uk: {
+          h: "Як приєднатися до розмови",
+          list: [
+            "Перевір, чи можна приєднатися, — але не перепрошуй надміру: Do you mind if I join you?",
+            "Став прості відкриті запитання, щоб говорили інші: So what do you do? What brings you to this event?",
+            "Реагуй позитивно й з ентузіазмом, навіть якщо тема не дуже цікава.",
+            "Залучай усіх у групі; можна «поставити на паузу» одного співрозмовника: I'd love to pick your brains in a moment, Martin – but first…",
+            "Запам'ятовуй імена й називай людей на ім'я: And you are? Sorry, I'm not very good with names – can you say it again?",
+            "Представляючись, коротко назви ім'я і професію, одну незвичайну деталь і мету, а також покажи, що не збираєшся «перехопити» розмову: I'd love to listen in on your advice, if that's OK."
+          ]
+        }
       },
       {
         h: "Useful phrases: in the conversation",
@@ -54,11 +83,36 @@ ES.registerLesson({
             "A similar thing happened to me. · I had a rather different experience. · That reminds me of the time when I… · That's exactly what happened to me."
           ],
           ["Telling an anecdote", "I once… · I'm ashamed to say it, but I once… · I had the good luck to…"]
-        ]
+        ],
+        uk: {
+          h: "Корисні фрази: у розмові",
+          table: [
+            [
+              "Делікатність",
+              "Please carry on. · Don't mind me – I'm just listening. · But that's a different story. Do carry on. · Don't let me interrupt you."
+            ],
+            [
+              "Реакція на історії",
+              "Wow! That's a great story! · Oh, that's so unlucky! · That's unbelievable."
+            ],
+            [
+              "Розповідь про власний досвід",
+              "A similar thing happened to me. · I had a rather different experience. · That reminds me of the time when I… · That's exactly what happened to me."
+            ],
+            [
+              "Розповідь анекдоту (кумедної історії)",
+              "I once… · I'm ashamed to say it, but I once… · I had the good luck to…"
+            ]
+          ]
+        }
       },
       {
         h: "Sounding enthusiastic",
-        p: "Ентузіазм передається інтонацією: широкий діапазон голосу, виразний наголос і підйом на ключових словах (It's LOVEly to meet you! Woah! That's imPRESSive!). Плоска, низька інтонація (Er… OK. Oh, right.) звучить байдуже або навіть грубо."
+        p: "Enthusiasm comes across through intonation: a wide voice range, clear stress and a rise on key words (It's LOVEly to meet you! Woah! That's imPRESSive!). Flat, low intonation (Er… OK. Oh, right.) sounds uninterested or even rude.",
+        uk: {
+          h: "Як звучати з ентузіазмом",
+          p: "Ентузіазм передається інтонацією: широкий діапазон голосу, виразний наголос і підйом на ключових словах (It's LOVEly to meet you! Woah! That's imPRESSive!). Пласка, низька інтонація (Er… OK. Oh, right.) звучить байдуже або навіть грубо."
+        }
       }
     ],
     exercises: [

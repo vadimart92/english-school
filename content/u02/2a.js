@@ -14,7 +14,7 @@ ES.registerLesson({
     theory: [
       {
         h: "The continuous aspect",
-        p: "Continuous (be + -ing) у будь-якому часі — present, past, future, perfect, з інфінітивом чи пасивом — показує дію як незавершену, що триває. Ми обираємо його, коли нас цікавить сама дія, а не результат.",
+        p: "The continuous (be + -ing) in any form — present, past, future, perfect, with an infinitive or in the passive — shows an action as unfinished and in progress. We choose it when we are interested in the action itself, not the result.",
         table: [
           [
             "temporary",
@@ -29,44 +29,99 @@ ES.registerLesson({
             "She's been calling me every evening. · Online shopping is becoming more popular."
           ],
           ["trends", "Air quality is improving. · The campaign seems to have been having an effect."]
-        ]
+        ],
+        uk: {
+          h: "Тривалий аспект (continuous)",
+          p: "Continuous (be + -ing) у будь-якій формі — present, past, future, perfect, з інфінітивом чи в пасиві — показує дію як незавершену, таку, що триває. Ми обираємо його, коли нас цікавить сама дія, а не результат.",
+          table: [
+            [
+              "тимчасове",
+              "I'm staying with friends until my flat is ready. · The project seems to be going well."
+            ],
+            [
+              "обмежене (частина дії, далі буде ще)",
+              "Engineers have been testing the new bridge. · The old town is being renovated."
+            ],
+            [
+              "повторюване або змінне",
+              "She's been calling me every evening. · Online shopping is becoming more popular."
+            ],
+            ["тенденції", "Air quality is improving. · The campaign seems to have been having an effect."]
+          ]
+        }
       },
       {
         h: "Action vs result",
         list: [
-          "They've been cleaning the beach all week. — цікавить процес (що робили).",
-          "They've cleaned half the beach. — цікавить результат (скільки зробили).",
-          "Дієслова чуттів і remember: I saw him running (бачив частину дії) vs I saw him run (бачив усю дію від початку до кінця).",
-          "Дієслова стану (believe, know, belong, own) зазвичай не мають continuous: I believed it (NOT was believing). Деякі змінюють значення: I think so (= вважаю) / I'm thinking about it (= обмірковую)."
-        ]
+          "They've been cleaning the beach all week. — the focus is on the process (what they were doing).",
+          "They've cleaned half the beach. — the focus is on the result (how much they've done).",
+          "Verbs of the senses and remember: I saw him running (I saw part of the action) vs I saw him run (I saw the whole action from start to finish).",
+          "State verbs (believe, know, belong, own) usually have no continuous form: I believed it (NOT was believing). Some change their meaning: I think so (= I believe) / I'm thinking about it (= I'm considering it)."
+        ],
+        uk: {
+          h: "Дія чи результат",
+          list: [
+            "They've been cleaning the beach all week. — цікавить процес (що робили).",
+            "They've cleaned half the beach. — цікавить результат (скільки зробили).",
+            "Дієслова чуттів і remember: I saw him running (бачив частину дії) vs I saw him run (бачив усю дію від початку до кінця).",
+            "Дієслова стану (believe, know, belong, own) зазвичай не мають форми continuous: I believed it (NOT was believing). Деякі змінюють значення: I think so (= вважаю) / I'm thinking about it (= обмірковую)."
+          ]
+        }
       },
       {
         h: "Trends vocabulary",
         table: [
-          ["a downward / an upward trend", "тенденція до спаду / зростання"],
-          ["reach a tipping point", "досягти переломного моменту"],
-          ["reverse the trend", "переломити тенденцію"],
-          ["look set to continue", "схоже, триватиме й далі"],
-          ["pass a milestone", "подолати важливий рубіж"],
-          ["mark the start of a new era", "позначити початок нової епохи"],
-          ["be on the up", "зростати, покращуватися"],
-          ["revert to", "повернутися до (попереднього стану)"],
-          ["set the trend (for)", "задавати тон, бути першим, кого копіюють"],
-          ["look promising", "виглядати багатообіцяюче"]
-        ]
+          ["a downward / an upward trend", "a tendency to fall / to rise"],
+          ["reach a tipping point", "reach the moment after which a big change happens"],
+          ["reverse the trend", "make a trend go in the opposite direction"],
+          ["look set to continue", "seem likely to carry on"],
+          ["pass a milestone", "reach an important stage"],
+          ["mark the start of a new era", "be the beginning of a new period"],
+          ["be on the up", "be increasing or improving"],
+          ["revert to", "go back to (a previous state)"],
+          ["set the trend (for)", "be the first, so that others copy you"],
+          ["look promising", "seem likely to be good"]
+        ],
+        uk: {
+          h: "Лексика: тенденції",
+          table: [
+            ["a downward / an upward trend", "тенденція до спаду / зростання"],
+            ["reach a tipping point", "досягти переломного моменту"],
+            ["reverse the trend", "переломити тенденцію"],
+            ["look set to continue", "схоже, триватиме й далі"],
+            ["pass a milestone", "подолати важливий рубіж"],
+            ["mark the start of a new era", "позначити початок нової епохи"],
+            ["be on the up", "зростати, покращуватися"],
+            ["revert to", "повернутися до (попереднього стану)"],
+            ["set the trend (for)", "задавати тон, бути першим, кого копіюють"],
+            ["look promising", "виглядати багатообіцяюче"]
+          ]
+        }
       },
-      { h: "Pronunciation: to have", p: "У швидкому мовленні to have перед been звучить слабко й злито: /tə(h)əv/ — «тев»: People seem to have been listening." },
       {
-        h: "Більше практики",
-        p: "Пояснення й тести про тимчасові ситуації, тренди, роздратування з always та дієслова стану, які не люблять continuous.",
+        h: "Pronunciation: to have",
+        p: "In fast speech to have before been sounds weak and linked: /tə(h)əv/ — like 'tuhv': People seem to have been listening.",
+        uk: { h: "Вимова: to have", p: "У швидкому мовленні to have перед been звучить слабко й злито: /tə(h)əv/ — приблизно «тев»: People seem to have been listening." }
+      },
+      {
+        h: "More practice",
+        p: "Explanations and tests on temporary situations, trends, annoying habits with always, and state verbs that avoid the continuous.",
         links: [
           {
             title: "British Council LearnEnglish: Advanced present simple and continuous",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-present-simple-continuous",
-            note: "розширені випадки present simple і continuous, state verbs — пояснення і тест"
+            note: "advanced uses of the present simple and continuous, state verbs — explanation and test"
           },
-          { title: "EnglishPage: continuous and non-continuous verbs", url: "https://www.englishpage.com/verbpage/types.html", note: "які дієслова не вживаються в continuous і які мають два значення" }
-        ]
+          { title: "EnglishPage: continuous and non-continuous verbs", url: "https://www.englishpage.com/verbpage/types.html", note: "which verbs are not used in the continuous and which have two meanings" }
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Пояснення й тести про тимчасові ситуації, тенденції, роздратування з always та дієслова стану, які уникають continuous.",
+          notes: [
+            "складніші випадки present simple і continuous, дієслова стану — пояснення і тест",
+            "які дієслова не вживаються в continuous і які мають два значення"
+          ]
+        }
       }
     ],
     exercises: [
@@ -478,7 +533,17 @@ ES.registerLesson({
           "limited (part of the activity, not the whole): I'm working on my presentation at the moment.",
           "repeated or changing: I've been cycling to work every day recently.",
           "a trend: Many urban areas are becoming more gentrified."
-        ]
+        ],
+        uk: {
+          h: "Фокус на дії",
+          p: "Вживай тривалі форми, щоб наголосити на дії, а не на результаті, коли дія:",
+          list: [
+            "тимчасова: I've been living with my parents while I look for my own place.",
+            "обмежена (частина дії, а не вся): I'm working on my presentation at the moment.",
+            "повторювана або змінна: I've been cycling to work every day recently.",
+            "тенденція: Many urban areas are becoming more gentrified."
+          ]
+        }
       },
       {
         h: "Senses and remember",
@@ -486,7 +551,8 @@ ES.registerLesson({
         ex: [
           "I heard someone shouting in the street. (repeated, ongoing)",
           "I heard someone shout in the street. (once)"
-        ]
+        ],
+        uk: { h: "Дієслова чуттів і remember", p: "З see, hear, feel, understand, remember тривала форма показує, що дія тривала або повторювалася." }
       },
       {
         h: "Stative verbs",
@@ -495,7 +561,8 @@ ES.registerLesson({
           "I believed it was possible. (NOT was believing)",
           "I don't feel well. / I'm not feeling well. (no difference)",
           "I think it's a great idea. (= believe) / I'm thinking about dinner. (= actively thinking)"
-        ]
+        ],
+        uk: { h: "Дієслова стану", p: "Дієслова зі значенням стану зазвичай не вживаються в continuous. Деякі дієслова змінюють значення." }
       },
       {
         h: "Phrases",
@@ -510,7 +577,22 @@ ES.registerLesson({
           ["revert to", "go back to a previous (often worse) state"],
           ["set the trend for", "be the first, so others copy"],
           ["look promising", "seem likely to be good"]
-        ]
+        ],
+        uk: {
+          h: "Фрази",
+          table: [
+            ["a downward trend", "ситуація погіршується / показники падають"],
+            ["reach a tipping point", "момент, після якого відбувається велика зміна"],
+            ["reverse the trend", "повернути тенденцію в протилежний бік"],
+            ["this trend looks set to continue", "найімовірніше, це триватиме"],
+            ["pass a milestone", "досягти важливого етапу"],
+            ["mark the start of a new era", "започаткувати зовсім новий період"],
+            ["be on the up", "покращуватися / зростати"],
+            ["revert to", "повернутися до попереднього (часто гіршого) стану"],
+            ["set the trend for", "бути першим, щоб інші копіювали"],
+            ["look promising", "мати вигляд, що все буде добре"]
+          ]
+        }
       }
     ],
     exercises: [

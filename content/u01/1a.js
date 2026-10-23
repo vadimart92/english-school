@@ -14,13 +14,17 @@ ES.registerLesson({
     theory: [
       {
         h: "Perfect forms: looking back from a point",
-        p: "Перфектні форми дивляться назад від певної точки: зараз (present perfect), тоді в минулому (past perfect) або тоді в майбутньому (future perfect). Simple (have + V3) — про завершену подію чи кількість разів; continuous (have been + -ing) — про процес чи активність. Дієслова стану (know, own, cost, believe) зазвичай лишаються в simple.",
+        p: "Perfect forms look back from a point in time: now (present perfect), a moment in the past (past perfect) or a moment in the future (future perfect). The simple form (have + V3) is for a completed event or a number of times; the continuous form (have been + -ing) is for a process or activity. State verbs (know, own, cost, believe) usually stay in the simple form.",
         ex: [
           "We've known each other since primary school.",
           "I've been waiting for the bus for twenty minutes.",
           "By Friday she'll have finished the report.",
           "They were soaked because they'd been walking in the rain."
-        ]
+        ],
+        uk: {
+          h: "Перфектні форми: погляд назад від певної точки",
+          p: "Перфектні форми дивляться назад від певної точки в часі: від теперішнього моменту (present perfect), від моменту в минулому (past perfect) або від моменту в майбутньому (future perfect). Simple (have + V3) — про завершену подію чи кількість разів; continuous (have been + -ing) — про процес чи активність. Дієслова стану (know, own, cost, believe) зазвичай лишаються в simple."
+        }
       },
       {
         h: "Four reasons to use a perfect form",
@@ -41,20 +45,50 @@ ES.registerLesson({
             "4 Recent news and trends",
             "Simple for news, continuous for trends: The prices have just gone up. / More people have been working from home lately."
           ]
-        ]
+        ],
+        uk: {
+          h: "Чотири причини вжити перфектну форму",
+          table: [
+            [
+              "1 Час до певної точки (for, since, how long)",
+              "Simple — для станів, continuous — для дій: I've had this bike for ages. / I've been learning Spanish since May."
+            ],
+            [
+              "2 Результат попередніх подій (so, because)",
+              "Simple — для завершених подій, continuous — для процесів: I'm upset because I've broken my glasses. / I'm sweaty because I've been cycling."
+            ],
+            [
+              "3 Досвід до певної точки (ever, never, already, yet, times)",
+              "Майже завжди simple, навіть для повторюваних подій: I've already read this book three times."
+            ],
+            [
+              "4 Свіжі новини й тенденції",
+              "Simple — для новин, continuous — для тенденцій: The prices have just gone up. / More people have been working from home lately."
+            ]
+          ]
+        }
       },
       {
         h: "Watch out",
         list: [
-          "Negatives: I haven't driven for years = востаннє давно; I haven't been driving for long = почав нещодавно.",
-          "Present perfect не вживається з конкретним минулим часом (last week, in 2019), а past/future perfect — можуть: I'd sprained my ankle the day before.",
-          "Після when / as soon as / until про майбутнє — present perfect, не future perfect: Call me when you've finished (NOT when you'll have finished).",
-          "Вимова: у швидкому мовленні have/had у перфекті ненаголошені — /əv/, /əd/, часто скорочені: we'd been, they'll have been."
-        ]
+          "Negatives: I haven't driven for years = the last time was long ago; I haven't been driving for long = I started only recently.",
+          "The present perfect is not used with a specific past time (last week, in 2019), but the past and future perfect can be: I'd sprained my ankle the day before.",
+          "After when / as soon as / until about the future, use the present perfect, not the future perfect: Call me when you've finished (NOT when you'll have finished).",
+          "Pronunciation: in fast speech have/had in perfect forms are unstressed — /əv/, /əd/ — and often contracted: we'd been, they'll have been."
+        ],
+        uk: {
+          h: "Зверни увагу",
+          list: [
+            "Заперечення: I haven't driven for years = востаннє це було давно; I haven't been driving for long = почав нещодавно.",
+            "Present perfect не вживається з конкретним часом у минулому (last week, in 2019), а past perfect і future perfect — можуть: I'd sprained my ankle the day before.",
+            "Після when / as soon as / until, коли йдеться про майбутнє, вживаємо present perfect, а не future perfect: Call me when you've finished (NOT when you'll have finished).",
+            "Вимова: у швидкому мовленні have/had у перфектних формах ненаголошені — /əv/, /əd/ — і часто скорочуються: we'd been, they'll have been."
+          ]
+        }
       },
       {
         h: "Delexical verbs",
-        p: "Делексичні дієслова (have, take, make, give, get, go, do, hold) мають «слабке» значення — основний зміст несе іменник: take a look = look, have a chat = chat, go for a hike = hike. Такі фрази звучать природніше й дозволяють додати прикметник: have a quick chat, take a closer look.",
+        p: "Delexical verbs (have, take, make, give, get, go, do, hold) have a 'weak' meaning — the noun carries the main idea: take a look = look, have a chat = chat, go for a hike = hike. These phrases sound more natural and let you add an adjective: have a quick chat, take a closer look.",
         table: [
           ["have", "a lie-down, a well-earned rest, a chat, a sit-down"],
           ["go", "for a run / a stroll / a hike, on a course, on a search"],
@@ -64,17 +98,35 @@ ES.registerLesson({
           ["make", "a contribution, a success of sth, a statement, the effort"],
           ["do", "some rock-climbing, plenty of preparation, someone good, team building"],
           ["take", "the initiative, the lead, a look, sth into consideration"]
-        ]
+        ],
+        uk: {
+          h: "Делексичні дієслова",
+          p: "Делексичні дієслова (have, take, make, give, get, go, do, hold) мають «слабке» значення — основний зміст несе іменник: take a look = look, have a chat = chat, go for a hike = hike. Такі фрази звучать природніше й дають змогу додати прикметник: have a quick chat, take a closer look."
+        }
       },
       {
-        h: "Більше практики",
-        p: "Безкоштовні онлайн-вправи на вибір між простими й тривалими перфектними формами — зручно, коли хочеться ще потренуватися.",
+        h: "More practice",
+        p: "Free online exercises on choosing between simple and continuous perfect forms — handy when you want some extra practice.",
         links: [
-          { title: "Perfect English Grammar: present perfect simple or continuous", url: "https://www.perfect-english-grammar.com/present-perfect-present-perfect-continuous-1.html", note: "вправа: have done чи have been doing" },
-          { title: "Perfect English Grammar: past perfect simple or continuous", url: "https://www.perfect-english-grammar.com/past-perfect-past-perfect-continuous-exercise-1.html", note: "вправа: had done чи had been doing" },
-          { title: "Perfect English Grammar: future perfect", url: "https://www.perfect-english-grammar.com/future-perfect-exercise-4.html", note: "вправа на will have done" },
-          { title: "EnglishPage: future perfect continuous", url: "https://www.englishpage.com/verbpage/futureperfectcontinuous.html", note: "пояснення will have been doing з прикладами та вправами" }
-        ]
+          {
+            title: "Perfect English Grammar: present perfect simple or continuous",
+            url: "https://www.perfect-english-grammar.com/present-perfect-present-perfect-continuous-1.html",
+            note: "exercise: have done or have been doing"
+          },
+          { title: "Perfect English Grammar: past perfect simple or continuous", url: "https://www.perfect-english-grammar.com/past-perfect-past-perfect-continuous-exercise-1.html", note: "exercise: had done or had been doing" },
+          { title: "Perfect English Grammar: future perfect", url: "https://www.perfect-english-grammar.com/future-perfect-exercise-4.html", note: "exercise on will have done" },
+          { title: "EnglishPage: future perfect continuous", url: "https://www.englishpage.com/verbpage/futureperfectcontinuous.html", note: "explanation of will have been doing, with examples and exercises" }
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Безкоштовні онлайн-вправи на вибір між простими й тривалими перфектними формами — зручно, коли хочеться ще потренуватися.",
+          notes: [
+            "вправа: have done чи have been doing",
+            "вправа: had done чи had been doing",
+            "вправа на will have done",
+            "пояснення will have been doing з прикладами та вправами"
+          ]
+        }
       }
     ],
     exercises: [
@@ -471,7 +523,8 @@ ES.registerLesson({
         ex: [
           "I'll have had this phone for five years soon.",
           "I'd just passed my test, so I was really happy."
-        ]
+        ],
+        uk: { h: "Суть", p: "Перфектні форми дивляться назад від певної точки в часі (зараз, тоді в минулому або в майбутньому) на попередню подію чи процес." }
       },
       {
         h: "Simple vs continuous",
@@ -480,7 +533,11 @@ ES.registerLesson({
           "I've been trying to call you for hours.",
           "I'm happy because I've passed my test.",
           "How long have you known them? (NOT have you been knowing)"
-        ]
+        ],
+        uk: {
+          h: "Simple чи continuous",
+          p: "Continuous (have been + -ing) — для попередніх процесів і активностей; simple (have + V3) — для завершених подій або кількості разів. Дієслова стану (know, cost, own) зазвичай лишаються в simple."
+        }
       },
       {
         h: "Four main uses",
@@ -489,7 +546,16 @@ ES.registerLesson({
           "Direct results of earlier events, often with so / because",
           "Experiences up to a point: ever, never, before, already, yet, times",
           "Recent news and trends: I've just seen a squirrel… but it's gone now."
-        ]
+        ],
+        uk: {
+          h: "Чотири основні вживання",
+          list: [
+            "Вимірювання часу до певної точки: for, since, how long…",
+            "Прямі наслідки попередніх подій, часто з so / because",
+            "Досвід до певної точки: ever, never, before, already, yet, times",
+            "Свіжі новини й тенденції: I've just seen a squirrel… but it's gone now."
+          ]
+        }
       },
       {
         h: "Negatives change the meaning",
@@ -497,7 +563,8 @@ ES.registerLesson({
         ex: [
           "I haven't used this website for years. (= last used it years ago)",
           "I haven't been using this website for long. (= started recently)"
-        ]
+        ],
+        uk: { h: "Заперечення змінює значення", p: "Заперечення в simple = востаннє це було давно. Заперечення в continuous = дія почалася лише нещодавно." }
       },
       {
         h: "Specific past time",
@@ -505,7 +572,8 @@ ES.registerLesson({
         ex: [
           "I'd hurt my back the previous week, so I couldn't carry the boxes.",
           "I've hurt my back, so I can't carry those boxes. (NOT … last week)"
-        ]
+        ],
+        uk: { h: "Конкретний час у минулому", p: "Past perfect і future perfect можуть уживатися з конкретним попереднім часом; present perfect — ні." }
       },
       {
         h: "Verb + noun",
@@ -518,7 +586,8 @@ ES.registerLesson({
           ["make", "a contribution · a success of something · a statement"],
           ["do", "some rock-climbing · plenty of preparation · someone good"],
           ["take", "the initiative · the lead during an activity · something into consideration"]
-        ]
+        ],
+        uk: { h: "Дієслово + іменник" }
       }
     ],
     exercises: [
