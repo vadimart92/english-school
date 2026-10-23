@@ -30,7 +30,8 @@ ES.registerLesson({
             "avoid saying who is responsible",
             "Mistakes were made. / The report hasn't been finished yet."
           ]
-        ]
+        ],
+        uk: { h: "Навіщо пасив?", p: "Окрім випадків, коли ми не знаємо або нам неважливо, хто виконав дію, пасив обирають, щоб упорядкувати інформацію:" }
       },
       {
         h: "Prepositions and two objects",
@@ -38,7 +39,15 @@ ES.registerLesson({
           "A dependent preposition stays right after the verb: The hero breaks into the control room. → The control room is broken into.",
           "With two objects (give, send, offer, show) either object can become the subject. If the thing comes first, add to before the person.",
           "They gave the government the data. → The government was given the data. / The data was given to the government."
-        ]
+        ],
+        uk: {
+          h: "Прийменники і два додатки",
+          list: [
+            "Залежний прийменник залишається одразу після дієслова: The hero breaks into the control room. → The control room is broken into.",
+            "З двома додатками (give, send, offer, show) підметом може стати будь-який із них. Якщо першою йде річ, перед особою додаємо to.",
+            "They gave the government the data. → The government was given the data. / The data was given to the government."
+          ]
+        }
       },
       {
         h: "When NOT to use the passive",
@@ -46,7 +55,15 @@ ES.registerLesson({
           "Avoid be being / been being: They'll be painting the walls tonight. (NOT The walls will be being painted tonight.)",
           "Intransitive verbs (no object) have no passive: Most humans have died out. (NOT have been died out). It happened when I was young.",
           "When it sounds unnatural or evasive in personal speech: I made a mistake. (NOT A mistake was made by me.)"
-        ]
+        ],
+        uk: {
+          h: "Коли НЕ варто вживати пасив",
+          list: [
+            "Уникай be being / been being: They'll be painting the walls tonight. (NOT The walls will be being painted tonight.)",
+            "Неперехідні дієслова (без додатка) не мають пасиву: Most humans have died out. (NOT have been died out). It happened when I was young.",
+            "Коли в особистому мовленні це звучить неприродно чи ухильно: I made a mistake. (NOT A mistake was made by me.)"
+          ]
+        }
       },
       {
         h: "Making connections",
@@ -60,7 +77,8 @@ ES.registerLesson({
           ["evoke", "bring a feeling or memory to mind"],
           ["knock-on effect", "an indirect result that causes other results"],
           ["explore alternative realities", "investigate imaginary versions of the world"]
-        ]
+        ],
+        uk: { h: "Пошук зв'язків" }
       },
       {
         h: "Pronunciation: linking /r/",
@@ -69,23 +87,35 @@ ES.registerLesson({
           "People are always under surveillance.",
           "Children are abandoned by their parents.",
           "Governments are often portrayed as dictatorships."
-        ]
+        ],
+        uk: {
+          h: "Вимова: зв'язувальне /r/",
+          p: "У британській англійській r у are не вимовляється перед приголосним (are /ɑː/ often), але звучить, коли наступне слово починається з голосного звука (are /r/ abandoned, are /r/ always)."
+        }
       },
       {
-        h: "Більше практики",
-        p: "Онлайн-вправи на складніші пасивні конструкції.",
+        h: "More practice",
+        p: "Online exercises on more complex passive structures.",
         links: [
           {
             title: "British Council: Advanced passives review",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-passives-review",
-            note: "модальний пасив, get-пасив, is said to / is thought to have done"
+            note: "modal passive, get-passive, is said to / is thought to have done"
           },
           {
             title: "Perfect English Grammar: passive in subordinate clauses",
             url: "https://www.perfect-english-grammar.com/passive-subordinate-clauses-exercise-1.html",
-            note: "вправа з автоперевіркою: пасив у підрядних реченнях"
+            note: "a self-checking exercise: the passive in subordinate clauses"
           }
-        ]
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Онлайн-вправи на складніші пасивні конструкції.",
+          notes: [
+            "модальний пасив, get-пасив, is said to / is thought to have done",
+            "вправа з автоперевіркою: пасив у підрядних реченнях"
+          ]
+        }
       }
     ],
     exercises: [
@@ -478,7 +508,16 @@ ES.registerLesson({
           "Two objects: The winner was given the prize. / The prize was given to the winner.",
           "Preposition stays with the verb: The job was applied for by 500 people.",
           "Don't use: be being / been being; intransitive verbs (happen, die out, arrive)."
-        ]
+        ],
+        uk: {
+          h: "Пасив: що пам'ятати",
+          list: [
+            "Вживай його, щоб тема залишалася на початку речення, щоб перенести довгого виконавця дії (agent) у кінець або щоб звучати безособово.",
+            "Два додатки: The winner was given the prize. / The prize was given to the winner.",
+            "Прийменник залишається з дієсловом: The job was applied for by 500 people.",
+            "Не вживай: be being / been being; неперехідні дієслова (happen, die out, arrive)."
+          ]
+        }
       },
       {
         h: "Writing: a neutral scientific tone",
@@ -487,20 +526,60 @@ ES.registerLesson({
           "Use formal, precise verbs: The experiment was carried out (NOT was done) in a laboratory.",
           "Avoid emotive words and personal judgements: (cleverly) designed → designed.",
           "Avoid vague words and big claims: 25% (NOT a few); The study suggests (NOT proves)."
-        ]
+        ],
+        uk: {
+          h: "Письмо: нейтральний науковий стиль",
+          list: [
+            "Надавай перевагу пасиву: The participants were shown a card.",
+            "Вживай формальні, точні дієслова: The experiment was carried out (NOT was done) in a laboratory.",
+            "Уникай емоційних слів та особистих оцінок: (cleverly) designed → designed.",
+            "Уникай розмитих слів і гучних тверджень: 25% (NOT a few); The study suggests (NOT proves)."
+          ]
+        }
       },
       {
         h: "Social issues (Vocabulary bank)",
         table: [
-          ["glass ceiling / discriminatory", "невидимий бар'єр кар'єри / дискримінаційний"],
-          ["austerity / the breadline", "режим економії / межа бідності"],
-          ["food banks / safety net", "банки їжі / соціальна «подушка безпеки»"],
-          ["taboo / politically correct", "табу / політкоректний"],
-          ["squatters / entitlement", "самозахоплювачі житла / відчуття, що тобі все винні"],
-          ["multicultural / racism", "багатокультурний / расизм"],
-          ["outreach / marginalised", "соціальна допомога на місцях / маргіналізований"],
-          ["downtrodden / disaffected", "пригноблений / розчарований, відчужений"]
-        ]
+          [
+            "glass ceiling / discriminatory",
+            "an invisible barrier that stops people being promoted / treating some groups unfairly"
+          ],
+          [
+            "austerity / the breadline",
+            "strict cuts in public spending / the lowest income people can survive on"
+          ],
+          [
+            "food banks / safety net",
+            "places that give free food to people in need / state support that stops people falling into poverty"
+          ],
+          [
+            "taboo / politically correct",
+            "something people avoid talking about / careful not to offend any social group"
+          ],
+          [
+            "squatters / entitlement",
+            "people living in an empty building without permission / the feeling that you are owed everything"
+          ],
+          ["multicultural / racism", "including people of many cultures / unfair treatment because of race"],
+          [
+            "outreach / marginalised",
+            "help brought directly to people in the community / pushed to the edge of society"
+          ],
+          ["downtrodden / disaffected", "oppressed / disappointed and no longer loyal, alienated"]
+        ],
+        uk: {
+          h: "Соціальні проблеми (Vocabulary bank)",
+          table: [
+            ["glass ceiling / discriminatory", "невидимий бар'єр кар'єри / дискримінаційний"],
+            ["austerity / the breadline", "режим економії / межа бідності"],
+            ["food banks / safety net", "банки їжі / соціальна «подушка безпеки»"],
+            ["taboo / politically correct", "табу / політкоректний"],
+            ["squatters / entitlement", "самозахоплювачі житла / відчуття, що тобі все винні"],
+            ["multicultural / racism", "багатокультурний / расизм"],
+            ["outreach / marginalised", "соціальна допомога на місцях / маргіналізований"],
+            ["downtrodden / disaffected", "пригноблений / розчарований, відчужений"]
+          ]
+        }
       }
     ],
     exercises: [

@@ -35,7 +35,11 @@ ES.registerLesson({
             "if + past simple, would have + past participle",
             "If I were more organised, I wouldn't have missed the deadline."
           ]
-        ]
+        ],
+        uk: {
+          h: "Нереальні умовні речення: основні моделі",
+          p: "If + минула форма показує слухачеві, що ми уявляємо щось відмінне від реальності. Час після if показує, до якого часу належить уявна ситуація, а would/could/might — її уявний результат."
+        }
       },
       {
         h: "Not always unreal",
@@ -43,7 +47,8 @@ ES.registerLesson({
         ex: [
           "When I was a student, if I had a free evening, I'd go dancing. (= whenever I had…, I used to…)",
           "I'm so busy these days! If I had a free evening, I'd go dancing. (= but I don't)"
-        ]
+        ],
+        uk: { h: "Не завжди нереальне", p: "If + минула форма може описувати й реальні звички в минулому (= whenever). Яке значення мається на увазі, підказує контекст." }
       },
       {
         h: "Flexible forms",
@@ -57,7 +62,17 @@ ES.registerLesson({
         ex: [
           "Had I known you were outside, I'd have let you in.",
           "Were it not for the volunteers, the festival couldn't happen."
-        ]
+        ],
+        uk: {
+          h: "Гнучкі форми",
+          list: [
+            "Тривалі форми: If you were listening, you'd understand. / If you'd been listening, you'd have understood.",
+            "could / might замість would: If we'd taken more risks, we might have won.",
+            "If it weren't for / If it hadn't been for + іменник = «якби не…», «без…»: If it weren't for my sister, I'd never have applied. (формально: But for…)",
+            "were to + інфінітив робить майбутнє явно гіпотетичним: If I were to offer you the job, would you take it?",
+            "Формальна інверсія без if: Had I known (= If I had known), Were we to (= If we were to), Were it not for (= If it weren't for)."
+          ]
+        }
       },
       {
         h: "Risk, success and failure",
@@ -69,7 +84,8 @@ ES.registerLesson({
             "taking / avoiding risks",
             "get out of your comfort zone, throw caution to the wind, go for it, play it safe"
           ]
-        ]
+        ],
+        uk: { h: "Ризик, успіх і невдача" }
       },
       {
         h: "Pronunciation: have in fast speech",
@@ -77,16 +93,29 @@ ES.registerLesson({
         ex: [
           "If you hadn't been wearing a helmet, you could have been seriously hurt.",
           "If I'd known how he felt, I'd have done something about it."
-        ]
+        ],
+        uk: {
+          h: "Вимова: have у швидкому мовленні",
+          p: "У would have / could have / might have слово have ненаголошене і звучить як /əv/ або навіть просто /ə/: could've → /ˈkʊdə/, I'd've → /ˈaɪdə/. Наголос падає на основне дієслово."
+        }
       },
       {
-        h: "Більше практики",
-        p: "Онлайн-вправи на змішані умовні, were to і третій умовний.",
+        h: "More practice",
+        p: "Online exercises on mixed conditionals, were to and the third conditional.",
         links: [
-          { title: "EnglishPage: Mixed conditionals", url: "https://www.englishpage.com/conditional/mixedconditional.html", note: "змішані умовні: минуле → теперішнє і навпаки, з вправами" },
-          { title: "EnglishPage: Were to", url: "https://www.englishpage.com/conditional/wereto.html", note: "were to + інфінітив для дуже гіпотетичного майбутнього" },
-          { title: "Perfect English Grammar: third conditional", url: "https://www.perfect-english-grammar.com/third-conditional-exercise-1.html", note: "вправа з автоперевіркою на третій умовний" }
-        ]
+          { title: "EnglishPage: Mixed conditionals", url: "https://www.englishpage.com/conditional/mixedconditional.html", note: "mixed conditionals: past → present and vice versa, with exercises" },
+          { title: "EnglishPage: Were to", url: "https://www.englishpage.com/conditional/wereto.html", note: "were to + infinitive for a very hypothetical future" },
+          { title: "Perfect English Grammar: third conditional", url: "https://www.perfect-english-grammar.com/third-conditional-exercise-1.html", note: "a self-checking exercise on the third conditional" }
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Онлайн-вправи на змішані умовні речення, were to та умовні речення третього типу.",
+          notes: [
+            "змішані умовні речення: минуле → теперішнє і навпаки, з вправами",
+            "were to + інфінітив для дуже гіпотетичного майбутнього",
+            "вправа з автоперевіркою на умовні речення третього типу"
+          ]
+        }
       }
     ],
     exercises: [
@@ -570,11 +599,12 @@ ES.registerLesson({
           ["If I were to resign, who would replace me?", "unlikely future (were to)"],
           ["If it weren't / hadn't been for you, …", "= without you"],
           ["Had I known… / Were we to… / Were it not for…", "formal inversion"]
-        ]
+        ],
+        uk: { h: "Нереальні умовні речення коротко" }
       },
       {
         h: "Compound adjectives with -ing",
-        p: "noun/adjective/adverb + -ing form, written with a hyphen before a noun.",
+        p: "Noun / adjective / adverb + -ing form, written with a hyphen before a noun.",
         table: [
           ["hair-raising", "terrifying and exciting"],
           ["law-abiding", "obeying the law"],
@@ -588,7 +618,8 @@ ES.registerLesson({
             "thought-provoking, award-winning, character-building, time-consuming, back-breaking, jaw-dropping, awe-inspiring, mouth-watering",
             ""
           ]
-        ]
+        ],
+        uk: { h: "Складні прикметники з -ing", p: "Іменник / прикметник / прислівник + форма на -ing; перед іменником пишеться через дефіс." }
       }
     ],
     exercises: [

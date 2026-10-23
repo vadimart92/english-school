@@ -34,7 +34,11 @@ ES.registerLesson({
         ex: [
           "It's vital that he not sign anything yet.",
           "She agreed to the interview on condition that she not be named."
-        ]
+        ],
+        uk: {
+          h: "Present subjunctive (теперішній умовний спосіб)",
+          p: "У формальних рекомендаціях після певних дієслів, прикметників та іменників для всіх осіб вживаємо інфінітив без to (без -s і без минулої форми). Найпомітніше це з he/she/it і з be. У менш формальній британській англійській також поширені should + інфінітив або звичайний теперішній час."
+        }
       },
       {
         h: "Fixed expressions",
@@ -60,7 +64,8 @@ ES.registerLesson({
             "urgent recommendation",
             "It's high time the council repaired this road."
           ]
-        ]
+        ],
+        uk: { h: "Сталі вирази" }
       },
       {
         h: "Regulation",
@@ -71,7 +76,8 @@ ES.registerLesson({
           ],
           ["breaking rules", "breach, violate, evasion (tax evasion), unauthorised, go unpunished"],
           ["obeying rules", "comply with"]
-        ]
+        ],
+        uk: { h: "Регулювання" }
       },
       {
         h: "Pronunciation: stress in strong recommendations",
@@ -80,14 +86,16 @@ ES.registerLesson({
           "I DEMAND the minister explain how he got those figures.",
           "It's ESSENTIAL these practices be regulated.",
           "It's absolutely CRUCIAL you remove temptations to buy more."
-        ]
+        ],
+        uk: { h: "Вимова: наголос у наполегливих рекомендаціях", p: "Найсильніший наголос зазвичай падає на слово, що передає силу рекомендації (прикметник чи дієслово обов'язку), і на ключову дію." }
       },
       {
-        h: "Більше практики",
-        p: "Онлайн-пояснення до суміжних конструкцій: would rather, it's time, as if.",
+        h: "More practice",
+        p: "Online explanations of related structures: would rather, it's time, as if.",
         links: [
-          { title: "British Council: Unreal time", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/unreal-time", note: "it's (high) time, would rather + підмет — пояснення і вправи" }
-        ]
+          { title: "British Council: Unreal time", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/unreal-time", note: "it's (high) time, would rather + subject: explanations and exercises" }
+        ],
+        uk: { h: "Більше практики", p: "Онлайн-пояснення суміжних конструкцій: would rather, it's time, as if.", notes: ["it's (high) time, would rather + підмет — пояснення і вправи"] }
       }
     ],
     exercises: [
@@ -443,7 +451,8 @@ ES.registerLesson({
             "fixed phrases",
             "Come what may · Far be it from me to… · Suffice (it) to say · Perish the thought!"
           ]
-        ]
+        ],
+        uk: { h: "Формальні рекомендації: підсумок" }
       },
       {
         h: "Marketing and advertising (Vocabulary bank)",
@@ -458,7 +467,8 @@ ES.registerLesson({
           ["niche marketing", "advertising to a small, specific market"],
           ["slogan", "short memorable phrase about a product"],
           ["no-quibble returns policy", "refund without any argument"]
-        ]
+        ],
+        uk: { h: "Маркетинг і реклама (Vocabulary bank)" }
       }
     ],
     exercises: [

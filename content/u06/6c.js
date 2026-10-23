@@ -29,7 +29,8 @@ ES.registerLesson({
             "nowhere near / nothing like / not anything like + as + adj + as",
             "The sequel is nowhere near as good as the original. / He's nothing like as clever as his sister."
           ]
-        ]
+        ],
+        uk: { h: "Велика і невелика різниця" }
       },
       {
         h: "Adverbs, superlatives, contrasts",
@@ -38,7 +39,16 @@ ES.registerLesson({
           "-ly adverbs take more / less: more quickly, less carefully. I did more badly than I expected. (NOT badlier)",
           "one of the + superlative + plural noun: It's one of the best films I've ever seen.",
           "Contrasting adjectives: I'm not so much angry as disappointed."
-        ]
+        ],
+        uk: {
+          h: "Прислівники, найвищий ступінь, протиставлення",
+          list: [
+            "Короткі прислівники отримують -er, як прикметники: faster, harder, earlier, later. She arrived a bit earlier than us.",
+            "Прислівники на -ly утворюють ступені з more / less: more quickly, less carefully. I did more badly than I expected. (NOT badlier)",
+            "one of the + найвищий ступінь + іменник у множині: It's one of the best films I've ever seen.",
+            "Протиставлення прикметників: I'm not so much angry as disappointed."
+          ]
+        }
       },
       {
         h: "Preferences",
@@ -53,7 +63,8 @@ ES.registerLesson({
             "'d prefer / 'd rather / 'd sooner + infinitive + than",
             "I'd sooner take the train than drive. / I'd rather watch paint dry than listen to his jokes."
           ]
-        ]
+        ],
+        uk: { h: "Уподобання" }
       },
       {
         h: "Idiomatic comparisons",
@@ -64,7 +75,8 @@ ES.registerLesson({
           ["X isn't (even) in the same league as Y", "Y is much better"],
           ["X doesn't bear comparison with Y", "Y is much better"],
           ["X is beyond comparison", "X is the best, nothing compares"]
-        ]
+        ],
+        uk: { h: "Ідіоматичні порівняння" }
       },
       {
         h: "Word play and responding to ideas",
@@ -79,7 +91,8 @@ ES.registerLesson({
           ["spoonerism", "first sounds swapped: shake a tower (= take a shower)"],
           ["positive", "captivating, catchy, fitting, inventive, novel, quirky, witty"],
           ["negative", "bland, clumsy, corny, repulsive, run-of-the-mill, stale (surreal can be either)"]
-        ]
+        ],
+        uk: { h: "Гра слів і реакція на ідеї" }
       },
       {
         h: "Pronunciation: linking",
@@ -88,14 +101,16 @@ ES.registerLesson({
           "You should have been here much earlier on.",
           "Your idea is one of the best I've heard.",
           "Your jokes are nowhere near as bad as his."
-        ]
+        ],
+        uk: { h: "Вимова: зв'язування слів", p: "Слова зливаються: кінцевий приголосний зв'язується з наступним голосним (much_earlier_on), а між двома голосними мовці додають звук /r/ (idea /r/ is, near /r/ as)." }
       },
       {
-        h: "Більше практики",
-        p: "Онлайн-вправа на вищий ступінь прикметників.",
+        h: "More practice",
+        p: "An online exercise on comparative adjectives.",
         links: [
-          { title: "Perfect English Grammar: comparative adjectives", url: "https://www.perfect-english-grammar.com/comparative-adjectives-exercise-1.html", note: "вправа з автоперевіркою на форми вищого ступеня" }
-        ]
+          { title: "Perfect English Grammar: comparative adjectives", url: "https://www.perfect-english-grammar.com/comparative-adjectives-exercise-1.html", note: "a self-checking exercise on comparative forms" }
+        ],
+        uk: { h: "Більше практики", p: "Онлайн-вправа на вищий ступінь порівняння прикметників.", notes: ["вправа з автоперевіркою на форми вищого ступеня"] }
       }
     ],
     exercises: [
@@ -465,7 +480,8 @@ ES.registerLesson({
             "not a patch on · can't hold a candle to · not in the same league as · doesn't bear comparison with · beyond comparison",
             "idioms"
           ]
-        ]
+        ],
+        uk: { h: "Вищий ступінь: підсумок" }
       }
     ],
     exercises: [

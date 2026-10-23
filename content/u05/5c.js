@@ -14,7 +14,8 @@ ES.registerLesson({
       {
         h: "Past forms for unreal situations",
         p: "As in conditionals, a 'step back' in tense (present → past, past → past perfect) and the modals would/could/might/should signal that a situation is imaginary.",
-        ex: ["Imagine you had a year off. What would you do?", "Suppose nobody had invented plastic…"]
+        ex: ["Imagine you had a year off. What would you do?", "Suppose nobody had invented plastic…"],
+        uk: { h: "Минулі форми для нереальних ситуацій", p: "Як і в умовних реченнях, «крок назад» у часі (теперішній → минулий, минулий → past perfect) і модальні дієслова would/could/might/should показують, що ситуація уявна." }
       },
       {
         h: "Wishes: I wish… / If only…",
@@ -36,7 +37,8 @@ ES.registerLesson({
             "I wish I could speak Japanese. / I wish I could go to the Oscars one day."
           ]
         ],
-        ex: ["I wish I didn't have to work on Saturday.", "If only we'd left earlier!"]
+        ex: ["I wish I didn't have to work on Saturday.", "If only we'd left earlier!"],
+        uk: { h: "Бажання: I wish… / If only…" }
       },
       {
         h: "Similar structures",
@@ -62,7 +64,8 @@ ES.registerLesson({
             "compare with an imaginary situation",
             "She looked at me as if I were crazy. / He talked as though he'd been there."
           ]
-        ]
+        ],
+        uk: { h: "Схожі конструкції" }
       },
       {
         h: "Near-synonyms: rubbish and cleanliness",
@@ -79,19 +82,25 @@ ES.registerLesson({
             "make clean (verbs)",
             "scrub (with force and a brush), disinfect (kill germs), spruce up (informal: make look nicer)"
           ]
-        ]
+        ],
+        uk: { h: "Близькі синоніми: сміття і чистота" }
       },
       {
         h: "Pronunciation: 'd",
         p: "'d can be had or would, and in fast speech they sound the same. Listen to what follows: past participle → had (I wish you'd tried); bare infinitive → would (I wish you'd try).",
-        ex: ["I wish you'd tried to help.", "I wish you'd try to help."]
+        ex: ["I wish you'd tried to help.", "I wish you'd try to help."],
+        uk: {
+          h: "Вимова: 'd",
+          p: "'d може означати had або would, і у швидкому мовленні вони звучать однаково. Слухай, що йде далі: дієприкметник минулого часу (past participle) → had (I wish you'd tried); інфінітив без to → would (I wish you'd try)."
+        }
       },
       {
-        h: "Більше практики",
-        p: "Онлайн-пояснення і вправи на wish, if only, it's time і would rather.",
+        h: "More practice",
+        p: "Online explanations and exercises on wish, if only, it's time and would rather.",
         links: [
-          { title: "British Council: Unreal time", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/unreal-time", note: "wish, if only, it's (high) time, as if, would rather — пояснення і вправи" }
-        ]
+          { title: "British Council: Unreal time", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/unreal-time", note: "wish, if only, it's (high) time, as if, would rather: explanations and exercises" }
+        ],
+        uk: { h: "Більше практики", p: "Онлайн-пояснення і вправи на wish, if only, it's time і would rather.", notes: ["wish, if only, it's (high) time, as if, would rather — пояснення і вправи"] }
       }
     ],
     exercises: [
@@ -535,7 +544,8 @@ ES.registerLesson({
           ["I'd rather + subject + past", "preference / polite refusal", "I'd rather you didn't park here."],
           ["It's (high/about) time + past", "it should happen now", "It's high time we got a new sofa."],
           ["as if / as though + past", "imaginary comparison", "He acts as if he owned the place."]
-        ]
+        ],
+        uk: { h: "Гіпотетичні конструкції: підсумок" }
       },
       {
         h: "Writing: synthesising sources",
@@ -543,7 +553,11 @@ ES.registerLesson({
         ex: [
           "Thousands of animals are thought to die each year as a result of plastic waste.",
           "It is claimed that a truckload of rubbish enters the ocean every minute."
-        ]
+        ],
+        uk: {
+          h: "Письмо: синтез джерел",
+          p: "В есе на основі кількох джерел поєднуй факти з різних текстів своїми словами й подавай їх нейтрально: It is claimed that… / … is thought to… / It is likely that… / Scientists are concerned that…"
+        }
       }
     ],
     exercises: [
