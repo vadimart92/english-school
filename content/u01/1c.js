@@ -14,61 +14,108 @@ ES.registerLesson({
     theory: [
       {
         h: "Infinitive phrases",
-        p: "Інфінітивні фрази — це короткі сталі коментарі на кшталт to be honest, to put it mildly. Вони зазвичай починаються з to (але бувають із запереченням попереду: needless to say, not to put too fine a point on it) і коментують усе висловлювання цілком: показують наше ставлення або пояснюють, навіщо ми це кажемо. Це фіксовані вирази — слова в них не міняємо.",
+        p: "Infinitive phrases are short fixed comments such as to be honest or to put it mildly. They usually start with to (though some have a negative or another word in front: needless to say, not to put too fine a point on it) and comment on the whole statement: they show our attitude or explain why we are saying it. They are fixed expressions — we don't change the words.",
         ex: [
           "To be honest, I found the film a bit long.",
           "The hotel was disappointing, to say the least.",
           "To come back to my earlier point, we need a bigger budget."
-        ]
+        ],
+        uk: {
+          h: "Інфінітивні фрази",
+          p: "Інфінітивні фрази — це короткі сталі коментарі на кшталт to be honest, to put it mildly. Зазвичай вони починаються з to (хоча бувають і з запереченням чи іншим словом попереду: needless to say, not to put too fine a point on it) і коментують усе висловлювання загалом: показують наше ставлення або пояснюють, навіщо ми це кажемо. Це сталі вирази — слова в них не змінюємо."
+        }
       },
       {
         h: "What do they do?",
         table: [
-          ["to be more precise", "уточнюю те, що щойно сказав"],
-          ["to give it its proper name/title", "називаю щось офіційною назвою"],
-          ["to put it mildly / to say the least", "кажу м'якше, ніж є насправді"],
-          [
-            "not to put too fine a point on it / to put it bluntly",
-            "визнаю, що кажу прямо, без делікатності"
-          ],
-          ["needless to say", "кажу те, що слухач і так очікує"],
-          ["to be sure / to be fair", "визнаю щось, що трохи суперечить моєму аргументу"],
+          ["to be more precise", "I'm clarifying what I've just said"],
+          ["to give it its proper name/title", "I'm calling something by its official name"],
+          ["to put it mildly / to say the least", "I'm saying it more gently than the reality"],
+          ["not to put too fine a point on it / to put it bluntly", "I admit I'm being direct, not tactful"],
+          ["needless to say", "I'm saying what the listener already expects"],
+          ["to be sure / to be fair", "I'm admitting something that slightly goes against my argument"],
           [
             "to cap it all / to make matters worse / to add insult to injury",
-            "додаю ще одну погану річ до переліку"
+            "I'm adding one more bad thing to the list"
           ],
-          ["to cut a long story short", "пропускаю деталі й переходжу до суті"],
-          ["to name but a few", "це лише кілька прикладів"]
-        ]
+          ["to cut a long story short", "I'm skipping the details and getting to the point"],
+          ["to name but a few", "these are just a few examples"]
+        ],
+        uk: {
+          h: "Яку роль вони виконують?",
+          table: [
+            ["to be more precise", "уточнюю те, що щойно сказав"],
+            ["to give it its proper name/title", "називаю щось офіційною назвою"],
+            ["to put it mildly / to say the least", "кажу м'якше, ніж є насправді"],
+            [
+              "not to put too fine a point on it / to put it bluntly",
+              "визнаю, що кажу прямо, без делікатності"
+            ],
+            ["needless to say", "кажу те, чого слухач і так очікує"],
+            ["to be sure / to be fair", "визнаю щось, що трохи суперечить моєму аргументу"],
+            [
+              "to cap it all / to make matters worse / to add insult to injury",
+              "додаю ще одну погану річ до переліку"
+            ],
+            ["to cut a long story short", "пропускаю деталі й переходжу до суті"],
+            ["to name but a few", "це лише кілька прикладів"]
+          ]
+        }
       },
       {
         h: "Position and pauses",
         list: [
-          "Більшість фраз можуть стояти на початку або в кінці: To be honest, I hated it. / I hated it, to be honest.",
-          "Needless to say, to cap it all, to make matters worse, to add insult to injury зазвичай стоять ПЕРЕД твердженням, бо пов'язують його з попереднім.",
-          "To put it mildly, to say the least, to name but a few, to put it bluntly зазвичай стоять ПІСЛЯ.",
-          "На письмі фразу відділяємо комами (або дужками), в усному мовленні — паузою. Без коми значення змінюється: She tried her best to be fair (= намагалася бути справедливою) vs She tried her best, to be fair (= треба визнати, вона старалася)."
-        ]
+          "Most phrases can go at the beginning or at the end: To be honest, I hated it. / I hated it, to be honest.",
+          "Needless to say, to cap it all, to make matters worse and to add insult to injury usually come BEFORE the statement, because they link it to what came before.",
+          "To put it mildly, to say the least, to name but a few and to put it bluntly usually come AFTER it.",
+          "In writing, separate the phrase with commas (or brackets); in speech, with a pause. Without the comma the meaning changes: She tried her best to be fair (= she tried to be fair) vs She tried her best, to be fair (= I have to admit she tried hard)."
+        ],
+        uk: {
+          h: "Позиція і паузи",
+          list: [
+            "Більшість фраз можуть стояти на початку або в кінці: To be honest, I hated it. / I hated it, to be honest.",
+            "Needless to say, to cap it all, to make matters worse, to add insult to injury зазвичай стоять ПЕРЕД твердженням, бо пов'язують його з попереднім.",
+            "To put it mildly, to say the least, to name but a few, to put it bluntly зазвичай стоять ПІСЛЯ нього.",
+            "На письмі фразу відокремлюємо комами (або дужками), в усному мовленні — паузою. Без коми значення змінюється: She tried her best to be fair (= намагалася бути справедливою) vs She tried her best, to be fair (= треба визнати, вона старалася)."
+          ]
+        }
       },
       {
         h: "Connotation",
-        p: "Конотація — це позитивне чи негативне забарвлення слова. Прикметники з однаковим «словниковим» значенням можуть звучати схвально (adoring fans, durable toys) або критично (screaming fans, flimsy toys). Саме вибір прикметника показує позицію автора.",
+        p: "Connotation is the positive or negative colouring of a word. Adjectives with the same 'dictionary' meaning can sound approving (adoring fans, durable toys) or critical (screaming fans, flimsy toys). The choice of adjective shows the writer's position.",
         table: [
           ["fans", "adoring, die-hard (+) · obsessive, screaming (−)"],
-          ["recommendation", "glowing, informed (+) · gushing (надто захоплена) · lukewarm (−)"],
+          ["recommendation", "glowing, informed (+) · gushing (too enthusiastic) · lukewarm (−)"],
           ["sums of money", "phenomenal (+) · moderate (0) · meagre, outrageous (−)"],
           ["parents", "supportive, doting (+) · firm (0) · pushy (−)"],
           ["toys", "educational, durable (+) · tacky, flimsy (−)"],
           ["snacks", "nutritious (+) · bite-size (0) · sugary, processed (−)"],
           ["ambition(s)", "modest, driving (+) · blind, consuming (−)"]
-        ]
+        ],
+        uk: {
+          h: "Конотація",
+          p: "Конотація — це позитивне чи негативне забарвлення слова. Прикметники з однаковим «словниковим» значенням можуть звучати схвально (adoring fans, durable toys) або критично (screaming fans, flimsy toys). Саме вибір прикметника показує позицію автора.",
+          table: [
+            ["шанувальники (fans)", "adoring, die-hard (+) · obsessive, screaming (−)"],
+            [
+              "рекомендація (recommendation)",
+              "glowing, informed (+) · gushing (надто захоплена) · lukewarm (−)"
+            ],
+            ["суми грошей (sums of money)", "phenomenal (+) · moderate (0) · meagre, outrageous (−)"],
+            ["батьки (parents)", "supportive, doting (+) · firm (0) · pushy (−)"],
+            ["іграшки (toys)", "educational, durable (+) · tacky, flimsy (−)"],
+            ["перекуси (snacks)", "nutritious (+) · bite-size (0) · sugary, processed (−)"],
+            ["амбіції (ambition(s))", "modest, driving (+) · blind, consuming (−)"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Довідковий список дієслів, після яких іде to-infinitive; інфінітивні фрази на кшталт to be honest тренуй у вправах Refresh.",
+        h: "More practice",
+        p: "A reference list of verbs followed by a to-infinitive; practise infinitive phrases like to be honest in the Refresh exercises.",
         links: [
-          { title: "EnglishPage: verbs followed by infinitives", url: "https://www.englishpage.com/gerunds/infinitive_list.htm", note: "перелік дієслів + to-infinitive з прикладами" }
-        ]
+          { title: "EnglishPage: verbs followed by infinitives", url: "https://www.englishpage.com/gerunds/infinitive_list.htm", note: "a list of verbs + to-infinitive, with examples" }
+        ],
+        uk: { h: "Більше практики", p: "Довідковий список дієслів, після яких іде to-infinitive; інфінітивні фрази на кшталт to be honest тренуй у вправах Refresh.", notes: ["перелік дієслів + to-infinitive з прикладами"] }
       }
     ],
     exercises: [
@@ -472,19 +519,37 @@ ES.registerLesson({
           "to be honest / frank",
           "to tell the truth",
           "to be fair"
-        ]
+        ],
+        uk: {
+          h: "До чи після",
+          p: "Більшість інфінітивних фраз можуть стояти перед твердженням, яке вони коментують, або після нього.",
+          list: [
+            "to give them their proper name / title",
+            "not to put too fine a point on it",
+            "to be sure",
+            "to be honest / frank",
+            "to tell the truth",
+            "to be fair"
+          ]
+        }
       },
       {
         h: "Usually before",
         p: "Some show how the statement relates to earlier information, so they come first.",
         ex: ["I was worried about visiting my in-laws, but needless to say, everyone was extremely kind."],
-        list: ["needless to say", "to cap it all", "to add insult to injury", "to make matters worse"]
+        list: ["needless to say", "to cap it all", "to add insult to injury", "to make matters worse"],
+        uk: { h: "Зазвичай перед", p: "Деякі фрази показують, як твердження пов'язане з попередньою інформацією, тому стоять першими.", list: ["needless to say", "to cap it all", "to add insult to injury", "to make matters worse"] }
       },
       {
         h: "Usually after",
         p: "Some say the reality is more extreme than your words, or that you could say more. They follow the statement.",
         ex: ["The meeting was boring, to put it mildly."],
-        list: ["to put it mildly", "to put it bluntly", "to name (but / just) a few", "to say the least"]
+        list: ["to put it mildly", "to put it bluntly", "to name (but / just) a few", "to say the least"],
+        uk: {
+          h: "Зазвичай після",
+          p: "Деякі фрази показують, що насправді все ще гірше (чи сильніше), ніж ви кажете, або що можна сказати більше. Вони стоять після твердження.",
+          list: ["to put it mildly", "to put it bluntly", "to name (but / just) a few", "to say the least"]
+        }
       },
       {
         h: "Same idea, different attitude",
@@ -496,7 +561,19 @@ ES.registerLesson({
           ["toys", "educational (+) · durable (+) · flimsy (−)"],
           ["snacks", "nutritious (+) · bite-size (neutral) · processed (−)"],
           ["ambition", "driving (+) · blind (−) · consuming (−−)"]
-        ]
+        ],
+        uk: {
+          h: "Той самий зміст, різне ставлення",
+          table: [
+            ["шанувальники (fans)", "die-hard (+) · screaming (−) · obsessive (−)"],
+            ["рекомендації (recommendations)", "informed (+) · gushing (++, можливо, надмірно) · lukewarm (−)"],
+            ["суми грошей (sums of money)", "phenomenal (+) · moderate (нейтрально) · meagre (−)"],
+            ["батьки (parents)", "supportive (+) · doting (+, дуже люблячі) · firm (нейтрально)"],
+            ["іграшки (toys)", "educational (+) · durable (+) · flimsy (−)"],
+            ["перекуси (snacks)", "nutritious (+) · bite-size (нейтрально) · processed (−)"],
+            ["амбіція (ambition)", "driving (+) · blind (−) · consuming (−−)"]
+          ]
+        }
       }
     ],
     exercises: [

@@ -18,7 +18,8 @@ ES.registerLesson({
           "I'll open the fridge whenever I'm bored, even if I'm not hungry.",
           "She'll always check the door twice before she goes out.",
           "Whenever I stay up late, I won't remember where I put my keys."
-        ]
+        ],
+        uk: { h: "will + інфінітив для типової поведінки", p: "will (часто разом з always) описує, що людина зазвичай робить у теперішньому, – це не про майбутнє." }
       },
       {
         h: "always / forever / constantly + present continuous",
@@ -27,7 +28,8 @@ ES.registerLesson({
           "I'm forever walking into a room and forgetting why.",
           "He's constantly parking in front of my garage. (annoying)",
           "She's always giving money to charity. (positive)"
-        ]
+        ],
+        uk: { h: "always / forever / constantly + Present Continuous", p: "Показує часту звичку, зазвичай дратівливу, – але вона може бути й дуже позитивною." }
       },
       {
         h: "Compulsions: which form follows?",
@@ -42,12 +44,23 @@ ES.registerLesson({
           "I have this overwhelming urge to dance when I hear this song.",
           "I sometimes catch myself singing in the lift.",
           "I can't stop myself from touching a plate when someone says it's hot."
-        ]
+        ],
+        uk: {
+          h: "Нав'язливі звички: яка форма далі?",
+          table: [
+            ["+ інфінітив з to", "I tend to… / I have this tendency to… / I have this (overwhelming) urge to…"],
+            [
+              "+ -ing",
+              "I have this habit of… / I find myself… / I (often) catch myself… / I can't stop myself (from)… / I keep (on)…"
+            ]
+          ]
+        }
       },
       {
         h: "Stress",
         p: "The main stress falls on the habit word (always, forever, can't stop, find myself) and the key verb. Words at the end that are already known (that kind of stuff, those things) are unstressed.",
-        ex: ["I'm ALWAYS doing that kind of stuff.", "I just CAN'T STOP myself doing those things sometimes."]
+        ex: ["I'm ALWAYS doing that kind of stuff.", "I just CAN'T STOP myself doing those things sometimes."],
+        uk: { h: "Наголос", p: "Головний наголос падає на слово звички (always, forever, can't stop, find myself) і на ключове дієслово. Слова в кінці, які вже відомі (that kind of stuff, those things), ненаголошені." }
       },
       {
         h: "Idioms related to feelings",
@@ -60,18 +73,36 @@ ES.registerLesson({
           ["be shaken up", "scared/upset after a shock"],
           ["see red / be up in arms", "very angry / angry and protesting"],
           ["feel out of it", "uncomfortable, not part of what's happening"]
-        ]
+        ],
+        uk: {
+          h: "Ідіоми про почуття",
+          table: [
+            ["want the ground to swallow me up", "соромно (хоч крізь землю провалитися)"],
+            ["make a fool of yourself", "соромно (поводитися безглуздо на людях)"],
+            ["have me in stitches", "дуже смішити (радість)"],
+            ["feel on top of the world / be over the moon", "дуже щасливий, на сьомому небі"],
+            ["have butterflies in my stomach", "хвилюватися"],
+            ["be shaken up", "наляканий чи засмучений після потрясіння"],
+            ["see red / be up in arms", "дуже злий / обурений і протестує"],
+            ["feel out of it", "почуватися ніяково, не в своїй тарілці"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Сторінка British Council допоможе розібрати тонкі випадки Present Simple і Continuous, зокрема always + -ing для дратівливих звичок.",
+        h: "More practice",
+        p: "This British Council page will help you work through tricky uses of the present simple and continuous, including always + -ing for annoying habits.",
         links: [
           {
             title: "British Council: Advanced present simple and continuous",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-present-simple-continuous",
-            note: "дієслова стану, звички, переказ сюжету й анекдоти (рівень C1) з тестом"
+            note: "state verbs, habits, telling stories and anecdotes (C1 level), with a test"
           }
-        ]
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Сторінка British Council допоможе розібрати тонкі випадки Present Simple і Continuous, зокрема always + -ing для дратівливих звичок.",
+          notes: ["дієслова стану, звички, переказ сюжету й анекдоти (рівень C1) з тестом"]
+        }
       }
     ],
     exercises: [
@@ -480,7 +511,19 @@ ES.registerLesson({
             "have this habit of / find myself / catch myself / can't stop myself (from) / keep (on) + -ing",
             "I keep on forgetting where I parked."
           ]
-        ]
+        ],
+        uk: {
+          h: "Звички: форми з першого погляду",
+          table: [
+            ["will / won't + інфінітив", "I'll say 'sorry' even if it's not my fault."],
+            ["always / forever / constantly + -ing", "He's constantly borrowing my charger."],
+            ["tend to / have this tendency to / have this urge to + інфінітив", "I tend to talk to myself."],
+            [
+              "have this habit of / find myself / catch myself / can't stop myself (from) / keep (on) + -ing",
+              "I keep on forgetting where I parked."
+            ]
+          ]
+        }
       },
       {
         h: "Describing personality (negative)",
@@ -497,7 +540,24 @@ ES.registerLesson({
           ["do-gooder", "well-meaning but naive person"],
           ["downhearted", "depressed, discouraged"],
           ["megalomaniac", "obsessively hungry for power"]
-        ]
+        ],
+        uk: {
+          h: "Опис характеру (негативне)",
+          table: [
+            ["officious", "надто охочий командувати іншими"],
+            ["defeatist", "який наперед чекає поразки"],
+            ["discourteous", "неввічливий, неприємний"],
+            ["disconcerted", "збентежений, розгублений"],
+            ["incensed", "розлючений"],
+            ["hot-headed", "запальний, швидко втрачає самовладання"],
+            ["grasping", "жадібний"],
+            ["jocular", "жартівливий, гумористичний"],
+            ["guilt-ridden", "якого гризе почуття провини"],
+            ["do-gooder", "доброзичлива, але наївна людина"],
+            ["downhearted", "пригнічений, зневірений"],
+            ["megalomaniac", "одержимий жагою влади, мегаломан"]
+          ]
+        }
       },
       {
         h: "Life-change idioms (Workbook reading)",
@@ -510,7 +570,20 @@ ES.registerLesson({
           ["a wake-up call", "an event that makes you realise you need to change"],
           ["have green fingers / green thumbs", "be good at gardening"],
           ["a steep learning curve", "a lot to learn quickly"]
-        ]
+        ],
+        uk: {
+          h: "Ідіоми про зміни в житті (читання в Workbook)",
+          table: [
+            ["the hustle and bustle", "шум і метушня людного місця"],
+            ["be in a rut", "загрузнути в нудній рутині"],
+            ["dawn on somebody", "раптом дійти до когось, стати зрозумілим"],
+            ["up sticks", "раптово переїхати"],
+            ["jump in with both feet", "взятися за щось з головою"],
+            ["a wake-up call", "тривожний дзвіночок – подія, після якої розумієш, що треба змінюватися"],
+            ["have green fingers / green thumbs", "мати хист до садівництва"],
+            ["a steep learning curve", "багато всього треба швидко навчитися"]
+          ]
+        }
       }
     ],
     exercises: [

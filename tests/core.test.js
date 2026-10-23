@@ -62,3 +62,24 @@ test("debugPassThrough lets links and navigation buttons through, not answer con
   assert.strictEqual(core.debugPassThrough({ tag: "BUTTON", cls: "opt" }), false);
   assert.strictEqual(core.debugPassThrough({ tag: "DIV", cls: "item" }), false);
 });
+
+test("localizeBlock returns English by default and Ukrainian fields when asked", function () {
+  var b = { h: "The idea", p: "Perfect forms look back.", list: ["one", "two"], ex: ["I've done it."], uk: { h: "Ідея", p: "Перфектні форми дивляться назад.", list: ["один", "два"] } };
+  assert.strictEqual(core.localizeBlock(b, "en").p, "Perfect forms look back.");
+  var u = core.localizeBlock(b, "uk");
+  assert.strictEqual(u.h, "Ідея");
+  assert.deepStrictEqual(u.list, ["один", "два"]);
+  assert.deepStrictEqual(u.ex, ["I've done it."]);
+});
+
+test("localizeBlock falls back to English for fields without a translation", function () {
+  var u = core.localizeBlock({ h: "Verb + noun", table: [["have", "a rest"]], uk: { h: "Дієслово + іменник" } }, "uk");
+  assert.strictEqual(u.h, "Дієслово + іменник");
+  assert.deepStrictEqual(u.table, [["have", "a rest"]]);
+});
+
+test("localizeBlock translates link notes", function () {
+  var u = core.localizeBlock({ h: "More practice", links: [{ title: "T", url: "u", note: "drills" }], uk: { h: "Більше практики", notes: ["вправи"] } }, "uk");
+  assert.strictEqual(u.links[0].note, "вправи");
+  assert.strictEqual(u.links[0].url, "u");
+});

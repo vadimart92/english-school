@@ -14,12 +14,16 @@ ES.registerLesson({
     theory: [
       {
         h: "Subject raising: two ways to say the same thing",
-        p: "З дієсловами seem, appear, turn out, happen одну думку можна сказати двома способами: (1) it + дієслово + that-clause або (2) підмет «піднімається» на початок речення, а після дієслова йде to-infinitive. Другий варіант коротший і звичайніший у живій мові; перший зручний, коли не хочеш будувати складний інфінітив.",
+        p: "With seem, appear, turn out and happen you can express the same idea in two ways: (1) it + verb + that-clause, or (2) the subject is 'raised' to the start of the sentence and the verb is followed by a to-infinitive. The second option is shorter and more common in everyday speech; the first is useful when you don't want to build a complex infinitive.",
         ex: [
           "It seems that you're right. → You seem to be right.",
           "It appears that the shop has closed. → The shop appears to have closed.",
           "It turned out that the café was shut. → The café turned out to be shut."
-        ]
+        ],
+        uk: {
+          h: "Subject raising: два способи сказати те саме",
+          p: "З дієсловами seem, appear, turn out, happen одну думку можна висловити двома способами: (1) it + дієслово + that-clause або (2) підмет «піднімається» на початок речення, а після дієслова йде to-infinitive. Другий варіант коротший і звичніший у живому мовленні; перший зручний, коли не хочеться будувати складний інфінітив."
+        }
       },
       {
         h: "Which infinitive?",
@@ -28,15 +32,32 @@ ES.registerLesson({
           ["to be + -ing", "action in progress: They appear to be arguing."],
           ["to have + V3", "earlier, completed: He turned out to have lied."],
           ["to have been + -ing", "earlier, in progress: You seem to have been crying."]
-        ]
+        ],
+        uk: {
+          h: "Який інфінітив?",
+          table: [
+            ["to + verb", "стан зараз / тоді: She seems to know everyone."],
+            ["to be + -ing", "дія в процесі: They appear to be arguing."],
+            ["to have + V3", "раніше, завершено: He turned out to have lied."],
+            ["to have been + -ing", "раніше, у процесі: You seem to have been crying."]
+          ]
+        }
       },
       {
         h: "happen and negatives",
         list: [
-          "happen + to-infinitive підкреслює випадковість: I happened to meet Ivan at the station (= я цього не планував). Варіант It happened that… рідкісний.",
-          "У питаннях happen звучить ввічливо: Do you happen to know where the lift is?",
-          "Заперечення двома способами: She seems not to have noticed. / She doesn't seem to have noticed. (другий — звичайніший)."
-        ]
+          "happen + to-infinitive stresses chance: I happened to meet Ivan at the station (= I didn't plan it). The version It happened that… is rare.",
+          "In questions happen sounds polite: Do you happen to know where the lift is?",
+          "Two ways to make it negative: She seems not to have noticed. / She doesn't seem to have noticed. (the second is more common)."
+        ],
+        uk: {
+          h: "happen і заперечення",
+          list: [
+            "happen + to-infinitive підкреслює випадковість: I happened to meet Ivan at the station (= я цього не планував). Варіант It happened that… трапляється рідко.",
+            "У питаннях happen звучить ввічливо: Do you happen to know where the lift is?",
+            "Заперечення можна утворити двома способами: She seems not to have noticed. / She doesn't seem to have noticed. (другий звичніший)."
+          ]
+        }
       },
       {
         h: "Idioms: emotions",
@@ -47,16 +68,43 @@ ES.registerLesson({
             "controlling emotions",
             "have a thick skin · bite your tongue · bottle up your emotions · put a brave face on sth · take a step back · put things into perspective"
           ]
-        ]
+        ],
+        uk: {
+          h: "Ідіоми: емоції",
+          table: [
+            ["сильні емоції", "drive sb up the wall · get under sb's skin"],
+            ["вираження емоцій", "let off steam · lash out at sb · make a scene · get sth off your chest"],
+            [
+              "контроль емоцій",
+              "have a thick skin · bite your tongue · bottle up your emotions · put a brave face on sth · take a step back · put things into perspective"
+            ]
+          ]
+        }
       },
-      { h: "Pronunciation: it", p: "У фразах It seems that… / It turned out that… слово it ненаголошене і часто майже «ковтається»; that також звучить слабко /ðət/." },
       {
-        h: "Більше практики",
-        p: "Пояснення з прикладами, де модальні дієслова й seem/appear/likely показують, наскільки мовець упевнений.",
+        h: "Pronunciation: it",
+        p: "In phrases like It seems that… / It turned out that… the word it is unstressed and often almost swallowed; that is also weak: /ðət/.",
+        uk: { h: "Вимова: it", p: "У фразах It seems that… / It turned out that… слово it ненаголошене й часто майже «ковтається»; that також звучить слабко: /ðət/." }
+      },
+      {
+        h: "More practice",
+        p: "Explanations with examples of how modal verbs and seem/appear/likely show how sure the speaker is.",
         links: [
-          { title: "British Council LearnEnglish: Modals — probability", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability", note: "must, can't, bound to, might well — пояснення і тест" },
-          { title: "SFU: subject-to-subject raising", url: "https://www.sfu.ca/~dearmond/322/322.raising.S-to-S.htm", note: "лінгвістичний розбір, чому працює it seems that → he seems to (англ.)" }
-        ]
+          {
+            title: "British Council LearnEnglish: Modals — probability",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability",
+            note: "must, can't, bound to, might well — explanation and test"
+          },
+          { title: "SFU: subject-to-subject raising", url: "https://www.sfu.ca/~dearmond/322/322.raising.S-to-S.htm", note: "a linguistic analysis of why it seems that → he seems to works" }
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Пояснення з прикладами того, як модальні дієслова та seem/appear/likely показують, наскільки мовець упевнений.",
+          notes: [
+            "must, can't, bound to, might well — пояснення і тест",
+            "лінгвістичний розбір того, чому працює it seems that → he seems to (англійською)"
+          ]
+        }
       }
     ],
     exercises: [
@@ -384,16 +432,29 @@ ES.registerLesson({
   },
   refresh: {
     theory: [
-      { h: "The pattern", p: "The subject of a that-clause moves 'up' to become the subject of the main verb, followed by a to-infinitive.", ex: ["It seems that you're unhappy. → You seem to be unhappy."] },
+      {
+        h: "The pattern",
+        p: "The subject of a that-clause moves 'up' to become the subject of the main verb, followed by a to-infinitive.",
+        ex: ["It seems that you're unhappy. → You seem to be unhappy."],
+        uk: { h: "Схема", p: "Підмет that-клаузи «піднімається» і стає підметом головного дієслова, після якого йде to-infinitive." }
+      },
       {
         h: "Where it's used",
         list: [
           "seem, appear, turn out, happen: They appear to be late.",
           "adjectives of probability: She's likely to know.",
           "passive reporting verbs: She's said to be furious."
-        ]
+        ],
+        uk: {
+          h: "Де це вживається",
+          list: [
+            "seem, appear, turn out, happen: They appear to be late.",
+            "прикметники ймовірності: She's likely to know.",
+            "пасивні дієслова повідомлення: She's said to be furious."
+          ]
+        }
       },
-      { h: "Negatives", p: "Two ways to make it negative.", ex: ["She seems not to have noticed.", "She doesn't seem to have noticed."] },
+      { h: "Negatives", p: "Two ways to make it negative.", ex: ["She seems not to have noticed.", "She doesn't seem to have noticed."], uk: { h: "Заперечення", p: "Заперечення можна утворити двома способами." } },
       {
         h: "Choose the infinitive",
         table: [
@@ -405,7 +466,20 @@ ES.registerLesson({
             "to have been doing",
             "He seems to have been working all day. (earlier, in progress)"
           ]
-        ]
+        ],
+        uk: {
+          h: "Обери інфінітив",
+          table: [
+            ["simple", "to be", "He seems to be ill. (зараз, стан)"],
+            ["continuous", "to be doing", "He seems to be sleeping. (у процесі зараз)"],
+            ["perfect", "to have done", "He seems to have completed the task. (раніше, завершено)"],
+            [
+              "perfect continuous",
+              "to have been doing",
+              "He seems to have been working all day. (раніше, у процесі)"
+            ]
+          ]
+        }
       },
       {
         h: "Twelve idioms",
@@ -422,7 +496,24 @@ ES.registerLesson({
           ["get something off my chest", "finally tell someone what's been worrying you"],
           ["take a step back", "pause and look at a situation calmly"],
           ["put things into perspective", "see how important something really is"]
-        ]
+        ],
+        uk: {
+          h: "Дванадцять ідіом",
+          table: [
+            ["have a pretty thick skin", "не засмучуватися через критику"],
+            ["it drives me up the wall", "мене це страшенно дратує"],
+            ["bite my tongue", "стриматися й не сказати, що думаю"],
+            ["get under my skin", "дратувати, особливо з часом"],
+            ["let off steam", "випустити пару, дати вихід злості чи енергії"],
+            ["lash out at someone", "раптово накинутися на когось зі словами"],
+            ["bottle up my emotions", "тримати почуття в собі, не показувати їх"],
+            ["put a brave face on something", "робити вигляд, що все гаразд, коли це не так"],
+            ["make a scene", "влаштувати сцену на людях"],
+            ["get something off my chest", "нарешті висловити те, що давно турбувало"],
+            ["take a step back", "зупинитися й спокійно поглянути на ситуацію"],
+            ["put things into perspective", "побачити, наскільки щось насправді важливе"]
+          ]
+        }
       }
     ],
     exercises: [

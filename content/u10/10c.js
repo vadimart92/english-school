@@ -36,7 +36,34 @@ ES.registerLesson({
             "despite / in spite of + noun / -ing / the fact that",
             "Despite the rain, we went out. / In spite of feeling ill, she came. / Despite the fact that it's free, few people use it."
           ]
-        ]
+        ],
+        uk: {
+          h: "Підрядні речення поступки",
+          p: "Речення поступки визнає одну думку, а потім протиставляє їй сильнішу головну думку: Although the app is fun, it doesn't teach grammar. Поступка послаблює першу думку.",
+          table: [
+            [
+              "although / even though + речення",
+              "Although it's expensive, it's worth it. (even though — сильніше, про факт)"
+            ],
+            ["even when + речення", "Even when I revise, I forget the words. (= у тих випадках, коли)"],
+            ["even if + речення", "Even if we leave now, we'll miss the train. (= незалежно від того, чи)"],
+            [
+              "while / whereas + речення",
+              "While I see your point, I disagree. / Whereas some learn alone, others need a group."
+            ],
+            ["прикметник + as / though + речення", "Strange as it may sound, I enjoy exams."],
+            ["however + прикметник/прислівник + речення", "However hard it seems, keep going."],
+            ["much as + дієслово почуттів", "Much as I love Lviv, I couldn't live there."],
+            [
+              "Nevertheless, / Nonetheless, / All the same, / However, + речення",
+              "It's risky. Nevertheless, it's worth trying. (відсилає до попереднього речення)"
+            ],
+            [
+              "despite / in spite of + іменник / -ing / the fact that",
+              "Despite the rain, we went out. / In spite of feeling ill, she came. / Despite the fact that it's free, few people use it."
+            ]
+          ]
+        }
       },
       {
         h: "Typical mistakes",
@@ -45,7 +72,16 @@ ES.registerLesson({
           "Adjective + as: ✘ Difficulty as it is → ✔ Difficult as it is.",
           "However + adjective: ✘ However beauty it is → ✔ However beautiful it is.",
           "Nevertheless/All the same start a new sentence or clause: ✘ He tried. Despite, he failed. → ✔ He tried. Nevertheless, he failed."
-        ]
+        ],
+        uk: {
+          h: "Типові помилки",
+          list: [
+            "Після despite / in spite of НЕ ставимо речення: ✘ Despite it was cold → ✔ Despite the cold / Despite the fact that it was cold / Although it was cold.",
+            "Прикметник + as: ✘ Difficulty as it is → ✔ Difficult as it is.",
+            "However + прикметник: ✘ However beauty it is → ✔ However beautiful it is.",
+            "Nevertheless/All the same починають нове речення або нову частину речення: ✘ He tried. Despite, he failed. → ✔ He tried. Nevertheless, he failed."
+          ]
+        }
       },
       {
         h: "Intonation",
@@ -53,31 +89,49 @@ ES.registerLesson({
         ex: [
           "However expensive it may be, people will still buy it.",
           "In spite of the downturn, many businesses are thriving."
-        ]
+        ],
+        uk: {
+          h: "Інтонація",
+          p: "Коли речення поступки стоїть на початку, голос зазвичай підвищується наприкінці поступки й знижується наприкінці головної думки: Exciting as it may sound ↗, it isn't cheap ↘. Після Nevertheless на початку речення робимо коротку паузу."
+        }
       },
       {
         h: "Evaluating",
         table: [
-          ["compelling / convincing (argument)", "+ переконливий"],
-          ["sound (argument, advice)", "+ обґрунтований, надійний"],
-          ["valid (approach, point)", "+ слушний, прийнятний"],
-          ["a cheap gimmick", "− дешевий трюк"],
-          ["fundamentally flawed", "− принципово хибний"],
-          ["superficially / outwardly attractive", "− привабливий лише на перший погляд"],
-          ["lacking (in detail)", "− якому бракує (деталей)"],
-          ["badly thought through", "− непродуманий"]
-        ]
+          ["compelling / convincing (argument)", "+ persuasive, hard to argue with"],
+          ["sound (argument, advice)", "+ well-founded, reliable"],
+          ["valid (approach, point)", "+ reasonable, acceptable"],
+          ["a cheap gimmick", "− a cheap trick to attract attention"],
+          ["fundamentally flawed", "− wrong at a basic level"],
+          ["superficially / outwardly attractive", "− attractive only at first sight"],
+          ["lacking (in detail)", "− without enough (detail)"],
+          ["badly thought through", "− not planned carefully"]
+        ],
+        uk: {
+          h: "Оцінювання",
+          table: [
+            ["compelling / convincing (argument)", "+ переконливий"],
+            ["sound (argument, advice)", "+ обґрунтований, надійний"],
+            ["valid (approach, point)", "+ слушний, прийнятний"],
+            ["a cheap gimmick", "− дешевий трюк"],
+            ["fundamentally flawed", "− принципово хибний"],
+            ["superficially / outwardly attractive", "− привабливий лише на перший погляд"],
+            ["lacking (in detail)", "− якому бракує (деталей)"],
+            ["badly thought through", "− непродуманий"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Додаткове пояснення і тести на способи протиставлення та поступки.",
+        h: "More practice",
+        p: "Extra explanation and tests on ways of expressing contrast and concession.",
         links: [
           {
             title: "British Council: Contrasting ideas",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/contrasting-ideas",
-            note: "although, despite, even if, whereas, much as — граматичні моделі й тести"
+            note: "although, despite, even if, whereas, much as – grammar patterns and tests"
           }
-        ]
+        ],
+        uk: { h: "Більше практики", p: "Додаткове пояснення і тести на способи протиставлення та поступки.", notes: ["although, despite, even if, whereas, much as — граматичні моделі й тести"] }
       }
     ],
     exercises: [
@@ -359,7 +413,19 @@ ES.registerLesson({
           ["+ noun / -ing / the fact that", "despite, in spite of"],
           ["+ adjective + clause", "however (However tired I am…), adjective + as/though (Tired as I am…)"],
           ["new sentence + comma", "Nevertheless, Nonetheless, All the same, However,"]
-        ]
+        ],
+        uk: {
+          h: "Що йде далі?",
+          table: [
+            ["+ речення", "although, even though, even if, even when, while, whereas, much as"],
+            ["+ іменник / -ing / the fact that", "despite, in spite of"],
+            [
+              "+ прикметник + речення",
+              "however (However tired I am…), прикметник + as/though (Tired as I am…)"
+            ],
+            ["нове речення + кома", "Nevertheless, Nonetheless, All the same, However,"]
+          ]
+        }
       }
     ],
     exercises: [

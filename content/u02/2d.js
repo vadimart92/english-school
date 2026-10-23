@@ -15,19 +15,36 @@ ES.registerLesson({
       {
         h: "Conversation vocabulary",
         table: [
-          ["butt in", "перебити, втрутитися в розмову"],
-          ["have a heart-to-heart (with)", "щиро поговорити по душах"],
-          ["have a chit chat (with)", "легко побалакати"],
-          ["reiterate", "повторити (для наголосу)"],
-          ["go on about", "без кінця говорити про щось (дратівливо)"],
-          ["go off on a tangent", "відхилитися від теми"],
-          ["thrash it out", "детально обговорити й вирішити (часто сперечаючись)"],
-          ["talk shop", "говорити про роботу в неробочий час"],
-          ["clam up", "замовкнути, «закритися»"],
-          ["banter", "дружні підколки, жартівлива перепалка"],
-          ["broach the subject", "обережно підняти (делікатну) тему"],
-          ["confer with", "порадитися з (офіційно)"]
-        ]
+          ["butt in", "interrupt, join a conversation uninvited"],
+          ["have a heart-to-heart (with)", "have an open, honest, personal talk"],
+          ["have a chit chat (with)", "have a light, casual chat"],
+          ["reiterate", "repeat (for emphasis)"],
+          ["go on about", "keep talking about something (annoyingly)"],
+          ["go off on a tangent", "move away from the topic"],
+          ["thrash it out", "discuss something in detail and settle it (often arguing)"],
+          ["talk shop", "talk about work outside working hours"],
+          ["clam up", "suddenly stop talking, shut down"],
+          ["banter", "friendly teasing, playful exchange of jokes"],
+          ["broach the subject", "carefully raise a (sensitive) topic"],
+          ["confer with", "consult, discuss with (formal)"]
+        ],
+        uk: {
+          h: "Лексика: розмова",
+          table: [
+            ["butt in", "перебити, втрутитися в розмову"],
+            ["have a heart-to-heart (with)", "щиро поговорити по душах"],
+            ["have a chit chat (with)", "легко побалакати"],
+            ["reiterate", "повторити (для наголосу)"],
+            ["go on about", "без кінця говорити про щось (дратівливо)"],
+            ["go off on a tangent", "відхилитися від теми"],
+            ["thrash it out", "детально обговорити й вирішити (часто сперечаючись)"],
+            ["talk shop", "говорити про роботу в неробочий час"],
+            ["clam up", "замовкнути, «закритися»"],
+            ["banter", "дружні підколки, жартівлива перепалка"],
+            ["broach the subject", "обережно порушити (делікатну) тему"],
+            ["confer with", "порадитися з (офіційно)"]
+          ]
+        }
       },
       {
         h: "Keeping a conversation going",
@@ -42,7 +59,19 @@ ES.registerLesson({
             "Getting back to what you were saying",
             "So, as I was saying… · Getting back to… · What I was trying to say was…"
           ]
-        ]
+        ],
+        uk: {
+          h: "Як підтримувати розмову",
+          table: [
+            ["Показати, що слухаєш", "How rude! · Right. · The cheek of it! · No way! · Really?"],
+            ["Розпитати більше", "Do tell! · How so? · Go on. · So what was going on? · What happened then?"],
+            ["Утримати слово", "Let me finish. · Hang on, there's more. · Wait, hear me out."],
+            [
+              "Повернутися до своєї думки",
+              "So, as I was saying… · Getting back to… · What I was trying to say was…"
+            ]
+          ]
+        }
       },
       {
         h: "Ending a conversation",
@@ -55,7 +84,20 @@ ES.registerLesson({
           "I might have to make a move, too.",
           "I'll have to stop you there, sorry – I've got another meeting."
         ],
-        p: "Інтонація: щоб показати, що розмову пора закінчувати, голос на фразі на кшталт Anyway… опускається вниз, темп сповільнюється, а самі фрази звучать тепло, але остаточно."
+        p: "Intonation: to show it's time to end the conversation, your voice falls on a phrase like Anyway…, you slow down, and the phrases sound warm but final.",
+        uk: {
+          h: "Як завершити розмову",
+          list: [
+            "I'll let you get back to work. — Не відволікатиму тебе від роботи.",
+            "Anyway, it's getting late. — Ну що ж, уже пізно.",
+            "I'd best be off. — Мені, мабуть, пора.",
+            "Oh, sorry, but I've just seen someone I need to talk to… — Ой, вибач, я щойно побачив людину, з якою мені треба поговорити…",
+            "It was nice to meet you. — Приємно було познайомитися.",
+            "I might have to make a move, too. — Мені, мабуть, теж пора йти.",
+            "I'll have to stop you there, sorry – I've got another meeting. — Вибач, мушу тебе перервати — в мене ще одна зустріч."
+          ],
+          p: "Інтонація: щоб показати, що розмову час завершувати, голос на фразі на кшталт Anyway… опускається, темп сповільнюється, а самі фрази звучать тепло, але остаточно."
+        }
       }
     ],
     exercises: [

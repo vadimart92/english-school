@@ -28,7 +28,8 @@ ES.registerLesson({
             "I'd be completely out of my depth. · It's out of my hands. · My back's playing up again. · It's a little out of my way."
           ],
           ["no real reason", "I can't help for, er, personal reasons."]
-        ]
+        ],
+        uk: { h: "Відмовки", p: "Почни з пом'якшення (Sorry, I'd love to help, but…), а потім назви причину." }
       },
       {
         h: "Making difficult requests",
@@ -41,7 +42,20 @@ ES.registerLesson({
           "I don't want to put any pressure on you, but…",
           "It would make a huge difference / It would mean a lot to me if you could…",
           "I have another small favour to ask you."
-        ]
+        ],
+        uk: {
+          h: "Складні прохання",
+          list: [
+            "Do you mind if I ask you a small favour? (Можна попросити тебе про невелику послугу?)",
+            "I don't suppose you'd be able to help me, would you? (Ти, мабуть, не зміг би мені допомогти?)",
+            "Is there any way / any chance you could help me? (Чи є хоч якась можливість, що ти мені допоможеш?)",
+            "Do you think we might be able to use your car? (Як думаєш, ми могли б скористатися твоєю машиною?)",
+            "I know it's a big ask. / I realise it's a lot to ask. (Знаю, що прошу забагато.)",
+            "I don't want to put any pressure on you, but… (Не хочу на тебе тиснути, але…)",
+            "It would make a huge difference / It would mean a lot to me if you could… (Ти б мені дуже допоміг / Це б дуже багато для мене значило, якби ти…)",
+            "I have another small favour to ask you. (У мене до тебе ще одне невелике прохання.)"
+          ]
+        }
       },
       {
         h: "Refusing",
@@ -58,11 +72,16 @@ ES.registerLesson({
             "indirect phrases (often a hidden 'no')",
             "Yeah, possibly. · I'll see what I can do. · I'm not sure. · I'll do my best. · We'll see."
           ]
-        ]
+        ],
+        uk: { h: "Відмова" }
       },
       {
         h: "Pronunciation: yes or no?",
-        p: "The same words can agree or refuse. A bright, high, falling tone sounds willing (I'll SEE what I can do ↘). A flat, low tone with a fall-rise and hesitation sounds like an excuse is coming (Well… I'll see what I can do ↘↗)."
+        p: "The same words can agree or refuse. A bright, high, falling tone sounds willing (I'll SEE what I can do ↘). A flat, low tone with a fall-rise and hesitation sounds like an excuse is coming (Well… I'll see what I can do ↘↗).",
+        uk: {
+          h: "Вимова: так чи ні?",
+          p: "Ті самі слова можуть означати і згоду, і відмову. Бадьорий, високий спадний тон звучить охоче (I'll SEE what I can do ↘). Рівний низький тон зі спадно-висхідною інтонацією та ваганням підказує, що зараз буде відмовка (Well… I'll see what I can do ↘↗)."
+        }
       }
     ],
     exercises: [
@@ -346,7 +365,8 @@ ES.registerLesson({
           "Sorry, I'd love to help, but I'm otherwise engaged – I need it myself.",
           "I know it's a big ask, but it would make a huge difference to me.",
           "Well… I'll see what I can do."
-        ]
+        ],
+        uk: { h: "Прохання → відмова → повторне прохання" }
       }
     ],
     exercises: [

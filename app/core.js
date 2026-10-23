@@ -130,12 +130,31 @@
     return errs;
   }
 
+  var CYR = /[\u0400-\u04FF]/;
+
+  /* Rules are written in English with a Ukrainian translation in block.uk. */
+  function validateTheoryBlock(b, where) {
+    var errs = [];
+    function err(msg) { errs.push(where + ": " + msg); }
+    var needsUk = b.p || b.list || b.links;
+    if (!needsUk) return errs;
+    if ([b.h, b.p].concat(b.list || []).some(function (t) { return t && CYR.test(t); })) err("English field contains Cyrillic");
+    if (!b.uk || !b.uk.h) { err("missing uk translation"); return errs; }
+    if (b.p && !b.uk.p) err("missing uk.p");
+    if (b.list && (!b.uk.list || b.uk.list.length !== b.list.length)) err("uk.list length differs from list");
+    if (b.uk.table && b.table && b.uk.table.length !== b.table.length) err("uk.table length differs from table");
+    return errs;
+  }
+
   function validateLesson(lesson) {
     var errs = [];
     if (!lesson || !lesson.id) return ["lesson without id"];
     ["unit", "letter", "title"].forEach(function (f) { if (!lesson[f]) errs.push(lesson.id + ": missing " + f); });
     MODES.forEach(function (m) {
       if (!lesson[m]) return;
+      (lesson[m].theory || []).forEach(function (b, i) {
+        errs = errs.concat(validateTheoryBlock(b, lesson.id + "/" + m + "/theory" + i));
+      });
       (lesson[m].exercises || []).forEach(function (ex, i) {
         errs = errs.concat(validateExercise(ex, lesson.id + "/" + m + "/ex" + i));
       });
@@ -161,6 +180,25 @@
     return out.join("\n");
   }
 
+  /* ------------------------------------------------------------ rules language */
+
+  /* A theory block in the chosen language: Ukrainian fields replace English ones where present. */
+  function localizeBlock(b, lang) {
+    if (lang !== "uk" || !b.uk) return b;
+    var u = b.uk, out = {};
+    Object.keys(b).forEach(function (k) { if (k !== "uk") out[k] = b[k]; });
+    ["h", "p", "list", "table"].forEach(function (k) { if (u[k]) out[k] = u[k]; });
+    if (b.links && u.notes) {
+      out.links = b.links.map(function (lk, i) {
+        var c = {};
+        Object.keys(lk).forEach(function (k) { c[k] = lk[k]; });
+        if (u.notes[i]) c.note = u.notes[i];
+        return c;
+      });
+    }
+    return out;
+  }
+
   /* ------------------------------------------------------------ labels */
 
   /* "extra: https://…" sources are shown as a short word in tabs; the URL becomes a link. */
@@ -179,7 +217,8 @@
     scoreKey: scoreKey, itemKey: itemKey, lessonModes: lessonModes,
     migrateV1: migrateV1, validateLesson: validateLesson,
     exportComments: exportComments,
-    srcLabel: srcLabel, srcUrl: srcUrl, debugPassThrough: debugPassThrough
+    srcLabel: srcLabel, srcUrl: srcUrl, debugPassThrough: debugPassThrough,
+    localizeBlock: localizeBlock
   };
 
   if (typeof module !== "undefined" && module.exports) module.exports = core;

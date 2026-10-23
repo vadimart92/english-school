@@ -13,7 +13,7 @@ ES.registerLesson({
     theory: [
       {
         h: "Giving vague impressions",
-        p: "Коли спогад чи відчуття нечітке, англійською його «розмивають» спеціальними фразами. Вони показують, що ми не впевнені на 100%, і роблять опис природнішим.",
+        p: "When a memory or feeling is unclear, English 'blurs' it with special phrases. They show that we aren't 100% sure, and they make a description sound more natural.",
         table: [
           [
             "With nouns",
@@ -38,7 +38,7 @@ ES.registerLesson({
           ],
           [
             "vaguely + familiar / aware / troubling / guilty",
-            "смутно, трохи",
+            "slightly, in a way you can't quite define",
             "Her face looks vaguely familiar."
           ],
           [
@@ -46,18 +46,66 @@ ES.registerLesson({
             "somehow…, I don't know how, but…",
             "Somehow, we found the way back. / I don't know how, but we ended up on the roof."
           ]
-        ]
+        ],
+        uk: {
+          h: "Як передати нечітке враження",
+          p: "Коли спогад чи відчуття нечітке, англійською його «розмивають» спеціальними фразами. Вони показують, що ми не впевнені на 100%, і роблять опис природнішим.",
+          table: [
+            [
+              "З іменниками",
+              "something resembling…, what could almost be…, what might possibly be…, kind of like…, what can only be described as…",
+              "I see something resembling a tower. / We arrive at what could almost be a village."
+            ],
+            [
+              "У кінці фрази",
+              "…, or that kind of thing / …, or something like that",
+              "It was a kind of festival, or that kind of thing."
+            ],
+            ["Коли щось важко розгледіти", "I can just make out…", "I can just make out the shape of a boat."],
+            [
+              "Прикметники з -ish / -y",
+              "greenish, sixish, longish; a pinky colour",
+              "It was a bluish grey. / Come at sevenish."
+            ],
+            [
+              "Модифікатори",
+              "somewhat, pretty, fairly, verging on",
+              "It's somewhat cold. / The heat was verging on unbearable."
+            ],
+            [
+              "vaguely + familiar / aware / troubling / guilty",
+              "смутно, трохи",
+              "Her face looks vaguely familiar."
+            ],
+            [
+              "З діями",
+              "somehow…, I don't know how, but…",
+              "Somehow, we found the way back. / I don't know how, but we ended up on the roof."
+            ]
+          ]
+        }
       },
       {
         h: "Watch out",
         list: [
-          "verging ON (не in): It's verging on ridiculous.",
-          "make OUT (не on/up): I can just make out a figure in the fog.",
+          "verging ON (not in): It's verging on ridiculous.",
+          "make OUT (not on/up): I can just make out a figure in the fog.",
           "what can only be described AS: I was given what can only be described as a bucket of coffee.",
-          "or THAT kind of thing (не this kind of thing).",
-          "somehow (якимось чином) ≠ somewhat (дещо): Somehow we did it. / I was somewhat surprised.",
-          "Вимова -ish: перед -ish кінцевий звук слова зберігається і зв'язується: yellow-ish /ˈjeləʊɪʃ/, blue-ish /ˈbluːɪʃ/, long-ish /ˈlɒŋɪʃ/."
-        ]
+          "or THAT kind of thing (not this kind of thing).",
+          "somehow (in some way) ≠ somewhat (to some degree): Somehow we did it. / I was somewhat surprised.",
+          "Pronunciation of -ish: before -ish, the final sound of the word is kept and linked: yellow-ish /ˈjeləʊɪʃ/, blue-ish /ˈbluːɪʃ/, long-ish /ˈlɒŋɪʃ/."
+        ],
+        uk: {
+          h: "Зверніть увагу",
+          list: [
+            "verging ON (не in): It's verging on ridiculous.",
+            "make OUT (не on/up): I can just make out a figure in the fog.",
+            "what can only be described AS: I was given what can only be described as a bucket of coffee.",
+            "or THAT kind of thing (не this kind of thing).",
+            "somehow (якимось чином) ≠ somewhat (дещо, певною мірою): Somehow we did it. / I was somewhat surprised.",
+            "Вимова -ish: перед -ish кінцевий звук слова зберігається і зв'язується з суфіксом: yellow-ish /ˈjeləʊɪʃ/, blue-ish /ˈbluːɪʃ/, long-ish /ˈlɒŋɪʃ/."
+          ]
+        }
       },
       {
         h: "The senses",
@@ -68,20 +116,38 @@ ES.registerLesson({
           ],
           ["hearing", "faint, muffled, muted, resonant, shrill, mellow"],
           ["touch", "fluffy, silky, textured, crisp"],
-          ["smell", "musty, pungent, faint; aroma (приємний), odour (неприємний)"],
+          ["smell", "musty, pungent, faint; aroma (pleasant), odour (unpleasant)"],
           ["taste", "savoury, succulent, metallic, mellow, rich, pungent"]
-        ]
+        ],
+        uk: {
+          h: "Органи чуття",
+          table: [
+            [
+              "зір",
+              "blurry, crisp, hazy, indistinct, fuzzy, vivid, vibrant, crystal-clear, fleeting (glimpse)"
+            ],
+            ["слух", "faint, muffled, muted, resonant, shrill, mellow"],
+            ["дотик", "fluffy, silky, textured, crisp"],
+            ["нюх", "musty, pungent, faint; aroma (приємний), odour (неприємний)"],
+            ["смак", "savoury, succulent, metallic, mellow, rich, pungent"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Сторінка British Council про модальні дієслова ймовірності доповнює тему вражень: як показати, наскільки ти впевнений у тому, що бачиш чи чуєш.",
+        h: "More practice",
+        p: "The British Council page on modals of probability adds to the topic of impressions: how to show how sure you are about what you see or hear.",
         links: [
           {
             title: "British Council: modals – probability",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability",
-            note: "must / can't / should / may well / be bound to — пояснення і два тести"
+            note: "must / can't / should / may well / be bound to — an explanation and two tests"
           }
-        ]
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Сторінка British Council про модальні дієслова ймовірності доповнює тему вражень: як показати, наскільки ти впевнений у тому, що бачиш чи чуєш.",
+          notes: ["must / can't / should / may well / be bound to — пояснення і два тести"]
+        }
       }
     ],
     exercises: [

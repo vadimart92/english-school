@@ -45,7 +45,43 @@ ES.registerLesson({
             "plans and expectations at that time (was going to, would, was about to, was due to)",
             "The ceremony was due to start at noon."
           ]
-        ]
+        ],
+        uk: {
+          h: "Оповідні часи: інструментарій",
+          p: "Розповідь про минуле поєднує кілька минулих форм. Кожна має своє завдання: основні події рухають сюжет уперед, а решта створює тло — те, що було до них або навколо них.",
+          table: [
+            [
+              "Past simple (дії)",
+              "основні події в тому порядку, в якому вони відбувалися",
+              "I grabbed my bag, ran down the stairs and jumped into a taxi."
+            ],
+            [
+              "Past simple (стани)",
+              "почуття, володіння, ситуація на той момент",
+              "I didn't know anybody at the party."
+            ],
+            [
+              "Past continuous",
+              "дія, що тривала навколо основної події",
+              "The rain was pouring down when we arrived."
+            ],
+            [
+              "Past perfect simple",
+              "завершена подія, що сталася раніше за основні",
+              "I'd left my phone on the train."
+            ],
+            [
+              "Past perfect continuous",
+              "попередній процес, часто незавершений або з помітними наслідками",
+              "I'd been waiting for over an hour, so I was furious."
+            ],
+            [
+              "Future in the past",
+              "плани й очікування на той момент (was going to, would, was about to, was due to)",
+              "The ceremony was due to start at noon."
+            ]
+          ]
+        }
       },
       {
         h: "Present forms in a past story",
@@ -53,7 +89,15 @@ ES.registerLesson({
           "Present perfect – at the end, to link the story to now: Since then I've never trusted a sat nav.",
           "Present simple/continuous – comments to the listener: Now, I'm not saying it was my fault…  Do you know what he said?",
           "Historic (narrative) present – tells part of the story as if it's happening now, for drama; very common in jokes and anecdotes: So I'm standing at the door, and this man walks up to me…"
-        ]
+        ],
+        uk: {
+          h: "Теперішні форми в розповіді про минуле",
+          list: [
+            "Present perfect – наприкінці, щоб пов'язати історію з теперішнім: Since then I've never trusted a sat nav.",
+            "Present simple/continuous – коментарі для слухача: Now, I'm not saying it was my fault…  Do you know what he said?",
+            "Historic (narrative) present – частину історії розповідають так, ніби вона відбувається зараз, для драматизму; дуже поширене в жартах і анекдотах: So I'm standing at the door, and this man walks up to me…"
+          ]
+        }
       },
       {
         h: "Storytelling techniques",
@@ -66,30 +110,62 @@ ES.registerLesson({
         ex: [
           "I was standing on the stage, staring at a thousand faces. Two hours earlier, I'd been sitting quietly at home.",
           "It was going to be the longest night of my life."
-        ]
+        ],
+        uk: {
+          h: "Прийоми оповіді",
+          list: [
+            "Починайте з драматичного «моменту фокусу», а не з самого початку, а тоді через past perfect розкажіть, що сталося раніше.",
+            "Натякайте на поворот сюжету за допомогою future in the past: Things were about to get very strange.",
+            "Нагнітайте напругу низкою фонових форм: He was staring at me. He was holding something behind his back. I couldn't see what it was…",
+            "В усній розповіді сповільнюйтеся й робіть паузу перед ключовим моментом; у захопливих місцях говоріть швидше й голосніше."
+          ]
+        }
       },
       {
         h: "Verb + adverb collocations",
         table: [
           [
             "listen closely / attentively / politely / unenthusiastically",
-            "слухати уважно / ввічливо / без ентузіазму"
+            "listen carefully / politely / without enthusiasm"
           ],
-          ["understand / explain / speak clearly", "чітко розуміти / пояснювати"],
-          ["improve / change dramatically", "різко, кардинально покращитися / змінитися"],
-          ["continually adjust / improve", "постійно коригувати"],
-          ["go badly", "іти погано"],
-          ["perform / present competently", "виконувати вміло, професійно (але без блиску)"],
-          ["shake / cry / laugh uncontrollably", "трястися / плакати / сміятися неконтрольовано"]
-        ]
+          ["understand / explain / speak clearly", "understand / explain / speak in a clear way"],
+          ["improve / change dramatically", "improve / change suddenly and a lot"],
+          ["continually adjust / improve", "keep adjusting / improving all the time"],
+          ["go badly", "be unsuccessful, turn out badly"],
+          [
+            "perform / present competently",
+            "perform / present well and professionally (but without brilliance)"
+          ],
+          ["shake / cry / laugh uncontrollably", "shake / cry / laugh in a way you can't stop"]
+        ],
+        uk: {
+          h: "Колокації дієслово + прислівник",
+          table: [
+            [
+              "listen closely / attentively / politely / unenthusiastically",
+              "слухати уважно / ввічливо / без ентузіазму"
+            ],
+            ["understand / explain / speak clearly", "чітко розуміти / пояснювати / говорити"],
+            ["improve / change dramatically", "різко, кардинально покращитися / змінитися"],
+            ["continually adjust / improve", "постійно коригувати / вдосконалювати"],
+            ["go badly", "іти погано, не вдаватися"],
+            ["perform / present competently", "виконувати / презентувати вміло, професійно (але без блиску)"],
+            ["shake / cry / laugh uncontrollably", "трястися / плакати / сміятися нестримно"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Додаткові онлайн-вправи на розрізнення минулих часів у розповіді.",
+        h: "More practice",
+        p: "Extra online exercises on choosing between past tenses in a story.",
         links: [
-          { title: "Perfect English Grammar: past simple or past continuous", url: "https://www.perfect-english-grammar.com/past-simple-past-continuous-exercise-1.html", note: "фонова дія чи подія, що її перервала" },
-          { title: "Perfect English Grammar: past perfect or past simple", url: "https://www.perfect-english-grammar.com/past-perfect-exercise-3.html", note: "що сталося раніше, а що потім — ретроспектива" }
-        ]
+          {
+            title: "Perfect English Grammar: past simple or past continuous",
+            url: "https://www.perfect-english-grammar.com/past-simple-past-continuous-exercise-1.html",
+            note: "a background action or the event that interrupted it"
+          },
+          { title: "Perfect English Grammar: past perfect or past simple", url: "https://www.perfect-english-grammar.com/past-perfect-exercise-3.html", note: "what happened earlier and what happened later – flashbacks" }
+        ],
+        uk: { h: "Більше практики", p: "Додаткові онлайн-вправи на вибір минулих часів у розповіді.", notes: ["фонова дія чи подія, яка її перервала", "що сталося раніше, а що пізніше — ретроспектива"] }
       }
     ],
     exercises: [
@@ -483,7 +559,11 @@ ES.registerLesson({
         p: "Ask two questions about every verb: is it a main event (past simple) or background? If background – is it around the event (past continuous / state), before it (past perfect) or expected after it (would / was going to / was about to / was due to)?",
         ex: [
           "When I got home (event), the lights were off (state) and someone had broken the window (earlier). The police were about to arrive (expected)."
-        ]
+        ],
+        uk: {
+          h: "Основні події й тло",
+          p: "Поставте до кожного дієслова два запитання: це основна подія (past simple) чи тло? Якщо тло — воно навколо події (past continuous / стан), до неї (past perfect) чи очікується після неї (would / was going to / was about to / was due to)?"
+        }
       },
       {
         h: "Adverbs for stories",
@@ -496,7 +576,20 @@ ES.registerLesson({
           ["vacantly", "without interest or thought (a vacant stare)"],
           ["daringly", "bravely, taking a risk"],
           ["heartlessly", "cruelly, without sympathy"]
-        ]
+        ],
+        uk: {
+          h: "Прислівники для оповіді",
+          table: [
+            ["sullenly", "похмуро, мовчки й з поганим настроєм"],
+            ["flippantly", "легковажно, несерйозно, коли слід бути серйозним"],
+            ["tantalisingly (close)", "дражливо (близько) — так близько, що дуже хочеться, але не дістати"],
+            ["monstrously", "жахливо, жорстоко"],
+            ["acrimoniously", "запекло, зі злими сварками"],
+            ["vacantly", "відсутньо, без інтересу й думки (a vacant stare — порожній погляд)"],
+            ["daringly", "сміливо, зухвало, ризикуючи"],
+            ["heartlessly", "безсердечно, без співчуття"]
+          ]
+        }
       },
       {
         h: "Emotive language in stories",
@@ -504,7 +597,11 @@ ES.registerLesson({
         ex: [
           "She walked into the room. → She crept into the eerie, silent room.",
           "He walked home. → He trudged home through the bleak, empty streets."
-        ]
+        ],
+        uk: {
+          h: "Емоційна лексика в оповіді",
+          p: "Замінюйте нейтральні дієслова й прикметники словами, що передають почуття: рух (trudge, creep, bound), голос (mumble, yell, squeal), місця (bleak, eerie, derelict), натовп (hostile, pushing and shoving)."
+        }
       }
     ],
     exercises: [

@@ -14,17 +14,32 @@ ES.registerLesson({
       {
         h: "Success and failure",
         table: [
-          ["pull it off", "success – вдатися, впоратися зі складним"],
-          ["make it", "success – досягти мети, встигнути"],
-          ["bounce back", "success – швидко оговтатися після невдачі"],
-          ["pay off", "success – окупитися, дати результат"],
-          ["take off", "success – стрімко піти вгору, стати успішним"],
-          ["fall (just) short of", "failure – трохи не дотягнути до"],
-          ["go downhill", "failure – погіршуватися, котитися вниз"],
-          ["mess (things) up", "failure – зіпсувати, напартачити"],
-          ["go up in smoke", "failure – піти прахом, зникнути"],
-          ["lose out (on)", "failure – втратити (можливість), програти"]
-        ]
+          ["pull it off", "success – manage to do something difficult"],
+          ["make it", "success – reach your goal, get somewhere in time"],
+          ["bounce back", "success – recover quickly after a failure"],
+          ["pay off", "success – bring good results, be worth the effort"],
+          ["take off", "success – suddenly become successful or popular"],
+          ["fall (just) short of", "failure – (only just) fail to reach"],
+          ["go downhill", "failure – gradually get worse"],
+          ["mess (things) up", "failure – spoil something, do it badly"],
+          ["go up in smoke", "failure – be completely lost or destroyed"],
+          ["lose out (on)", "failure – miss (a chance), be at a disadvantage"]
+        ],
+        uk: {
+          h: "Успіх і невдача",
+          table: [
+            ["pull it off", "успіх – вдатися, впоратися зі складним"],
+            ["make it", "успіх – досягти мети, встигнути"],
+            ["bounce back", "успіх – швидко оговтатися після невдачі"],
+            ["pay off", "успіх – окупитися, дати результат"],
+            ["take off", "успіх – стрімко піти вгору, стати успішним"],
+            ["fall (just) short of", "невдача – трохи не дотягнути до"],
+            ["go downhill", "невдача – погіршуватися, котитися вниз"],
+            ["mess (things) up", "невдача – зіпсувати, напартачити"],
+            ["go up in smoke", "невдача – піти прахом, зникнути"],
+            ["lose out (on)", "невдача – втратити (можливість), програти"]
+          ]
+        }
       },
       {
         h: "Summarising progress",
@@ -36,7 +51,19 @@ ES.registerLesson({
           "You've yet to… / You've still got a bit of work to do in/on…",
           "You're continuing to grow/develop in… / You're improving, but … still needs some work.",
           "You've still got some way to go in…"
-        ]
+        ],
+        uk: {
+          h: "Підсумок прогресу",
+          list: [
+            "You've made headway with… / You've made significant/solid progress in… — Ви просунулися в… / Ви досягли значного/помітного прогресу в…",
+            "You've come on in leaps and bounds. — Ви зробили величезний стрибок уперед.",
+            "You've made a breakthrough in… / You've achieved proficiency in… — Ви зробили прорив у… / Ви досягли високого рівня в…",
+            "You're now able to … adeptly. / You have a good track record in… — Тепер ви вмієте вправно… / У вас добрі результати в…",
+            "You've yet to… / You've still got a bit of work to do in/on… — Вам ще належить… / Над… ще треба трохи попрацювати.",
+            "You're continuing to grow/develop in… / You're improving, but … still needs some work. — Ви й далі зростаєте/розвиваєтеся в… / Ви покращуєтеся, але над… ще треба попрацювати.",
+            "You've still got some way to go in… — Вам ще є куди рости в…"
+          ]
+        }
       },
       {
         h: "Setting goals and referring to the future",
@@ -47,12 +74,24 @@ ES.registerLesson({
           "I'd like to seek ways to put this into practice. / I'm hoping this will boost my…",
           "It would be great if I could…",
           "…by the end of the year / in the short/mid/long(er) term / three months from now / in three months' time / in the near/foreseeable/not-too-distant future"
-        ]
+        ],
+        uk: {
+          h: "Цілі й посилання на майбутнє",
+          list: [
+            "I intend to… / The aim is to… / My ultimate goal is to… — Я маю намір… / Мета — … / Моя кінцева мета — …",
+            "Ideally, I'd like to put this to good use by… — В ідеалі я хотів би з користю застосувати це, …",
+            "I think this goal should be easily attainable. — Думаю, цієї мети буде легко досягти.",
+            "I'd like to seek ways to put this into practice. / I'm hoping this will boost my… — Я хотів би шукати способи застосувати це на практиці. / Сподіваюся, це покращить мій/мою…",
+            "It would be great if I could… — Було б чудово, якби я міг…",
+            "…by the end of the year / in the short/mid/long(er) term / three months from now / in three months' time / in the near/foreseeable/not-too-distant future — …до кінця року / у коротко-, середньо-, довгостроковій перспективі / через три місяці / найближчим часом, у недалекому майбутньому"
+          ]
+        }
       },
       {
         h: "Pronunciation: disappearing sounds",
         p: "In fast speech /d/, /t/ (and sometimes /s/) at the end of a word often disappear before a consonant: shoul(d) be, woul(d) be, soli(d) progress, firs(t) time.",
-        ex: ["This goal should be easily attainable.", "You've made solid progress in your writing."]
+        ex: ["This goal should be easily attainable.", "You've made solid progress in your writing."],
+        uk: { h: "Вимова: звуки, що зникають", p: "У швидкому мовленні /d/, /t/ (а іноді й /s/) у кінці слова часто зникають перед приголосним: shoul(d) be, woul(d) be, soli(d) progress, firs(t) time." }
       }
     ],
     exercises: [
@@ -442,7 +481,8 @@ ES.registerLesson({
           "Over the last year, I've made solid progress in reading – I can now get through a novel in English without a dictionary.",
           "I've come on in leaps and bounds with phrasal verbs, but I've still got some way to go in writing formal emails.",
           "My ultimate goal is to pass the C2 exam. Ideally, I'd like to take it in the not-too-distant future – a year from now, if all goes well."
-        ]
+        ],
+        uk: { h: "Зразок звіту про прогрес" }
       }
     ],
     exercises: [

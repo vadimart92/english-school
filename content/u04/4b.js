@@ -13,7 +13,7 @@ ES.registerLesson({
     theory: [
       {
         h: "Real vs unreal conditionals",
-        p: "Умовні речення діляться на дві «сім'ї». Real conditionals — про те, що правда або цілком ймовірно (зокрема й у минулому). Unreal — про те, що неправда чи малоймовірно (див. 5B). Zero і first conditional — лише найвідоміші приклади реальних умов; насправді в них можливі майже будь-які часи, модальні дієслова, наказовий спосіб.",
+        p: "Conditionals fall into two 'families'. Real conditionals are about things that are true or quite likely (including in the past). Unreal conditionals are about things that are untrue or unlikely (see 5B). The zero and first conditionals are just the best-known examples of real conditionals; in fact, almost any tense, modal verb or the imperative can be used in them.",
         table: [
           [
             "Zero (always true)",
@@ -36,11 +36,38 @@ ES.registerLesson({
             "if + present, imperative / can / should",
             "If you missed the meeting, please read the notes. / If you're tired, you should rest."
           ]
-        ]
+        ],
+        uk: {
+          h: "Реальні й нереальні умовні речення",
+          p: "Умовні речення діляться на дві «сім'ї». Реальні (real conditionals) — про те, що є правдою або цілком імовірне (зокрема й у минулому). Нереальні (unreal) — про те, що неправда чи малоймовірне (див. 5B). Zero і first conditional — лише найвідоміші приклади реальних умов; насправді в них можливі майже будь-які часи, модальні дієслова, наказовий спосіб.",
+          table: [
+            [
+              "Нульовий (завжди правда)",
+              "if + present, present",
+              "If you heat ice, it melts. / If people feel needed, they live longer."
+            ],
+            ["Перший (імовірне майбутнє)", "if + present, will", "If you set up a club, people will join."],
+            [
+              "Реальне минуле",
+              "if + past, past / would",
+              "If we had a problem, our neighbours helped us / would help us. (= whenever)"
+            ],
+            [
+              "Минула дія → результат зараз або в майбутньому",
+              "if + present perfect, will / imperative",
+              "If you've worked with kids before, you'll know what to do."
+            ],
+            [
+              "Наказовий спосіб / модальне дієслово в головній частині",
+              "if + present, imperative / can / should",
+              "If you missed the meeting, please read the notes. / If you're tired, you should rest."
+            ]
+          ]
+        }
       },
       {
         h: "will and would in the if-clause",
-        p: "Зазвичай після if не вживаємо will. Але це можливо, коли will має «не майбутнє» значення:",
+        p: "We don't usually use will after if. But it is possible when will has a 'non-future' meaning:",
         table: [
           ["prediction", "I'll lend you my bike if it'll save you time. (= if you think it will save time)"],
           [
@@ -55,44 +82,100 @@ ES.registerLesson({
             "if + would: polite requests and offers",
             "If you'd like to take a seat, the doctor will see you soon. / If you wouldn't mind waiting…"
           ]
-        ]
+        ],
+        uk: {
+          h: "will і would у підрядному з if",
+          p: "Зазвичай після if не вживаємо will. Але це можливо, коли will має «немайбутнє» значення:",
+          table: [
+            ["прогноз", "I'll lend you my bike if it'll save you time. (= if you think it will save time)"],
+            [
+              "обіцянка / готовність",
+              "I'll give you a lift if you'll help me with the shopping. (= if you promise to)"
+            ],
+            [
+              "відмова / наполягання",
+              "If he won't listen, there's no point talking. (= if he refuses) / If you will eat so fast, you'll get indigestion."
+            ],
+            [
+              "if + would: ввічливі прохання та пропозиції",
+              "If you'd like to take a seat, the doctor will see you soon. / If you wouldn't mind waiting…"
+            ]
+          ]
+        }
       },
       {
         h: "Watch out: if + past simple",
         list: [
-          "If + past simple може бути реальним минулим: If you missed the last lesson, take a worksheet. (= я знаю, що дехто пропустив).",
-          "…або нереальним теперішнім: If I had more time, I'd volunteer. (= але часу немає).",
-          "…або малоймовірним майбутнім: If I lost my job, I'd move back home.",
-          "Вимова: у ввічливих незакінчених проханнях (If you'd like to follow me…) інтонація залишається високою або злегка піднімається в кінці — слухач сам розуміє продовження."
-        ]
+          "If + past simple can refer to the real past: If you missed the last lesson, take a worksheet. (= I know some of you missed it).",
+          "…or to an unreal present: If I had more time, I'd volunteer. (= but I don't have time).",
+          "…or to an unlikely future: If I lost my job, I'd move back home.",
+          "Pronunciation: in polite unfinished requests (If you'd like to follow me…), the intonation stays high or rises slightly at the end — the listener understands the rest."
+        ],
+        uk: {
+          h: "Зверніть увагу: if + past simple",
+          list: [
+            "If + past simple може означати реальне минуле: If you missed the last lesson, take a worksheet. (= я знаю, що дехто пропустив).",
+            "…або нереальне теперішнє: If I had more time, I'd volunteer. (= але часу немає).",
+            "…або малоймовірне майбутнє: If I lost my job, I'd move back home.",
+            "Вимова: у ввічливих незакінчених проханнях (If you'd like to follow me…) інтонація лишається високою або злегка піднімається в кінці — слухач сам розуміє продовження."
+          ]
+        }
       },
       {
         h: "Adjective + noun collocations",
         table: [
-          ["a strong sense of duty / purpose", "сильне почуття обов'язку / мети"],
-          ["prior work experience", "попередній досвід роботи"],
-          ["exorbitant rent(s)", "непомірна орендна плата"],
-          ["mutual support", "взаємна підтримка"],
-          ["an untapped resource", "невикористаний ресурс"],
-          ["on a regular basis", "регулярно"],
-          ["household chores", "хатні справи"],
-          ["a profound impact", "глибокий вплив"],
-          ["daunting challenges", "страшні, складні виклики"],
-          ["accumulated experience", "накопичений досвід"]
-        ]
+          ["a strong sense of duty / purpose", "a strong feeling of duty / purpose"],
+          ["prior work experience", "experience of working in a similar job before"],
+          ["exorbitant rent(s)", "extremely high rent(s)"],
+          ["mutual support", "support that people give each other"],
+          ["an untapped resource", "a resource that hasn't been used yet"],
+          ["on a regular basis", "regularly"],
+          ["household chores", "housework"],
+          ["a profound impact", "a deep, strong effect"],
+          ["daunting challenges", "frightening, difficult challenges"],
+          ["accumulated experience", "experience built up over time"]
+        ],
+        uk: {
+          h: "Колокації прикметник + іменник",
+          table: [
+            ["a strong sense of duty / purpose", "сильне почуття обов'язку / мети"],
+            ["prior work experience", "попередній досвід роботи"],
+            ["exorbitant rent(s)", "непомірна орендна плата"],
+            ["mutual support", "взаємна підтримка"],
+            ["an untapped resource", "невикористаний ресурс"],
+            ["on a regular basis", "регулярно"],
+            ["household chores", "хатні справи"],
+            ["a profound impact", "глибокий вплив"],
+            ["daunting challenges", "страшні, складні виклики"],
+            ["accumulated experience", "накопичений досвід"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Онлайн-вправи на реальні умовні речення та формальну інверсію з should допоможуть закріпити тему уроку.",
+        h: "More practice",
+        p: "Online exercises on real conditionals and formal inversion with should will help you consolidate this lesson.",
         links: [
-          { title: "Perfect English Grammar: zero and first conditional", url: "https://www.perfect-english-grammar.com/first-conditional-exercise-1.html", note: "базова вправа на first conditional — швидка розминка" },
-          { title: "EnglishPage: present and future conditionals", url: "https://www.englishpage.com/conditional/futureconditional.html", note: "реальні й нереальні умови в теперішньому та майбутньому — порівняння форм" },
+          { title: "Perfect English Grammar: zero and first conditional", url: "https://www.perfect-english-grammar.com/first-conditional-exercise-1.html", note: "a basic first conditional exercise — a quick warm-up" },
+          {
+            title: "EnglishPage: present and future conditionals",
+            url: "https://www.englishpage.com/conditional/futureconditional.html",
+            note: "real and unreal conditionals in the present and future — a comparison of the forms"
+          },
           {
             title: "British Council: inversion and conditionals",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-conditionals",
-            note: "Should you…, Were you to…, Had I… — пояснення і два тести рівня C1"
+            note: "Should you…, Were you to…, Had I… — an explanation and two C1-level tests"
           }
-        ]
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Онлайн-вправи на реальні умовні речення та формальну інверсію з should допоможуть закріпити тему уроку.",
+          notes: [
+            "базова вправа на first conditional — швидка розминка",
+            "реальні й нереальні умови в теперішньому та майбутньому — порівняння форм",
+            "Should you…, Were you to…, Had I… — пояснення і два тести рівня C1"
+          ]
+        }
       }
     ],
     exercises: [

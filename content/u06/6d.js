@@ -24,7 +24,8 @@ ES.registerLesson({
           ["(be) up in arms (about)", "very angry and ready to protest"],
           ["stick to your guns", "refuse to change your mind"],
           ["fight a losing battle", "try to do something you probably can't succeed in"]
-        ]
+        ],
+        uk: { h: "Ідіоми для бізнесу й дебатів", p: "Багато з них походять зі сфери боротьби та війни." }
       },
       {
         h: "Useful phrases for a panel discussion",
@@ -41,7 +42,8 @@ ES.registerLesson({
             "referring back to other ideas",
             "Along with X, this is one of the reasons why… · This has/would have serious repercussions for… · Going back to the idea of… · This comes back to the idea of…"
           ]
-        ]
+        ],
+        uk: { h: "Корисні фрази для панельної дискусії" }
       },
       {
         h: "Pronunciation: stress for emphasis",
@@ -51,7 +53,8 @@ ES.registerLesson({
           "Is that REALLY the case?",
           "They've spent THREE YEARS and a LOT of MONEY.",
           "Graduates finish with a HUGE debt."
-        ]
+        ],
+        uk: { h: "Вимова: наголос для підсилення", p: "Коли не погоджуєшся або щось підкреслюєш, наголошуй слова, що несуть контраст чи сильну думку." }
       }
     ],
     exercises: [
@@ -386,7 +389,17 @@ ES.registerLesson({
           "Refer back: As Ola mentioned earlier… / Going back to what Ola said about…",
           "Add: If I could build on what… / Let me add to what you said about…",
           "Link ideas: Along with X, this is one of the reasons why… / This would have serious repercussions for…"
-        ]
+        ],
+        uk: {
+          h: "Інструменти для панельної дискусії",
+          list: [
+            "Перефразувати: So what you're saying is… / In a nutshell…",
+            "Перепитати: Correct me if I'm wrong, but… / Do you mean to say that…?",
+            "Послатися на сказане раніше: As Ola mentioned earlier… / Going back to what Ola said about…",
+            "Доповнити: If I could build on what… / Let me add to what you said about…",
+            "Пов'язати ідеї: Along with X, this is one of the reasons why… / This would have serious repercussions for…"
+          ]
+        }
       }
     ],
     exercises: [

@@ -30,7 +30,28 @@ ES.registerLesson({
             "My cousin, her husband's a pilot.",
             "(= My cousin's husband is a pilot.)"
           ]
-        ]
+        ],
+        uk: {
+          h: "Heads і tails (тема на початку й у кінці)",
+          p: "Типово для неформальної розмовної англійської (не для офіційного письма). Head ставить тему на початок, щоб слухач знав, про що мова; tail додає або повторює іменникову групу в кінці, щоб уточнити, що ми мали на увазі. Дві частини розділяє кома.",
+          table: [
+            [
+              "Head: іменникова група/речення + кома + займенник",
+              "The blue counter, that goes first.",
+              "Getting up at six, I can't stand it."
+            ],
+            [
+              "Tail: займенник … + кома + іменникова група",
+              "It's a tricky game, chess.",
+              "He's a great player, your brother."
+            ],
+            [
+              "Head замість присвійного 's",
+              "My cousin, her husband's a pilot.",
+              "(= My cousin's husband is a pilot.)"
+            ]
+          ]
+        }
       },
       {
         h: "How to build them",
@@ -39,35 +60,68 @@ ES.registerLesson({
           "Tail: replace the noun phrase with a pronoun and add it at the end: Brand-new phones are expensive. → They're expensive, brand-new phones.",
           "A tail can also repeat the subject + auxiliary: She's clever, she is.",
           "Intonation: a tail is usually said quickly and with a fall, like an afterthought; a head often has a rise, signalling 'more is coming'."
-        ]
+        ],
+        uk: {
+          h: "Як їх будувати",
+          list: [
+            "Head: винесіть іменникову групу на початок, а в реченні замініть її займенником: Those dice belong to Max. → Those dice, they belong to Max.",
+            "Tail: замініть іменникову групу займенником і додайте її в кінці: Brand-new phones are expensive. → They're expensive, brand-new phones.",
+            "Tail може також повторювати підмет + допоміжне дієслово: She's clever, she is.",
+            "Інтонація: tail зазвичай вимовляють швидко й зі спадом, ніби думку навздогін; head часто має підйом, що сигналізує «далі буде ще»."
+          ]
+        }
       },
       {
         h: "Board game vocabulary",
         table: [
-          ["shuffle / deal the cards", "тасувати / роздавати карти"],
-          ["place the cards face up / face down", "класти карти лицем догори / донизу"],
-          ["roll the dice", "кидати кубики"],
-          ["take turns (to do sth)", "ходити по черзі"],
-          ["on your go / turn", "коли твоя черга"],
-          ["turn over a card", "перевернути карту"],
-          ["place a counter / tile", "поставити фішку / плитку"],
-          ["score points", "набирати очки"],
-          ["take (a square, a piece)", "захопити (клітинку, фігуру)"],
-          ["the initial phase (of the game)", "початкова фаза"],
-          ["the ultimate goal", "кінцева мета"]
-        ]
+          ["shuffle / deal the cards", "mix the cards / give cards to each player"],
+          ["place the cards face up / face down", "put the cards with the picture showing / hidden"],
+          ["roll the dice", "throw the dice"],
+          ["take turns (to do sth)", "do something one after another"],
+          ["on your go / turn", "when it's your turn"],
+          ["turn over a card", "flip a card so the other side shows"],
+          ["place a counter / tile", "put a playing piece / tile on the board"],
+          ["score points", "get points"],
+          ["take (a square, a piece)", "capture (a square, an opponent's piece)"],
+          ["the initial phase (of the game)", "the first stage (of the game)"],
+          ["the ultimate goal", "the final aim"]
+        ],
+        uk: {
+          h: "Лексика настільних ігор",
+          table: [
+            ["shuffle / deal the cards", "тасувати / роздавати карти"],
+            ["place the cards face up / face down", "класти карти лицем догори / донизу"],
+            ["roll the dice", "кидати кубики"],
+            ["take turns (to do sth)", "ходити по черзі"],
+            ["on your go / turn", "коли твоя черга"],
+            ["turn over a card", "перевернути карту"],
+            ["place a counter / tile", "поставити фішку / плитку"],
+            ["score points", "набирати очки"],
+            ["take (a square, a piece)", "захопити (клітинку, фігуру)"],
+            ["the initial phase (of the game)", "початкова фаза"],
+            ["the ultimate goal", "кінцева мета"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Ще про те, як у розмовній і письмовій мові пропускати або замінювати повторювані слова.",
+        h: "More practice",
+        p: "More on how to leave out or replace repeated words in speech and writing.",
         links: [
-          { title: "British Council: Ellipsis", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/ellipsis", note: "пропуск слів після сполучників, після to, після допоміжних і модальних дієслів" },
+          { title: "British Council: Ellipsis", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/ellipsis", note: "leaving out words after conjunctions, after to, after auxiliary and modal verbs" },
           {
             title: "British Council: Avoiding repetition in a text",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/avoiding-repetition-text",
-            note: "it, this, that, such, do so і синоніми замість повторів"
+            note: "it, this, that, such, do so and synonyms instead of repetition"
           }
-        ]
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Ще про те, як в усній і письмовій мові пропускати або замінювати повторювані слова.",
+          notes: [
+            "пропуск слів після сполучників, після to, після допоміжних і модальних дієслів",
+            "it, this, that, such, do so і синоніми замість повторів"
+          ]
+        }
       }
     ],
     exercises: [
@@ -403,23 +457,47 @@ ES.registerLesson({
           "Head = noun phrase first, then a pronoun that refers back: That shop, it's closed.",
           "Tail = pronoun first, noun phrase at the end: It's closed, that shop.",
           "Always a comma between the parts; use them in speech, not in essays."
-        ]
+        ],
+        uk: {
+          h: "Heads і tails: швидка перевірка",
+          list: [
+            "Head = спершу іменникова група, потім займенник, що до неї відсилає: That shop, it's closed.",
+            "Tail = спершу займенник, іменникова група — в кінці: It's closed, that shop.",
+            "Між частинами завжди кома; вживайте їх у мовленні, а не в есе."
+          ]
+        }
       },
       {
         h: "Phrasal nouns",
         p: "Many phrasal verbs have a noun form. The stress usually falls on the first part: a BREAKdown, a TIP-off.",
         table: [
-          ["break down → a breakdown", "поломка"],
-          ["tip off → a tip-off", "наводка, анонімне попередження"],
-          ["build up → a build-up", "накопичення; передматчевий ажіотаж"],
-          ["get together → a get-together", "зустріч, посиденьки"],
-          ["burst out → an outburst", "спалах (емоцій)"],
-          ["set out → the outset", "самий початок"],
-          ["crack down → a crackdown", "жорсткі заходи проти"],
-          ["mix up → a mix-up", "плутанина"],
-          ["climb down → a climbdown", "відступ від позиції"],
-          ["add on → an add-on", "доповнення, додаткова опція"]
-        ]
+          ["break down → a breakdown", "a failure (of a machine, a relationship, health)"],
+          ["tip off → a tip-off", "a secret warning or piece of information"],
+          ["build up → a build-up", "an increase over time; the excitement before an event"],
+          ["get together → a get-together", "an informal meeting or party"],
+          ["burst out → an outburst", "a sudden show of emotion"],
+          ["set out → the outset", "the very beginning"],
+          ["crack down → a crackdown", "strong official action against something"],
+          ["mix up → a mix-up", "a confusion, a mistake"],
+          ["climb down → a climbdown", "backing down from a position"],
+          ["add on → an add-on", "an extra part or feature"]
+        ],
+        uk: {
+          h: "Фразові іменники",
+          p: "Багато фразових дієслів мають форму іменника. Наголос зазвичай падає на першу частину: a BREAKdown, a TIP-off.",
+          table: [
+            ["break down → a breakdown", "поломка"],
+            ["tip off → a tip-off", "наводка, анонімне попередження"],
+            ["build up → a build-up", "накопичення; передматчевий ажіотаж"],
+            ["get together → a get-together", "зустріч, посиденьки"],
+            ["burst out → an outburst", "спалах (емоцій)"],
+            ["set out → the outset", "самий початок"],
+            ["crack down → a crackdown", "жорсткі заходи проти"],
+            ["mix up → a mix-up", "плутанина"],
+            ["climb down → a climbdown", "відступ від позиції"],
+            ["add on → an add-on", "доповнення, додаткова опція"]
+          ]
+        }
       }
     ],
     exercises: [

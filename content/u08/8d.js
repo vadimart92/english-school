@@ -22,7 +22,20 @@ ES.registerLesson({
           ["reception / signal", "the strength of the mobile connection"],
           ["voicemail", "a recorded message system"],
           ["a text (message)", "a written message"]
-        ]
+        ],
+        uk: {
+          h: "Як зателефонувати",
+          table: [
+            ["audio call / video call", "дзвінок лише з голосом / з камерою"],
+            ["landline", "стаціонарний телефон удома чи в офісі"],
+            ["mute (your mic)", "вимкнути мікрофон"],
+            ["put somebody on hold", "поставити когось на очікування"],
+            ["put somebody on speakerphone", "увімкнути гучний зв'язок, щоб чули всі в кімнаті"],
+            ["reception / signal", "сила мобільного зв'язку, сигнал"],
+            ["voicemail", "голосова пошта"],
+            ["a text (message)", "текстове повідомлення, есемеска"]
+          ]
+        }
       },
       {
         h: "Call problems",
@@ -30,7 +43,15 @@ ES.registerLesson({
           "The line is crackly. / You're cutting out / breaking up.",
           "There's an echo. / Your voice is muffled.",
           "It's an automated message."
-        ]
+        ],
+        uk: {
+          h: "Проблеми під час дзвінка",
+          list: [
+            "The line is crackly. / You're cutting out / breaking up. – Лінія тріщить. / Звук уривається, тебе погано чути.",
+            "There's an echo. / Your voice is muffled. – Є відлуння. / Голос звучить глухо.",
+            "It's an automated message. – Це автоматичне повідомлення."
+          ]
+        }
       },
       {
         h: "Dealing with problems and clarifying",
@@ -47,7 +68,24 @@ ES.registerLesson({
             "clarifying what you mean",
             "I (just) meant… / Sorry, my fault. Let me say that again. / M for 'mike', A for 'alpha'… / In other words, … / Let me put it another way. / That's to say… / What I meant to say was…"
           ]
-        ]
+        ],
+        uk: {
+          h: "Як розв'язувати проблеми й уточнювати",
+          table: [
+            [
+              "проблеми зі зв'язком",
+              "It's a really crackly line and you're cutting out. / Can you hold the phone away from your face? / I can't hear you. Is your mic muted? / The signal's terrible. Can I call you back on the landline?"
+            ],
+            [
+              "як перепитати",
+              "Two… what? / Sorry, I don't (quite) get what you mean. / I didn't quite catch that. / You mean it's…? / You lost me at… / Fifty or fifteen? / How do you spell that? / Sorry, I'm probably being stupid, but… / Can I just (double) check what you mean by…?"
+            ],
+            [
+              "як пояснити, що ти мав на увазі",
+              "I (just) meant… / Sorry, my fault. Let me say that again. / M for 'mike', A for 'alpha'… / In other words, … / Let me put it another way. / That's to say… / What I meant to say was…"
+            ]
+          ]
+        }
       },
       {
         h: "Managing the conversation",
@@ -64,12 +102,30 @@ ES.registerLesson({
             "getting the other person to finish",
             "Well, I mustn't keep you. / I'll let you get on. / It's been great talking to you. / Sorry, I've got to go. / Look, I'm sorry, but I'm really busy at the moment."
           ]
-        ]
+        ],
+        uk: {
+          h: "Як керувати розмовою",
+          table: [
+            [
+              "як виграти час",
+              "That's a good question. / Hang on. / Let me think. / Just give me a sec. / One moment, I won't keep you. / Almost there…"
+            ],
+            [
+              "як перейти до суті",
+              "Was there something I can help you with? / Was there something you wanted? / Anyway, I expect you're calling about… / Right. So you were calling about…"
+            ],
+            [
+              "як м'яко завершити розмову",
+              "Well, I mustn't keep you. / I'll let you get on. / It's been great talking to you. / Sorry, I've got to go. / Look, I'm sorry, but I'm really busy at the moment."
+            ]
+          ]
+        }
       },
       {
         h: "Intonation",
         p: "A rising or level tone signals you have more to say (Hang on… / Let me think…). A falling tone signals you are finishing your turn (It's been great talking to you.).",
-        ex: ["One moment, I won't keep you…", "Well, I'll let you get on."]
+        ex: ["One moment, I won't keep you…", "Well, I'll let you get on."],
+        uk: { h: "Інтонація", p: "Висхідний або рівний тон показує, що ти ще не договорив (Hang on… / Let me think…). Спадний тон показує, що ти завершуєш свою репліку (It's been great talking to you.)." }
       }
     ],
     exercises: [
@@ -346,7 +402,18 @@ ES.registerLesson({
           "Stall: Hang on. / Just give me a sec. / One moment, I won't keep you.",
           "To the point: Was there something I can help you with?",
           "Finish: I'll let you get on. / It's been great talking to you. / Sorry, I've got to go."
-        ]
+        ],
+        uk: {
+          h: "Фрази для дзвінків: по рядку на кожну ситуацію",
+          list: [
+            "Проблема: Sorry, it's a really crackly line. / You're breaking up.",
+            "Перепитати: I didn't quite catch that. / Fifty or fifteen? / How do you spell that?",
+            "Перефразувати: Let me put it another way. / What I meant to say was…",
+            "Виграти час: Hang on. / Just give me a sec. / One moment, I won't keep you.",
+            "До суті: Was there something I can help you with?",
+            "Завершити: I'll let you get on. / It's been great talking to you. / Sorry, I've got to go."
+          ]
+        }
       }
     ],
     exercises: [

@@ -35,7 +35,11 @@ ES.registerLesson({
           "Now (that) the kids have left, the house feels enormous.",
           "Regardless of the weather / of how cold it gets, the market opens at seven.",
           "The rescue took hours. Nonetheless, nobody was hurt."
-        ]
+        ],
+        uk: {
+          h: "Три групи сполучних засобів",
+          p: "Сполучні засоби (linkers) показують, як пов'язані дві думки: причина, контраст, умова чи доповнення. Якщо знаєш, до якої групи належить лінкер, то знаєш і яка граматика йде після нього."
+        }
       },
       {
         h: "Linker by linker",
@@ -80,7 +84,8 @@ ES.registerLesson({
             "+ noun phrase or indirect question",
             "We help everyone, regardless of age / regardless of where they come from."
           ]
-        ]
+        ],
+        uk: { h: "Лінкери по черзі" }
       },
       {
         h: "Typical mistakes",
@@ -90,7 +95,17 @@ ES.registerLesson({
           "supposed you won → supposing you won",
           "inasmuch it → inasmuch as it",
           "not to mention + a full clause (not to mention I had cuts) → not to mention + noun (not to mention the cuts)"
-        ]
+        ],
+        uk: {
+          h: "Типові помилки",
+          list: [
+            "regardless whether → regardless of whether",
+            "let alone to learn / learning → let alone learn",
+            "supposed you won → supposing you won",
+            "inasmuch it → inasmuch as it",
+            "not to mention + повне речення (not to mention I had cuts) → not to mention + іменник (not to mention the cuts)"
+          ]
+        }
       },
       {
         h: "Importance and usefulness",
@@ -108,7 +123,8 @@ ES.registerLesson({
           "Trying to change his mind is futile.",
           "The extra cost is negligible – about two euros.",
           "Your contribution to this project has been pivotal."
-        ]
+        ],
+        uk: { h: "Важливість і корисність" }
       },
       {
         h: "Pronunciation: linking devices are stressed",
@@ -116,19 +132,35 @@ ES.registerLesson({
         ex: [
           "Granted, there were only four people in the race.",
           "He didn't even notice me, let alone thank me."
-        ]
+        ],
+        uk: {
+          h: "Вимова: сполучні засоби наголошені",
+          p: "Лінкери несуть логіку речення, тому їх зазвичай наголошують, а після лінкера на початку речення часто робиться коротка пауза: GRANTED, | there were only four people in the race."
+        }
       },
       {
-        h: "Більше практики",
-        p: "Додаткові безкоштовні вправи онлайн на лінкери контрасту й поступки.",
+        h: "More practice",
+        p: "Extra free online exercises on linkers of contrast and concession.",
         links: [
-          { title: "British Council: Contrasting ideas", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/contrasting-ideas", note: "although, despite, whereas, much as — пояснення і вправи рівня C1" },
+          {
+            title: "British Council: Contrasting ideas",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/contrasting-ideas",
+            note: "although, despite, whereas, much as: explanations and C1-level exercises"
+          },
           {
             title: "Perfect English Grammar: linking words of contrast",
             url: "https://www.perfect-english-grammar.com/linking-words-contrast-exercise-1.html",
-            note: "вправа з автоперевіркою: however, although, despite, in spite of"
+            note: "a self-checking exercise: however, although, despite, in spite of"
           }
-        ]
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Додаткові безкоштовні онлайн-вправи на лінкери контрасту й поступки.",
+          notes: [
+            "although, despite, whereas, much as — пояснення і вправи рівня C1",
+            "вправа з автоперевіркою: however, although, despite, in spite of"
+          ]
+        }
       }
     ],
     exercises: [
@@ -479,7 +511,8 @@ ES.registerLesson({
         ex: [
           "But for your help, I'd never have finished. (= if it weren't for)",
           "Apart from the car breaking down, the trip was perfect."
-        ]
+        ],
+        uk: { h: "Сполучні засоби: що йде після них?" }
       },
       {
         h: "Adjectives + dependent prepositions",
@@ -498,7 +531,8 @@ ES.registerLesson({
         ex: [
           "The smell is reminiscent of my grandmother's kitchen.",
           "Our plans are contingent on the weather."
-        ]
+        ],
+        uk: { h: "Прикметники + залежні прийменники" }
       }
     ],
     exercises: [

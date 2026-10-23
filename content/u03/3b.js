@@ -14,76 +14,146 @@ ES.registerLesson({
     theory: [
       {
         h: "Reason clauses: more than 'because'",
-        p: "Причину можна ввести не тільки через because. Вибір слова показує, чи причина вже відома слухачеві, чи ми обґрунтовуємо свій коментар, чи говоримо про можливий наслідок, якого боїмося.",
+        p: "A reason doesn't have to be introduced with because. The choice of word shows whether the listener already knows the reason, whether we're justifying our own comment, or whether we're talking about a possible result that we're afraid of.",
         table: [
           [
             "Since / As / Seeing as / Given that + clause",
-            "причина, яку слухач уже знає або яка очевидна обом; часто на початку речення",
+            "a reason the listener already knows or that is obvious to both; often at the start of the sentence",
             "Since you're already here, you might as well stay for dinner. / Seeing as it's raining, let's take the car."
           ],
           [
             "in that + clause",
-            "уточнює чи обґрунтовує попередній коментар («у тому сенсі, що»); стоїть у другій частині речення",
+            "clarifies or justifies the previous comment ('in the sense that'); comes in the second part of the sentence",
             "The trip was a success, in that nobody got lost."
           ],
           [
             "insofar as / inasmuch as + clause",
-            "те саме, але формальніше («настільки, наскільки»)",
+            "the same, but more formal ('to the extent that')",
             "The reform is fair, insofar as everyone pays the same rate."
           ],
           [
             "for fear of + (object) + -ing / noun",
-            "дія, щоб уникнути небажаного наслідку",
+            "an action taken to avoid an unwanted result",
             "I didn't mention it for fear of upsetting her. / We left early for fear of the traffic."
           ],
           [
             "at the risk of + -ing",
-            "мовець свідомо йде на ризик (часто про себе: at the risk of sounding rude…)",
+            "the speaker knowingly takes a risk (often about themselves: at the risk of sounding rude…)",
             "At the risk of repeating myself, please double-check the figures."
           ],
           [
             "-ing clause (Being…, Not wanting…, Having…)",
-            "причина минулої дії; підмет той самий, що й у головному реченні",
+            "the reason for a past action; the subject is the same as in the main clause",
             "Being short of money, I stayed at home. / Not wanting to wake anyone, I crept upstairs."
           ]
-        ]
+        ],
+        uk: {
+          h: "Підрядні речення причини: не лише because",
+          p: "Причину можна ввести не тільки через because. Вибір слова показує, чи причина вже відома слухачеві, чи ми обґрунтовуємо свій коментар, чи говоримо про можливий наслідок, якого боїмося.",
+          table: [
+            [
+              "Since / As / Seeing as / Given that + clause",
+              "причина, яку слухач уже знає або яка очевидна обом; часто на початку речення",
+              "Since you're already here, you might as well stay for dinner. / Seeing as it's raining, let's take the car."
+            ],
+            [
+              "in that + clause",
+              "уточнює чи обґрунтовує попередній коментар («у тому сенсі, що»); стоїть у другій частині речення",
+              "The trip was a success, in that nobody got lost."
+            ],
+            [
+              "insofar as / inasmuch as + clause",
+              "те саме, але формальніше («настільки, наскільки»)",
+              "The reform is fair, insofar as everyone pays the same rate."
+            ],
+            [
+              "for fear of + (object) + -ing / noun",
+              "дія, щоб уникнути небажаного наслідку",
+              "I didn't mention it for fear of upsetting her. / We left early for fear of the traffic."
+            ],
+            [
+              "at the risk of + -ing",
+              "мовець свідомо йде на ризик (часто про себе: at the risk of sounding rude…)",
+              "At the risk of repeating myself, please double-check the figures."
+            ],
+            [
+              "-ing clause (Being…, Not wanting…, Having…)",
+              "причина минулої дії; підмет той самий, що й у головному реченні",
+              "Being short of money, I stayed at home. / Not wanting to wake anyone, I crept upstairs."
+            ]
+          ]
+        }
       },
       {
         h: "Watch out",
         list: [
-          "Seeing as (не seeing that as / since as) — Seeing as you're free, why don't you come?",
-          "for fear of + -ing / іменник, а не інфінітив: for fear of losing (NOT for fear of to lose / for fear of lose).",
-          "in that + повне речення: I was lucky in that I had good teachers (NOT lucky in I had).",
-          "insofar as (одне слово insofar), не insofar that.",
-          "Вимова: у словах на -le (grapple, baffle, befuddle) кінцевий склад — «темний» /əl/ або складотворчий /l̩/: /ˈɡræpl̩/, /ˈbæfl̩/."
-        ]
+          "Seeing as (not seeing that as / since as) — Seeing as you're free, why don't you come?",
+          "for fear of + -ing / noun, not an infinitive: for fear of losing (NOT for fear of to lose / for fear of lose).",
+          "in that + a full clause: I was lucky in that I had good teachers (NOT lucky in I had).",
+          "insofar as (insofar is one word), not insofar that.",
+          "Pronunciation: in words ending in -le (grapple, baffle, befuddle), the final syllable is a 'dark' /əl/ or a syllabic /l̩/: /ˈɡræpl̩/, /ˈbæfl̩/."
+        ],
+        uk: {
+          h: "Зверніть увагу",
+          list: [
+            "Seeing as (не seeing that as / since as) — Seeing as you're free, why don't you come?",
+            "for fear of + -ing / іменник, а не інфінітив: for fear of losing (NOT for fear of to lose / for fear of lose).",
+            "in that + повне речення: I was lucky in that I had good teachers (NOT lucky in I had).",
+            "insofar as (insofar пишеться разом), а не insofar that.",
+            "Вимова: у словах на -le (grapple, baffle, befuddle) кінцевий склад — «темний» /əl/ або складотворчий /l̩/: /ˈɡræpl̩/, /ˈbæfl̩/."
+          ]
+        }
       },
       {
         h: "Problems and solutions",
         table: [
-          ["take stock (of)", "зупинитися й оцінити ситуацію"],
-          ["pin something down", "точно визначити, що саме не так"],
-          ["root cause", "першопричина"],
-          ["mull over / ponder / deliberate / ruminate", "довго й ретельно обмірковувати"],
-          ["misinterpret / misconstrue / misread", "неправильно зрозуміти"],
-          ["intuitive", "інтуїтивний, «на відчуття»"],
-          ["underestimate", "недооцінити"],
-          ["wrestle / grapple with; rack your brains", "боротися з проблемою; сушити голову"],
-          ["befuddled / baffled / perplexed", "спантеличений"],
-          ["go round in circles", "ходити по колу, не просуватися"],
-          ["zero in on / shed light on", "зосередитися на / пролити світло на"]
-        ]
+          ["take stock (of)", "stop and assess the situation"],
+          ["pin something down", "identify exactly what is wrong"],
+          ["root cause", "the underlying cause of a problem"],
+          ["mull over / ponder / deliberate / ruminate", "think about something long and carefully"],
+          ["misinterpret / misconstrue / misread", "understand wrongly"],
+          ["intuitive", "based on feeling rather than reasoning"],
+          ["underestimate", "think something is smaller or easier than it is"],
+          [
+            "wrestle / grapple with; rack your brains",
+            "struggle with a problem; try very hard to think of something"
+          ],
+          ["befuddled / baffled / perplexed", "confused, puzzled"],
+          ["go round in circles", "keep thinking without making progress"],
+          ["zero in on / shed light on", "focus on / help to explain"]
+        ],
+        uk: {
+          h: "Проблеми та рішення",
+          table: [
+            ["take stock (of)", "зупинитися й оцінити ситуацію"],
+            ["pin something down", "точно визначити, що саме не так"],
+            ["root cause", "першопричина"],
+            ["mull over / ponder / deliberate / ruminate", "довго й ретельно обмірковувати"],
+            ["misinterpret / misconstrue / misread", "неправильно зрозуміти"],
+            ["intuitive", "інтуїтивний, «на відчуття»"],
+            ["underestimate", "недооцінити"],
+            ["wrestle / grapple with; rack your brains", "боротися з проблемою; сушити голову"],
+            ["befuddled / baffled / perplexed", "спантеличений"],
+            ["go round in circles", "ходити по колу, не просуватися"],
+            ["zero in on / shed light on", "зосередитися на / пролити світло на"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "Онлайн-вправа на слова причини допоможе не плутати because і because of, since, as, due to та owing to.",
+        h: "More practice",
+        p: "An online exercise on reason words will help you stop mixing up because and because of, since, as, due to and owing to.",
         links: [
           {
             title: "Perfect English Grammar: linking words of reason",
             url: "https://www.perfect-english-grammar.com/linking-words-reason-exercise-2.html",
-            note: "because / because of / due to / owing to / since / as — вибрати правильний зв'язок"
+            note: "because / because of / due to / owing to / since / as — choose the right linker"
           }
-        ]
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "Онлайн-вправа на слова причини допоможе не плутати because і because of, since, as, due to та owing to.",
+          notes: ["because / because of / due to / owing to / since / as — вибрати правильний зв'язок"]
+        }
       }
     ],
     exercises: [
@@ -377,7 +447,33 @@ ES.registerLesson({
             "We ordered extra for fear of them running out."
           ],
           ["-ing clause", "reason for past actions", "I've been up all night, trying to find a solution."]
-        ]
+        ],
+        uk: {
+          h: "Не лише because",
+          table: [
+            [
+              "since / as / given that / seeing as + clause",
+              "причина, яку слухач уже знає",
+              "Seeing as it'll be warm, let's have the party outside."
+            ],
+            [
+              "in that + clause",
+              "зазвичай у другій частині речення",
+              "This product isn't likely to sell well, in that it's quite a niche market."
+            ],
+            [
+              "insofar as / inasmuch as + clause",
+              "обґрунтовує коментар, формально",
+              "We don't expect much opposition, insofar as they'll benefit most."
+            ],
+            [
+              "for fear of / at the risk of + (object) + -ing",
+              "можливий наслідок, якого хочеш уникнути / на який свідомо йдеш",
+              "We ordered extra for fear of them running out."
+            ],
+            ["-ing clause", "причина минулих дій", "I've been up all night, trying to find a solution."]
+          ]
+        }
       }
     ],
     exercises: [

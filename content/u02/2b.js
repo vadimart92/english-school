@@ -14,7 +14,7 @@ ES.registerLesson({
     theory: [
       {
         h: "Probability: two word orders",
-        p: "З прикметниками sure, certain, likely, unlikely можна будувати речення двома способами. Почни з it (або I'm/We're), щоб наголосити саму ймовірність; почни з підмета + to-infinitive, щоб наголосити, про кого/що йдеться.",
+        p: "With the adjectives sure, certain, likely and unlikely you can build a sentence in two ways. Start with it (or I'm/We're) to stress the probability itself; start with the subject + to-infinitive to stress who or what you're talking about.",
         table: [
           ["It + be + adj + that-clause", "It's highly likely that the office will close."],
           ["I'm / We're + sure/certain + (that)-clause", "I'm fairly sure (that) she's already left."],
@@ -25,17 +25,31 @@ ES.registerLesson({
         ],
         ex: [
           "It was highly unlikely that they knew about it. → They were highly unlikely to have known about it."
-        ]
+        ],
+        uk: {
+          h: "Імовірність: два порядки слів",
+          p: "З прикметниками sure, certain, likely, unlikely речення можна будувати двома способами. Починай з it (або I'm/We're), щоб наголосити саму ймовірність; починай з підмета + to-infinitive, щоб наголосити, про кого чи про що йдеться."
+        }
       },
       {
         h: "Details",
         list: [
-          "That часто опускають: It's likely we'll be late.",
-          "Інфінітив показує час: to be (зараз/майбутнє), to be doing (у процесі), to have done (раніше).",
-          "(im)possible — лише з It: It's impossible that he finished it alone (NOT He's impossible to have finished…).",
-          "bound — лише з to-infinitive: The price is bound to go up.",
-          "Підсилювачі: highly / quite + (un)likely; pretty, fairly, absolutely, totally, quite + sure/certain."
-        ]
+          "That is often left out: It's likely we'll be late.",
+          "The infinitive shows time: to be (now/future), to be doing (in progress), to have done (earlier).",
+          "(im)possible works only with It: It's impossible that he finished it alone (NOT He's impossible to have finished…).",
+          "bound works only with a to-infinitive: The price is bound to go up.",
+          "Intensifiers: highly / quite + (un)likely; pretty, fairly, absolutely, totally, quite + sure/certain."
+        ],
+        uk: {
+          h: "Деталі",
+          list: [
+            "That часто опускають: It's likely we'll be late.",
+            "Інфінітив показує час: to be (зараз/у майбутньому), to be doing (у процесі), to have done (раніше).",
+            "(im)possible — лише з It: It's impossible that he finished it alone (NOT He's impossible to have finished…).",
+            "bound — лише з to-infinitive: The price is bound to go up.",
+            "Підсилювачі: highly / quite + (un)likely; pretty, fairly, absolutely, totally, quite + sure/certain."
+          ]
+        }
       },
       {
         h: "Agreement and disagreement",
@@ -45,19 +59,34 @@ ES.registerLesson({
             "disagreement",
             "be at odds with · receive (some) pushback · come up against (some) resistance · take issue with · be loath to · be met with a lukewarm response"
           ]
-        ]
+        ],
+        uk: {
+          h: "Згода і незгода",
+          table: [
+            ["згода", "get on board with · be willing to · be open to · go along with"],
+            [
+              "незгода",
+              "be at odds with · receive (some) pushback · come up against (some) resistance · take issue with · be loath to · be met with a lukewarm response"
+            ]
+          ]
+        }
       },
-      { h: "Pronunciation: likely", p: "У швидкому мовленні звук /k/ у likely / unlikely часто майже зникає: They're likely to… звучить як /ˈlaɪli/." },
       {
-        h: "Більше практики",
-        p: "Пояснення й тест про те, як модальні дієслова та bound to показують різний ступінь упевненості.",
+        h: "Pronunciation: likely",
+        p: "In fast speech the /k/ sound in likely / unlikely often almost disappears: They're likely to… sounds like /ˈlaɪli/.",
+        uk: { h: "Вимова: likely", p: "У швидкому мовленні звук /k/ у likely / unlikely часто майже зникає: They're likely to… звучить як /ˈlaɪli/." }
+      },
+      {
+        h: "More practice",
+        p: "An explanation and test on how modal verbs and bound to show different degrees of certainty.",
         links: [
           {
             title: "British Council LearnEnglish: Modals — probability",
             url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/modals-probability",
-            note: "must, can't, be bound to, may/might well — пояснення і тест"
+            note: "must, can't, be bound to, may/might well — explanation and test"
           }
-        ]
+        ],
+        uk: { h: "Більше практики", p: "Пояснення й тест про те, як модальні дієслова та bound to показують різний ступінь упевненості.", notes: ["must, can't, be bound to, may/might well — пояснення і тест"] }
       }
     ],
     exercises: [
@@ -349,7 +378,8 @@ ES.registerLesson({
           ["It + be + adjective + that-clause", "It's likely that we'll arrive early."],
           ["Pronoun + be + adjective + that-clause", "I'm sure (that) they knew all about it."],
           ["Subject + adjective + to-infinitive (emphasises the subject)", "We're likely to arrive early."]
-        ]
+        ],
+        uk: { h: "Три схеми" }
       },
       {
         h: "Watch out",
@@ -358,7 +388,16 @@ ES.registerLesson({
           "bound works only with to-infinitive: It's bound to rain.",
           "(un)likely + highly, quite: She's highly unlikely to be there on time.",
           "sure / certain + pretty, fairly, absolutely, totally, quite: I'm pretty certain she won't say no."
-        ]
+        ],
+        uk: {
+          h: "Зверни увагу",
+          list: [
+            "(im)possible вживається лише з It: It's impossible that we could have finished on time. NOT We were impossible to…",
+            "bound вживається лише з to-infinitive: It's bound to rain.",
+            "(un)likely + highly, quite: She's highly unlikely to be there on time.",
+            "sure / certain + pretty, fairly, absolutely, totally, quite: I'm pretty certain she won't say no."
+          ]
+        }
       },
       {
         h: "Agreeing",
@@ -367,7 +406,16 @@ ES.registerLesson({
           "be willing to do something",
           "be open to an idea",
           "go along with something (accept, maybe reluctantly)"
-        ]
+        ],
+        uk: {
+          h: "Згода",
+          list: [
+            "get on board with an idea — підтримати ідею",
+            "be willing to do something — бути готовим щось зробити",
+            "be open to an idea — бути відкритим до ідеї",
+            "go along with something — погодитися (можливо, неохоче)"
+          ]
+        }
       },
       {
         h: "Disagreeing / resistance",
@@ -378,7 +426,18 @@ ES.registerLesson({
           "come up against some resistance",
           "take issue with something",
           "be loath to do something (very unwilling)"
-        ]
+        ],
+        uk: {
+          h: "Незгода / опір",
+          list: [
+            "be met with a lukewarm response — зустріти прохолодну реакцію",
+            "be at odds with — суперечити, не збігатися",
+            "receive some pushback — наштовхнутися на заперечення",
+            "come up against some resistance — зіткнутися з опором",
+            "take issue with something — не погоджуватися з чимось, заперечувати",
+            "be loath to do something — дуже не хотіти щось робити"
+          ]
+        }
       }
     ],
     exercises: [

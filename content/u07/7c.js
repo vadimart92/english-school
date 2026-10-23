@@ -17,7 +17,8 @@ ES.registerLesson({
         ex: [
           "This blog is for anybody (who is) looking for useful skills.",
           "I liked the tips (that were) given by the writer."
-        ]
+        ],
+        uk: { h: "Скорочені відносні речення (RRC)", p: "Відкидаємо відносний займенник і be: для активного значення лишається форма на -ing, для пасивного – дієприкметник минулого часу." }
       },
       {
         h: "-ing even when the continuous sounds odd",
@@ -25,7 +26,8 @@ ES.registerLesson({
         ex: [
           "I once bought a takeaway costing half my weekly salary. (= which cost, NOT which was costing)",
           "Anyone wanting a refund should contact us. (= who wants)"
-        ]
+        ],
+        uk: { h: "-ing навіть тоді, коли тривала форма звучить дивно", p: "Скорочене речення з -ing може замінювати просту форму дієслова, навіть дієслова стану, хоча повне підрядне в Continuous тут було б помилкою." }
       },
       {
         h: "Similar structures after nouns",
@@ -34,7 +36,16 @@ ES.registerLesson({
           "prepositional phrase: an article by a famous chef (= which is by…), the people outside",
           "adjective phrase: a book full of ideas (= which is full of…), John, wet from the rain, went home",
           "not at the start makes a negative RRC: Any cars not parked correctly will be removed."
-        ]
+        ],
+        uk: {
+          h: "Схожі конструкції після іменників",
+          list: [
+            "інфінітив з to, часто зі значенням must/can: There are lots of ingredients to buy. (= that we must buy) / I've got no time to think. (= when I can think)",
+            "прийменникова фраза: an article by a famous chef (= which is by…), the people outside",
+            "прикметникова фраза: a book full of ideas (= which is full of…), John, wet from the rain, went home",
+            "not на початку робить скорочене речення заперечним: Any cars not parked correctly will be removed."
+          ]
+        }
       },
       {
         h: "When NOT to reduce",
@@ -42,7 +53,15 @@ ES.registerLesson({
           "Only when the relative pronoun is the subject: the book I lent you (object) – no RRC possible.",
           "Not with -ing for a single complete past action: The thief who stole my bag has been arrested. (NOT The thief stealing my bag…)",
           "Only when the tense is easy to work out from context."
-        ]
+        ],
+        uk: {
+          h: "Коли НЕ скорочувати",
+          list: [
+            "Лише коли відносний займенник є підметом: the book I lent you (додаток) – скоротити не можна.",
+            "Не з -ing для однієї завершеної дії в минулому: The thief who stole my bag has been arrested. (НЕ The thief stealing my bag…)",
+            "Лише коли час легко зрозуміти з контексту."
+          ]
+        }
       },
       {
         h: "Commas and pauses",
@@ -50,7 +69,8 @@ ES.registerLesson({
         ex: [
           "I prefer takeaway meals delivered to my door. (only delivered ones)",
           "I prefer takeaway meals, delivered to my door. (all takeaways – and I like having them delivered)"
-        ]
+        ],
+        uk: { h: "Коми й паузи", p: "Більшість скорочених речень обмежувальні (без ком і пауз). З комами вони стають необмежувальними – додатковою інформацією про всю групу." }
       },
       {
         h: "Skills and abilities",
@@ -63,14 +83,36 @@ ES.registerLesson({
           ["a wide range", "an all-rounder, versatile, can turn my hand to anything"],
           ["gaining / losing", "learn the basics/the ropes, dabble in, rusty"],
           ["lacking", "out of my depth, incompetent, inept, clueless, computer illiterate, a novice"]
-        ]
+        ],
+        uk: {
+          h: "Навички та здібності",
+          table: [
+            [
+              "дуже вправний",
+              "an old hand at, accomplished, adept at, a natural, proficient at, tech-savvy, an innate ability / an aptitude for"
+            ],
+            ["пристойні навички", "can get by (in), not bad at"],
+            ["широкий спектр", "an all-rounder, versatile, can turn my hand to anything"],
+            ["набуваємо / втрачаємо", "learn the basics/the ropes, dabble in, rusty"],
+            ["бракує навичок", "out of my depth, incompetent, inept, clueless, computer illiterate, a novice"]
+          ]
+        }
       },
       {
-        h: "Більше практики",
-        p: "На сторінці British Council є пояснення та вправи на дієприкметникові звороти — вони продовжують тему скорочених відносних речень.",
+        h: "More practice",
+        p: "The British Council page has explanations and exercises on participle clauses, which take the topic of reduced relative clauses further.",
         links: [
-          { title: "British Council: Participle clauses", url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses", note: "звороти з -ing, -ed і having done (рівень C1) з онлайн-тестом" }
-        ]
+          {
+            title: "British Council: Participle clauses",
+            url: "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses",
+            note: "clauses with -ing, -ed and having done (C1 level), with an online test"
+          }
+        ],
+        uk: {
+          h: "Більше практики",
+          p: "На сторінці British Council є пояснення та вправи на дієприкметникові звороти – вони продовжують тему скорочених відносних речень.",
+          notes: ["звороти з -ing, -ed і having done (рівень C1) з онлайн-тестом"]
+        }
       }
     ],
     exercises: [
@@ -546,7 +588,21 @@ ES.registerLesson({
             "NOT possible",
             "object clauses (the film I saw), single complete past actions (the man who broke in)"
           ]
-        ]
+        ],
+        uk: {
+          h: "Скорочені відносні речення коротко",
+          table: [
+            ["who/which + активне дієслово → -ing", "people waiting outside, a coat costing €500"],
+            ["who/which + be + дієприкметник минулого часу → дієприкметник", "a meal cooked by a chef"],
+            ["that we must/can + дієслово → інфінітив з to", "letters to write, no time to lose"],
+            ["which is + фраза → фраза", "a book full of tips, the house near the station"],
+            ["заперечення", "anyone not wanting to come"],
+            [
+              "НЕ можна",
+              "підрядні з додатком (the film I saw), одна завершена дія в минулому (the man who broke in)"
+            ]
+          ]
+        }
       },
       {
         h: "Vivid imagery in reviews",
@@ -554,7 +610,15 @@ ES.registerLesson({
           "metaphor – describes something as something else: drowning in a sea of possibilities, a rollercoaster of adventures",
           "simile – a comparison with as or like: as helpful as a chocolate teapot, like a kid in a sweet shop",
           "personification – giving an object human qualities: the app will be eating into your bank account"
-        ]
+        ],
+        uk: {
+          h: "Яскраві образи у відгуках",
+          list: [
+            "метафора – описує щось як інше: drowning in a sea of possibilities, a rollercoaster of adventures",
+            "порівняння – зіставлення з as або like: as helpful as a chocolate teapot, like a kid in a sweet shop",
+            "персоніфікація – надання предметові людських рис: the app will be eating into your bank account"
+          ]
+        }
       }
     ],
     exercises: [
